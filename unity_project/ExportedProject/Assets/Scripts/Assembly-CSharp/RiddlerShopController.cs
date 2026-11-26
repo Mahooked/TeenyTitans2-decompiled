@@ -80,7 +80,7 @@ public class RiddlerShopController : MonoBehaviour
 		{
 			GameLinkPopupDialog.Show(Language.Get("IAP_POPUP_NOINTERNET_HEADER", "MENUS,GUI"), Language.Get("IAP_POPUP_NOINTERNET_MESSAGE", "MENUS,GUI"), Language.Get("IAP_POPUP_NOINTERNET_BUTTON_OKAY", "MENUS,GUI"), "Prefabs/GUI/RiddlerShopPopupDialog");
 			yield return new WaitWhile(() => GameLinkPopupDialog.Instance != null);
-			yield return new WaitUntil(new Func<bool>(null, (IntPtr)(void*)(ulong)(UIntPtr/*delegate*<bool>*/)(&OnlineCheck.get_isInternetAvailable)));
+			yield return new WaitUntil(new Func<bool>(() => OnlineCheck.isInternetAvailable));
 		}
 		IAPStore.Instance.Initialized += IAPStore_Instance_Initialized;
 		IAPStore.Instance.InitializeFailed += IAPStore_Instance_InitializeFailed;

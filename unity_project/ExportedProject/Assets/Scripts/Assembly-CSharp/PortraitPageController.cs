@@ -125,7 +125,7 @@ public class PortraitPageController : MonoBehaviour
 			{
 				moveTween.Kill();
 			}
-			moveTween = DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitPageController.get_scrollPos)), (float x) =>
+			moveTween = DOTween.To(new DOGetter<float>(() => this.scrollPos), (float x) =>
 			{
 				scrollPos = x;
 			}, (float)_pageIndex * pageWidth, 0.25f).SetEase(Ease.OutSine).OnComplete(OnMoveComplete);

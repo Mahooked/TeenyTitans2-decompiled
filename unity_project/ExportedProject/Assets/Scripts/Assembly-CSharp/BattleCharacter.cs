@@ -529,7 +529,7 @@ public class BattleCharacter : MonoBehaviour, IPoolable
 			DOTween.Kill("deathTime");
 		}
 		Time.timeScale = 0.25f;
-		DOTween.To(new DOGetter<float>(null, (IntPtr)(void*)(ulong)(UIntPtr/*delegate*<float>*/)(&Time.get_timeScale)), (float x) =>
+		DOTween.To(new DOGetter<float>(() => Time.timeScale), (float x) =>
 		{
 			Time.timeScale = x;
 		}, 1f, 0.5f).SetDelay(1f).SetEase(Ease.InSine)

@@ -672,7 +672,7 @@ public class PortraitSwitcher : MonoBehaviour
 			{
 				num = num3;
 			}
-			offsetTween = DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitSwitcher.get_offsetRatio)), (float x) =>
+			offsetTween = DOTween.To(new DOGetter<float>(() => this.offsetRatio), (float x) =>
 			{
 				offsetRatio = x;
 			}, num, onUpDuration).SetEase(onUpEase).SetUpdate(true)
@@ -733,7 +733,7 @@ public class PortraitSwitcher : MonoBehaviour
 		{
 			num = num3;
 		}
-		offsetTween = DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitSwitcher.get_offsetRatio)), (float x) =>
+		offsetTween = DOTween.To(new DOGetter<float>(() => this.offsetRatio), (float x) =>
 		{
 			offsetRatio = x;
 		}, num, onUpDuration).SetEase(onUpEase).SetUpdate(true)
@@ -769,7 +769,7 @@ public class PortraitSwitcher : MonoBehaviour
 		{
 			newRatio1 = newRatio3;
 		}
-		offsetTween = DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitSwitcher.get_offsetRatio)), (float x) =>
+		offsetTween = DOTween.To(new DOGetter<float>(() => this.offsetRatio), (float x) =>
 		{
 			offsetRatio = x;
 		}, newRatio1, onUpDuration).SetEase(onUpEase).SetUpdate(true)
@@ -991,15 +991,15 @@ public class PortraitSwitcher : MonoBehaviour
 			}
 			selectModeSequence = DOTween.Sequence().SetEase(Ease.InOutSine).SetUpdate(true)
 				.OnComplete(OnSelectModeSequenceComplete);
-			selectModeSequence.Append(DOTween.To(new DOGetter<Vector3>(this, (IntPtr)__ldftn(PortraitSwitcher.get_PositionOffset)), (Vector3 x) =>
+			selectModeSequence.Append(DOTween.To(new DOGetter<Vector3>(() => this.PositionOffset), (Vector3 x) =>
 			{
 				PositionOffset = x;
 			}, new Vector3(-4f, 66f, 5f), selectModeActivateDuration));
-			selectModeSequence.Insert(0f, DOTween.To(new DOGetter<Rect>(this, (IntPtr)__ldftn(PortraitSwitcher.get_PositionBounds)), (Rect x) =>
+			selectModeSequence.Insert(0f, DOTween.To(new DOGetter<Rect>(() => this.PositionBounds), (Rect x) =>
 			{
 				PositionBounds = x;
 			}, new Rect(-28f, 300f, 400f, 400f), selectModeActivateDuration));
-			selectModeSequence.Insert(0f, DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitSwitcher.get_MinScale)), (float x) =>
+			selectModeSequence.Insert(0f, DOTween.To(new DOGetter<float>(() => this.MinScale), (float x) =>
 			{
 				MinScale = x;
 			}, 0.809f, selectModeActivateDuration));
@@ -1063,15 +1063,15 @@ public class PortraitSwitcher : MonoBehaviour
 		}
 		selectModeSequence = DOTween.Sequence().SetEase(Ease.InOutSine).SetUpdate(true)
 			.OnComplete(OnSelectModeSequenceComplete);
-		selectModeSequence.Append(DOTween.To(new DOGetter<Vector3>(this, (IntPtr)__ldftn(PortraitSwitcher.get_PositionOffset)), (Vector3 x) =>
+		selectModeSequence.Append(DOTween.To(new DOGetter<Vector3>(() => this.PositionOffset), (Vector3 x) =>
 		{
 			PositionOffset = x;
 		}, new Vector3(-12f, 36f, 5f), selectModeActivateDuration));
-		selectModeSequence.Insert(0f, DOTween.To(new DOGetter<Rect>(this, (IntPtr)__ldftn(PortraitSwitcher.get_PositionBounds)), (Rect x) =>
+		selectModeSequence.Insert(0f, DOTween.To(new DOGetter<Rect>(() => this.PositionBounds), (Rect x) =>
 		{
 			PositionBounds = x;
 		}, new Rect(-54f, 300f, 400f, 400f), selectModeActivateDuration));
-		selectModeSequence.Insert(0f, DOTween.To(new DOGetter<float>(this, (IntPtr)__ldftn(PortraitSwitcher.get_MinScale)), (float x) =>
+		selectModeSequence.Insert(0f, DOTween.To(new DOGetter<float>(() => this.MinScale), (float x) =>
 		{
 			MinScale = x;
 		}, 0.6f, selectModeActivateDuration));

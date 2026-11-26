@@ -866,7 +866,7 @@ public class TT2NetManager : MonoBehaviourPunCallbacks
 			yield return null;
 		}
 		PhotonNetwork.LeaveRoom();
-		yield return new WaitUntil(new Func<bool>(null, (IntPtr)(void*)(ulong)(UIntPtr/*delegate*<bool>*/)(&PhotonNetwork.get_IsConnectedAndReady)));
+		yield return new WaitUntil(new Func<bool>(() => PhotonNetwork.IsConnectedAndReady));
 		waitForOtherPlayerCoroutine = null;
 		searchStepIndex = -1;
 		int highestLevel = Player.instance.GetHighestFigLevelInParty();
