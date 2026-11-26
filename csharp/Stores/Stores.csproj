@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Stores</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>..\..\assets\bin\Data\Managed\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>..\..\assets\bin\Data\Managed\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>..\..\assets\bin\Data\Managed\ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>..\..\assets\bin\Data\Managed\Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>..\..\assets\bin\Data\Managed\Security.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>..\..\assets\bin\Data\Managed\winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>..\..\assets\bin\Data\Managed\Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>..\..\assets\bin\Data\Managed\FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\assets\bin\Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

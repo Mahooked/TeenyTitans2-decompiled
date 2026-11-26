@@ -1,0 +1,1 @@
+public delegate void InitPortaitDelegate2(CharacterSelectPortrait portrait, CharacterDefinition characterDefinition);

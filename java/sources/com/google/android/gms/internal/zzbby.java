@@ -1,0 +1,29 @@
+package com.google.android.gms.internal;
+
+import com.google.android.gms.common.api.Releasable;
+import com.google.android.gms.common.api.Result;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.data.DataHolder;
+
+/* JADX INFO: loaded from: classes.dex */
+public class zzbby implements Releasable, Result {
+    private Status mStatus;
+    protected final DataHolder zzaCX;
+
+    protected zzbby(DataHolder dataHolder, Status status) {
+        this.mStatus = status;
+        this.zzaCX = dataHolder;
+    }
+
+    @Override // com.google.android.gms.common.api.Result
+    public Status getStatus() {
+        return this.mStatus;
+    }
+
+    @Override // com.google.android.gms.common.api.Releasable
+    public void release() {
+        if (this.zzaCX != null) {
+            this.zzaCX.close();
+        }
+    }
+}

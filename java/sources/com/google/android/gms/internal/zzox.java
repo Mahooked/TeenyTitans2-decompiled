@@ -1,0 +1,54 @@
+package com.google.android.gms.internal;
+
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.RemoteException;
+import com.google.android.gms.dynamic.IObjectWrapper;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class zzox extends zzee implements zzow {
+    public zzox() {
+        attachInterface(this, "com.google.android.gms.ads.internal.formats.client.INativeAdViewDelegate");
+    }
+
+    public static zzow zzj(IBinder iBinder) {
+        if (iBinder == null) {
+            return null;
+        }
+        IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.gms.ads.internal.formats.client.INativeAdViewDelegate");
+        return iInterfaceQueryLocalInterface instanceof zzow ? (zzow) iInterfaceQueryLocalInterface : new zzoy(iBinder);
+    }
+
+    @Override // android.os.Binder
+    public boolean onTransact(int i, Parcel parcel, Parcel parcel2, int i2) throws RemoteException {
+        if (zza(i, parcel, parcel2, i2)) {
+            return true;
+        }
+        switch (i) {
+            case 1:
+                zzd(parcel.readString(), IObjectWrapper.zza.zzM(parcel.readStrongBinder()));
+                parcel2.writeNoException();
+                return true;
+            case 2:
+                IObjectWrapper iObjectWrapperZzL = zzL(parcel.readString());
+                parcel2.writeNoException();
+                zzef.zza(parcel2, iObjectWrapperZzL);
+                return true;
+            case 3:
+                zze(IObjectWrapper.zza.zzM(parcel.readStrongBinder()));
+                parcel2.writeNoException();
+                return true;
+            case 4:
+                destroy();
+                parcel2.writeNoException();
+                return true;
+            case 5:
+                zzb(IObjectWrapper.zza.zzM(parcel.readStrongBinder()), parcel.readInt());
+                parcel2.writeNoException();
+                return true;
+            default:
+                return false;
+        }
+    }
+}

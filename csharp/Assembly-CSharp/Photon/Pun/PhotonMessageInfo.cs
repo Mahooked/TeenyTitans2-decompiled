@@ -1,0 +1,27 @@
+using Photon.Realtime;
+
+namespace Photon.Pun;
+
+public struct PhotonMessageInfo(Photon.Realtime.Player player, int timestamp, PhotonView view)
+{
+	private readonly int timeInt = timestamp;
+
+	public readonly Photon.Realtime.Player Sender = player;
+
+	public readonly PhotonView photonView = view;
+
+	public double timestamp
+	{
+		get
+		{
+			uint num = (uint)timeInt;
+			double num2 = num;
+			return num2 / 1000.0;
+		}
+	}
+
+	public override string ToString()
+	{
+		return string.Format("[PhotonMessageInfo: Sender='{1}' Senttime={0}]", timestamp, Sender);
+	}
+}

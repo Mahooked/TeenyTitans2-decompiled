@@ -1,0 +1,69 @@
+package com.google.android.gms.common.util;
+
+import android.support.v4.util.ArrayMap;
+import android.support.v4.util.SimpleArrayMap;
+import java.util.AbstractSet;
+import java.util.Collection;
+import java.util.Iterator;
+
+/* JADX INFO: loaded from: classes.dex */
+@Deprecated
+public final class zza<E> extends AbstractSet<E> {
+    private final ArrayMap<E, E> zzaJC;
+
+    public zza() {
+        this.zzaJC = new ArrayMap<>();
+    }
+
+    public zza(int i) {
+        this.zzaJC = new ArrayMap<>(i);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean add(E e) {
+        if (this.zzaJC.containsKey(e)) {
+            return false;
+        }
+        this.zzaJC.put(e, e);
+        return true;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean addAll(Collection<? extends E> collection) {
+        if (!(collection instanceof zza)) {
+            return super.addAll(collection);
+        }
+        int size = size();
+        this.zzaJC.putAll((SimpleArrayMap<? extends E, ? extends E>) ((zza) collection).zzaJC);
+        return size() > size;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final void clear() {
+        this.zzaJC.clear();
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean contains(Object obj) {
+        return this.zzaJC.containsKey(obj);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.lang.Iterable, java.util.Set
+    public final Iterator<E> iterator() {
+        return this.zzaJC.keySet().iterator();
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean remove(Object obj) {
+        if (!this.zzaJC.containsKey(obj)) {
+            return false;
+        }
+        this.zzaJC.remove(obj);
+        return true;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final int size() {
+        return this.zzaJC.size();
+    }
+}

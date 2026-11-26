@@ -1,0 +1,25 @@
+public enum ModChipEffectType
+{
+	StatBonus,
+	StatMultiplier,
+	ActionMeter,
+	CastTimeMultiplier,
+	DropCoins,
+	DropTofu,
+	CoinDropChance,
+	TofuDropChance,
+	CancelInterrupt,
+	DoDamage,
+	StatusEffect,
+	DoHeal,
+	ModifyHealResult,
+	GoBonus,
+	HandleDamage,
+	DropItem,
+	DoAccessoryDamage,
+	AccessoryChargeTimeMultiplier,
+	StunResistanceChance,
+	InstantCastChance,
+	AddAccessoryCharge,
+	ModifySpecificTofuRollChance
+}

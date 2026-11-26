@@ -1,0 +1,19 @@
+public enum ModChipEffectTriggerType
+{
+	OnEquip,
+	OnHit,
+	OnIncomingDamage,
+	OnDefeatOpponent,
+	OnDefeated,
+	OnHeal,
+	OnActive,
+	OnFirstActive,
+	OnIncomingInterrupt,
+	OnDamageReceived,
+	OnLuckyDuckHit,
+	OnDodge,
+	OnOutgoingHeal,
+	OnBattleIntroStarted,
+	OnDeathComplete,
+	OnDanceTick
+}

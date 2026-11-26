@@ -1,0 +1,42 @@
+package com.google.android.gms.internal;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.text.TextUtils;
+import android.webkit.WebSettings;
+import java.util.concurrent.Callable;
+
+/* JADX INFO: loaded from: classes.dex */
+final class zzaiv implements Callable<String> {
+    private /* synthetic */ Context zzaay;
+    private /* synthetic */ Context zztF;
+
+    zzaiv(zzaiu zzaiuVar, Context context, Context context2) {
+        this.zzaay = context;
+        this.zztF = context2;
+    }
+
+    @Override // java.util.concurrent.Callable
+    public final /* synthetic */ String call() throws Exception {
+        SharedPreferences sharedPreferences;
+        boolean z = false;
+        if (this.zzaay != null) {
+            zzafr.v("Attempting to read user agent from Google Play Services.");
+            sharedPreferences = this.zzaay.getSharedPreferences("admob_user_agent", 0);
+        } else {
+            zzafr.v("Attempting to read user agent from local cache.");
+            sharedPreferences = this.zztF.getSharedPreferences("admob_user_agent", 0);
+            z = true;
+        }
+        String string = sharedPreferences.getString("user_agent", "");
+        if (TextUtils.isEmpty(string)) {
+            zzafr.v("Reading user agent from WebSettings");
+            string = WebSettings.getDefaultUserAgent(this.zztF);
+            if (z) {
+                sharedPreferences.edit().putString("user_agent", string).apply();
+                zzafr.v("Persisting user agent.");
+            }
+        }
+        return string;
+    }
+}

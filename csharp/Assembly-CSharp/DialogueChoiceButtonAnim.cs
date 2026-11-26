@@ -1,0 +1,10 @@
+public enum DialogueChoiceButtonAnim
+{
+	DialogueTree_StarSelection_Intro,
+	DialogueTree_StarSelection_Outro,
+	DialogueTree_StarSelection_Idle,
+	DialogueTree_StarSelection_ButtonDownState,
+	DialogueTree_StarSelection_Correct,
+	DialogueTree_StarSelection_Wrong,
+	DialogueTree_StarSelection_Wrong_Outro
+}

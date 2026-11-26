@@ -1,0 +1,10 @@
+package com.google.android.gms.internal;
+
+import android.os.IBinder;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class zzxf extends zzed implements zzxe {
+    zzxf(IBinder iBinder) {
+        super(iBinder, "com.google.android.gms.ads.internal.purchase.client.IInAppPurchase");
+    }
+}

@@ -1,0 +1,19 @@
+public enum CityEntityEventType
+{
+	None,
+	UnityEvent,
+	StartConversation,
+	EnterShop,
+	LoadScene,
+	ActivateMission,
+	SetTrigger,
+	RewardPlayer,
+	Teleport,
+	PlayAnimation,
+	UpdateMission,
+	Save,
+	PlaySound,
+	StartTournament,
+	CompleteMission,
+	CollectGUIDForMission
+}

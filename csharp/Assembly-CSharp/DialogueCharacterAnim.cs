@@ -1,0 +1,7 @@
+public enum DialogueCharacterAnim
+{
+	DialogueTree_CharacterLeft_Intro,
+	DialogueTree_CharacterLeft_Outro,
+	DialogueTree_CharacterRight_Intro,
+	DialogueTree_CharacterRight_Outro
+}

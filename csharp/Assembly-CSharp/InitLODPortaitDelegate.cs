@@ -1,0 +1,1 @@
+public delegate void InitLODPortaitDelegate(LegionOfDoomPortrait portrait, LegionOfDoomPortraitUnlock portraitUnlockData);

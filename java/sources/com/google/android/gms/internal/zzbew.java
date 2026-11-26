@@ -1,0 +1,16 @@
+package com.google.android.gms.internal;
+
+/* JADX INFO: loaded from: classes.dex */
+final class zzbew implements zzbex {
+    private /* synthetic */ zzbev zzaFn;
+
+    zzbew(zzbev zzbevVar) {
+        this.zzaFn = zzbevVar;
+    }
+
+    @Override // com.google.android.gms.internal.zzbex
+    public final void zzc(zzbbe<?> zzbbeVar) {
+        this.zzaFn.zzaFl.remove(zzbbeVar);
+        zzbbeVar.zzpo();
+    }
+}
