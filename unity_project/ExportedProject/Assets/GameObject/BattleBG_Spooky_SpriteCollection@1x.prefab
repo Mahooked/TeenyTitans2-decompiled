@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: BattleBG_Spooky_SpriteCollection@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: text_spookyscary
+    boundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 181, y: 60, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 181, y: 60, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -90, y: -30, z: 0}
+    - {x: 91, y: -30, z: 0}
+    - {x: -90, y: 30, z: 0}
+    - {x: 91, y: 30, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.7148398, y: 0.003908203}
+    - {x: 0.007816406, y: 0.1210918}
+    - {x: 0.7148398, y: 0.1210918}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d43795f0ab18dac46b4d3ccbb95ed03a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 10a7d4d572d82405bab8e20232bc8a59
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_spookyscary
+    boundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 5, y: 253, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 5, y: 253, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2, y: -127, z: 0}
+    - {x: 3, y: -127, z: 0}
+    - {x: -2, y: 126, z: 0}
+    - {x: 3, y: 126, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7304727, y: 0.003908203}
+    - {x: 0.74999607, y: 0.003908203}
+    - {x: 0.7304727, y: 0.4980449}
+    - {x: 0.74999607, y: 0.4980449}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d43795f0ab18dac46b4d3ccbb95ed03a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7b8aef7679a054e058b3964c50a7d2db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: skull_spookyscary
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 68, y: 96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 68, y: 96, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -34, y: -48, z: 0}
+    - {x: 34, y: -48, z: 0}
+    - {x: -34, y: 48, z: 0}
+    - {x: 34, y: 48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.50586134}
+    - {x: 0.2734336, y: 0.50586134}
+    - {x: 0.007816406, y: 0.6933574}
+    - {x: 0.2734336, y: 0.6933574}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d43795f0ab18dac46b4d3ccbb95ed03a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 58ae725bfea14468c842496c8b8a0423
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: d43795f0ab18dac46b4d3ccbb95ed03a, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 2f5c000e5027d3841a9e6a316cfee13d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 7d62f7aab052f4510950d372d7f6b681
+  spriteCollectionName: BattleBG_Spooky_SpriteCollection@1x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1305601762
+  dataGuid: ed8e4c3c0e0064fd5bf6c622be73fa9f
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_JerkKid_part2
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 6
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 14
+    faceSpriteName: TTG_gui_npc_kid1faceooo
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Wow... with those skills, I bet you could take on The Hooded Hood himself!
+    key: CONVO_JERKKID_part2
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: The Hooded Hood? Who is that, some sort of villain wannabe?
+    key: CONVO_JERKKID_part2B
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 14
+    otherFaceSpriteName: TTG_gui_npc_kid1faceooo
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_npc_kid1facehappy1
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ooh, actually, forget that! You should enter a figure battling tournament!
+    key: CONVO_JERKKID_part2C
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 310f94976af2b454d9ad9cb57bae80b8, type: 3}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 19
+    faceSpriteName: TTG_gui_npc_kid1facehappy2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: The next one is being held at the pet store downtown!
+    key: CONVO_JERKKID_part2D
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Tournament?! Why yes, that's perfect!!
+    key: CONVO_JERKKID_part2E
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 71864232a30214a439f806ae37e3cdac, type: 3}
+    otherFaceSpriteId: 7
+    otherFaceSpriteName: TTG_gui_npc_kid1faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Get ready, Jump City!! Your figure battling champion is here, and his name is...
+    key: CONVO_JERKKID_part2F
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 7
+    otherFaceSpriteName: TTG_gui_npc_kid1faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_robin_face10
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Wait... did you say "pet store"?
+    key: CONVO_JERKKID_part2G
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 53767129ceb96744cae344a1e360b285, type: 3}
+    otherFaceSpriteId: 7
+    otherFaceSpriteName: TTG_gui_npc_kid1faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems: []

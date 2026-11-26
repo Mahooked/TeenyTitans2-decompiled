@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 79
+  preBattleSprite: menu_vsscreen_portrait_blackmask
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/BlackMask
+  conversationBodySprite: TT2_gui_blackmask
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 6
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Human
+  conversationBodySpriteId: 6
+  conversationFaces:
+  - displayName: Grrr
+    spriteName: TT2_gui_blackmask_face1
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: Big yell
+    spriteName: TT2_gui_blackmask_face2
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  - displayName: Whhaaa
+    spriteName: TT2_gui_blackmask_face3
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Yelling 2
+    spriteName: TT2_gui_blackmask_face4
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.42647058, g: 0.42647058, b: 0.42647058, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 107
+  _guid: feb23016-404a-4e26-92aa-07bc01c7ccaf
+  _name: Black Mask
+  _nameKey: BLACK_MASK
+  _preBattleSpriteId: 14
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 396da65cc7ca24f4f98b2cb1244b35b1, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

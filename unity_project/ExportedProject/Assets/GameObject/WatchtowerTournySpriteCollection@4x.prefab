@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: WatchtowerTournySpriteCollection@4x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: menus_tourneybgs_watchtower
+    boundsData:
+    - {x: 0, y: -178, z: 0}
+    - {x: 230.5, y: 356, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -178, z: 0}
+    - {x: 230.5, y: 356, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -115.25, y: -356, z: 0}
+    - {x: 115.25, y: -356, z: 0}
+    - {x: -115.25, y: 0, z: 0}
+    - {x: 115.25, y: 0, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0009770507}
+    - {x: 0.4511714, y: 0.0009770507}
+    - {x: 0.0009770507, y: 0.6962886}
+    - {x: 0.4511714, y: 0.6962886}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1bef73d789199f142a29637300bef026, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7534e937d7cda459099b2582aba8a362
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_watchtower-trophy
+    boundsData:
+    - {x: -1.75, y: -32.249996, z: 0}
+    - {x: 142, y: 230.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.125, z: 0}
+    - {x: 185, y: 301.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -72.75, y: -147.5, z: 0}
+    - {x: 69.25, y: -147.5, z: 0}
+    - {x: -72.75, y: 83.00001, z: 0}
+    - {x: 69.25, y: 83.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.69824266}
+    - {x: 0.0009770507, y: 0.97558546}
+    - {x: 0.4511714, y: 0.69824266}
+    - {x: 0.4511714, y: 0.97558546}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1bef73d789199f142a29637300bef026, type: 2}
+    materialId: 0
+    sourceTextureGUID: e12903036354b44b394db928c144cb51
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_watchtower-banner
+    boundsData:
+    - {x: -0.125, y: -8.875, z: 0}
+    - {x: 266.75, y: 66.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 267.5, y: 87, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -133.5, y: -42, z: 0}
+    - {x: 133.25, y: -42, z: 0}
+    - {x: -133.5, y: 24.25, z: 0}
+    - {x: 133.25, y: 24.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.45312548, y: 0.0009770507}
+    - {x: 0.9741206, y: 0.0009770507}
+    - {x: 0.45312548, y: 0.1303706}
+    - {x: 0.9741206, y: 0.1303706}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1bef73d789199f142a29637300bef026, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1103801ea8f45437d9d6b6d11ab75630
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_watchtower-shootingstars
+    boundsData:
+    - {x: -0.2500019, y: 25.750002, z: 0}
+    - {x: 77.999985, y: 23.500004, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 267.5, y: 87, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -39.249996, y: 14.000001, z: 0}
+    - {x: 38.749992, y: 14.000001, z: 0}
+    - {x: -39.249996, y: 37.500004, z: 0}
+    - {x: 38.749992, y: 37.500004, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.45312548, y: 0.13232471}
+    - {x: 0.6054683, y: 0.13232471}
+    - {x: 0.45312548, y: 0.17822216}
+    - {x: 0.6054683, y: 0.17822216}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1bef73d789199f142a29637300bef026, type: 2}
+    materialId: 0
+    sourceTextureGUID: 926992dd358094e98b70cf9aca114763
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 1bef73d789199f142a29637300bef026, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 29d870f8c2cd09b40adf911d3d906df0, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 3f71ad4929cac4989b06fbfc4eccc395
+  spriteCollectionName: WatchtowerTournySpriteCollection@4x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 991128590
+  dataGuid: 056c8f205681a45dca0fdfe47f577476
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_JerkKid_part1
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 1
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 5
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 14
+    faceSpriteName: TTG_gui_npc_kid1faceooo
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Pssst! Hey you, in the tights!
+    key: CONVO_JERKKID_part1
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 7d08db43d9db7f54b94616611387c8d2, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_npc_kid1faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I see you've got yourself some new figs, old man.
+    key: CONVO_JERKKID_part1B
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 11
+    position: 1
+    bodySpriteId: 5
+    bodySpriteName: TTG_gui_npc_kid1
+    faceSpriteId: 19
+    faceSpriteName: TTG_gui_npc_kid1facehappy2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You must be new to fig battling. Want a pro to show ya how it's done?
+    key: CONVO_JERKKID_part1C
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 310f94976af2b454d9ad9cb57bae80b8, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You're on, twerp!
+    key: CONVO_JERKKID_part1D
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 263393fa9b006c548a938ff21060559b, type: 3}
+    otherFaceSpriteId: 19
+    otherFaceSpriteName: TTG_gui_npc_kid1facehappy2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:

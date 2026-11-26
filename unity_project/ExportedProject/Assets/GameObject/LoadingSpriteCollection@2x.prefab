@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: LoadingSpriteCollection@2x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: loadingscreen_screen
+    boundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 284.5, y: 292.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 292.5, y: 300.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -142, y: -146.5, z: 0}
+    - {x: 142.5, y: -146.5, z: 0}
+    - {x: -142, y: 146, z: 0}
+    - {x: 142.5, y: 146, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.27880812}
+    - {x: 0.57324123, y: 0.0009770507}
+    - {x: 0.57324123, y: 0.27880812}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+    materialId: 0
+    sourceTextureGUID: bc452ae028d794ba680e4afc4d72c223
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: loadingscreen_tt
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 174, y: 155, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 174, y: 155, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87, y: -77.5, z: 0}
+    - {x: 87, y: -77.5, z: 0}
+    - {x: -87, y: 77.5, z: 0}
+    - {x: 87, y: 77.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.73291063}
+    - {x: 0.0019541015, y: 0.90283155}
+    - {x: 0.30468652, y: 0.73291063}
+    - {x: 0.30468652, y: 0.90283155}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7e317c982b5d64236b77290a1a1215b8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name:
+    boundsData:
+    - {x: 15.5, y: -15.5, z: 0}
+    - {x: 32, y: 32, z: 0}
+    untrimmedBoundsData:
+    - {x: 15.5, y: -15.5, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -0.5, y: -31.5, z: 0}
+    - {x: 31.5, y: -31.5, z: 0}
+    - {x: -0.5, y: 0.5, z: 0}
+    - {x: 31.5, y: 0.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.91894627, y: 0.0009770507}
+    - {x: 0.9208975, y: 0.0009770507}
+    - {x: 0.91894627, y: 0.0019526368}
+    - {x: 0.9208975, y: 0.0019526368}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+    materialId: 0
+    sourceTextureGUID:
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: loadingscreen_backplate_left
+    boundsData:
+    - {x: -86.5, y: 0, z: 0}
+    - {x: 173, y: 461, z: 0}
+    untrimmedBoundsData:
+    - {x: -86.5, y: 0, z: 0}
+    - {x: 173, y: 461, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -173, y: -230.5, z: 0}
+    - {x: 0, y: -230.5, z: 0}
+    - {x: -173, y: 230.5, z: 0}
+    - {x: 0, y: 230.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5771494, y: 0.0009770507}
+    - {x: 0.9150381, y: 0.0009770507}
+    - {x: 0.5771494, y: 0.4511714}
+    - {x: 0.9150381, y: 0.4511714}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8ce97768463f5427d8d9ae4b2762c20f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: loadingscreen_backplate_right
+    boundsData:
+    - {x: 86.5, y: 0, z: 0}
+    - {x: 173, y: 461, z: 0}
+    untrimmedBoundsData:
+    - {x: 86.5, y: 0, z: 0}
+    - {x: 173, y: 461, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: -230.5, z: 0}
+    - {x: 173, y: -230.5, z: 0}
+    - {x: 0, y: 230.5, z: 0}
+    - {x: 173, y: 230.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.2807622}
+    - {x: 0.33984277, y: 0.2807622}
+    - {x: 0.0019541015, y: 0.73095655}
+    - {x: 0.33984277, y: 0.73095655}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+    materialId: 0
+    sourceTextureGUID: d037bf39bff064b51a5ab12991487658
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 388e7325b4ab44140928ef80371fad66, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: fda6cf84d76826a47b1d084e90442185, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 833416d482a5c4e2dae370ac833c600b
+  spriteCollectionName: LoadingSpriteCollection@2x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1025774197
+  dataGuid: 801fb888ddbaa486cbdbce4a54fad815
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

@@ -1,0 +1,1291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ab2db85606375742578e02b7ad606e, type: 3}
+  m_Name: LegionOfDoomSettings
+  m_EditorClassIdentifier:
+  coinRewardWin: 150
+  coinRewardLoss: 50
+  winXP: 50
+  lossXP: 25
+  humanWinXP: 50
+  winStreakXP: 10
+  maxWinStreak: 5
+  winSkillRating: 50
+  lossSkillRating: 50
+  minSkillRating: 0
+  maxSkillRating: 5000
+  cpuStatDecisionWeights:
+    healthWeight: 100
+    attackWeight: 70
+    speedWeight: 0
+    luckWeight: 25
+    dodgeWeight: 12
+  overLevel: 5
+  conversations:
+  - convo: {fileID: 11400000, guid: 8631bc8fc02d75048a17565b6a65b804, type: 2}
+    requiredPvpRank: 2
+    id: 0
+  - convo: {fileID: 11400000, guid: 1af767ed492068247ad71acf6c43df7a, type: 2}
+    requiredPvpRank: 3
+    id: 1
+  - convo: {fileID: 11400000, guid: a319e000321224c43931ca11730472a9, type: 2}
+    requiredPvpRank: 7
+    id: 2
+  - convo: {fileID: 11400000, guid: 7d297f22f4b4f264b8522439d0dae6df, type: 2}
+    requiredPvpRank: 10
+    id: 4
+  - convo: {fileID: 11400000, guid: a870115da344ff5468b9b4d56386dcdf, type: 2}
+    requiredPvpRank: 13
+    id: 5
+  - convo: {fileID: 11400000, guid: 748e99300ec972b4ab57b7a2b188be7f, type: 2}
+    requiredPvpRank: 22
+    id: 6
+  - convo: {fileID: 11400000, guid: a86815b29843a344b89dc08ab9a7aa59, type: 2}
+    requiredPvpRank: 29
+    id: 7
+  - convo: {fileID: 11400000, guid: 64863f8a6ccc5c441afd2f04ea9ac02d, type: 2}
+    requiredPvpRank: 37
+    id: 8
+  - convo: {fileID: 11400000, guid: 6adc07ecd1ed44241821c93fdf2b2b67, type: 2}
+    requiredPvpRank: 45
+    id: 9
+  - convo: {fileID: 11400000, guid: 76822a1f8e0f0844080f4bbd449507e0, type: 2}
+    requiredPvpRank: 50
+    id: 10
+  - convo: {fileID: 11400000, guid: d2f265dbb09a0e943856408bd0e8c1a8, type: 2}
+    requiredPvpRank: 51
+    id: 11
+  portraitUnlocks:
+  - portraitSprite: TT2_multi-portrait-Robin
+    portraitSpriteID: 72
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-Raven
+    portraitSpriteID: 71
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-BeastBoy
+    portraitSpriteID: 46
+    unlockCondition: 0
+    goldCost: 50
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-Cyborg
+    portraitSpriteID: 97
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-Starfire
+    portraitSpriteID: 80
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-Silkie
+    portraitSpriteID: 78
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-hamburger
+    portraitSpriteID: 66
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-burrito
+    portraitSpriteID: 49
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-waffle
+    portraitSpriteID: 92
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-nescartridge
+    portraitSpriteID: 37
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-acat
+    portraitSpriteID: 85
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-beatbox
+    portraitSpriteID: 47
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 1
+  - portraitSprite: TT2_multi-portrait-tofutony
+    portraitSpriteID: 91
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-annoyingkid
+    portraitSpriteID: 52
+    unlockCondition: 0
+    goldCost: 0
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-hotdogguy
+    portraitSpriteID: 105
+    unlockCondition: 0
+    goldCost: 252
+    requiredLevel: 13
+  - portraitSprite: TT2_multi-portrait-apenguin
+    portraitSpriteID: 53
+    unlockCondition: 1
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-easterbunny
+    portraitSpriteID: 62
+    unlockCondition: 1
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-dogman
+    portraitSpriteID: 61
+    unlockCondition: 1
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-controlfreak
+    portraitSpriteID: 102
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-jokerthug
+    portraitSpriteID: 107
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-luciusfox
+    portraitSpriteID: 110
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 3
+  - portraitSprite: TT2_multi-portrait-bumblebee
+    portraitSpriteID: 48
+    unlockCondition: 3
+    goldCost: 1000
+    requiredLevel: 6
+  - portraitSprite: TT2_multi-portrait-speedy
+    portraitSpriteID: 115
+    unlockCondition: 3
+    goldCost: 1000
+    requiredLevel: 6
+  - portraitSprite: TT2_multi-portrait-masymenos
+    portraitSpriteID: 111
+    unlockCondition: 3
+    goldCost: 1000
+    requiredLevel: 6
+  - portraitSprite: TT2_multi-portrait-NBTSdrummer
+    portraitSpriteID: 34
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 9
+  - portraitSprite: TT2_multi-portrait-NBTSlonghair
+    portraitSpriteID: 35
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 9
+  - portraitSprite: TT2_multi-portrait-NBTSbird
+    portraitSpriteID: 58
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 9
+  - portraitSprite: TT2_multi-portrait-NBTSceelobear
+    portraitSpriteID: 32
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 12
+  - portraitSprite: TT2_multi-portrait-NBTSrobot
+    portraitSpriteID: 36
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 12
+  - portraitSprite: TT2_multi-portrait-NBTSdragon
+    portraitSpriteID: 33
+    unlockCondition: 3
+    goldCost: 1500
+    requiredLevel: 12
+  - portraitSprite: TT2_multi-portrait-symbol-greenlantern
+    portraitSpriteID: 43
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-symbol-superman
+    portraitSpriteID: 86
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-symbol-greenarrow
+    portraitSpriteID: 42
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-symbol-wonderwoman
+    portraitSpriteID: 87
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-symbol-flash
+    portraitSpriteID: 41
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-symbol-batman
+    portraitSpriteID: 40
+    unlockCondition: 3
+    goldCost: 2000
+    requiredLevel: 15
+  - portraitSprite: TT2_multi-portrait-cheetah
+    portraitSpriteID: 82
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-poisonivy
+    portraitSpriteID: 69
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-catwoman
+    portraitSpriteID: 84
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-gorillagrodd
+    portraitSpriteID: 103
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 13
+  - portraitSprite: TT2_multi-portrait-solomongrundy
+    portraitSpriteID: 114
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 13
+  - portraitSprite: TT2_multi-portrait-killermoth
+    portraitSpriteID: 109
+    unlockCondition: 1
+    goldCost: 2500
+    requiredLevel: 13
+  - portraitSprite: TT2_multi-portrait-condimentking
+    portraitSpriteID: 96
+    unlockCondition: 2
+    goldCost: 0
+    requiredLevel: 18
+  - portraitSprite: TT2_multi-portrait-rainbowraider
+    portraitSpriteID: 70
+    unlockCondition: 2
+    goldCost: 0
+    requiredLevel: 18
+  - portraitSprite: TT2_multi-portrait-trigon
+    portraitSpriteID: 94
+    unlockCondition: 2
+    goldCost: 0
+    requiredLevel: 18
+  - portraitSprite: TT2_multi-portrait-jinx
+    portraitSpriteID: 106
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 21
+  - portraitSprite: TT2_multi-portrait-thequestion
+    portraitSpriteID: 73
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 21
+  - portraitSprite: TT2_multi-portrait-kidflash
+    portraitSpriteID: 108
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 21
+  - portraitSprite: TT2_multi-portrait-hawkgirl
+    portraitSpriteID: 104
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 24
+  - portraitSprite: TT2_multi-portrait-zatana
+    portraitSpriteID: 95
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 24
+  - portraitSprite: TT2_multi-portrait-swampthing
+    portraitSpriteID: 27
+    unlockCondition: 3
+    goldCost: 2500
+    requiredLevel: 24
+  - portraitSprite: TT2_multi-portrait-zan
+    portraitSpriteID: 116
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 27
+  - portraitSprite: TT2_multi-portrait-jacen
+    portraitSpriteID: 22
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 27
+  - portraitSprite: TT2_multi-portrait-detectivechimp
+    portraitSpriteID: 21
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 27
+  - portraitSprite: TT2_multi-portrait-krypto
+    portraitSpriteID: 23
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 28
+  - portraitSprite: TT2_multi-portrait-ace
+    portraitSpriteID: 101
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 28
+  - portraitSprite: TT2_multi-portrait-gnort
+    portraitSpriteID: 64
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 28
+  - portraitSprite: TT2_multi-portrait-alfred
+    portraitSpriteID: 50
+    unlockCondition: 1
+    goldCost: 3000
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-alphared
+    portraitSpriteID: 51
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 30
+  - portraitSprite: TT2_multi-portrait-bathalfred
+    portraitSpriteID: 44
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 30
+  - portraitSprite: TT2_multi-portrait-bwanabeast
+    portraitSpriteID: 83
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 30
+  - portraitSprite: TT2_multi-portrait-boostergold
+    portraitSpriteID: 4
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 30
+  - portraitSprite: TT2_multi-portrait-bluebeetle
+    portraitSpriteID: 29
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 30
+  - portraitSprite: TT2_multi-portrait-plasticman
+    portraitSpriteID: 54
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 32
+  - portraitSprite: TT2_multi-portrait-johnstewart
+    portraitSpriteID: 56
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 32
+  - portraitSprite: TT2_multi-portrait-aquaman
+    portraitSpriteID: 88
+    unlockCondition: 3
+    goldCost: 3000
+    requiredLevel: 32
+  - portraitSprite: TT2_multi-portrait-supergirl
+    portraitSpriteID: 81
+    unlockCondition: 1
+    goldCost: 5000
+    requiredLevel: 1
+  - portraitSprite: TT2_multi-portrait-flash
+    portraitSpriteID: 63
+    unlockCondition: 1
+    goldCost: 5000
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-nightwing
+    portraitSpriteID: 38
+    unlockCondition: 1
+    goldCost: 5000
+    requiredLevel: 0
+  - portraitSprite: TT2_multi-portrait-greenarrow
+    portraitSpriteID: 65
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 34
+  - portraitSprite: TT2_multi-portrait-missmartian
+    portraitSpriteID: 113
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 34
+  - portraitSprite: TT2_multi-portrait-matianmanhunter
+    portraitSpriteID: 112
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 34
+  - portraitSprite: TT2_multi-portrait-mrchibi
+    portraitSpriteID: 60
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 36
+  - portraitSprite: TT2_multi-portrait-redx
+    portraitSpriteID: 24
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 36
+  - portraitSprite: TT2_multi-portrait-sinestro
+    portraitSpriteID: 26
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 36
+  - portraitSprite: TT2_multi-portrait-riddler
+    portraitSpriteID: 25
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 38
+  - portraitSprite: TT2_multi-portrait-bane
+    portraitSpriteID: 89
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 38
+  - portraitSprite: TT2_multi-portrait-harleyquinn
+    portraitSpriteID: 67
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 38
+  - portraitSprite: TT2_multi-portrait-SeriousRobin
+    portraitSpriteID: 75
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-SeriousRaven
+    portraitSpriteID: 99
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-SeriousBeastBoy
+    portraitSpriteID: 74
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-SeriousCyborg
+    portraitSpriteID: 98
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-SeriousStarfire
+    portraitSpriteID: 77
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-SeriousSilkie
+    portraitSpriteID: 76
+    unlockCondition: 2
+    goldCost: 1000
+    requiredLevel: 40
+  - portraitSprite: TT2_multi-portrait-darkseid
+    portraitSpriteID: 90
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 45
+  - portraitSprite: TT2_multi-portrait-lexluthor
+    portraitSpriteID: 59
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 45
+  - portraitSprite: TT2_multi-portrait-bizarro
+    portraitSpriteID: 20
+    unlockCondition: 3
+    goldCost: 5000
+    requiredLevel: 45
+  - portraitSprite: TT2_multi-portrait-joker
+    portraitSpriteID: 57
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 45
+  - portraitSprite: TT2_multi-portrait-batmanbeyond
+    portraitSpriteID: 100
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 47
+  - portraitSprite: TT2_multi-portrait-hoodedhood
+    portraitSpriteID: 55
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 47
+  - portraitSprite: TT2_multi-portrait-slade
+    portraitSpriteID: 79
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 47
+  - portraitSprite: TT2_multi-portrait-wonderwoman
+    portraitSpriteID: 93
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 50
+  - portraitSprite: TT2_multi-portrait-superman
+    portraitSpriteID: 39
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 50
+  - portraitSprite: TT2_multi-portrait-batman
+    portraitSpriteID: 45
+    unlockCondition: 3
+    goldCost: 5500
+    requiredLevel: 50
+  borderUnlocks:
+  - borderSprite: portrait_backing_bronze01
+    borderSpriteID: 40
+    level: 1
+  - borderSprite: portrait_backing_bronze02
+    borderSpriteID: 39
+    level: 5
+  - borderSprite: portrait_backing_bronze03
+    borderSpriteID: 30
+    level: 10
+  - borderSprite: portrait_backing_bronze04
+    borderSpriteID: 33
+    level: 15
+  - borderSprite: portrait_backing_bronze05
+    borderSpriteID: 31
+    level: 25
+  - borderSprite: portrait_backing_silver01
+    borderSpriteID: 36
+    level: 30
+  - borderSprite: portrait_backing_silver02
+    borderSpriteID: 7
+    level: 40
+  - borderSprite: portrait_backing_silver03
+    borderSpriteID: 11
+    level: 50
+  - borderSprite: portrait_backing_silver04
+    borderSpriteID: 0
+    level: 75
+  - borderSprite: portrait_backing_silver05
+    borderSpriteID: 1
+    level: 90
+  - borderSprite: portrait_backing_gold01
+    borderSpriteID: 3
+    level: 100
+  - borderSprite: portrait_backing_gold02
+    borderSpriteID: 14
+    level: 150
+  - borderSprite: portrait_backing_gold03
+    borderSpriteID: 2
+    level: 200
+  - borderSprite: portrait_backing_gold04
+    borderSpriteID: 18
+    level: 250
+  - borderSprite: portrait_backing_gold05
+    borderSpriteID: 19
+    level: 300
+  namePart1Options:
+  - 60s
+  - 70s
+  - 80s
+  - 90s
+  - A
+  - Ace
+  - Action
+  - Admiral
+  - Agent
+  - Alfred
+  - Ambush
+  - Angry
+  - Apokolips
+  - Aqua
+  - Arthur
+  - B'wana
+  - Baby
+  - Bad
+  - Barry
+  - Bat
+  - Batman
+  - BBRae
+  - Beast
+  - BeastBoy
+  - Behold
+  - Best
+  - Beware
+  - BewareThe
+  - Big
+  - Billy
+  - Bingo
+  - Bizarro
+  - Blue
+  - Booster
+  - Boss
+  - Boy
+  - Broke
+  - Brother
+  - Bruce
+  - Burger
+  - Burrito
+  - Caped
+  - Captain
+  - Cat
+  - CGI
+  - Chef
+  - Chief
+  - Clark
+  - Classic
+  - Clay
+  - Cold
+  - Commander
+  - Commissioner
+  - Cyborg
+  - Dad
+  - Daddy
+  - Damian
+  - Dance
+  - Dark
+  - Dastardly
+  - DaughterOf
+  - DawnOf
+  - Dead
+  - Death
+  - DefenderOf
+  - Detective
+  - Diana
+  - Doctor
+  - Dog
+  - Doom
+  - Dr
+  - Epic
+  - Evil
+  - Fallen
+  - Fantastic
+  - Fearsome
+  - Fig
+  - Figs
+  - Figure
+  - Fire
+  - FormOf
+  - Free
+  - FriendOf
+  - Gal
+  - Garfield
+  - General
+  - Giant
+  - Gold
+  - Golden
+  - GoldenAge
+  - Gorilla
+  - Gotham
+  - Grandma
+  - Grandpa
+  - Gray
+  - Green
+  - Grey
+  - Grumpy
+  - Guacamole
+  - Guy
+  - Hal
+  - Happy
+  - Harley
+  - Hawk
+  - Hello
+  - Hero
+  - Heroic
+  - Hey
+  - HiI'm
+  - HIVE
+  - Hola
+  - Hooded
+  - Hot
+  - Hotdog
+  - I'm
+  - Ice
+  - ILike
+  - ILove
+  - Incredible
+  - Indominable
+  - Internet
+  - Invisible
+  - It's
+  - It'sA
+  - Jack
+  - Jade
+  - James
+  - Jessica
+  - Jimmy
+  - Jinx
+  - John
+  - Joker
+  - Jump
+  - Junior
+  - Just
+  - Kara
+  - Kid
+  - Killer
+  - King
+  - KingOf
+  - Kitten
+  - KneelBefore
+  - Krypto
+  - Lady
+  - Lagoon
+  - Lantern
+  - Lasso
+  - LeagueOf
+  - Legendary
+  - LegionOf
+  - Lex
+  - Lieutenant
+  - Lil
+  - Little
+  - LOL
+  - Lord
+  - Lovely
+  - Lucius
+  - Luthor
+  - Mad
+  - Magic
+  - Mama
+  - ManOf
+  - Martha
+  - Martian
+  - Marvelous
+  - Master
+  - MasterOf
+  - Meatball
+  - Mecha
+  - Mediocre
+  - Mega
+  - Meta
+  - Mighty
+  - Mild
+  - Miss
+  - Miss
+  - Missy
+  - Mister
+  - Mother
+  - Mr
+  - Mrs
+  - Ms
+  - Much
+  - Multiverse
+  - Mustache
+  - Mysterious
+  - Mystery
+  - Nega
+  - Neutral
+  - New
+  - Night
+  - Ninja
+  - No
+  - Officer
+  - Old
+  - OldSchool
+  - Oliver
+  - Only
+  - Orange
+  - Original
+  - Oswald
+  - Pain
+  - Party
+  - Pink
+  - Pizza
+  - Poison
+  - Power
+  - Pretty
+  - Purple
+  - Queen
+  - QueenOf
+  - Rachel
+  - Radical
+  - Rainbow
+  - Raven
+  - Real
+  - Really
+  - Red
+  - Reverse
+  - Richard
+  - Robin
+  - Robo
+  - Robot
+  - Rose
+  - Sad
+  - Salty
+  - Sassy
+  - Saucy
+  - Save
+  - Secret
+  - Serious
+  - Shadow
+  - Shiny
+  - Silkie
+  - Silver
+  - SilverAge
+  - Slade
+  - Sly
+  - Smash
+  - SonOf
+  - Spicy
+  - Spooky
+  - Stalwart
+  - Star
+  - Starfire
+  - Static
+  - Stealthy
+  - Sticky
+  - Super
+  - Superman
+  - Swamp
+  - Talon
+  - Team
+  - Teeny
+  - Terra
+  - The
+  - TheLast
+  - TheOriginal
+  - Thing
+  - Thoughtful
+  - Thunder
+  - Tofu
+  - Toy
+  - Two
+  - Uber
+  - Undercover
+  - Vic
+  - Victor
+  - Villain
+  - Villainous
+  - Violent
+  - Violet
+  - Wacky
+  - Waffles
+  - Wally
+  - War
+  - Water
+  - Wicked
+  - Wild
+  - WomanOf
+  - Wonder
+  - WonderWoman
+  - Yes
+  - Young
+  - Zesty
+  namePart2Options:
+  - 4Ever
+  - 4Life
+  - 4Real
+  - Adam
+  - Agent
+  - Alfred
+  - Allen
+  - Amigo
+  - Apple
+  - Army
+  - Arrow
+  - Atlanna
+  - Atlantis
+  - Baby
+  - Baddie
+  - Banana
+  - Bane
+  - Barry
+  - Bat
+  - Batman
+  - Bats
+  - Batson
+  - Battler
+  - Batusi
+  - Beast
+  - BeastBoy
+  - Bees
+  - Beetle
+  - Beppo
+  - Billy
+  - Bird
+  - Birds
+  - Bizarro
+  - Blood
+  - Boat
+  - Bongo
+  - Boomerang
+  - Bot
+  - Boy
+  - boy
+  - Bro
+  - Bruce
+  - Bubba
+  - Buddy
+  - Bug
+  - Burger
+  - Burrito
+  - Butler
+  - Cage
+  - Canary
+  - Captain
+  - Carlos
+  - Cassi
+  - Cat
+  - Cats
+  - Cave
+  - Cheese
+  - Cheez
+  - Chibi
+  - Chimp
+  - CinematicUniverse
+  - City
+  - Clark
+  - Claw
+  - Cobblepot
+  - Cold
+  - Comics
+  - Constantine
+  - Corps
+  - Cow
+  - Crab
+  - Croc
+  - Crusader
+  - Cruz
+  - Curry
+  - Cyborg
+  - Dad
+  - Daddy
+  - Dandy
+  - Death
+  - Deli
+  - Destiny
+  - Diana
+  - Dog
+  - Doom
+  - Duck
+  - Dude
+  - Face
+  - face
+  - Falafel
+  - Fan
+  - Fanatic
+  - Fate
+  - Fellow
+  - Fidgets
+  - Fight
+  - Fire
+  - Fish
+  - Five
+  - Flash
+  - Forever
+  - Fox
+  - Freeze
+  - Friend
+  - Frost
+  - G'nort
+  - Gal
+  - Gamer
+  - Gardner
+  - Girl
+  - girl
+  - Gold
+  - Good
+  - Gordon
+  - Gotham
+  - Grayson
+  - Great
+  - Grodd
+  - Grundy
+  - Guacamole
+  - Guy
+  - Hands
+  - Harley
+  - Hatter
+  - Hawk
+  - Haxx
+  - Henchman
+  - Hero
+  - Hex
+  - Hood
+  - Hotdog
+  - Hound
+  - Ice
+  - InSpace
+  - Internet
+  - Intervention
+  - Ivy
+  - Jack
+  - Jane
+  - Jet
+  - Joe
+  - Joker
+  - Jones
+  - Jordan
+  - Jr
+  - Justice
+  - Kal-El
+  - Kent
+  - Kid
+  - King
+  - Kitten
+  - Knight
+  - Krypton
+  - lad
+  - Lad
+  - Lamp
+  - Land
+  - Lantern
+  - League
+  - Legasus
+  - Lex
+  - Lightning
+  - Lives
+  - Logan
+  - LOL
+  - Lord
+  - Love
+  - Lucius
+  - Luthor
+  - Magic
+  - Mama
+  - Man
+  - man
+  - Manhunter
+  - Manta
+  - Martha
+  - Martian
+  - Master
+  - Me
+  - Miracle
+  - Mite
+  - Mom
+  - Monster
+  - Moth
+  - Multiverse
+  - Mustache
+  - Mystery
+  - Napier
+  - Night
+  - Nightwing
+  - Octopus
+  - OfTruth
+  - Olsen
+  - Oracle
+  - Party
+  - Patrol
+  - Pegasus
+  - Penguin
+  - Pennyworth
+  - Person
+  - Pineapple
+  - Prince
+  - Queen
+  - Question
+  - Quinn
+  - Raider
+  - Raven
+  - Returns
+  - Riddler
+  - Robin
+  - Robot
+  - Rocks
+  - Roth
+  - Rules
+  - Salt
+  - Sandwich
+  - Sapphire
+  - Scarecrow
+  - Seagull
+  - Shadows
+  - Shark
+  - Shazam
+  - Shenanigans
+  - Shine
+  - Shock
+  - Shook
+  - Shot
+  - Sidekick
+  - Silkie
+  - Sinestro
+  - Situation
+  - Slade
+  - Smash
+  - Snake
+  - Soldier
+  - Soup
+  - Speedster
+  - Squad
+  - Star
+  - Starfire
+  - Steel
+  - Stewart
+  - Stone
+  - Stroke
+  - Superman
+  - Supes
+  - tastic
+  - Team
+  - Teeny
+  - Terra
+  - Terrific
+  - TheMovie
+  - Themyscira
+  - Thighs
+  - Thing
+  - Thug
+  - Time
+  - Titan
+  - Titans
+  - Tofu
+  - Tony
+  - Tornado
+  - Tuna
+  - Turtle
+  - Turtles
+  - Twins
+  - Unicorn
+  - Universe
+  - Villain
+  - Waffles
+  - Warrior
+  - Water
+  - Wayne
+  - Whale
+  - Wilson
+  - Woman
+  - woman
+  - Wonder
+  - WonderWoman
+  - World
+  - Wow
+  - X
+  - Zatanna
+  - Zod
+  - Zor-El
+  namePart3Options:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 00
+  - 01
+  - 02
+  - 03
+  - 04
+  - 05
+  - 06
+  - 07
+  - 08
+  - 09
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
+  - 73
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 200
+  - 300
+  - 400
+  - 500
+  - 600
+  - 700
+  - 777
+  - 800
+  - 900
+  - 999
+  - 1000
+  - 2000
+  - 3000
+  - 5000
+  - 9000
+  - 9001
+  - '!'
+  - '!!'
+  - '?!'
+  - '?'
+  - .
+  - ...
+  _nextTriggeredConvoId: 11

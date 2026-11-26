@@ -1,0 +1,632 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 1
+  preBattleSprite: menu_vsscreen_portrait_cyborg-player
+  preBattleSpriteRight: menu_vsscreen_portrait_cyborg
+  prefabPath: Prefabs/Characters/City/Cyborg
+  conversationBodySprite: TTG_gui_npc_cyborg_player
+  rightConversationBodySprite: TTG_gui_npc_cyborg
+  leftConversationBodySpriteId: 0
+  rightConversationBodySpriteId: 64
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 1
+  prefabPreventFlip: 1
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Idle
+    spriteName: TTG_gui_cyborg_faceidle_player
+    rightSpriteName: TTG_gui_cyborg_faceidle
+    leftSpriteId: 5
+    rightSpriteId: 58
+  - displayName: Angry
+    spriteName: TTG_gui_cyborg_faceangry_1_player
+    rightSpriteName: TTG_gui_cyborg_faceangry_1
+    leftSpriteId: 9
+    rightSpriteId: 71
+  - displayName: Angry Smile
+    spriteName: TTG_gui_cyborg_faceangry_smile_player
+    rightSpriteName: TTG_gui_cyborg_faceangry_smile
+    leftSpriteId: 3
+    rightSpriteId: 67
+  - displayName: Happy 1
+    spriteName: TTG_gui_cyborg_facehappy_1_player
+    rightSpriteName: TTG_gui_cyborg_facehappy_1
+    leftSpriteId: 8
+    rightSpriteId: 69
+  - displayName: Happy 2
+    spriteName: TTG_gui_cyborg_facehappy_2_player
+    rightSpriteName: TTG_gui_cyborg_facehappy_2
+    leftSpriteId: 6
+    rightSpriteId: 72
+  - displayName: EyebrowUp
+    spriteName: TTG_gui_cyborg_eyebrowup_player
+    rightSpriteName: TTG_gui_cyborg_eyebrowup
+    leftSpriteId: 4
+    rightSpriteId: 74
+  - displayName: ExcitedYell
+    spriteName: TTG_gui_cyborg_excitedyelling_player
+    rightSpriteName: TTG_gui_cyborg_excitedyelling
+    leftSpriteId: 1
+    rightSpriteId: 68
+  - displayName: Crying
+    spriteName: TTG_gui_cyborg_crying_player
+    rightSpriteName: TTG_gui_cyborg_crying
+    leftSpriteId: 7
+    rightSpriteId: 66
+  spawnSetups:
+  - id: 3
+    name: Cyborg Jinx Love Note
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: ed51d030a234d5c4988c8bc3e709c1c6, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: Cyborg Inbetween After Dumpsters
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: Cyborg Tower After Dumpsters
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 47
+        level: 9
+        abilityUIDs: bc000000bb0000000e000000
+        selectedRewards: 130000001a000000070000001d00000022000000010000001400000002000000
+        hitPoints: 26
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 20
+        level: 9
+        abilityUIDs: ba000000080000001a000000
+        selectedRewards: 220000001a000000130000001d00000023000000010000001400000024000000
+        hitPoints: 18
+        attack: 0
+        speed: 0
+        luck: 16
+        dodge: 19
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 2d3cf024cfca5234ca4a13eca7d893cd, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 98593cad9cc2a89449c61b106585443a, type: 2}
+      - {fileID: 11400000, guid: 583b16babfa68d84d928b8f9e87149c0, type: 2}
+      - {fileID: 11400000, guid: b1cd35b0e9bec25499d11be5298450f9, type: 2}
+      - {fileID: 11400000, guid: f15ef909bd0b8ef4c867ad334ac13095, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1d4bdf9221b304a40a81fa90b687e15d, type: 2}
+      - {fileID: 11400000, guid: 29d6ef116ed92be4cb4996c6f36bb6ef, type: 2}
+      - {fileID: 11400000, guid: 6912d6140fa153740b9726ec9253e887, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 5
+    name: Cyborg Before Final Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: Cyborg End Game
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 47
+        level: 11
+        abilityUIDs: bc0000000e000000bb000000
+        selectedRewards: 130000001a000000010000001d000000220000001400000002000000070000002300000015000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 12
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 20
+        level: 11
+        abilityUIDs: ba000000080000001a000000
+        selectedRewards: 220000001a000000010000001d000000130000000700000014000000020000000800000023000000
+        hitPoints: 21
+        attack: 2
+        speed: 0
+        luck: 16
+        dodge: 16
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 1a53fd293d7dd5c4bb667cbda2051f6e, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 98593cad9cc2a89449c61b106585443a, type: 2}
+      - {fileID: 11400000, guid: b1cd35b0e9bec25499d11be5298450f9, type: 2}
+      - {fileID: 11400000, guid: 583b16babfa68d84d928b8f9e87149c0, type: 2}
+      - {fileID: 11400000, guid: f15ef909bd0b8ef4c867ad334ac13095, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1d4bdf9221b304a40a81fa90b687e15d, type: 2}
+      - {fileID: 11400000, guid: 29d6ef116ed92be4cb4996c6f36bb6ef, type: 2}
+      - {fileID: 11400000, guid: 6912d6140fa153740b9726ec9253e887, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Cyborg After Waffles Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 1
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 47
+        level: 10
+        abilityUIDs: bc0000000e000000bb000000
+        selectedRewards: 010000001a000000070000001d0000000200000022000000130000000800000003000000
+        hitPoints: 29
+        attack: 2
+        speed: 0
+        luck: 6
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 12
+        abilityUIDs: bf000000be000000c0000000
+        selectedRewards: 010000001a000000220000001d00000002000000130000002300000007000000240000000800000014000000
+        hitPoints: 41
+        attack: 2
+        speed: 0
+        luck: 6
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 9fd8aac51138af44d9388e46b09f2578, type: 2}
+      activeConversation: {fileID: 11400000, guid: bf6b5f67ce4f20b41a9be8c1929926b2, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: bf6b5f67ce4f20b41a9be8c1929926b2, type: 2}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Cyborg Tower After Dumpsters
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 2
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 23
+        level: 8
+        abilityUIDs: 820000008400000083000000
+        selectedRewards: 070000001a000000220000001d000000080000000100000013000000
+        hitPoints: 38
+        attack: 2
+        speed: 0
+        luck: 8
+        dodge: 8
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 47
+        level: 10
+        abilityUIDs: bc0000000e000000bb000000
+        selectedRewards: 010000001a000000220000001d0000000200000013000000030000001400000023000000
+        hitPoints: 29
+        attack: 0
+        speed: 0
+        luck: 9
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 3d4a4a8695bab494a83dd6386f517e0f, type: 2}
+      activeConversation: {fileID: 11400000, guid: b98246b32d5ad82409812ae5b95e78fd, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 1a53fd293d7dd5c4bb667cbda2051f6e, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 98593cad9cc2a89449c61b106585443a, type: 2}
+      - {fileID: 11400000, guid: 583b16babfa68d84d928b8f9e87149c0, type: 2}
+      - {fileID: 11400000, guid: b1cd35b0e9bec25499d11be5298450f9, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1d4bdf9221b304a40a81fa90b687e15d, type: 2}
+      - {fileID: 11400000, guid: 29d6ef116ed92be4cb4996c6f36bb6ef, type: 2}
+      - {fileID: 11400000, guid: 6912d6140fa153740b9726ec9253e887, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Cyborg After Tourny Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 94a2f60a-1750-436b-ba25-91fdc9411e62
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 75
+      xpReward: 75
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 1
+        level: 3
+        abilityUIDs: 010000000800000009000000
+        selectedRewards: 070000001a000000
+        hitPoints: 25
+        attack: 1
+        speed: 3
+        luck: 3
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 9
+        level: 3
+        abilityUIDs: 120000001300000015000000
+        selectedRewards: 070000001a000000
+        hitPoints: 18
+        attack: 1
+        speed: 5
+        luck: 1
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 2cc80a64158499b4690725096a91c821, type: 2}
+      activeConversation: {fileID: 11400000, guid: f07cb143498ed82458acafb39b656a78, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 2d3cf024cfca5234ca4a13eca7d893cd, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 98593cad9cc2a89449c61b106585443a, type: 2}
+      - {fileID: 11400000, guid: 583b16babfa68d84d928b8f9e87149c0, type: 2}
+      - {fileID: 11400000, guid: b1cd35b0e9bec25499d11be5298450f9, type: 2}
+      - {fileID: 11400000, guid: f15ef909bd0b8ef4c867ad334ac13095, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1d4bdf9221b304a40a81fa90b687e15d, type: 2}
+      - {fileID: 11400000, guid: 29d6ef116ed92be4cb4996c6f36bb6ef, type: 2}
+      - {fileID: 11400000, guid: 6912d6140fa153740b9726ec9253e887, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 4
+    name: Cyborg End Game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 47
+        level: 18
+        abilityUIDs: bc000000bb0000000e000000
+        selectedRewards: 070000001a000000130000001d0000000800000001000000090000002200000002000000140000000a0000002300000015000000240000000b0000000300000016000000
+        hitPoints: 35
+        attack: 5
+        speed: 0
+        luck: 15
+        dodge: 18
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 18
+        abilityUIDs: bf000000be000000c0000000
+        selectedRewards: 130000001a000000220000001d000000010000002300000007000000140000000800000015000000240000001600000025000000
+        hitPoints: 40
+        attack: 5
+        speed: 0
+        luck: 12
+        dodge: 12
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 802f4d6dfc2652a49a12e3e6549441a5, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 583b16babfa68d84d928b8f9e87149c0, type: 2}
+      - {fileID: 11400000, guid: b1cd35b0e9bec25499d11be5298450f9, type: 2}
+      - {fileID: 11400000, guid: f15ef909bd0b8ef4c867ad334ac13095, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1d4bdf9221b304a40a81fa90b687e15d, type: 2}
+      - {fileID: 11400000, guid: 29d6ef116ed92be4cb4996c6f36bb6ef, type: 2}
+      - {fileID: 11400000, guid: 6912d6140fa153740b9726ec9253e887, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.37078288, g: 0.84958917, b: 0.9338235, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0.052003026, b: 0.25, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_cyborg_battle_prebattle1_kpr2
+    - Audio/VO/sfx_vo_cyborg_battle_prebattle3_kpr2
+    - Audio/VO/sfx_vo_cyborg_battle_prebattle4_kpr2
+  countdownCharacterUID: 1
+  _uid: 1
+  _guid: 19b79fbc-e0b3-4f7f-b0fd-3e6c9681684b
+  _name: Cyborg
+  _nameKey: CYBORG
+  _preBattleSpriteId: 36
+  _preBattleSpriteRightId: 8
+  _nextSpawnSetupId: 6
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: f49c16a8997373746aced440ade97d67, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX:
+  - Audio/VO/sfx_vo_cyborg_city_idle1_kpr1
+  - Audio/VO/sfx_vo_cyborg_city_idle1_kpr3
+  - Audio/VO/sfx_vo_cyborg_city_idle2_kpr
+  - Audio/VO/sfx_vo_cyborg_city_idle3_kpr1
+  - Audio/VO/sfx_vo_cyborg_city_idle4_kpr
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

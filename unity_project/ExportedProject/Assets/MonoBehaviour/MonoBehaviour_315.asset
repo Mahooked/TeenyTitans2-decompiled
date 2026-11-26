@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 33
+  preBattleSprite: menu_vsscreen_portrait_santaclaus
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/SantaClaus
+  conversationBodySprite: TTG_gui_santaclaus
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 2
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Happy
+    spriteName: TTG_gui_santaclaus_happy
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  - displayName: Happy2
+    spriteName: TTG_gui_santaclaus_happy2
+    rightSpriteName:
+    leftSpriteId: 0
+    rightSpriteId: -1
+  - displayName: HoHoHo
+    spriteName: TTG_gui_santaclaus_hohoho
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: Neutral
+    spriteName: TTG_gui_santaclaus_neutral
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Santa Claus 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: 4
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 1
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 61
+        level: 12
+        abilityUIDs: 920000009400000093000000
+        selectedRewards: 220000001a000000130000001d00000001000000140000000700000002000000080000001500000003000000
+        hitPoints: 60
+        attack: 9
+        speed: 0
+        luck: 10
+        dodge: 8
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: 03abad5d934d6474c838bd8a726f39d6, type: 2}
+      initialConversation: {fileID: 11400000, guid: a75d8bb9c64122e47860e34295d10b5a, type: 2}
+      activeConversation: {fileID: 11400000, guid: 093a55aa50abc934a8e5a1483557745f, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: e4c702d96f893234a97f48faaaa1817e, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 477d476631591004cb44a942c57739c6, type: 2}
+      battleComplete: []
+      preBattleConversations:
+      - {fileID: 11400000, guid: ae968ef01a9541949bc1097161720973, type: 2}
+      battleConditions:
+      - type: 0
+        amount: 6
+        uid: 0
+        tag:
+      - type: 0
+        amount: 6
+        uid: 0
+        tag:
+      - type: 0
+        amount: 6
+        uid: 0
+        tag:
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Santa Claus After Victory
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 61
+        level: 12
+        abilityUIDs: 920000009400000093000000
+        selectedRewards: 130000001a000000220000001d00000001000000140000000700000023000000150000000200000008000000
+        hitPoints: 60
+        attack: 9
+        speed: 0
+        luck: 10
+        dodge: 8
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 093a55aa50abc934a8e5a1483557745f, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 477d476631591004cb44a942c57739c6, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.99264705, g: 0.40143818, b: 0.6970426, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0.43382353, b: 0.11069973, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 38
+  _guid: 71a4c2f7-46e3-42c7-b499-bc8db5a65daa
+  _name: Santa Claus
+  _nameKey: SANTACLAUS
+  _preBattleSpriteId: 48
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 527152165378efe4fb162427f7ef4196, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

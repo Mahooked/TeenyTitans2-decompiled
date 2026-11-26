@@ -1,0 +1,2213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_LUCIUS_FIRSTTALK
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 92
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 10
+    faceSpriteName: TTG_gui_robin_oooo
+    poseSpriteId: 0
+    poseSpriteName:
+    message: Why, if it isn't Lucius Fox!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 0
+    otherFaceSpriteName: TT2_gui_luciousfox_face1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 67
+    position: 1
+    bodySpriteId: 26
+    bodySpriteName: TT2_gui_luciousfox
+    faceSpriteId: 27
+    faceSpriteName: TT2_gui_luciousfox_face1
+    poseSpriteId: 0
+    poseSpriteName:
+    message: Hello, young Robin. I see you're still up to your usual derring-do.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 10
+    otherFaceSpriteName: TTG_gui_robin_oooo
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 8
+    faceSpriteName: TTG_gui_robin_face6
+    poseSpriteId: 0
+    poseSpriteName:
+    message: Ho, ho, oh Lucius, you do go on.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 27
+    otherFaceSpriteName: TT2_gui_luciousfox_face1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 67
+    position: 1
+    bodySpriteId: 26
+    bodySpriteName: TT2_gui_luciousfox
+    faceSpriteId: 28
+    faceSpriteName: TT2_gui_luciousfox_face2
+    poseSpriteId: 0
+    poseSpriteName:
+    message: Yes, that is indeed what I do.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 8
+    otherFaceSpriteName: TTG_gui_robin_face6
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_robin_facehappy
+    poseSpriteId: 0
+    poseSpriteName:
+    message: So whatcha up to these days? Can I see your newest cutting-edge bat-vention?!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 28
+    otherFaceSpriteName: TT2_gui_luciousfox_face2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 67
+    position: 1
+    bodySpriteId: 26
+    bodySpriteName: TT2_gui_luciousfox
+    faceSpriteId: 32
+    faceSpriteName: TT2_gui_luciousfox_face3
+    poseSpriteId: 0
+    poseSpriteName:
+    message: I'm glad you asked, my tight-pansted friend. Actually, I could use your help.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_robin_facehappy
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 67
+    position: 1
+    bodySpriteId: 26
+    bodySpriteName: TT2_gui_luciousfox
+    faceSpriteId: 27
+    faceSpriteName: TT2_gui_luciousfox_face1
+    poseSpriteId: 0
+    poseSpriteName:
+    message: Bring me 3 Tech-based figures, and I'll share with you my newest R&D project.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_robin_facehappy
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 8
+    faceSpriteName: TTG_gui_robin_face6
+    poseSpriteId: 0
+    poseSpriteName:
+    message: For you, Lucius, anything!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 27
+    otherFaceSpriteName: TT2_gui_luciousfox_face1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Why, if it isn't Lucius Fox!
+      key: TT2CONVO_LUCIUSFOX_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Hello, young Robin. I see you're still up to your usual derring-do.
+      key: TT2CONVO_LUCIUSFOX_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_robin_oooo
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Ho, ho, oh Lucius, you do go on.
+      key: TT2CONVO_LUCIUSFOX_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Yes, that is indeed what I do.
+      key: TT2CONVO_LUCIUSFOX_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: 0
+      poseSpriteName:
+      message: So whatcha up to these days? Can I see your newest cutting-edge bat-vention?!
+      key: TT2CONVO_LUCIUSFOX_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 27
+      otherFaceSpriteName: TT2_gui_luciousfox_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: I'm glad you asked, my tight-pantsed friend. Actually, I could use your help.
+      key: TT2CONVO_LUCIUSFOX_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_robin_facehappy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Bring me 3 Tech-based figures, and I'll share with you my newest R&D project.
+      key: TT2CONVO_LUCIUSFOX_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_robin_facehappy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: 0
+      poseSpriteName:
+      message: For you, Lucius, anything!
+      key: TT2CONVO_LUCIUSFOX_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: HEY! It's you!
+      key: TT2CONVO_LUCIUSFOX_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Wait a minute, aren't you supposed to be a fox?!
+      key: TT2CONVO_LUCIUSFOX_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Why, no. I'm a Lucius Fox.
+      key: TT2CONVO_LUCIUSFOX_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Awww. I guess that's cool too.
+      key: TT2CONVO_LUCIUSFOX_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Yes, it is cool.
+      key: TT2CONVO_LUCIUSFOX_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Say, green child, how'd you like to help your friend Lucius Fox with his newest R&D Project?
+      key: TT2CONVO_LUCIUSFOX_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Hmmm...
+      key: TT2CONVO_LUCIUSFOX_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Okay!
+      key: TT2CONVO_LUCIUSFOX_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Splendid. Bring me 3 Tech-based figures.
+      key: TT2CONVO_LUCIUSFOX_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Why, if it isn't Lucius Fox!
+      key: TT2CONVO_LUCIUSFOX_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Hello, young Robin. I see you're still up to your usual derring-do.
+      key: TT2CONVO_LUCIUSFOX_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Ho, ho, oh Lucius, you do go on.
+      key: TT2CONVO_LUCIUSFOX_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Yes, that is indeed what I do.
+      key: TT2CONVO_LUCIUSFOX_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_raven_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: So whatcha up to these days? Can I see your newest cutting-edge bat-vention?!
+      key: TT2CONVO_LUCIUSFOX_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 27
+      otherFaceSpriteName: TT2_gui_luciousfox_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: I'm glad you asked, my tight-pansted friend. Actually, I could use your help.
+      key: TT2CONVO_LUCIUSFOX_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Bring me 3 Tech-based figures, and I'll share with you my newest R&D project.
+      key: TT2CONVO_LUCIUSFOX_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: For you, Lucius, anything!
+      key: TT2CONVO_LUCIUSFOX_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Why, if it isn't Lucius Fox!
+      key: TT2CONVO_LUCIUSFOX_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Hello, young Robin. I see you're still up to your usual derring-do.
+      key: TT2CONVO_LUCIUSFOX_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_starfire_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Ho, ho, oh Lucius, you do go on.
+      key: TT2CONVO_LUCIUSFOX_37
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Yes, that is indeed what I do.
+      key: TT2CONVO_LUCIUSFOX_38
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: So whatcha up to these days? Can I see your newest cutting-edge bat-vention?!
+      key: TT2CONVO_LUCIUSFOX_39
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 27
+      otherFaceSpriteName: TT2_gui_luciousfox_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: I'm glad you asked, my tight-pansted friend. Actually, I could use your help.
+      key: TT2CONVO_LUCIUSFOX_40
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Bring me 3 Tech-based figures, and I'll share with you my newest R&D project.
+      key: TT2CONVO_LUCIUSFOX_41
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: For you, Lucius, anything!
+      key: TT2CONVO_LUCIUSFOX_42
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_cyborg_excitedyelling_player
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Why, if it isn't Lucius Fox!
+      key: TT2CONVO_LUCIUSFOX_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Hello, young Robin. I see you're still up to your usual derring-do.
+      key: TT2CONVO_LUCIUSFOX_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_cyborg_excitedyelling_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Ho, ho, oh Lucius, you do go on.
+      key: TT2CONVO_LUCIUSFOX_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Yes, that is indeed what I do.
+      key: TT2CONVO_LUCIUSFOX_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 8
+      otherFaceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_cyborg_faceidle_player
+      poseSpriteId: 0
+      poseSpriteName:
+      message: So whatcha up to these days? Can I see your newest cutting-edge bat-vention?!
+      key: TT2CONVO_LUCIUSFOX_31
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 27
+      otherFaceSpriteName: TT2_gui_luciousfox_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: I'm glad you asked, my broad-shouldered friend. Actually, I could use your help.
+      key: TT2CONVO_LUCIUSFOX_32
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 67
+      position: 1
+      bodySpriteId: 26
+      bodySpriteName: TT2_gui_luciousfox
+      faceSpriteId: 27
+      faceSpriteName: TT2_gui_luciousfox_face1
+      poseSpriteId: 0
+      poseSpriteName:
+      message: Bring me 3 Tech-based figures, and I'll share with you my newest R&D project.
+      key: TT2CONVO_LUCIUSFOX_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      poseSpriteId: 0
+      poseSpriteName:
+      message: For you, Lucius, anything!
+      key: TT2CONVO_LUCIUSFOX_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 28
+      otherFaceSpriteName: TT2_gui_luciousfox_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

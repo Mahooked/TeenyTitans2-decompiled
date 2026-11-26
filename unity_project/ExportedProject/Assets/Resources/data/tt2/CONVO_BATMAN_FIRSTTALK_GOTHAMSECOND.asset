@@ -1,0 +1,4621 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_BATMAN_FIRSTTALK_GOTHAMSECOND
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 125
+  completesMissionUID: 113
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_robin_allthefigs
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Batman!! It's me, Robin!!
+      key: TT2CONVO_BATMAN_1
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 2715c3271b5d85145943754ab931f270, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...
+      key: TT2CONVO_BATMAN_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_robin_allthefigs
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 2
+      faceSpriteName: TTG_gui_robin_face9
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, you look terrible...
+      key: TT2CONVO_BATMAN_3
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 93324e1fa04df7d479e87f604de45455, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_robin_facescared2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'But, um, hey, there''s something super important I need to ask you:'
+      key: TT2CONVO_BATMAN_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What's the deal with this copyright infringement lawsuit everyone's talking about?
+      key: TT2CONVO_BATMAN_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: There must be some misunderstanding, right? There's no way you'd try to destroy Teeny Titans!
+      key: TT2CONVO_BATMAN_6
+      formatArgs: []
+      clip: {fileID: 8300000, guid: db031eb0106e19e4cb025aafa1c32f52, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Perhaps I may be of service. '
+      key: TT2CONVO_BATMAN_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce  says he is unaware of any such lawsuit.
+      key: TT2CONVO_BATMAN_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 8
+      faceSpriteName: TT2_gui_alfred_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: He also says, "Teeny Titans is the bee's knees", and he doesn't wish for them to go out of business.
+      key: TT2CONVO_BATMAN_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 9
+      faceSpriteName: TT2_gui_alfred_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Besides, he couldn't possibly be involved with a lawsuit right now. As you can see, he's been recovering here in bed for over a week.
+      key: TT2CONVO_BATMAN_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sadly, Master Bruce experienced a series of quite debilitating migraines. Although, I do suppose it's not like him to fall ill. Peculiar. QUITE peculiar indeed.
+      key: TT2CONVO_BATMAN_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 17
+      faceSpriteName: TTG_gui_robin_face8
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hmmm, something about that seems suspciously significant...
+      key: TT2CONVO_BATMAN_14
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 2736a02721525ee43a8c8fd95a72cad4, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 13
+      faceSpriteName: TTG_gui_robin_facehappy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: But what's really important here is that I was totally right! I knew there was no way you could be involved!
+      key: TT2CONVO_BATMAN_15
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 84cfbeca36559aa48937fb68a3cd8cf8, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_robin_facescared2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Though I suppose that puts me back at square one. What am I supposed to do from here?
+      key: TT2CONVO_BATMAN_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_robin_facescared2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce says to go talk to "Supes". Perhaps he'll have the answers you seek.
+      key: TT2CONVO_BATMAN_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_robin_facescared2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You're killing me, Alfred! I already tried that! Superman isn't even in Metropolis right now!
+      key: TT2CONVO_BATMAN_73
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 54277c2211ca9fb4ba070cafb8238c73, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have it on good authority that Master Clark is filming his latest super hero film...
+      key: TT2CONVO_BATMAN_78
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...in Jump City.
+      key: TT2CONVO_BATMAN_79
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_robin_facescared
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh snap!
+      key: TT2CONVO_BATMAN_80
+      formatArgs: []
+      clip: {fileID: 8300000, guid: cabb49e82220a4048a0e8bfdbdd29b5e, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 111
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 14
+    initialRightBodySpriteName: TT2_gui_sickbatman
+    initialRightFaceSpriteName: TT2_gui_sickbatman
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 59
+      faceSpriteName: TTG_gui_beastboy_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Finally! You're a hard Batman to find, bro.
+      key: TT2CONVO_BATMAN_20
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 7b06a1a200ff8eb4984fc7e9dc47e193, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...
+      key: TT2CONVO_BATMAN_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 59
+      otherFaceSpriteName: TTG_gui_beastboy_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alright, Batdude. What's the deal with this copyright infringement lawsuit?
+      key: TT2CONVO_BATMAN_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why are you trying to end Teeny Titans? Don't you know how much everybody loves them?! Not cool, man.
+      key: TT2CONVO_BATMAN_23
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4d77984ebd42d0a45b6b8e32de721258, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Perhaps I may be of service. '
+      key: TT2CONVO_BATMAN_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce  says he is unaware of any such lawsuit.
+      key: TT2CONVO_BATMAN_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 8
+      faceSpriteName: TT2_gui_alfred_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: He also says, "Teeny Titans is the bee's knees", and he doesn't wish for them to go out of business.
+      key: TT2CONVO_BATMAN_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 9
+      faceSpriteName: TT2_gui_alfred_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Besides, he couldn't possibly be involved with a lawsuit right now. As you can see, he's been recovering here in bed for over a week.
+      key: TT2CONVO_BATMAN_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sadly, Master Bruce experienced a series of quite debilitating migraines. Although, I do suppose it's not like him to fall ill. Peculiar. QUITE peculiar indeed.
+      key: TT2CONVO_BATMAN_30
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Wait, that seems like an important clue that could help unravel this web of seemingly unrelated mysteries...
+      key: TT2CONVO_BATMAN_31
+      formatArgs: []
+      clip: {fileID: 8300000, guid: fa636d73b6bf20e439c35a258ea270a6, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 73
+      faceSpriteName: TTG_gui_beastboy_freakedout
+      poseSpriteId: -1
+      poseSpriteName:
+      message: OR maybe you're just a bunch of lying liars!
+      key: TT2CONVO_BATMAN_32
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 483acf5b1aea4c74192089053d2433a6, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hm, no, I should think not.
+      key: TT2CONVO_BATMAN_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, what am I supposed to do from here?
+      key: TT2CONVO_BATMAN_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce says to go talk to "Supes". Perhaps he'll have the answers you seek.
+      key: TT2CONVO_BATMAN_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 73
+      faceSpriteName: TTG_gui_beastboy_freakedout
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You's gots to me joking, bro! I already tried that! Superman isn't even in Metropolis right now!
+      key: TT2CONVO_BATMAN_74
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have it on good authority that Master Clark is filming his latest super hero film...
+      key: TT2CONVO_BATMAN_78
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...in Jump City.
+      key: TT2CONVO_BATMAN_79
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 59
+      faceSpriteName: TTG_gui_beastboy_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well, in that case... We's going home!!
+      key: TT2CONVO_BATMAN_81
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 400a056c3b33aae4ba6848f462e22d32, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 111
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 14
+    initialRightBodySpriteName: TT2_gui_sickbatman
+    initialRightFaceSpriteName: TT2_gui_sickbatman
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 37
+      faceSpriteName: TTG_gui_raven_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Finally. You're a hard Batman to find.
+      key: TT2CONVO_BATMAN_38
+      formatArgs: []
+      clip: {fileID: 8300000, guid: fa12c51bd59ac2841b451aafc9bfb680, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...
+      key: TT2CONVO_BATMAN_39
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 37
+      otherFaceSpriteName: TTG_gui_raven_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alright, Bats. What's the deal with this copyright infringement lawsuit?
+      key: TT2CONVO_BATMAN_40
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why are you trying to end Teeny Titans? Don't you know how much everybody loves them?! Not cool.
+      key: TT2CONVO_BATMAN_41
+      formatArgs: []
+      clip: {fileID: 8300000, guid: a096094fa1512b94f960917677a43fdd, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_42
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Perhaps I may be of service. '
+      key: TT2CONVO_BATMAN_43
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce  says he is unaware of any such lawsuit.
+      key: TT2CONVO_BATMAN_44
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_45
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 8
+      faceSpriteName: TT2_gui_alfred_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: He also says, "Teeny Titans is the bee's knees", and he doesn't wish for them to go out of business.
+      key: TT2CONVO_BATMAN_46
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 9
+      faceSpriteName: TT2_gui_alfred_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Besides, he couldn't possibly be involved with a lawsuit right now. As you can see, he's been recovering here in bed for over a week.
+      key: TT2CONVO_BATMAN_47
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sadly, Master Bruce experienced a series of quite debilitating migraines. Although, I do suppose it's not like him to fall ill. Peculiar. QUITE peculiar indeed.
+      key: TT2CONVO_BATMAN_48
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Wait, that seems like an important clue that could help unravel this web of seemingly unrelated mysteries...
+      key: TT2CONVO_BATMAN_49
+      formatArgs: []
+      clip: {fileID: 8300000, guid: aecf8cbc89fe6404494b63fcfc3f20c1, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 18
+      faceSpriteName: TTG_gui_raven_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: OR maybe you're just a bunch of lying liars!
+      key: TT2CONVO_BATMAN_50
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 2bef1a75bb9716d4ca37ad52353e8f7b, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hm, no, I should think not.
+      key: TT2CONVO_BATMAN_51
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TTG_gui_raven_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, what am I supposed to do from here?
+      key: TT2CONVO_BATMAN_52
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_53
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce says to go talk to "Supes". Perhaps he'll have the answers you seek.
+      key: TT2CONVO_BATMAN_54
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, no. I already know Superman isn't even in Metropolis right now.
+      key: TT2CONVO_BATMAN_76
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have it on good authority that Master Clark is filming his latest super hero film...
+      key: TT2CONVO_BATMAN_78
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...in Jump City.
+      key: TT2CONVO_BATMAN_79
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh snap!
+      key: TT2CONVO_BATMAN_80
+      formatArgs: []
+      clip: {fileID: 8300000, guid: e8f8c7df20bde4840bd5df33c89685ae, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 111
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 14
+    initialRightBodySpriteName: TT2_gui_sickbatman
+    initialRightFaceSpriteName: TT2_gui_sickbatman
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Finally! I have found the Batman!
+      key: TT2CONVO_BATMAN_56
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 1ebe4ce8fff89204f9d9e1d55dde969c, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...
+      key: TT2CONVO_BATMAN_57
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_starfire_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Batman, why do you wish to end the adorable Teeny Titans? They are loved by the everybody!
+      key: TT2CONVO_BATMAN_58
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 6f37e873b88508b4180d47bab42f010c, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Perhaps we could forget this lawsuit of copyrights, and instead have the silly dance party!
+      key: TT2CONVO_BATMAN_59
+      formatArgs: []
+      clip: {fileID: 8300000, guid: cee353332bf480444928c14bee9c4a4e, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_60
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Perhaps I may be of service. '
+      key: TT2CONVO_BATMAN_61
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce  says he is unaware of any such lawsuit.
+      key: TT2CONVO_BATMAN_62
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_63
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 8
+      faceSpriteName: TT2_gui_alfred_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: He also says, "Teeny Titans is the bee's knees", and he doesn't wish for them to go out of business.
+      key: TT2CONVO_BATMAN_64
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 9
+      faceSpriteName: TT2_gui_alfred_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Besides, he couldn't possibly be involved with a lawsuit right now. As you can see, he's been recovering here in bed for over a week.
+      key: TT2CONVO_BATMAN_65
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sadly, Master Bruce experienced a series of quite debilitating migraines. Although, I do suppose it's not like him to fall ill. Peculiar. QUITE peculiar indeed.
+      key: TT2CONVO_BATMAN_66
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hmm, that seems like the important clue that could help unravel this spiderweb of the mysteries...
+      key: TT2CONVO_BATMAN_67
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4048db957fbcce64593af9d63d38ae1d, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Maybe. Who knows.
+      key: TT2CONVO_BATMAN_68
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_starfire_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: But, Friend Alfred... where do I go from here?
+      key: TT2CONVO_BATMAN_69
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_70
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_starfire_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce says to go talk to "Supes". Perhaps he'll have the answers you seek.
+      key: TT2CONVO_BATMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_starfire_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: But, Friend Alfred, I already tried to find the Superman!
+      key: TT2CONVO_BATMAN_77
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b7685e9f77307384eb036bae7f3b0982, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have it on good authority that Master Clark is filming his latest super hero film...
+      key: TT2CONVO_BATMAN_78
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_starfire_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...in Jump City.
+      key: TT2CONVO_BATMAN_79
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_starfire_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_starfire_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, the snap!
+      key: TT2CONVO_BATMAN_82
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 994a90281ec637c4cb320a13627b3381, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 111
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 14
+    initialRightBodySpriteName: TT2_gui_sickbatman
+    initialRightFaceSpriteName: TT2_gui_sickbatman
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Finally! You're a hard Batman to find, bro.
+      key: TT2CONVO_BATMAN_20
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 30858a66a3acc8542ac8ccab5bdca0ba, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...
+      key: TT2CONVO_BATMAN_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alright, Batdude. What's the deal with this copyright infringement lawsuit?
+      key: TT2CONVO_BATMAN_22
+      formatArgs: []
+      clip: {fileID: 8300000, guid: e5a6f30f04b6e744faf6f5f692d6958d, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why are you trying to end Teeny Titans? Don't you know how much everybody loves them?! Not cool, man.
+      key: TT2CONVO_BATMAN_23
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 217de6f901036e04a8fa6ed494c2461b, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_sickbatman
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Perhaps I may be of service. '
+      key: TT2CONVO_BATMAN_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce  says he is unaware of any such lawsuit.
+      key: TT2CONVO_BATMAN_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 8
+      faceSpriteName: TT2_gui_alfred_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: He also says, "Teeny Titans is the bee's knees", and he doesn't wish for them to go out of business.
+      key: TT2CONVO_BATMAN_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 9
+      faceSpriteName: TT2_gui_alfred_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Besides, he couldn't possibly be involved with a lawsuit right now. As you can see, he's been recovering here in bed for over a week.
+      key: TT2CONVO_BATMAN_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sadly, Master Bruce experienced a series of quite debilitating migraines. Although, I do suppose it's not like him to fall ill. Peculiar. QUITE peculiar indeed.
+      key: TT2CONVO_BATMAN_30
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Wait, that seems like an important clue that could help unravel this web of seemingly unrelated mysteries...
+      key: TT2CONVO_BATMAN_31
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: OR maybe you're just a bunch of lying liars!
+      key: TT2CONVO_BATMAN_32
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b700c2685a60f664d86029488f1df0b1, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_alfred_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hm, no, I should think not.
+      key: TT2CONVO_BATMAN_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_cyborg_crying_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, what am I supposed to do from here?
+      key: TT2CONVO_BATMAN_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 111
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_sickbatman
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_sickbatman
+      poseSpriteId: -1
+      poseSpriteName:
+      message: mumble mumble...
+      key: TT2CONVO_BATMAN_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_cyborg_crying_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Master Bruce says to go talk to "Supes". Perhaps he'll have the answers you seek.
+      key: TT2CONVO_BATMAN_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alfred, my man, that's a no-can-do. I already know Superman isn't even in Metropolis right now!
+      key: TT2CONVO_BATMAN_75
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TT2_gui_alfred_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 11
+      faceSpriteName: TT2_gui_alfred_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have it on good authority that Master Clark is filming his latest super hero film...
+      key: TT2CONVO_BATMAN_78
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 71
+      position: 1
+      bodySpriteId: 13
+      bodySpriteName: TT2_gui_alfred
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_alfred_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...in Jump City.
+      key: TT2CONVO_BATMAN_79
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh snap!
+      key: TT2CONVO_BATMAN_80
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 21ba7d8b264c697408641d5d49008d73, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_alfred_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 111
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 14
+    initialRightBodySpriteName: TT2_gui_sickbatman
+    initialRightFaceSpriteName: TT2_gui_sickbatman

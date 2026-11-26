@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 60
+  _characterName: George Washington
+  _characterNameKey: GEORGEWASHINGTON
+  _characterClass: 4
+  _characterRarity: 1
+  _characterFaction: 0
+  _baseHitPoints: 15
+  _baseAttack: 0
+  _baseLuck: 5
+  _baseDodge: 15
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 53
+  _libraryDescription: George Washington was the first President of the United States and Commander of the American forces during the Revolutionary War. He was known to be an avid figure collector and battler.
+  _libraryDescriptionKey: WIKI_GEORGEWASHINGTON
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Martial Arts
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 23
+    abilityId: 76
+  - position: 50
+    abilityId: 75
+  - position: 85
+    abilityId: 74
+  _portraitSprite: icon_gwashington
+  _portraitSpriteId: 122
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.6, y: 0.69, z: 0.5}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.79, y: -0.67, z: -0.47}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.81, y: 1.16, z: -0.11}
+  _battleCharacterPath: Prefabs/Characters/Battle/GeorgeWashington
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/GeorgeWashington
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.75, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 77010000770100009a010000a4010000ae010000b8010000c2010000c2010000c2010000c2010000c2010000c2010000c2010000c2010000c2010000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.9558824, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0.066937, g: 0, b: 0.88235295, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_GeorgeW
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 237
+    cost: 3
+    rare: 0
+    texturePath: Textures/GeorgeWashington_Texture_blackandblue-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 238
+    cost: 3
+    rare: 0
+    texturePath: Textures/GeorgeWashington_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 239
+    cost: 3
+    rare: 0
+    texturePath: Textures/GeorgeWashington_Texture_brownandtan-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17

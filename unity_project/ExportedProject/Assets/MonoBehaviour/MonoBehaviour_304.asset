@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 9
+  preBattleSprite: menu_vsscreen_portrait_cop
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Cop
+  conversationBodySprite: TTG_gui_npc_cop
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 16
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  - Hero
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Angry 1
+    spriteName: TTG_gui_npc_cop_faceangry_1
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Angry 2
+    spriteName: TTG_gui_npc_cop_faceangry_2
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_npc_cop_faceannoyed_1
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_npc_cop_facehappy
+    rightSpriteName:
+    leftSpriteId: 14
+    rightSpriteId: -1
+  - displayName: Normal
+    spriteName: TTG_gui_npc_cop_facenormal
+    rightSpriteName:
+    leftSpriteId: 12
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 7
+    name: Gizmo 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: b5c89066-baba-40f0-b2a9-dc666009a015
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 96b37bca0fa5dcd4f80224d20993ade6, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 4
+    name: After Pet Tourny
+    disablesGameObject: 1
+    activatesManually: 0
+    movesAfterConversation: 1
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 0216af7f-df7e-40c2-ab10-acaf3ae23b06
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 1
+      coinReward: 125
+      xpReward: 75
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 59
+        level: 10
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 010000001a000000130000001d0000000200000007000000030000000800000004000000
+        hitPoints: 30
+        attack: 2
+        speed: 0
+        luck: 9
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 16
+        abilityUIDs: 280000009b00000027000000
+        selectedRewards: 010000001a000000070000001d0000002200000002000000080000002300000013000000030000000900000014000000240000000a00000025000000
+        hitPoints: 25
+        attack: 4
+        speed: 0
+        luck: 17
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 51
+        level: 11
+        abilityUIDs: 880000008a00000089000000
+        selectedRewards: 130000001a000000220000001d000000010000000700000023000000140000002400000002000000
+        hitPoints: 22
+        attack: 1
+        speed: 5
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 15
+        abilityUIDs: 910000002c0000002e000000
+        selectedRewards: 130000001a000000070000001d00000014000000010000001500000008000000220000000200000009000000030000001600000023000000
+        hitPoints: 39
+        attack: 3
+        speed: 0
+        luck: 15
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 19
+        level: 10
+        abilityUIDs: c2000000c3000000c1000000
+        selectedRewards: 130000001a000000010000001d0000000700000002000000080000002200000003000000
+        hitPoints: 39
+        attack: 2
+        speed: 0
+        luck: 12
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 48
+        level: 12
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 220000001a000000130000001d00000007000000230000000100000024000000140000002500000008000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 11
+        dodge: 21
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 8
+      teamSizeWeight2: 24
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: a7b2858e6c0df724eae9522241ab479a, type: 2}
+      initialConversation: {fileID: 11400000, guid: 66160347620f7bf44b4704d688abf3f1, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 11400000, guid: 46983a58b2725c140a6d0d539273a679, type: 2}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: Commit a crime
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 68e9b7f6-60e5-4312-8b99-c0781676415d
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 9cb00c98dd70f354e9dd6e7762261c33, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 3
+    name: Blocking Shady District
+    disablesGameObject: 1
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 2f4b416a-937b-4b09-966c-71239424202a
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 60
+      xpReward: 60
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 34
+        level: 5
+        abilityUIDs: 650000006400000066000000
+        selectedRewards: 010000001a000000130000001d000000
+        hitPoints: 23
+        attack: 5
+        speed: 5
+        luck: 3
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 6500adc83af046249b90f28e4e3bc767, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 08a4d2a6f5e42e34481d533182e26e36, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 1ad0ea2b620b99a4399e07dca6b841d4, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 8
+    name: After commit a crime
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 125
+      xpReward: 75
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 59
+        level: 16
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 220000001a000000130000001d0000000100000023000000140000002400000002000000070000000300000008000000250000000900000004000000
+        hitPoints: 30
+        attack: 3
+        speed: 0
+        luck: 12
+        dodge: 16
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 17
+        abilityUIDs: 280000009b00000027000000
+        selectedRewards: 130000001a000000010000001d000000140000002200000002000000230000000300000024000000150000000700000004000000080000002500000009000000
+        hitPoints: 28
+        attack: 3
+        speed: 0
+        luck: 20
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 51
+        level: 11
+        abilityUIDs: 880000008a00000089000000
+        selectedRewards: 130000001a000000010000001d000000140000002200000007000000020000001500000003000000
+        hitPoints: 25
+        attack: 1
+        speed: 5
+        luck: 18
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 15
+        abilityUIDs: 910000002c0000002e000000
+        selectedRewards: 010000001a000000130000001d00000007000000020000002200000003000000080000000400000009000000140000000500000023000000
+        hitPoints: 45
+        attack: 3
+        speed: 0
+        luck: 9
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 19
+        level: 10
+        abilityUIDs: c2000000c3000000c1000000
+        selectedRewards: 010000001a000000130000001d0000002200000007000000020000002300000008000000
+        hitPoints: 36
+        attack: 2
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 48
+        level: 12
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 070000001a000000010000001d00000008000000020000000900000013000000220000000a00000014000000
+        hitPoints: 29
+        attack: 4
+        speed: 0
+        luck: 11
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 8
+      teamSizeWeight2: 24
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: a7b2858e6c0df724eae9522241ab479a, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.50735295, g: 0.7349899, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 9
+  _guid: 996b5fc0-117c-4578-a454-e7ba3f71db26
+  _name: Officer Doug
+  _nameKey: OFFICERDOUG
+  _preBattleSpriteId: 10
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 8
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 8d4283e650bcca141bf9cd565abfe2fd, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

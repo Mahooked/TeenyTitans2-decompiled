@@ -1,0 +1,1181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_THEFLASH_FIRSTCHAT
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 160
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_theflash_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Boy, the Speedforce sure is useful!
+      key: TT2CONVO_THEFLASH_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nobody likes a bragger, Flash.
+      key: TT2CONVO_THEFLASH_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_theflash_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_theflash_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You may not be able to use the Speedforce like I can, but there's still a way for you to turn back time!
+      key: TT2CONVO_THEFLASH_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 16
+      faceSpriteName: TT2_gui_theflash_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You can do it on figure purchases in the tower by using the pawn button! Try it!
+      key: TT2CONVO_THEFLASH_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 17
+      faceSpriteName: TTG_gui_robin_face8
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Intriguing...
+      key: TT2CONVO_THEFLASH_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TT2_gui_theflash_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 135
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 17
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TT2_gui_theflash
+    initialRightFaceSpriteName: TT2_gui_theflash_face1
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_theflash_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Boy, the Speedforce sure is useful!
+      key: TT2CONVO_THEFLASH_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nobody likes a bragger, bro.
+      key: TT2CONVO_THEFLASH_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_theflash_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_theflash_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You may not be able to use the Speedforce like I can, but there's still a way for you to turn back time!
+      key: TT2CONVO_THEFLASH_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 16
+      faceSpriteName: TT2_gui_theflash_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You can do it on figure purchases in the tower by using the pawn button! Try it!
+      key: TT2CONVO_THEFLASH_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Intriguing...
+      key: TT2CONVO_THEFLASH_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TT2_gui_theflash_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 135
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 17
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TT2_gui_theflash
+    initialRightFaceSpriteName: TT2_gui_theflash_face1
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_theflash_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Boy, the Speedforce sure is useful!
+      key: TT2CONVO_THEFLASH_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nobody likes a bragger, Flash.
+      key: TT2CONVO_THEFLASH_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_theflash_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_theflash_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You may not be able to use the Speedforce like I can, but there's still a way for you to turn back time!
+      key: TT2CONVO_THEFLASH_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 16
+      faceSpriteName: TT2_gui_theflash_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You can do it on figure purchases in the tower by using the pawn button! Try it!
+      key: TT2CONVO_THEFLASH_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Intriguing...
+      key: TT2CONVO_THEFLASH_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TT2_gui_theflash_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 135
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 17
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TT2_gui_theflash
+    initialRightFaceSpriteName: TT2_gui_theflash_face1
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_theflash_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Boy, the Speedforce sure is useful!
+      key: TT2CONVO_THEFLASH_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It is not polite to be the bragger, Friend Flash.
+      key: TT2CONVO_THEFLASH_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_theflash_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_theflash_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You may not be able to use the Speedforce like I can, but there's still a way for you to turn back time!
+      key: TT2CONVO_THEFLASH_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 16
+      faceSpriteName: TT2_gui_theflash_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You can do it on figure purchases in the tower by using the pawn button! Try it!
+      key: TT2CONVO_THEFLASH_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Intriguing...
+      key: TT2CONVO_THEFLASH_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TT2_gui_theflash_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 135
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 17
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TT2_gui_theflash
+    initialRightFaceSpriteName: TT2_gui_theflash_face1
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_theflash_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Boy, the Speedforce sure is useful!
+      key: TT2CONVO_THEFLASH_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nobody likes a bragger, bro.
+      key: TT2CONVO_THEFLASH_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_theflash_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_theflash_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You may not be able to use the Speedforce like I can, but there's still a way for you to turn back time!
+      key: TT2CONVO_THEFLASH_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 135
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_theflash
+      faceSpriteId: 16
+      faceSpriteName: TT2_gui_theflash_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You can do it on figure purchases in the tower by using the pawn button! Try it!
+      key: TT2CONVO_THEFLASH_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Intriguing...
+      key: TT2CONVO_THEFLASH_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TT2_gui_theflash_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 135
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 17
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TT2_gui_theflash
+    initialRightFaceSpriteName: TT2_gui_theflash_face1

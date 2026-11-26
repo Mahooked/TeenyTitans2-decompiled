@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_CYBORG_AFTERTOURNYMISSION
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_0
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 72
+    faceSpriteName: TTG_gui_cyborg_facehappy_2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: How goes the training, bro?
+    key: CONVO_CYBORG_AFTERTOURNYMISSION1
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 0813f3cdd0e582749aecac3c8f948c85, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Wait, aren't you mad about that defeat at the tournament?
+    key: CONVO_CYBORG_AFTERTOURNYMISSION2
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 53767129ceb96744cae344a1e360b285, type: 3}
+    otherFaceSpriteId: 72
+    otherFaceSpriteName: TTG_gui_cyborg_facehappy_2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 69
+    faceSpriteName: TTG_gui_cyborg_facehappy_1
+    poseSpriteId: -1
+    poseSpriteName:
+    message: 'No way, baby! I''m over all that tournament junk. Now I''m all about the new hotness: TEENY MODDING!'
+    key: CONVO_CYBORG_AFTERTOURNYMISSION3
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 68
+    faceSpriteName: TTG_gui_cyborg_excitedyelling
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You haven't seen a fig's true potential until you've installed a TOTALLY AMAZING modchip, you know.
+    key: CONVO_CYBORG_AFTERTOURNYMISSION4
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 18b11d468b5b00c458a02e57c12186d0, type: 3}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Why, yes... and I need my figs to be in tip top shape if I'm going to become the... MEGA TEENY CHAMPION!
+    key: CONVO_CYBORG_AFTERTOURNYMISSION5
+    formatArgs: []
+    clip: {fileID: 8300000, guid: e9f4280671eff3f4aa7c9eeb8e1754fa, type: 3}
+    otherFaceSpriteId: 58
+    otherFaceSpriteName: TTG_gui_cyborg_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 74
+    faceSpriteName: TTG_gui_cyborg_eyebrowup
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Uh, right... so, I'm working on creating my own special modchip, from scratch. If all goes according to plan, it'll be...
+    key: CONVO_CYBORG_AFTERTOURNYMISSION6
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 16
+    otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 68
+    faceSpriteName: TTG_gui_cyborg_excitedyelling
+    poseSpriteId: -1
+    poseSpriteName:
+    message: THE ULTIMATE, GREATEST, MOST SPECTACULAR MODCHIP OF ALL TIME!!!
+    key: CONVO_CYBORG_AFTERTOURNYMISSION7
+    formatArgs: []
+    clip: {fileID: 8300000, guid: c24e3c798b3c61d408b40282ce64de71, type: 3}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 58
+    faceSpriteName: TTG_gui_cyborg_faceidle
+    poseSpriteId: -1
+    poseSpriteName:
+    message: But first, I'm short a few parts. The junk I need, you can probably find it in the dumpsters around the city.
+    key: CONVO_CYBORG_AFTERTOURNYMISSION8
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 1
+    position: 1
+    bodySpriteId: 64
+    bodySpriteName: TTG_gui_npc_cyborg
+    faceSpriteId: 72
+    faceSpriteName: TTG_gui_cyborg_facehappy_2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Whaddya say?
+    key: CONVO_CYBORG_AFTERTOURNYMISSION9
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

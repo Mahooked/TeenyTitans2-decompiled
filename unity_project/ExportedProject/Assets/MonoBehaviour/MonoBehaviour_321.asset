@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 43
+  preBattleSprite: menu_vsscreen_portrait_trigon
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Trigon
+  conversationBodySprite: TTG_gui_trigon
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 12
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.4, z: -0.08}
+  colliderSize: {x: 0.35, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Relaxed
+    spriteName: TTG_gui_trigon_relaxed
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: Neutral
+    spriteName: TTG_gui_trigon_neutral
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_trigon_annoyed
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  - displayName: Cocky
+    spriteName: TTG_gui_trigon_cocky
+    rightSpriteName:
+    leftSpriteId: 15
+    rightSpriteId: -1
+  - displayName: Embarrased
+    spriteName: TTG_gui_trigon_embarrased
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Trigon After Victory
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 250
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 19
+        level: 15
+        abilityUIDs: c2000000c3000000c1000000
+        selectedRewards: 070000001a000000010000001d00000013000000020000001400000008000000220000000300000023000000150000000400000024000000
+        hitPoints: 50
+        attack: 9
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 28
+        level: 17
+        abilityUIDs: c4000000c5000000c6000000
+        selectedRewards: 070000001a000000130000001d000000080000000100000009000000140000000200000015000000030000000a000000160000000b0000001700000022000000
+        hitPoints: 65
+        attack: 11
+        speed: 0
+        luck: 10
+        dodge: 3
+        shinyRank: 3
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 77bd4aceec8a79d4e87d8a1689a9c89b, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 6bea9bac7a3bf574a8e1eafaeb583b73, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: effe1bde9cc8f15409d72c8e244fbba2, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Trigon 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 1
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 250
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 19
+        level: 15
+        abilityUIDs: c2000000c3000000c1000000
+        selectedRewards: 220000001a000000010000001d00000007000000020000002300000013000000
+        hitPoints: 50
+        attack: 9
+        speed: 3
+        luck: 9
+        dodge: 6
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 28
+        level: 17
+        abilityUIDs: 01000000030000001a000000
+        selectedRewards: 070000001a000000220000001d0000000800000001000000130000000200000009000000030000000a000000
+        hitPoints: 65
+        attack: 11
+        speed: 5
+        luck: 10
+        dodge: 3
+        shinyRank: 3
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: a2ac54d80f7c419458a6137fb7fe39ec, type: 2}
+      initialConversation: {fileID: 11400000, guid: 77bd4aceec8a79d4e87d8a1689a9c89b, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 6bea9bac7a3bf574a8e1eafaeb583b73, type: 2}
+      battleComplete: []
+      preBattleConversations:
+      - {fileID: 11400000, guid: 6f407e9c750750349a595f0b06e41c59, type: 2}
+      battleConditions:
+      - type: 0
+        amount: 10
+        uid: 0
+        tag:
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 37
+  _guid: 06da2f9b-59fa-480b-b2cd-5d09eddb53a5
+  _name: Trigon
+  _nameKey: TRIGON
+  _preBattleSpriteId: 44
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 37603db1ff8dda64299171c5407f38a8, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

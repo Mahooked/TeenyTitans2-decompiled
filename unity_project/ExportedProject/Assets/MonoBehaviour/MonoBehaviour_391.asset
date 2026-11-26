@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 98
+  preBattleSprite: menu_vsscreen_portrait_shazam
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Shazam
+  conversationBodySprite: TT2_gui_shazam
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 1
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 1
+  conversationFaces:
+  - displayName: smug mouth closed
+    spriteName: TT2_gui_shazam_face1
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: happy mouth open
+    spriteName: TT2_gui_shazam_face2
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: thinking
+    spriteName: TT2_gui_shazam_face3
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  - displayName: super mega happy
+    spriteName: TT2_gui_shazam_face4
+    rightSpriteName:
+    leftSpriteId: 0
+    rightSpriteId: -1
+  - displayName: smug mouth open
+    spriteName: TT2_gui_shazam_face5
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 4
+  dialogueFaceColor: {r: 1, g: 0.9847869, b: 0.44852942, a: 1}
+  dialogueOutlineColor: {r: 0.5147059, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 101
+  _guid: 00807191-fc06-4b3c-83b2-a711e9094e5a
+  _name: Shazam
+  _nameKey: SHAZAM
+  _preBattleSpriteId: 47
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: ba8089c37b9965f4bb2e2ff5c552c86a, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

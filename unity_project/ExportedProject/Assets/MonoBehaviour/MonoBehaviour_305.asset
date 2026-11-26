@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 40
+  preBattleSprite: menu_vsscreen_portrait_kitten
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Kitten
+  conversationBodySprite: TTG_gui_kitten
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 12
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TTG_gui_kitten_neutral
+    rightSpriteName:
+    leftSpriteId: 16
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_kitten_annoyed
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  - displayName: Whistling
+    spriteName: TTG_gui_kitten_whistling
+    rightSpriteName:
+    leftSpriteId: 15
+    rightSpriteId: -1
+  - displayName: ReadyToFight
+    spriteName: TTG_gui_kitten_readytofight
+    rightSpriteName:
+    leftSpriteId: 14
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Kitten 2 w mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 225
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 63
+        level: 16
+        abilityUIDs: 540000005500000053000000
+        selectedRewards: 010000001a000000220000001d0000000700000013000000020000000800000014000000230000000300000015000000090000000400000016000000
+        hitPoints: 70
+        attack: 9
+        speed: 0
+        luck: 20
+        dodge: 20
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 0}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Kiten Gotham
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 83
+        level: 8
+        abilityUIDs: dd000000db000000dc000000
+        selectedRewards: 220000001a000000130000001d0000002300000001000000070000002400000014000000
+        hitPoints: 26
+        attack: 1
+        speed: 0
+        luck: 18
+        dodge: 19
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 78
+        level: 7
+        abilityUIDs: d4000000d3000000d5000000
+        selectedRewards: 130000001a000000070000001d00000022000000010000001400000008000000150000000200000023000000
+        hitPoints: 32
+        attack: 2
+        speed: 0
+        luck: 39
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 33
+        level: 7
+        abilityUIDs: 8e0000008f00000090000000
+        selectedRewards: 010000001a000000130000001d0000000200000022000000140000000700000023000000
+        hitPoints: 32
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 11400000, guid: 36d603d33b3541e4cbe1731b500e2b02, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 1540a5267eefa5f4387a6e8b55d686f9, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: ab332f9dd9c74ec46bf86e29721ab2b3, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Kitten 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 97cf58d2-3574-46c7-b981-c4d2f4999294
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 225
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 63
+        level: 16
+        abilityUIDs: 540000005500000053000000
+        selectedRewards: 070000001a000000130000001d000000080000000100000009000000140000000a00000022000000020000000b000000030000002300000004000000
+        hitPoints: 70
+        attack: 9
+        speed: 0
+        luck: 20
+        dodge: 20
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete:
+      - {fileID: 0}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 0.703936, b: 0.94804287, a: 1}
+  dialogueOutlineColor: {r: 0.8602941, g: 0, b: 0.5161768, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 43
+  _guid: dfd8f9c2-22e3-47e3-a037-84ec637b1cd7
+  _name: Kitten
+  _nameKey: KITTEN
+  _preBattleSpriteId: 41
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 2
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: a3bd952f9ee4d464fbdb3d4641951822, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

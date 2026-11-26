@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 126
+  _characterName: Bathman
+  _characterNameKey: BATHMAN
+  _characterClass: 0
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 24
+  _baseAttack: 0
+  _baseLuck: 4
+  _baseDodge: 12
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 98
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_BATHMAN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Hero
+  - Cute
+  - Justice League
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 20
+    abilityId: 346
+  - position: 50
+    abilityId: 344
+  - position: 100
+    abilityId: 345
+  _portraitSprite: icon_bathman
+  _portraitSpriteId: 37
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.95, y: 0.78, z: 0.35}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.2, y: 0.94, z: 0.35}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.93, y: 0.17, z: -0.17}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 7.76}
+  _enemyCameraOffsetPositionZoomedOut: {x: 5.53, y: 0.49, z: -0.74}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 11.03}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.21, z: -0.26}
+  _battleCharacterPath: Prefabs/Characters/Battle/Bathman
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Bathman
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.54, y: 0.54, z: 0.54}
+  _shopFigureOffset: {x: -0.1, y: -0.76, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 282300002823000028230000282300002823000028230000282300002823000028230000282300002823000028230000282300002823000028230000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.4914576, g: 0.74264705, b: 0.6283126, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0.5147059, b: 0.8661257, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath:
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 390
+    cost: 3
+    rare: 0
+    texturePath: Textures/Bathman_Texture_orangegreen-1x
+    _colorSprite: menu_shop_repaint_color_greenandorange
+    _colorSpriteId: 20
+  - position: 0
+    id: 391
+    cost: 3
+    rare: 0
+    texturePath: Textures/Bathman_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 392
+    cost: 5
+    rare: 0
+    texturePath: Textures/Bathman_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4
+  - position: 0
+    id: 393
+    cost: 5
+    rare: 0
+    texturePath: Textures/Bathman_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 394
+    cost: 5
+    rare: 1
+    texturePath: Textures/Bathman_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10

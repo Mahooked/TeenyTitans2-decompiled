@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 30
+  preBattleSprite: menu_vsscreen_portrait_speedy
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Speedy
+  conversationBodySprite: TTG_gui_speedy
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 12
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TTG_gui_speedy_neutral
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_speedy_happy
+    rightSpriteName:
+    leftSpriteId: 15
+    rightSpriteId: -1
+  - displayName: Sassy
+    spriteName: TTG_gui_speedy_sassy
+    rightSpriteName:
+    leftSpriteId: 14
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Speedy After Victory
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 175
+      xpReward: 125
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 54
+        level: 10
+        abilityUIDs: 3f0000001300000040000000
+        selectedRewards: 130000001a000000010000001d0000002200000014000000070000002300000002000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 3
+        dodge: 15
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 59
+        level: 10
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 070000001a000000220000001d0000000100000023000000020000001300000024000000
+        hitPoints: 50
+        attack: 7
+        speed: 0
+        luck: 10
+        dodge: 13
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 3c056bb6fa137e54195641ac434900f4, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 1b882ef4f2f7e6b429e5134edda1abb3, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Speedy 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: 444ce61a-de9f-4998-b179-6dd22c7706c7
+      activeOnCompletedMissionUID: 4
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 1
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 54
+        level: 10
+        abilityUIDs: 3f0000001300000040000000
+        selectedRewards: 220000001a000000010000001d0000002300000007000000
+        hitPoints: 40
+        attack: 4
+        speed: 5
+        luck: 3
+        dodge: 15
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 59
+        level: 10
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 220000001a000000130000001d0000002300000007000000140000002400000001000000
+        hitPoints: 50
+        attack: 7
+        speed: 5
+        luck: 10
+        dodge: 13
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 0
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: f1617dd70bdcb9243a27453684071e95, type: 2}
+      initialConversation: {fileID: 11400000, guid: ae18d972c06fb4e4988645570ef5da00, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 11400000, guid: 3c056bb6fa137e54195641ac434900f4, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 1b882ef4f2f7e6b429e5134edda1abb3, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 3c056bb6fa137e54195641ac434900f4, type: 2}
+      preBattleConversations:
+      - {fileID: 11400000, guid: 491fd457c9e744b4d8473964859abc96, type: 2}
+      battleConditions:
+      - type: 1
+        amount: 1
+        uid: 0
+        tag:
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 0.97342795, b: 0.03676468, a: 1}
+  dialogueOutlineColor: {r: 0.75, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 25
+  _guid: a6005e74-97ad-4d83-819d-b19636ecefa3
+  _name: Speedy
+  _nameKey: SPEEDY
+  _preBattleSpriteId: 42
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: a4f28334315db9f4fa02dba25424cc8b, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

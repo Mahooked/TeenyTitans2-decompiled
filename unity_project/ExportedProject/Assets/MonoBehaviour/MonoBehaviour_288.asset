@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 45
+  preBattleSprite: menu_vsscreen_portrait_sadpete
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/SadPete
+  conversationBodySprite: TTG_gui_sadpete
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 0
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Arkham Inmate
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: so sad
+    spriteName: TTG_gui_sadpete
+    rightSpriteName: TTG_gui_sadpete
+    leftSpriteId: 0
+    rightSpriteId: 0
+  spawnSetups:
+  - id: 0
+    name: Sad Pete 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 45
+        level: 17
+        abilityUIDs: 870000008600000085000000
+        selectedRewards: 130000001a000000010000001d000000220000000700000014000000020000001500000008000000160000002300000017000000240000000300000009000000
+        hitPoints: 65
+        attack: 6
+        speed: 0
+        luck: 35
+        dodge: 9
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 16
+        abilityUIDs: bf000000be000000c0000000
+        selectedRewards: 130000001a000000070000001d0000002200000014000000010000001500000023000000080000002400000009000000160000000200000025000000
+        hitPoints: 60
+        attack: 6
+        speed: 0
+        luck: 12
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 16
+        abilityUIDs: 280000009b00000027000000
+        selectedRewards: 130000001a000000070000001d0000002200000001000000230000000800000002000000240000000900000003000000250000000a00000004000000
+        hitPoints: 50
+        attack: 7
+        speed: 0
+        luck: 14
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 62
+        level: 14
+        abilityUIDs: 3c0000003d0000003e000000
+        selectedRewards: 220000001a000000010000001d000000130000000700000014000000080000001500000002000000160000002300000003000000
+        hitPoints: 66
+        attack: 6
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 26
+        level: 14
+        abilityUIDs: 540000005500000053000000
+        selectedRewards: 010000001a000000220000001d000000130000000700000014000000230000000200000015000000080000002400000016000000
+        hitPoints: 45
+        attack: 5
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 44
+        level: 14
+        abilityUIDs: 710000007200000070000000
+        selectedRewards: 010000001a000000130000001d000000020000000700000022000000080000002300000003000000090000000400000024000000
+        hitPoints: 45
+        attack: 5
+        speed: 0
+        luck: 12
+        dodge: 12
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 10
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete:
+      - {fileID: 0}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.6764706, g: 0.5272491, b: 0.40289792, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 31
+  _guid: 34341f5e-8a26-418a-b64e-e95639c7165b
+  _name: Sad Pete
+  _nameKey: SADPETE
+  _preBattleSpriteId: 43
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 37603db1ff8dda64299171c5407f38a8, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

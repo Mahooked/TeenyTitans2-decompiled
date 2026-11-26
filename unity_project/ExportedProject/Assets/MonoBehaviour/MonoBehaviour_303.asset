@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 0
+  preBattleSprite: menu_vsscreen_portrait_robin
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Robin
+  conversationBodySprite: TTG_gui_robin
+  rightConversationBodySprite: TTG_gui_robin_player
+  leftConversationBodySpriteId: 3
+  rightConversationBodySpriteId: 60
+  conversationBubbleSprite: TTG_gui_dialoguebox_robin
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Idle
+    spriteName: TTG_gui_robin_faceidle
+    rightSpriteName:
+    leftSpriteId: 12
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_robin_faceangry
+    rightSpriteName:
+    leftSpriteId: 0
+    rightSpriteId: -1
+  - displayName: CockyEyesClosed
+    spriteName: TTG_gui_robin_faceeyesclosed
+    rightSpriteName:
+    leftSpriteId: 16
+    rightSpriteId: -1
+  - displayName: WideEyeShock
+    spriteName: TTG_gui_robin_facescared
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: SoUmmm
+    spriteName: TTG_gui_robin_facescared2
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  - displayName: HappyEyesClosed
+    spriteName: TTG_gui_robin_face6
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: Crying
+    spriteName: TTG_gui_robin_face7
+    rightSpriteName:
+    leftSpriteId: 15
+    rightSpriteId: -1
+  - displayName: SuperSuspciious
+    spriteName: TTG_gui_robin_face8
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  - displayName: SuperScared
+    spriteName: TTG_gui_robin_face9
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  - displayName: Confused
+    spriteName: TTG_gui_robin_face10
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Jazzed
+    spriteName: TTG_gui_robin_allthefigs
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TTG_gui_robin_faceangry2
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_robin_facehappy
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Ooo
+    spriteName: TTG_gui_robin_oooo
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 1
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 93
+        level: 1
+        abilityUIDs: fa000000f9000000
+        selectedRewards: 07000000
+        hitPoints: 12
+        attack: 0
+        speed: 5
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: After First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 93
+        level: 1
+        abilityUIDs: fa000000f9000000
+        selectedRewards:
+        hitPoints: 12
+        attack: 0
+        speed: 5
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.12554066, g: 0.9485294, b: 0.5058183, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0.41911763, b: 0.054918915, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_robin_battle_prebattle_new3
+  countdownCharacterUID: -1
+  _uid: 14
+  _guid: 73f8ebbe-8e22-4782-a536-b1d6046959a6
+  _name: Robin
+  _nameKey: ROBIN
+  _preBattleSpriteId: 5
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

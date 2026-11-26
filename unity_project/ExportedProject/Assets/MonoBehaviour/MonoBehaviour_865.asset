@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 118
+  _characterName: Booster Gold
+  _characterNameKey: BOOSTER_GOLD
+  _characterClass: 3
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 5
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 12
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 62
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_BOOSTERGOLD
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Hero
+  _actionMeterSize: 1
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 32
+    abilityId: 318
+  - position: 56
+    abilityId: 319
+  - position: 90
+    abilityId: 320
+  _portraitSprite: icon_boostergold
+  _portraitSpriteId: 18
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.86, y: 0.57, z: 0.47}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 5.82, y: 1.03, z: 1.08}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.64, y: 0.21, z: -0.4}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 9.02}
+  _enemyCameraOffsetPositionZoomedOut: {x: 4.6, y: -0.46, z: -1.14}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 2.18}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.07, z: -0.17}
+  _battleCharacterPath: Prefabs/Characters/Battle/BoosterGold
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/BoosterGold
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.47, y: 0.5, z: 0.5}
+  _shopFigureOffset: {x: 0.05, y: -0.55, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.07430819, g: 0.060932085, b: 0.3602941, a: 1}
+  _shopTextFaceColor: {r: 0.9703854, g: 1, b: 0.46323532, a: 1}
+  _shopTextOutlineColor: {r: 0.5441177, g: 0.3940163, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_boostergold
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 161
+    cost: 3
+    rare: 0
+    texturePath: Textures/BoosterGold_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 162
+    cost: 3
+    rare: 0
+    texturePath: Textures/BoosterGold_Texture_whiteandblack-1x
+    _colorSprite: menu_shop_repaint_color_whiteandblack
+    _colorSpriteId: 14
+  - position: 0
+    id: 163
+    cost: 5
+    rare: 1
+    texturePath: Textures/BoosterGold_Texture_gold-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17

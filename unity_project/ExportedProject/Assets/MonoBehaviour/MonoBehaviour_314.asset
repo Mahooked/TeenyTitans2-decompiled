@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 10
+  preBattleSprite: menu_vsscreen_portrait_drlight
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/DrLight
+  conversationBodySprite: TTG_gui_npc_drlight
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 15
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Angry 1
+    spriteName: TTG_gui_npc_drlight_faceangry
+    rightSpriteName:
+    leftSpriteId: 21
+    rightSpriteId: -1
+  - displayName: Angry 2
+    spriteName: TTG_gui_npc_drlight_faceangry_2
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  - displayName: Happy 1
+    spriteName: TTG_gui_npc_drlight_facehappy_1
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  - displayName: Happy 2
+    spriteName: TTG_gui_npc_drlight_facehappy_2
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  - displayName: Normal
+    spriteName: TTG_gui_npc_drlight_facenormal
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 7
+    name: Dr. Light Gotham With Bulb Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: 90
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 9
+        level: 5
+        abilityUIDs: 120000001300000015000000
+        selectedRewards: 070000001a000000010000001d000000
+        hitPoints: 24
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 58
+        level: 5
+        abilityUIDs: 7d0000007e0000007c000000
+        selectedRewards: 070000001a000000130000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Dr. Light 1
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: c47ad896-72c0-4bec-aff5-96dd463c7bb9
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 58
+        level: 5
+        abilityUIDs: 7d0000007c0000007e000000
+        selectedRewards: 130000001a000000010000001d000000
+        hitPoints: 26
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 9
+        level: 3
+        abilityUIDs: 120000001300000015000000
+        selectedRewards: 010000001a000000
+        hitPoints: 25
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 11
+        level: 3
+        abilityUIDs: 190000001600000000000000
+        selectedRewards: 220000001a000000
+        hitPoints: 22
+        attack: 3
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 35
+        level: 5
+        abilityUIDs: 290000002d0000002b000000
+        selectedRewards: 010000001a000000220000001d000000
+        hitPoints: 24
+        attack: 1
+        speed: 0
+        luck: 2
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete:
+      - {fileID: 0}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 5
+    name: Dr. Light Gotham
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: Dr. Light Gotham With Bulb Mission
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 58
+        level: 5
+        abilityUIDs: 7d0000007e0000007c000000
+        selectedRewards: 130000001a000000220000001d000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 8
+        dodge: 18
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 267ee5691c4d7c740ac17902e67acfe3, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 4
+    name: Dr. Light Villain Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 1
+      requiresMissionItem: 0
+      requiresBattleCondition: 1
+      battleConditionsExtendIntoBattle: 1
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 175
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 25
+        level: 12
+        abilityUIDs: 220000002300000021000000
+        selectedRewards: 070000001a000000220000001d0000001300000008000000010000001400000009000000
+        hitPoints: 40
+        attack: 5
+        speed: 0
+        luck: 8
+        dodge: 10
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 46
+        level: 12
+        abilityUIDs: af000000ad000000ae000000
+        selectedRewards: 130000001a000000010000001d0000000700000014000000080000000200000009000000
+        hitPoints: 50
+        attack: 7
+        speed: 5
+        luck: 11
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 53
+        level: 12
+        abilityUIDs: 7a000000790000007b000000
+        selectedRewards: 010000001a000000070000001d0000002200000008000000020000000900000003000000
+        hitPoints: 45
+        attack: 5
+        speed: 0
+        luck: 10
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 0
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: 137f5c24e993e794ab659566baccc3a6, type: 2}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 11400000, guid: 137f5c24e993e794ab659566baccc3a6, type: 2}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions:
+      - type: 3
+        amount: 0
+        uid: 0
+        tag:
+      - type: 3
+        amount: 0
+        uid: 0
+        tag:
+      - type: 3
+        amount: 0
+        uid: 0
+        tag:
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 0.77647066, b: 0, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 10
+  _guid: b0304595-b9f9-466d-bd33-6b6f0ac130ef
+  _name: Dr. Light
+  _nameKey: DRLIGHT
+  _preBattleSpriteId: 0
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 7
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 8d4283e650bcca141bf9cd565abfe2fd, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

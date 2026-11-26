@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 8
+  preBattleSprite: menu_vsscreen_portrait_hoodedhood
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/HoodedHood
+  conversationBodySprite: TTG_gui_hoodedhood
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 9
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Eye 1
+    spriteName: TTG_gui_hoodedhood_eye1
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: Eye 2
+    spriteName: TTG_gui_hoodedhood_eye2
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  - displayName: Eye 3
+    spriteName: TTG_gui_hoodedhood_eye3
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Eye 4
+    spriteName: TTG_gui_hoodedhood_eye4
+    rightSpriteName:
+    leftSpriteId: 5
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Hooded Hood
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: 4
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 1
+      poofsOut: 1
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_hood_prebattle1_kpr_notpitched
+    - Audio/VO/sfx_vo_hood_prebattle4_notpitched
+  countdownCharacterUID: 81
+  _uid: 13
+  _guid: c7031950-5305-46e5-8263-ab8c61460531
+  _name: The Hooded Hood
+  _nameKey: THEHOODEDHOOD
+  _preBattleSpriteId: 26
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: a3bd952f9ee4d464fbdb3d4641951822, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

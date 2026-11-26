@@ -1,0 +1,3245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_EASTERBUNNY_FIRSTTALK
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 115
+  completesMissionUID: 114
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 13
+      faceSpriteName: TTG_gui_robin_facehappy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: A tunnel! Talk about convenient!
+      key: TT2CONVO_EASTERBUNNY_1
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 144
+      position: 1
+      bodySpriteId: 20
+      bodySpriteName: empty
+      faceSpriteId: 20
+      faceSpriteName: empty
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooooooh hoo hoo hoo hooo...
+      key: TT2CONVO_EASTERBUNNY_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c51592f5093130c479799283bc0e80fa, type: 3}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_robin_facehappy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 2
+      faceSpriteName: TTG_gui_robin_face9
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That voice... oh man... it's...
+      key: TT2CONVO_EASTERBUNNY_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yum yum yuuuummmmm!!!
+      key: TT2CONVO_EASTERBUNNY_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 647edac47ccee684aa8cecff10dd7d1f, type: 3}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 2
+      faceSpriteName: TTG_gui_robin_face9
+      poseSpriteId: -1
+      poseSpriteName:
+      message: The Easter Bunny. Uh, hey.
+      key: TT2CONVO_EASTERBUNNY_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_easterbunny_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 10
+      faceSpriteName: TT2_gui_easterbunny_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmm, would you care for some of my delicious little eggs?
+      key: TT2CONVO_EASTERBUNNY_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TTG_gui_robin_face9
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm good.
+      key: TT2CONVO_EASTERBUNNY_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Listen, bunny. I need your tunnel to sneak into the Justice League. So move it.
+      key: TT2CONVO_EASTERBUNNY_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sniff... sniff... '
+      key: TT2CONVO_EASTERBUNNY_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 2
+      faceSpriteName: TTG_gui_robin_face9
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Um, was it something I said?
+      key: TT2CONVO_EASTERBUNNY_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'I just remembered: I lost some of my beautiful little eggs while I was hop hop hopping my cute little self through Metropolis!'
+      key: TT2CONVO_EASTERBUNNY_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TTG_gui_robin_face9
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You're going to make me fetch them for you before you'll let me use your tunnel, aren't you?
+      key: TT2CONVO_EASTERBUNNY_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmhmmmmmm!
+      key: TT2CONVO_EASTERBUNNY_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_robin_face10
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 2
+      faceSpriteName: TTG_gui_robin_face9
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alright, alright. Just... please, stop with that face.
+      key: TT2CONVO_EASTERBUNNY_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_easterbunny_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmmmmmmoooook!
+      key: TT2CONVO_EASTERBUNNY_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TTG_gui_robin_face9
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 63
+      faceSpriteName: TTG_gui_beastboy_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: A tunnel! Talk about convenient!
+      key: TT2CONVO_EASTERBUNNY_1
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 144
+      position: 1
+      bodySpriteId: 20
+      bodySpriteName: empty
+      faceSpriteId: 20
+      faceSpriteName: empty
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooooooh hoo hoo hoo hooo...
+      key: TT2CONVO_EASTERBUNNY_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c51592f5093130c479799283bc0e80fa, type: 3}
+      otherFaceSpriteId: 63
+      otherFaceSpriteName: TTG_gui_beastboy_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 73
+      faceSpriteName: TTG_gui_beastboy_freakedout
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That voice... oh man... it's...
+      key: TT2CONVO_EASTERBUNNY_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yum yum yuuuummmmm!!!
+      key: TT2CONVO_EASTERBUNNY_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 647edac47ccee684aa8cecff10dd7d1f, type: 3}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: The Easter Bunny. Uh, hey.
+      key: TT2CONVO_EASTERBUNNY_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_easterbunny_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 10
+      faceSpriteName: TT2_gui_easterbunny_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmm, would you care for some of my delicious little eggs?
+      key: TT2CONVO_EASTERBUNNY_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm good.
+      key: TT2CONVO_EASTERBUNNY_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Listen, bunny. I need your tunnel to sneak into the Justice League.
+      key: TT2CONVO_EASTERBUNNY_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sniff... sniff... '
+      key: TT2CONVO_EASTERBUNNY_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 62
+      otherFaceSpriteName: TTG_gui_beastboy_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 73
+      faceSpriteName: TTG_gui_beastboy_freakedout
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Um, was it something I said?
+      key: TT2CONVO_EASTERBUNNY_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'I just remembered: I lost some of my beautiful little eggs while I was hop hop hopping my cute little self through Metropolis!'
+      key: TT2CONVO_EASTERBUNNY_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You're going to make me fetch them for you before you'll let me use your tunnel, aren't you?
+      key: TT2CONVO_EASTERBUNNY_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmhmmmmmm!
+      key: TT2CONVO_EASTERBUNNY_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 73
+      faceSpriteName: TTG_gui_beastboy_freakedout
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Alright, alright. Just... please, stop with that face.
+      key: TT2CONVO_EASTERBUNNY_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_easterbunny_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmmmmmmoooook!
+      key: TT2CONVO_EASTERBUNNY_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 73
+      otherFaceSpriteName: TTG_gui_beastboy_freakedout
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 37
+      faceSpriteName: TTG_gui_raven_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: A tunnel! Talk about convenient!
+      key: TT2CONVO_EASTERBUNNY_1
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 144
+      position: 1
+      bodySpriteId: 20
+      bodySpriteName: empty
+      faceSpriteId: 20
+      faceSpriteName: empty
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooooooh hoo hoo hoo hooo...
+      key: TT2CONVO_EASTERBUNNY_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c51592f5093130c479799283bc0e80fa, type: 3}
+      otherFaceSpriteId: 37
+      otherFaceSpriteName: TTG_gui_raven_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That voice... oh man... it's...
+      key: TT2CONVO_EASTERBUNNY_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yum yum yuuuummmmm!!!
+      key: TT2CONVO_EASTERBUNNY_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 647edac47ccee684aa8cecff10dd7d1f, type: 3}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: The Easter Bunny. Uh, hey.
+      key: TT2CONVO_EASTERBUNNY_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_easterbunny_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 10
+      faceSpriteName: TT2_gui_easterbunny_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmm, would you care for some of my delicious little eggs?
+      key: TT2CONVO_EASTERBUNNY_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm good.
+      key: TT2CONVO_EASTERBUNNY_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 18
+      faceSpriteName: TTG_gui_raven_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Listen, bunny. I need your tunnel to sneak into the Justice League. So move it!
+      key: TT2CONVO_EASTERBUNNY_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sniff... sniff... '
+      key: TT2CONVO_EASTERBUNNY_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TTG_gui_raven_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Was it something I said?
+      key: TT2CONVO_EASTERBUNNY_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'I just remembered: I lost some of my beautiful little eggs while I was hop hop hopping my cute little self through Metropolis!'
+      key: TT2CONVO_EASTERBUNNY_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Great. And now you need me to fetch them for you, right?
+      key: TT2CONVO_EASTERBUNNY_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmhmmmmmm!
+      key: TT2CONVO_EASTERBUNNY_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 23
+      otherFaceSpriteName: TTG_gui_raven_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Fine. Just... please, stop with that face.
+      key: TT2CONVO_EASTERBUNNY_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_easterbunny_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmmmmmmoooook!
+      key: TT2CONVO_EASTERBUNNY_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooh, the tunnel! That is the most convenient.
+      key: TT2CONVO_EASTERBUNNY_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 144
+      position: 1
+      bodySpriteId: 20
+      bodySpriteName: empty
+      faceSpriteId: 20
+      faceSpriteName: empty
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooooooh hoo hoo hoo hooo...
+      key: TT2CONVO_EASTERBUNNY_17
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c51592f5093130c479799283bc0e80fa, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That voice... could it be...
+      key: TT2CONVO_EASTERBUNNY_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yum yum yuuuummmmm!!!
+      key: TT2CONVO_EASTERBUNNY_19
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 647edac47ccee684aa8cecff10dd7d1f, type: 3}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: The Easter Bunny...
+      key: TT2CONVO_EASTERBUNNY_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_easterbunny_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 10
+      faceSpriteName: TT2_gui_easterbunny_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmm, would you care for some of my delicious little eggs?
+      key: TT2CONVO_EASTERBUNNY_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I think not.
+      key: TT2CONVO_EASTERBUNNY_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Bunny of Easter, I need your tunnel to sneak into the Justice League.
+      key: TT2CONVO_EASTERBUNNY_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sniff... sniff... '
+      key: TT2CONVO_EASTERBUNNY_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Was it something I said?
+      key: TT2CONVO_EASTERBUNNY_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'I just remembered: I lost some of my beautiful little eggs while I was hop hop hopping my cute little self through Metropolis!'
+      key: TT2CONVO_EASTERBUNNY_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_starfire_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ' I help you, Easter creature, if you promise to stop with the making of that face?'
+      key: TT2CONVO_EASTERBUNNY_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmmmmmmoooook!
+      key: TT2CONVO_EASTERBUNNY_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_starfire_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: A tunnel! Talk about convenient!
+      key: TT2CONVO_EASTERBUNNY_1
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 144
+      position: 1
+      bodySpriteId: 20
+      bodySpriteName: empty
+      faceSpriteId: 20
+      faceSpriteName: empty
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooooooh hoo hoo hoo hooo...
+      key: TT2CONVO_EASTERBUNNY_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c51592f5093130c479799283bc0e80fa, type: 3}
+      otherFaceSpriteId: 8
+      otherFaceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That voice... oh man... it's...
+      key: TT2CONVO_EASTERBUNNY_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yum yum yuuuummmmm!!!
+      key: TT2CONVO_EASTERBUNNY_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 647edac47ccee684aa8cecff10dd7d1f, type: 3}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: The Easter Bunny. Uh, hey.
+      key: TT2CONVO_EASTERBUNNY_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TT2_gui_easterbunny_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 10
+      faceSpriteName: TT2_gui_easterbunny_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmm, would you care for some of my delicious little eggs?
+      key: TT2CONVO_EASTERBUNNY_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm good.
+      key: TT2CONVO_EASTERBUNNY_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Listen, bunny. I need your tunnel to sneak into the Justice League. So move it!
+      key: TT2CONVO_EASTERBUNNY_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TT2_gui_easterbunny_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sniff... sniff... '
+      key: TT2CONVO_EASTERBUNNY_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Was it something I said?
+      key: TT2CONVO_EASTERBUNNY_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_easterbunny_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'I just remembered: I lost some of my beautiful little eggs while I was hop hop hopping my cute little self through Metropolis!'
+      key: TT2CONVO_EASTERBUNNY_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Great. And now you need me to fetch them for you, right?
+      key: TT2CONVO_EASTERBUNNY_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_easterbunny_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 14
+      faceSpriteName: TT2_gui_easterbunny_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmhmmmmmm!
+      key: TT2CONVO_EASTERBUNNY_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Fine. Just... please, stop with that face.
+      key: TT2CONVO_EASTERBUNNY_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_easterbunny_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 124
+      position: 1
+      bodySpriteId: 4
+      bodySpriteName: TT2_gui_easterbunny
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_easterbunny_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mmmmmmmmmoooook!
+      key: TT2CONVO_EASTERBUNNY_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

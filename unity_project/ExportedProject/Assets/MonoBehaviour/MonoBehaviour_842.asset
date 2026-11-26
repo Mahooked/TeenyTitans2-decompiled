@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 51
+  _characterName: Super Silkie
+  _characterNameKey: SUPERSILKIE
+  _characterClass: 2
+  _characterRarity: 4
+  _characterFaction: 0
+  _baseHitPoints: 16
+  _baseAttack: 0
+  _baseLuck: 9
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 90
+  _libraryDescription: It's a bird! It's a plane! It's a… Silkie?
+  _libraryDescriptionKey: WIKI_SUPERSILKIE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Teen Titans
+  - The Silkie
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 4
+  _abilitySlots:
+  - position: 18
+    abilityId: 136
+  - position: 43
+    abilityId: 138
+  - position: 100
+    abilityId: 137
+  _portraitSprite: icon_supersilkie
+  _portraitSpriteId: 258
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.51, y: -0.06, z: 0.36}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.3, y: -0.66, z: -0.37}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 7.74}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.85, y: 0.39, z: 0}
+  _battleCharacterPath: Prefabs/Characters/Battle/Silkie_Super
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Silkie_Super
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.55, y: 0.55, z: 0.55}
+  _shopFigureOffset: {x: 0, y: -0.62, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.4186851, g: 0.61683863, b: 0.8897059, a: 1}
+  _shopTextFaceColor: {r: 0.9044118, g: 0, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_SuperSilkie
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 275
+    cost: 2
+    rare: 0
+    texturePath: Textures/silkie_super_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 276
+    cost: 3
+    rare: 0
+    texturePath: Textures/silkie_super_Texture_blackandsilver-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 277
+    cost: 5
+    rare: 1
+    texturePath: Textures/silkie_super_Texture_blueandyellow-1x
+    _colorSprite: menu_shop_repaint_color_redandblue
+    _colorSpriteId: 12

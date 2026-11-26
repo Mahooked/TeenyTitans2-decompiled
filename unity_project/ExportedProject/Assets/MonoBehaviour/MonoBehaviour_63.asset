@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e63b46beee20070b24e2e56340609c5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 41
+  _itemName: Swamp Thing Jr.
+  _itemNameKey: ACC_SWAMPTHING
+  _itemDescription: Continually roots the opponent
+  _itemDescriptionKey: ACC_SWAMPTHING_DESC
+  _itemShortDescription: Root!
+  _itemShortDescriptionKey:
+  _stackSize: 1
+  _iconSprite: TT2_gui_accesory_kryptonite
+  _iconSpriteId: 161
+  _effects:
+  - triggerType: 0
+    effectType: 10
+    probability: 1
+    useProbabilityInDescription: 0
+    statType: 0
+    actionMeterEffect: 0
+    statusEffect: 22
+    targetType: 1
+    intValue: 0
+    intValue2: 0
+    intValue3: 0
+    intValue4: 0
+    floatValue: 0
+    boolValue: 0
+    boolValue2: 0
+    boolValue3: 0
+    boolValue4: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 5.1
+      _floatValue2: 0
+      _stringValue1: Prefabs/StatusEffects/BlackMagicChains
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    effectOrderIntVal: -1
+    effectOrderFloatVal: -1
+    factionOverrides: []
+    accessoryTriggerType: 4
+    animEventString:
+    timerDuration:
+      minValue: 5
+      maxValue: 5
+    tickImmediately: 0
+    playAnimation: 1
+    playSoundEffect: 0
+    animationName: hit
+    animationNameEnemy: hit
+    animationPlayOffset: 0.12
+    soundEffectPath:
+    soundEffectDelay: 0
+    autoReapplyEffect: 0
+  - triggerType: 0
+    effectType: 10
+    probability: 1
+    useProbabilityInDescription: 0
+    statType: 0
+    actionMeterEffect: 0
+    statusEffect: 22
+    targetType: 1
+    intValue: 0
+    intValue2: 0
+    intValue3: 0
+    intValue4: 0
+    floatValue: 0
+    boolValue: 0
+    boolValue2: 0
+    boolValue3: 0
+    boolValue4: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 5.1
+      _floatValue2: 0
+      _stringValue1:
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    effectOrderIntVal: -1
+    effectOrderFloatVal: -1
+    factionOverrides: []
+    accessoryTriggerType: 1
+    animEventString:
+    timerDuration:
+      minValue: 0
+      maxValue: 0
+    tickImmediately: 0
+    playAnimation: 0
+    playSoundEffect: 0
+    animationName:
+    animationNameEnemy:
+    animationPlayOffset: 0
+    soundEffectPath:
+    soundEffectDelay: 0
+    autoReapplyEffect: 0
+  _animationCues:
+  - animationTriggerType: 5
+    animation: hit
+    animationP2:
+    animEventString:
+    timerDuration: 0
+    triggerBattleWait: 0
+    ignoreInterruptFrame: 0
+    triggerCameraAnimation: 0
+    cameraAnimatorController: {fileID: 0}
+    cameraAnimation:
+    playSoundEffect: 0
+    soundEffectPath:
+    soundEffectPlayOffset: 0
+    fadeOutMusicGroup: 0
+  cameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  cameraOffsetPositionZoomedOutEnemy: {x: 0, y: 0, z: 0}
+  offsetPosition: {x: -1.79, y: -0.2, z: -4}
+  enemyOffsetPosition: {x: -1.79, y: -0.2, z: 4}
+  maxHealthLowest: 20
+  maxHealthHighest: 40
+  prefabPath: Prefabs/Accessories/Kryptonite
+  modelPath: Prefabs/Accessories/Models/Kryptonite
+  modelViewerAnimation: menu_idle
+  modelViewerAnimationTime: 0
+  modelViewerOffset: {x: 0, y: 0, z: 0}
+  modelViewerOffsetIpad: {x: 0, y: 0, z: 0}
+  modelViewerCameraOffset: {x: 0, y: 0.7, z: 0}
+  modelViewerCameraRotationOffset: {x: 0, y: 0, z: 0}
+  cityRewardAnimation: menu_idle
+  particlePath:
+  showInTower: 0
+  _batteryChargeUpRate: 2
+  _batteryChargeUpPercent: 1
+  _batteryDrainRate: 0.2
+  _batteryDrainPercent: 1
+  _introSoundPath: Audio/SFX/sfx_battle_accessory_justicecoin_arrive
+  _introVOPaths: []
+  _introAnimation: swap in
+  _introAnimationEnemy:
+  _cost: 514
+  _shopAnimation: menu_idle
+  _shopOffsetPosition: {x: 0, y: -0.022, z: 0}
+  _shopRotation: {x: 0, y: -90, z: 0}
+  _shopScale: {x: 0.045, y: 0.045, z: 0.045}
+  _revealAnimation: menu_idle
+  _revealOffsetPosition: {x: 0.01, y: -1.29, z: 0.005}
+  _revealRotation: {x: 0, y: -184.948, z: 0}
+  _revealScale: {x: 1, y: 1, z: 1}

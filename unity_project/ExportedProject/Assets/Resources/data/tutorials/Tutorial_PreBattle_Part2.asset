@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f250a1fd7b9cd1044586e07f282459a, type: 3}
+  m_Name: Tutorial_PreBattle_Part2
+  m_EditorClassIdentifier:
+  tutorialName: PreBattlePart2
+  tutorialPrerequisites:
+  - PrebattlePart1_Complete
+  - BattleTutorial2_Complete
+  - BattleTutorial1_Complete
+  targetScene: PreBattle
+  targetScenes:
+  - PreBattle
+  debugTutorial: 0
+  debugStartAtStep: 0
+  debugMeetPrerequisites: 0

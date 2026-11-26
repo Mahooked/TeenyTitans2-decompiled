@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 65
+  _characterName: Dad Nightwing
+  _characterNameKey: DADNIGHTWING
+  _characterClass: 0
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 25
+  _baseAttack: 0
+  _baseLuck: 6
+  _baseDodge: 9
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 74
+  _libraryDescription: 'Nightwing has learned a very valuable lesson: with great adulthood comes great responsibility... also, a mullet.'
+  _libraryDescriptionKey: WIKI_DADNIGHTWING
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Cute
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 4
+  _abilitySlots:
+  - position: 30
+    abilityId: 184
+  - position: 60
+    abilityId: 183
+  - position: 100
+    abilityId: 185
+  _portraitSprite: icon_nightwing_baby
+  _portraitSpriteId: 23
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.6, y: 0.51, z: 0.33}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.97, y: -0.59, z: -0.27}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 3.77}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.71, y: 0.9, z: -0.03}
+  _battleCharacterPath: Prefabs/Characters/Battle/NightwingDad
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/NightwingDad
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.55, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0.13, y: -0.55, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: bc020000cb020000da020000ee020000ee020000f8020000020300002003000020030000200300002003000020030000200300002003000020030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.9960785, g: 0.609, b: 0.9960785, a: 1}
+  _shopTextFaceColor: {r: 0.102724925, g: 0.29971835, b: 0.36764705, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_DadNight
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 267
+    cost: 3
+    rare: 0
+    texturePath: Textures/DadNightwing_Texture_pinkandgreen-1x
+    _colorSprite: menu_shop_repaint_color_redandgreen
+    _colorSpriteId: 25
+  - position: 0
+    id: 268
+    cost: 3
+    rare: 0
+    texturePath: Textures/NightwingDad_Texture_purpleyellow-1x
+    _colorSprite: menu_shop_repaint_color_purpleandyellow
+    _colorSpriteId: 24
+  - position: 0
+    id: 342
+    cost: 3
+    rare: 0
+    texturePath: Textures/NightwingDad_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4

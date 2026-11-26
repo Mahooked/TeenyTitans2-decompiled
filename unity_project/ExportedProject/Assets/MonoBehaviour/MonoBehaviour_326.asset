@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 65
+  preBattleSprite: menu_vsscreen_portrait_killercroc
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/KillerCroc
+  conversationBodySprite: TTG_gui_killercroc
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 15
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Animal
+  - Arkham Inmate
+  conversationBodySpriteId: 15
+  conversationFaces:
+  - displayName: Idle
+    spriteName: TTG_gui_killercroc_idle
+    rightSpriteName:
+    leftSpriteId: 16
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TTG_gui_killercroc_angry
+    rightSpriteName:
+    leftSpriteId: 18
+    rightSpriteId: -1
+  - displayName: Intrigued
+    spriteName: TTG_gui_killercroc_intrigued
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 88
+        level: 14
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 220000001a000000130000001d00000007000000010000001400000023000000080000001500000024000000160000002500000009000000
+        hitPoints: 75
+        attack: 9
+        speed: 0
+        luck: 10
+        dodge: 5
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.3372549, g: 0.76470596, b: 0.6392157, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0.18382353, b: 0.05943505, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 68
+  _guid: 9be2783b-cbd7-4198-a985-c3586d738264
+  _name: Killer Croc
+  _nameKey: KILLERCROC
+  _preBattleSpriteId: 77
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 3d565341dd79df746b4426a607764d41, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

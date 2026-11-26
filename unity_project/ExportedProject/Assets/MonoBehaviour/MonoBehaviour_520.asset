@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40d758b3340e3c4bfb959d44ddf8e54, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 26
+  _abilityName: Dance! (Cyborg 80s)
+  _abilityNameKey: DANCE
+  _abilityDescription: Temporarily speeds up the team's Battle Bar
+  _abilityDescriptionKey: DANCE_DESC_2
+  _effectDescription: +Battle Bar Speed
+  _effectDescriptionKey: DANCE_DESC_1
+  _iconSprite: TTG_battlebar_starfire_dance
+  _iconSpriteId: 269
+  _type: 2
+  _castTime: 0
+  _numChargesRequired: 0
+  _channelingData:
+    speed: 0
+    channelingSteps: []
+  _cooldownTime: 0
+  _isDodgeable: 1
+  _animName:
+  _numUses: -1
+  _healthCost: 0
+  _healthCostPercent: 0
+  _targetCount: 0
+  _targetType: 0
+  _intValue1: 4
+  _intValue2: 0
+  _floatValue1: 13
+  _floatValue2: 13
+  _rangedIntValue1:
+    minValue: 0
+    maxValue: 0
+  _rangedIntValue2:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue1:
+    minValue: 0
+    maxValue: 11
+  _rangedFloatValue2:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue3:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue4:
+    minValue: 0
+    maxValue: 0
+  _boolValue1: 0
+  _vector3Value1: {x: 0, y: 0, z: 0}
+  _stringValue1:
+  _stringValue2:
+  _damageType: 0
+  _statType: 0
+  _actionMeterEffect: 3
+  _statusEffect: 2
+  _secondaryStatusEffect: 0
+  _secondaryStatusEffectData:
+    _probability: 1
+    _ignoresDodge: 1
+    _intValue1: 0
+    _intValue2: 0
+    _floatValue1: 0
+    _floatValue2: 0
+    _stringValue1:
+    _stringValue2:
+    _rangedIntValue1:
+      minValue: 0
+      maxValue: 0
+    _rangedIntValue2:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue1:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue2:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue3:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue4:
+      minValue: 0
+      maxValue: 0
+    _boolValue1: 0
+  _beatBoxType: 0
+  _tossObjects: []
+  _shinyEffectDescription:
+  _shinyEffectDescriptionKey: SHINY_FASTER
+  _shinyEffect:
+    triggerType: 1
+    effectType: 4
+    probability: 1
+    targetType: 0
+    statusEffect: 0
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 0
+      _floatValue2: 0
+      _stringValue1:
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    isDodgeable: 1
+    intValue1: 5
+    intValue2: 0
+    floatValue1: 13
+    floatValue2: 0
+    stringValue1:
+    stringValue2:
+    rangedIntValue1:
+      minValue: 0
+      maxValue: 0
+    rangedIntValue2:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue1:
+      minValue: 0
+      maxValue: 11
+    rangedFloatValue2:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue3:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue4:
+      minValue: 0
+      maxValue: 0
+    boolValue1: 0
+  _batteryEffects: []
+  _scriptName: AbilityScript_Default
+  _castSoundPath:
+  _castSoundDelay: 0
+  _castVOSoundPaths: []
+  _castVOSoundDelays: []
+  _castVOSoundProbability: 1
+  _soundPath:
+  _soundDelay: 0
+  _voSoundPaths:
+  - Audio/VO/sfx_vo_cyborg_battle_dance1_kpr2
+  - Audio/VO/sfx_vo_cyborg_battle_dance1_kpr3
+  - Audio/VO/sfx_vo_cyborg_battle_dance2_kpr
+  _voSoundDelays:
+  - 0
+  - 0
+  - 0
+  _voSoundProbability: 0.718
+  _hitSoundPath:
+  _hitSoundDelay: 0
+  _buffDropType: 0
+  _rangeType: 0
+  _pauseGameplayOnUse: 1
+  _useDiminishingReturns: 1
+  _overrideAbilityUseLimit: 1
+  _abilityUseLimitOverride: 1

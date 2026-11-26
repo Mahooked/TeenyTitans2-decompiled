@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 123
+  _characterName: The Flash
+  _characterNameKey: THE_FLASH
+  _characterClass: 2
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 15
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 93
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_THEFLASH
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 25
+    abilityId: 328
+  - position: 50
+    abilityId: 330
+  - position: 100
+    abilityId: 329
+  _portraitSprite: icon_flash
+  _portraitSpriteId: 40
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.52, y: 0.64, z: 0.35}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.87, y: 0.78, z: 0.67}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.72, y: 0.37, z: -0.18}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 6.97}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.46, y: 0.56, z: -0.74}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 8.81}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.08, z: -0.15}
+  _battleCharacterPath: Prefabs/Characters/Battle/TheFlash
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Flash
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.53, y: 0.53, z: 0.53}
+  _shopFigureOffset: {x: 0, y: -0.7, z: 0.05}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 282300002823000028230000282300002823000028230000282300002823000028230000282300002823000028230000282300002823000028230000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 1, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0.9487829, b: 0.25735295, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_flash
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 255
+    cost: 3
+    rare: 0
+    texturePath: Textures/Flash_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 256
+    cost: 5
+    rare: 0
+    texturePath: Textures/Flash_Texture_silver-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 257
+    cost: 6
+    rare: 0
+    texturePath: Textures/Flash_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_redandyellow
+    _colorSpriteId: 34
+  - position: 0
+    id: 401
+    cost: 5
+    rare: 0
+    texturePath: Textures/Flash_Texture_blueandgrey-1x
+    _colorSprite: menu_shop_repaint_color_whiteandpurple
+    _colorSpriteId: 5
+  - position: 0
+    id: 402
+    cost: 5
+    rare: 1
+    texturePath: Textures/Flash_Texture_blue-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30

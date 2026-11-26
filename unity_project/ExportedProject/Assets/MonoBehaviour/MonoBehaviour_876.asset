@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 113
+  _characterName: Clark Kent
+  _characterNameKey: CLARK_KENT
+  _characterClass: 0
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 24
+  _baseAttack: 0
+  _baseLuck: 10
+  _baseDodge: 7
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 9
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 29
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_CLARKKENT
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Cute
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 57
+    abilityId: 304
+  - position: 30
+    abilityId: 303
+  - position: 80
+    abilityId: 302
+  _portraitSprite: icon_clarkkent
+  _portraitSpriteId: 27
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2.49, y: 0.64, z: 0.59}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.32, y: 0.85, z: 0.7}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 3, y: 0.12, z: -0.68}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 6.22}
+  _enemyCameraOffsetPositionZoomedOut: {x: 4.44, y: 0, z: -1.06}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 5.19}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.48, z: 0}
+  _battleCharacterPath: Prefabs/Characters/Battle/ClarkKent
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/ClarkKent
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.5, y: 0.5, z: 0.5}
+  _shopFigureOffset: {x: 0, y: -0.7, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 960000009600000096000000960000009600000096000000960000009600000096000000960000009600000096000000960000009600000096000000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.31164613, g: 0.16333261, b: 0.3897059, a: 1}
+  _shopTextFaceColor: {r: 0.95294124, g: 0.95294124, b: 0.73333335, a: 1}
+  _shopTextOutlineColor: {r: 0.11764707, g: 0.08235294, b: 0.019607844, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_clarkkent
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 168
+    cost: 2
+    rare: 0
+    texturePath: Textures/ClarkKent_Texture_brownandtan-1x
+    _colorSprite: menu_shop_repaint_color_brownandtan
+    _colorSpriteId: 8
+  - position: 0
+    id: 169
+    cost: 2
+    rare: 0
+    texturePath: Textures/ClarkKent_Texture_blackandgrey-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 170
+    cost: 3
+    rare: 1
+    texturePath: Textures/ClarkKent_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandsilver
+    _colorSpriteId: 26

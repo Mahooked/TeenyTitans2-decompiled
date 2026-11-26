@@ -1,0 +1,708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_HoodedHood_afterpetstore
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 54
+  initialRightCharacter: 8
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName: TTG_gui_robin_dog
+  initialLeftFaceSpriteName: TTG_gui_robin_facescared
+  initialRightBodySpriteId: 9
+  initialRightFaceSpriteId: 3
+  initialRightBodySpriteName: TTG_gui_hoodedhood
+  initialRightFaceSpriteName: TTG_gui_hoodedhood_eye1
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_hoodedhood_eye2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: POOF!
+    key: CONVO_HoodedHood_afterpetstore
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 54
+    position: 0
+    bodySpriteId: -1
+    bodySpriteName: TTG_gui_robin_dog
+    faceSpriteId: -1
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: It's... you! The Hooded Hood!
+    key: CONVO_HoodedHood_afterpetstore2
+    formatArgs: []
+    clip: {fileID: 8300000, guid: a6c901f06db30774fba6b4e95404a691, type: 3}
+    otherFaceSpriteId: 11
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_hoodedhood_eye3
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Indeed. Quick wit for a man in a dog outfit.
+    key: CONVO_HoodedHood_afterpetstore3
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_facescared
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 54
+    position: 0
+    bodySpriteId: -1
+    bodySpriteName: TTG_gui_robin_dog
+    faceSpriteId: -1
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ack!!!
+    key: CONVO_HoodedHood_afterpetstore4
+    formatArgs: []
+    clip: {fileID: 8300000, guid: c81e637fd5e0aa1488c89ba81b8841a6, type: 3}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Alright, Hood! Word on the street says you're the local champ...
+    key: CONVO_HoodedHood_afterpetstore5
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 3
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Well, not anymore! There's a new name in figure battling!
+    key: CONVO_HoodedHood_afterpetstore6
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 6471a23676014a14d84c9fffb38c20de, type: 3}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_robin_face10
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Me! My name!
+    key: CONVO_HoodedHood_afterpetstore7
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Um, it's Robin, by the way... Don't know if you already knew my...
+    key: CONVO_HoodedHood_afterpetstore8
+    formatArgs: []
+    clip: {fileID: 8300000, guid: afcb4d60a0b8a6245aaf04de83edb579, type: 3}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 17
+    faceSpriteName: TTG_gui_robin_face8
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Whatever! Enough chit chat, let's throw down!
+    key: CONVO_HoodedHood_afterpetstore9
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_10
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 3
+    faceSpriteName: TTG_gui_hoodedhood_eye1
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You've got a long road ahead before you're ready to face me.
+    key: CONVO_HoodedHood_afterpetstore10
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 17
+    otherFaceSpriteName: TTG_gui_robin_face8
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_11
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 5
+    faceSpriteName: TTG_gui_hoodedhood_eye4
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Seek me out when you've got another trophy under your belt, dog boy.
+    key: CONVO_HoodedHood_afterpetstore11
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 17
+    otherFaceSpriteName: TTG_gui_robin_face8
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_12
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 54
+    position: 1
+    bodySpriteId: -1
+    bodySpriteName:
+    faceSpriteId: -1
+    faceSpriteName:
+    poseSpriteId: -1
+    poseSpriteName:
+    message: POOF!
+    key: CONVO_HoodedHood_afterpetstore12
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 17
+    otherFaceSpriteName: TTG_gui_robin_face8
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_13
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 7
+    faceSpriteName: TTG_gui_robin_faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I'm not a dog boy!!! I'm a respectable figure battling champion slash super hero!!!
+    key: CONVO_HoodedHood_afterpetstore13
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_14
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Hood... you've made yourself a grave enemy this day! I'll show you what I'm made of...
+    key: CONVO_HoodedHood_afterpetstore14
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 3de85449becf4c5448692b8dd51ca974, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

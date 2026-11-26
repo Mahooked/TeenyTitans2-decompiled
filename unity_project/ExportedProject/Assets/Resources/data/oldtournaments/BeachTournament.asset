@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd5acecbbd476961e925fb6c5087a8a, type: 3}
+  m_Name: BeachTournament
+  m_EditorClassIdentifier:
+  cityName: 0
+  district: 3
+  _tournamentName: The Atlantean Fishtastic Tourney of the Sea
+  _tournamentNameKey: BEACH
+  _tournamentSpriteCollection: {fileID: 0}
+  _backgroundSprite: TTG_tournament_beach_BG
+  _backgroundSpriteId: 2
+  _bannerSprite: TTG_tournament_beach_banner
+  _bannerSpriteId: 3
+  _bannerTopperSprite:
+  _bannerTopperSpriteId: 0
+  _bannerTextMaterial: Materials/Fonts/baveuse SDF Beach TournementHeader
+  _trophySprite: TTG_tournament_beach_trophy
+  _trophySpriteId: 6
+  _trophyModel: Prefabs/Trophies/Trophy_Beach
+  _preConversation: {fileID: 0}
+  _postConversation: {fileID: 0}
+  _coinReward: 0
+  _containsChallenge: 0
+  _figureRewards:
+  - characterUID: 56
+    characterLvl: 5
+    blindBox: 0
+    goldBox: 0
+    blindBoxShopFigures: []
+  _rounds:
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 40
+    figures:
+    - characterUID: 76
+      level: 15
+      abilityUIDs: 630000006200000061000000
+      selectedRewards: 010000001a000000070000001d00000022000000020000000800000003000000130000000400000023000000090000000500000014000000
+      hitPoints: 50
+      attack: 7
+      speed: 0
+      luck: 11
+      dodge: 6
+      shinyRank: 2
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 55
+      level: 11
+      abilityUIDs: a10000009f000000a2000000
+      selectedRewards: 010000001a000000130000001d000000020000001400000003000000070000001500000022000000
+      hitPoints: 35
+      attack: 4
+      speed: 0
+      luck: 12
+      dodge: 9
+      shinyRank: 1
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 56
+      level: 17
+      abilityUIDs: a0000000a3000000a4000000
+      selectedRewards: 010000001a000000220000001d00000002000000130000000300000023000000140000000700000004000000080000002400000009000000150000000a000000
+      hitPoints: 40
+      attack: 6
+      speed: 0
+      luck: 15
+      dodge: 12
+      shinyRank: 2
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 175
+    coinReward: 750
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 50
+      minValue: 10
+      maxValue: 15
+    - weight: 50
+      minValue: 8
+      maxValue: 12
+    - weight: 50
+      minValue: 5
+      maxValue: 10
+    - weight: 50
+      minValue: 5
+      maxValue: 10
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 24
+    figures:
+    - characterUID: 8
+      level: 10
+      abilityUIDs: 430000004200000041000000
+      selectedRewards: 130000001a000000070000001d0000001400000022000000010000002300000015000000
+      hitPoints: 37
+      attack: 4
+      speed: 0
+      luck: 9
+      dodge: 10
+      shinyRank: 1
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 22
+      level: 9
+      abilityUIDs: 570000005600000058000000
+      selectedRewards: 070000001a000000130000001d00000008000000140000000100000009000000
+      hitPoints: 30
+      attack: 3
+      speed: 0
+      luck: 12
+      dodge: 3
+      shinyRank: 1
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 75
+    coinReward: 300
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 12
+      minValue: 8
+      maxValue: 15
+    - weight: 67
+      minValue: 3
+      maxValue: 8
+    - weight: 66
+      minValue: 5
+      maxValue: 10
+    - weight: 0
+      minValue: 5
+      maxValue: 10
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 18
+    figures:
+    - characterUID: 48
+      level: 10
+      abilityUIDs: 31000000390000003a000000
+      selectedRewards: 130000001a000000010000001d0000001400000002000000220000000700000003000000
+      hitPoints: 30
+      attack: 2
+      speed: 0
+      luck: 12
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 29
+      level: 13
+      abilityUIDs: 31000000300000003b000000
+      selectedRewards: 220000001a000000130000001d0000000700000023000000080000001400000024000000150000002500000016000000
+      hitPoints: 30
+      attack: 2
+      speed: 0
+      luck: 27
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 42
+      level: 6
+      abilityUIDs: 350000003400000030000000
+      selectedRewards: 130000001a000000010000001d00000014000000
+      hitPoints: 28
+      attack: 2
+      speed: 0
+      luck: 15
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 50
+    coinReward: 200
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 23
+    figures:
+    - characterUID: 27
+      level: 8
+      abilityUIDs: 690000006800000067000000
+      selectedRewards: 010000001a000000130000001d000000220000000700000002000000
+      hitPoints: 25
+      attack: 2
+      speed: 0
+      luck: 12
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 49
+      level: 7
+      abilityUIDs: 500000005100000052000000
+      selectedRewards: 220000001a000000130000001d0000000700000001000000
+      hitPoints: 30
+      attack: 2
+      speed: 0
+      luck: 6
+      dodge: 3
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 50
+    coinReward: 100
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 59
+    figures:
+    - characterUID: 54
+      level: 10
+      abilityUIDs: 3f0000001300000040000000
+      selectedRewards: 070000001a000000220000001d0000000800000023000000010000000900000002000000
+      hitPoints: 32
+      attack: 3
+      speed: 0
+      luck: 10
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 50
+    coinReward: 50
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  _tournamentOrder: 2
+  _timeOfDay: 0
+  _achievementReward:

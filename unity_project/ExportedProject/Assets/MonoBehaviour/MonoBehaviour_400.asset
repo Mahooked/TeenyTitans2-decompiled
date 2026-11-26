@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 67
+  preBattleSprite: menu_vsscreen_portrait_luciousfox
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/LuciusFox
+  conversationBodySprite: TT2_gui_luciousfox
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 26
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TT2_gui_luciousfox_face1
+    rightSpriteName:
+    leftSpriteId: 27
+    rightSpriteId: -1
+  - displayName: Eyes Closed Explain
+    spriteName: TT2_gui_luciousfox_face2
+    rightSpriteName:
+    leftSpriteId: 28
+    rightSpriteId: -1
+  - displayName: Ooo
+    spriteName: TT2_gui_luciousfox_face3
+    rightSpriteName:
+    leftSpriteId: 32
+    rightSpriteId: -1
+  - displayName: Sad
+    spriteName: TT2_gui_luciousfox_face4
+    rightSpriteName:
+    leftSpriteId: 23
+    rightSpriteId: -1
+  - displayName: Mad
+    spriteName: TT2_gui_luciousfox_face5
+    rightSpriteName:
+    leftSpriteId: 20
+    rightSpriteId: -1
+  - displayName: Very Happy
+    spriteName: TT2_gui_luciousfox_face6
+    rightSpriteName:
+    leftSpriteId: 41
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Lucius Fox 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 84
+        level: 10
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 130000001a000000070000001d00000001000000140000000200000008000000150000000900000022000000
+        hitPoints: 32
+        attack: 3
+        speed: 0
+        luck: 14
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 46
+        level: 9
+        abilityUIDs: af000000ad000000ae000000
+        selectedRewards: 130000001a000000070000001d000000220000000100000008000000140000000900000002000000230000000a000000
+        hitPoints: 32
+        attack: 4
+        speed: 0
+        luck: 21
+        dodge: 11
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 11400000, guid: 7e52039d5ae322247a2811fb4bd2f6db, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 7e52039d5ae322247a2811fb4bd2f6db, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 09347e75c8fde4a47b315abfbd9a9dd3, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 5
+  dialogueFaceColor: {r: 0.6, g: 0.8235295, b: 0.85098046, a: 1}
+  dialogueOutlineColor: {r: 0.3529412, g: 0.427451, b: 0.22352943, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 70
+  _guid: aa00b4a0-0af9-4c73-8e29-8068d9425170
+  _name: Lucius Fox
+  _nameKey: LUCIUS_FOX
+  _preBattleSpriteId: 30
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 3d565341dd79df746b4426a607764d41, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

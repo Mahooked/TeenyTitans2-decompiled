@@ -1,0 +1,832 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Dialogue32SpriteCollection@4x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: TT2_gui_shazam_face4
+    boundsData:
+    - {x: 26.125002, y: 169.625, z: 0}
+    - {x: 51.750004, y: 86.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0.25000107, y: 126.5, z: 0}
+    - {x: 52.000004, y: 126.5, z: 0}
+    - {x: 0.25000107, y: 212.75, z: 0}
+    - {x: 52.000004, y: 212.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3979497, y: 0.44677782}
+    - {x: 0.49902296, y: 0.44677782}
+    - {x: 0.3979497, y: 0.6152339}
+    - {x: 0.49902296, y: 0.6152339}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: c8061810d2dc243d68ca2a9ca79838b2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_shazam
+    boundsData:
+    - {x: -0.9999924, y: 113.625, z: 0}
+    - {x: 259.5, y: 227.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -130.75, y: 0, z: 0}
+    - {x: 128.75002, y: 0, z: 0}
+    - {x: -130.75, y: 227.25, z: 0}
+    - {x: 128.75002, y: 227.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0009770507}
+    - {x: 0.507812, y: 0.0009770507}
+    - {x: 0.0009770507, y: 0.44482374}
+    - {x: 0.507812, y: 0.44482374}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0186dcb3ec75c4f7cb94310604d42bb1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_giantseahorsefriend
+    boundsData:
+    - {x: -6.375, y: 130.75, z: 0}
+    - {x: 205.25, y: 261.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 133.5, z: 0}
+    - {x: 228.5, y: 267, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -109, y: 0, z: 0}
+    - {x: 96.25, y: 0, z: 0}
+    - {x: -109, y: 261.5, z: 0}
+    - {x: 96.25, y: 261.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5097661, y: 0.0009770507}
+    - {x: 0.91064405, y: 0.0009770507}
+    - {x: 0.5097661, y: 0.5117183}
+    - {x: 0.91064405, y: 0.5117183}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d029fcb8f05349f186b58a44eceae31
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_shazam_face5
+    boundsData:
+    - {x: 24.875, y: 172.625, z: 0}
+    - {x: 41.75, y: 47.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 4.0000005, y: 148.75, z: 0}
+    - {x: 45.75, y: 148.75, z: 0}
+    - {x: 4.0000005, y: 196.5, z: 0}
+    - {x: 45.75, y: 196.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.91259813, y: 0.0009770507}
+    - {x: 0.99414015, y: 0.0009770507}
+    - {x: 0.91259813, y: 0.09423779}
+    - {x: 0.99414015, y: 0.09423779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 631273dd2cc034c998bcbc2ce8667056
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_shazam_face1
+    boundsData:
+    - {x: 24.499996, y: 183.5, z: 0}
+    - {x: 40.999992, y: 32, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 4.0000005, y: 167.5, z: 0}
+    - {x: 44.999992, y: 167.5, z: 0}
+    - {x: 4.0000005, y: 199.5, z: 0}
+    - {x: 44.999992, y: 199.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.91259813, y: 0.0961919}
+    - {x: 0.9926753, y: 0.0961919}
+    - {x: 0.91259813, y: 0.15869091}
+    - {x: 0.9926753, y: 0.15869091}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 10ee36715075348d58e8712925b1ccf8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_giantseahorsefriend_face1
+    boundsData:
+    - {x: 67.125, y: 148.125, z: 0}
+    - {x: 74.75, y: 97.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 133.5, z: 0}
+    - {x: 228.5, y: 267, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 29.749998, y: 99.5, z: 0}
+    - {x: 104.5, y: 99.5, z: 0}
+    - {x: 29.749998, y: 196.75, z: 0}
+    - {x: 104.5, y: 196.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.20410205, y: 0.8281255}
+    - {x: 0.20410205, y: 0.9741206}
+    - {x: 0.3940425, y: 0.8281255}
+    - {x: 0.3940425, y: 0.9741206}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: d55f279e9769f4c9589f7e329d8e6407
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_giantseahorsefriend_face2
+    boundsData:
+    - {x: 67.5, y: 145.25, z: 0}
+    - {x: 75.50001, y: 103, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 133.5, z: 0}
+    - {x: 228.5, y: 267, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 29.749998, y: 93.75, z: 0}
+    - {x: 105.25001, y: 93.75, z: 0}
+    - {x: 29.749998, y: 196.75, z: 0}
+    - {x: 105.25001, y: 196.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.8281255}
+    - {x: 0.0009770507, y: 0.97558546}
+    - {x: 0.20214795, y: 0.8281255}
+    - {x: 0.20214795, y: 0.97558546}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: ec8966f87f7f24ba285134a8fef3d935
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_shazam_face3
+    boundsData:
+    - {x: 28.499998, y: 169.75, z: 0}
+    - {x: 48.49999, y: 68.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 4.250003, y: 135.5, z: 0}
+    - {x: 52.749992, y: 135.5, z: 0}
+    - {x: 4.250003, y: 204, z: 0}
+    - {x: 52.749992, y: 204, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.50097704, y: 0.51367235}
+    - {x: 0.50097704, y: 0.60839796}
+    - {x: 0.63476515, y: 0.51367235}
+    - {x: 0.63476515, y: 0.60839796}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: a65090a675c6c430aac1d4ac76e29ab1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_shazam_face2
+    boundsData:
+    - {x: 24.124992, y: 171.875, z: 0}
+    - {x: 45.75, y: 70.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 115.875, z: 0}
+    - {x: 278.25, y: 231.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 1.2499932, y: 136.75, z: 0}
+    - {x: 46.999992, y: 136.75, z: 0}
+    - {x: 1.2499932, y: 207, z: 0}
+    - {x: 46.999992, y: 207, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6367192, y: 0.51367235}
+    - {x: 0.6367192, y: 0.60302687}
+    - {x: 0.7739253, y: 0.51367235}
+    - {x: 0.7739253, y: 0.60302687}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: e467e406887074008880ff93ecd6455a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face5
+    boundsData:
+    - {x: 2.861023E-06, y: 96.75, z: 0}
+    - {x: 61, y: 60, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30.499998, y: 66.75, z: 0}
+    - {x: 30.500004, y: 66.75, z: 0}
+    - {x: -30.499998, y: 126.75, z: 0}
+    - {x: 30.500004, y: 126.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5151372, y: 0.74023485}
+    - {x: 0.5151372, y: 0.8593745}
+    - {x: 0.63232374, y: 0.74023485}
+    - {x: 0.63232374, y: 0.8593745}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 22fb3d4711fdc4dee993fc8e5efc1b39
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face3
+    boundsData:
+    - {x: 2.000002, y: 99.875, z: 0}
+    - {x: 60.000004, y: 57.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: 71, z: 0}
+    - {x: 32.000004, y: 71, z: 0}
+    - {x: -28, y: 128.75, z: 0}
+    - {x: 32.000004, y: 128.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5170903, y: 0.61035204}
+    - {x: 0.5170903, y: 0.7275386}
+    - {x: 0.62988234, y: 0.61035204}
+    - {x: 0.62988234, y: 0.7275386}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2a5dfdb57094e44728c25c5126969814
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face2
+    boundsData:
+    - {x: 2.000002, y: 97.75, z: 0}
+    - {x: 60.000004, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: 66.75, z: 0}
+    - {x: 32.000004, y: 66.75, z: 0}
+    - {x: -28, y: 128.75, z: 0}
+    - {x: 32.000004, y: 128.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39599657, y: 0.8281255}
+    - {x: 0.5131831, y: 0.8281255}
+    - {x: 0.39599657, y: 0.9492183}
+    - {x: 0.5131831, y: 0.9492183}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7d99978cf7d534230bd1915f85e7c4c3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face6
+    boundsData:
+    - {x: 2.000002, y: 99.875, z: 0}
+    - {x: 60.000004, y: 57.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: 71, z: 0}
+    - {x: 32.000004, y: 71, z: 0}
+    - {x: -28, y: 128.75, z: 0}
+    - {x: 32.000004, y: 128.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6318364, y: 0.61035204}
+    - {x: 0.6318364, y: 0.7275386}
+    - {x: 0.7446284, y: 0.61035204}
+    - {x: 0.7446284, y: 0.7275386}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 665122264e1304cdc9d00568fa13562b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred
+    boundsData:
+    - {x: -0.875, y: 97.125, z: 0}
+    - {x: 202.25, y: 194.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -102, y: 0, z: 0}
+    - {x: 100.25, y: 0, z: 0}
+    - {x: -102, y: 194.25, z: 0}
+    - {x: 100.25, y: 194.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.44677782}
+    - {x: 0.39599562, y: 0.44677782}
+    - {x: 0.0009770507, y: 0.8261714}
+    - {x: 0.39599562, y: 0.8261714}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: f154dcc4934e548c6a007d3b8414e981
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face4
+    boundsData:
+    - {x: 2.000002, y: 97.75, z: 0}
+    - {x: 60.000004, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: 66.75, z: 0}
+    - {x: 32.000004, y: 66.75, z: 0}
+    - {x: -28, y: 128.75, z: 0}
+    - {x: 32.000004, y: 128.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3979497, y: 0.617188}
+    - {x: 0.51513624, y: 0.617188}
+    - {x: 0.3979497, y: 0.7382808}
+    - {x: 0.51513624, y: 0.7382808}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: 93d6ba5b47c2647a28b2c17131520e23
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_bathtimealfred_face1
+    boundsData:
+    - {x: 2.861023E-06, y: 98.875, z: 0}
+    - {x: 61, y: 55.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 99.375, z: 0}
+    - {x: 207.5, y: 198.75, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30.499998, y: 71, z: 0}
+    - {x: 30.500004, y: 71, z: 0}
+    - {x: -30.499998, y: 126.75, z: 0}
+    - {x: 30.500004, y: 126.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5151372, y: 0.8613286}
+    - {x: 0.5151372, y: 0.9804683}
+    - {x: 0.62402296, y: 0.8613286}
+    - {x: 0.62402296, y: 0.9804683}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+    materialId: 0
+    sourceTextureGUID: d8d10906a9b9446b1af8366b7b00d89b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 98fbe7556cb29774fb6c6de70558f742, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: 280de09c10e73ca4c900786236009d95, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: fe91f8901d99f44adb227cbaca4b9bf9
+  spriteCollectionName: Dialogue32SpriteCollection@4x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1442108652
+  dataGuid: 693108c186d76477a9510e21e9732ea7
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

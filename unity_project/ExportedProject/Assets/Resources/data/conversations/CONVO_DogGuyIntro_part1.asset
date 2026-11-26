@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_DogGuyIntro_part1
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 1
+  triggersBattle: 1
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 7
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: 19
+  initialRightFaceSpriteId: 13
+  initialRightBodySpriteName: TTG_gui_dogman
+  initialRightFaceSpriteName: TTG_gui_dogman_facenormal
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 7
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_dogman
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_dogman_facenormal
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Oh, hello there, human!
+    key: CONVO_DOGGUYINTRO_PART1
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 4b468a7cdc5925149a3444cefbab6c76, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: HM... VAYA...
+    key: CONVO_DOGGUYINTRO_PART1B
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 9d3a5e1b99b8d6b4ab3a3d76d7b50d2b, type: 3}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_dogman_facenormal
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: ¿DONDE CONSEGUISTE ESE DISFRAZ DE PERRO?
+    key: CONVO_DOGGUYINTRO_PART1C
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_dogman_facenormal
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 7
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_dogman
+    faceSpriteId: 18
+    faceSpriteName: TTG_gui_dogman_facehappy_1
+    poseSpriteId: -1
+    poseSpriteName:
+    message: ¿DISFRAZ...?
+    key: CONVO_DOGGUYINTRO_PART1D
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_robin_face10
+    poseSpriteId: -1
+    poseSpriteName:
+    message: NO HABLAS EN SERIO.
+    key: CONVO_DOGGUYINTRO_PART1E
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 53767129ceb96744cae344a1e360b285, type: 3}
+    otherFaceSpriteId: 18
+    otherFaceSpriteName: TTG_gui_dogman_facehappy_1
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 7
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_dogman
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_dogman_facenormal
+    poseSpriteId: -1
+    poseSpriteName:
+    message: MIRA, MI AMIGO SIN PELO...
+    key: CONVO_DOGGUYINTRO_PART1F
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 0
+    otherFaceSpriteName: TTG_gui_robin_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 7
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_dogman
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_dogman_facehappy_2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: SI QUIERES UN PELAJE BRILLANTE COMO EL MÍO, ¡TENDRÁS QUE GANÁRTELO EN UNA BATALLA DE FIGURAS!
+    key: CONVO_DOGGUYINTRO_PART1G
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 333aceaff4db65e4eaa640c9f1cb5422, type: 3}
+    otherFaceSpriteId: 0
+    otherFaceSpriteName: TTG_gui_robin_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 7
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_dogman
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_dogman_facehappy_3
+    poseSpriteId: -1
+    poseSpriteName:
+    message: PERO DÉJAME ADVERTIRTE, CACHORRO. JUEGO EN SERIO.
+    key: CONVO_DOGGUYINTRO_PART1H
+    formatArgs: []
+    clip: {fileID: 8300000, guid: f9da95d674bf72243a79170e26e0c0de, type: 3}
+    otherFaceSpriteId: 0
+    otherFaceSpriteName: TTG_gui_robin_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: VAMOS.
+    key: CONVO_DOGGUYINTRO_PART1I
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 1
+    otherFaceSpriteName: TTG_gui_dogman_facehappy_3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

@@ -1,0 +1,1224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_ANOLDMAN_FIRSTCHAT
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 144
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 17
+      faceSpriteName: TTG_gui_robin_face8
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why are you so grumpy all the time, old man?
+      key: TT2CONVO_ANOLDMAN_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll tell ya why! Used to be them tiny toy thingamajiggers grinding my gears, but now...
+      key: TT2CONVO_ANOLDMAN_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 17
+      otherFaceSpriteName: TTG_gui_robin_face8
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 31
+      faceSpriteName: TTG_gui_npc_grandpa_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Now it's those darn balloons that have been appearing all over Jump City!!
+      key: TT2CONVO_ANOLDMAN_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 17
+      otherFaceSpriteName: TTG_gui_robin_face8
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_robin_oooo
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What's wrong with balloons? I thought they were kinda fun, actually.
+      key: TT2CONVO_ANOLDMAN_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: They remind me of my childhood... which in turn reminds me of how old I am!! Get rid of them!!
+      key: TT2CONVO_ANOLDMAN_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_robin_oooo
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 2
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 31
+    initialRightBodySpriteName: TTG_gui_npc_grandpa
+    initialRightFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yo, why you so grumpy all the time, grumpy man?
+      key: TT2CONVO_ANOLDMAN_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll tell ya why! Used to be them tiny toy thingamajiggers grinding my gears, but now...
+      key: TT2CONVO_ANOLDMAN_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 31
+      faceSpriteName: TTG_gui_npc_grandpa_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Now it's those darn balloons that have been appearing all over Jump City!!
+      key: TT2CONVO_ANOLDMAN_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What's wrong with balloons?I loves balloons.
+      key: TT2CONVO_ANOLDMAN_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: They remind me of my childhood... which in turn reminds me of how old I am!! Get rid of them!!
+      key: TT2CONVO_ANOLDMAN_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 2
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 31
+    initialRightBodySpriteName: TTG_gui_npc_grandpa
+    initialRightFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 13
+      faceSpriteName: TTG_gui_raven_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Aww, aren't you adorable! Why so grumpy, grumpy pants?
+      key: TT2CONVO_ANOLDMAN_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll tell ya why! Used to be them tiny toy thingamajiggers grinding my gears, but now...
+      key: TT2CONVO_ANOLDMAN_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_raven_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 31
+      faceSpriteName: TTG_gui_npc_grandpa_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Now it's those darn balloons that have been appearing all over Jump City!!
+      key: TT2CONVO_ANOLDMAN_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 13
+      otherFaceSpriteName: TTG_gui_raven_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Do old people hate balloons? I never knew.
+      key: TT2CONVO_ANOLDMAN_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: They remind me of my childhood... which in turn reminds me of how old I am!! Get rid of them!!
+      key: TT2CONVO_ANOLDMAN_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 23
+      otherFaceSpriteName: TTG_gui_raven_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 37
+      faceSpriteName: TTG_gui_raven_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure thing, cutie!
+      key: TT2CONVO_ANOLDMAN_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_npc_grandpa_facemad
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 2
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 31
+    initialRightBodySpriteName: TTG_gui_npc_grandpa
+    initialRightFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Do you have a case of the grumpies, elderly human?
+      key: TT2CONVO_ANOLDMAN_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll tell ya why! Used to be them tiny toy thingamajiggers grinding my gears, but now...
+      key: TT2CONVO_ANOLDMAN_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 31
+      faceSpriteName: TTG_gui_npc_grandpa_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Now it's those darn balloons that have been appearing all over Jump City!!
+      key: TT2CONVO_ANOLDMAN_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Do you not enjoy the rubbery sacks of air?
+      key: TT2CONVO_ANOLDMAN_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: No! They remind me of my childhood... which in turn reminds me of how old I am!! Get rid of them!!
+      key: TT2CONVO_ANOLDMAN_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 2
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 31
+    initialRightBodySpriteName: TTG_gui_npc_grandpa
+    initialRightFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why are you so grumpy all the time, old man?
+      key: TT2CONVO_ANOLDMAN_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll tell ya why! Used to be them tiny toy thingamajiggers grinding my gears, but now...
+      key: TT2CONVO_ANOLDMAN_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 31
+      faceSpriteName: TTG_gui_npc_grandpa_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Now it's those darn balloons that have been appearing all over Jump City!!
+      key: TT2CONVO_ANOLDMAN_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What's wrong with balloons? I thought they were kinda fun, actually.
+      key: TT2CONVO_ANOLDMAN_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TTG_gui_npc_grandpa_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 2
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_grandpa
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_npc_grandpa_facemad
+      poseSpriteId: -1
+      poseSpriteName:
+      message: They remind me of my childhood... which in turn reminds me of how old I am!! Get rid of them!!
+      key: TT2CONVO_ANOLDMAN_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 2
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 31
+    initialRightBodySpriteName: TTG_gui_npc_grandpa
+    initialRightFaceSpriteName: TTG_gui_npc_grandpa_faceidle

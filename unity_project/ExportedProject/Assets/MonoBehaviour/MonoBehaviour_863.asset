@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 124
+  _characterName: The Wonder Twins
+  _characterNameKey: THE_WONDER_TWINS
+  _characterClass: 0
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 12
+  _baseDodge: 9
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 28
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_THEWONDERTWINS
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Cute
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 20
+    abilityId: 334
+  - position: 60
+    abilityId: 336
+  - position: 100
+    abilityId: 335
+  _portraitSprite: icon_wondertwins
+  _portraitSpriteId: 42
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2.37, y: 0.53, z: 0.13}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 5.16, y: 1, z: 0.23}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.69, y: 0.45, z: -0.18}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 10.86}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.82, y: 1.17, z: -0.58}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 14.36}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.02, z: -0.54}
+  _battleCharacterPath: Prefabs/Characters/Battle/WonderTwins
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/WonderTwins
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.61, y: 0.61, z: 0.61}
+  _shopFigureOffset: {x: -0.01, y: -0.51, z: -0.01}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 5e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e0100005e010000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.31887978, g: 0.098778136, b: 0.6397059, a: 1}
+  _shopTextFaceColor: {r: 0.9789554, g: 0.99264705, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_wondertwins
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 200
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderTwins_Texture_blue-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 362
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderTwins_Texture_purpleblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19
+  - position: 0
+    id: 363
+    cost: 5
+    rare: 1
+    texturePath: Textures/WonderTwins_Texture_yellow-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17
+  - position: 0
+    id: 399
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderTwins_Texture_purpleandgold-1x
+    _colorSprite: menu_shop_repaint_color_purpleandyellow
+    _colorSpriteId: 24
+  - position: 0
+    id: 400
+    cost: 5
+    rare: 0
+    texturePath: Textures/WonderTwins_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13

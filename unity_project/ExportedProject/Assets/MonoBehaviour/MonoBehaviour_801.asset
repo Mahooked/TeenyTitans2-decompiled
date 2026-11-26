@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 8
+  _characterName: B'Wana Beast
+  _characterNameKey: BWANABEAST
+  _characterClass: 5
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 25
+  _baseAttack: 0
+  _baseLuck: 0
+  _baseDodge: 4
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 14
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 60
+  _libraryDescription: B'wana Beast is banned from most zoos... not only because he's always using his powers to merge all the animals, but also due to continually violating dress code.
+  _libraryDescriptionKey: WIKI_BWANABEAST
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Beast
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 2
+  _abilitySlots:
+  - position: 21
+    abilityId: 67
+  - position: 50
+    abilityId: 66
+  - position: 90
+    abilityId: 65
+  _portraitSprite: icon_bwanabeast
+  _portraitSpriteId: 35
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.02, y: 0.52, z: 0.21}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.89, y: -0.71, z: -0.34}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.98, y: 0.87, z: -0.05}
+  _battleCharacterPath: Prefabs/Characters/Battle/BwanaBeast
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/BwanaBeast
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.53, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0.025, y: -0.7, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: e8030000f2030000fc03000006040000060400001a0400001a0400001a0400001a0400001a0400001a0400001a0400001a0400001a0400001a040000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.88235295, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 0.89705884, g: 0.7609534, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0.4431373, g: 0.03137255, b: 0.04705883, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_bwannabeast
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 17
+    cost: 3
+    rare: 0
+    texturePath: Textures/BwanaBeast_Texture_blackandgrey-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 18
+    cost: 3
+    rare: 0
+    texturePath: Textures/BwanaBeast_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4
+  - position: 0
+    id: 19
+    cost: 3
+    rare: 0
+    texturePath: Textures/BwanaBeast_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 101
+    cost: 5
+    rare: 0
+    texturePath: Textures/BwanaBeast_Texture_purple-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19
+  - position: 0
+    id: 102
+    cost: 5
+    rare: 1
+    texturePath: Textures/BwanaBeast_Texture_multiverse-1x
+    _colorSprite: menu_shop_repaint_color_multiverse
+    _colorSpriteId: 15

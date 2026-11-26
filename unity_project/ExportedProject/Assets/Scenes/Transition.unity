@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &7
+RenderSettings:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &8
+LightmapSettings:
+  serializedVersion: 11
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_LightingDataAsset: {fileID: 112000000, guid: 1a871b69d0823de4d87500c5459a33f0, type: 2}
+  m_UseShadowmask: 1
+--- !u!1 &1
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 3}
+  - component: {fileID: 9}
+  m_Layer: 0
+  m_Name: TransitionController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4}
+  - component: {fileID: 5}
+  - component: {fileID: 6}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: -307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!20 &5
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &6
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2ac77b022724b3b00eaed5c2e8a4a3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  transitionData:
+  - prevScene: CityTest
+    nextScene: ShopTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+  - prevScene: City_Gotham
+    nextScene: ShopTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+  - prevScene: CityTest
+    nextScene: PreBattle
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: City_Gotham
+    nextScene: PreBattle
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: CityTest
+    nextScene: TitanTower
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: City_Gotham
+    nextScene: TitanTower
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: CityTest
+    nextScene: Tournament
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: City_Gotham
+    nextScene: Tournament
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: 61f268cee7664fb4799866de8bf5a706, type: 2}
+  - prevScene: PreBattle
+    nextScene: Battle
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: 8168c7336bb0f2c43b42cbaee56d3f16, type: 2}
+  - prevScene: Battle
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+    - {fileID: 114724804207875695, guid: df058828a53ac2f49b59769a09a15230, type: 2}
+    - {fileID: 114724804207875695, guid: ef0a7026d544a6d4180e33618d20bd5d, type: 2}
+    - {fileID: 114724804207875695, guid: 0d97002747b46e8498acbf0ed8c199e3, type: 2}
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: f5db2d53589d58c45a01c224ec889f47, type: 2}
+  - prevScene: Battle
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+    - {fileID: 114724804207875695, guid: df058828a53ac2f49b59769a09a15230, type: 2}
+    - {fileID: 114724804207875695, guid: ef0a7026d544a6d4180e33618d20bd5d, type: 2}
+    - {fileID: 114724804207875695, guid: 0d97002747b46e8498acbf0ed8c199e3, type: 2}
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: f5db2d53589d58c45a01c224ec889f47, type: 2}
+  - prevScene: ShopTest
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: 8d4283e650bcca141bf9cd565abfe2fd, type: 2}
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 20ae343f916d72242b7fba4300c130d5, type: 2}
+    - {fileID: 114724804207875695, guid: 5f8fb5ef2f2f22346af28d327dfa9bcb, type: 2}
+    - {fileID: 114724804207875695, guid: 5760ee9f19c2cb0498a5a9cdd063dd85, type: 2}
+  - prevScene: ShopTest
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: 8d4283e650bcca141bf9cd565abfe2fd, type: 2}
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 20ae343f916d72242b7fba4300c130d5, type: 2}
+    - {fileID: 114724804207875695, guid: 5f8fb5ef2f2f22346af28d327dfa9bcb, type: 2}
+    - {fileID: 114724804207875695, guid: 5760ee9f19c2cb0498a5a9cdd063dd85, type: 2}
+  - prevScene: TitanTower
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 3818642771d33534290bcbb7ba86b6b6, type: 2}
+  - prevScene: TitanTower
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 3818642771d33534290bcbb7ba86b6b6, type: 2}
+  - prevScene: Init
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: d3b09c8d0f6fddf4f86c2673727bde4e, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+  - prevScene: Init
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: d3b09c8d0f6fddf4f86c2673727bde4e, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+  - prevScene: Tournament
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+  - prevScene: Tournament
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+  - prevScene: Battle
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+    - {fileID: 114724804207875695, guid: df058828a53ac2f49b59769a09a15230, type: 2}
+    - {fileID: 114724804207875695, guid: ef0a7026d544a6d4180e33618d20bd5d, type: 2}
+    - {fileID: 114724804207875695, guid: 0d97002747b46e8498acbf0ed8c199e3, type: 2}
+  - prevScene: PreBattle
+    nextScene: CityTest
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+    - {fileID: 114724804207875695, guid: df058828a53ac2f49b59769a09a15230, type: 2}
+    - {fileID: 114724804207875695, guid: ef0a7026d544a6d4180e33618d20bd5d, type: 2}
+    - {fileID: 114724804207875695, guid: 0d97002747b46e8498acbf0ed8c199e3, type: 2}
+    - {fileID: 114724804207875695, guid: 8168c7336bb0f2c43b42cbaee56d3f16, type: 2}
+  - prevScene: PreBattle
+    nextScene: City_Gotham
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: e6fb40d7bef3c5a43be64716a0041a90, type: 2}
+    - {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+    - {fileID: 114724804207875695, guid: fd1f0a28c10107245a89d00410fc6a20, type: 2}
+    - {fileID: 114724804207875695, guid: df058828a53ac2f49b59769a09a15230, type: 2}
+    - {fileID: 114724804207875695, guid: ef0a7026d544a6d4180e33618d20bd5d, type: 2}
+    - {fileID: 114724804207875695, guid: 0d97002747b46e8498acbf0ed8c199e3, type: 2}
+    - {fileID: 114724804207875695, guid: 8168c7336bb0f2c43b42cbaee56d3f16, type: 2}
+  - prevScene: City_Gotham
+    nextScene: Challenge
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+  - prevScene: City_Gotham
+    nextScene: RepaintShop
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: 62b1fdd84b1201749879aa37856b2f91, type: 2}
+    - {fileID: 114724804207875695, guid: c55fc03bd680be9429d4455020fc77cf, type: 2}
+  - prevScene: TitanTower
+    nextScene:
+    spriteCollectionToUnload:
+    - {fileID: 114724804207875695, guid: d23f23656bbd3b94a8e07333ac4ef189, type: 2}
+    - {fileID: 114724804207875695, guid: fa836e9bb2d9fb04f8e704c79654950c, type: 2}
+    - {fileID: 114724804207875695, guid: 0ea8e26865ab888429e45a4d3f71de3f, type: 2}

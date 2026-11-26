@@ -1,0 +1,25 @@
+public enum ModChipEffectType
+{
+	StatBonus = 0,
+	StatMultiplier = 1,
+	ActionMeter = 2,
+	CastTimeMultiplier = 3,
+	DropCoins = 4,
+	DropTofu = 5,
+	CoinDropChance = 6,
+	TofuDropChance = 7,
+	CancelInterrupt = 8,
+	DoDamage = 9,
+	StatusEffect = 10,
+	DoHeal = 11,
+	ModifyHealResult = 12,
+	GoBonus = 13,
+	HandleDamage = 14,
+	DropItem = 15,
+	DoAccessoryDamage = 16,
+	AccessoryChargeTimeMultiplier = 17,
+	StunResistanceChance = 18,
+	InstantCastChance = 19,
+	AddAccessoryCharge = 20,
+	ModifySpecificTofuRollChance = 21
+}

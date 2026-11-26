@@ -1,0 +1,1998 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_SILVER_FIRSTTALK
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 66
+    position: 1
+    bodySpriteId: 25
+    bodySpriteName: TT2_gui_silver
+    faceSpriteId: 31
+    faceSpriteName: TT2_gui_silver_face2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Nice cape you've got there.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Oh, uh, thanks...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 31
+    otherFaceSpriteName: TT2_gui_silver_face2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Um, perhaps you can assist me, citizen. Is Bruce Wayne in Gotham today? Y'know, the billionaire...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 31
+    otherFaceSpriteName: TT2_gui_silver_face2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 66
+    position: 1
+    bodySpriteId: 25
+    bodySpriteName: TT2_gui_silver
+    faceSpriteId: 22
+    faceSpriteName: TT2_gui_silver_face4
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ahh, Brucie. There's a lot I could tell you about him...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 66
+    position: 1
+    bodySpriteId: 25
+    bodySpriteName: TT2_gui_silver
+    faceSpriteId: 21
+    faceSpriteName: TT2_gui_silver_face3
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Let's just say I know his BIG little secret. Wanna hear it?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 66
+    position: 1
+    bodySpriteId: 25
+    bodySpriteName: TT2_gui_silver
+    faceSpriteId: 31
+    faceSpriteName: TT2_gui_silver_face2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: It's positively... batty.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 1
+    otherFaceSpriteName: TTG_gui_robin_face10
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_10
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 2
+    faceSpriteName: TTG_gui_robin_face9
+    poseSpriteId: -1
+    poseSpriteName:
+    message: This conversation is over!!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 31
+    otherFaceSpriteName: TT2_gui_silver_face2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 31
+      faceSpriteName: TT2_gui_silver_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nice cape you've got there.
+      key: TT2CONVO_VICKIVALE_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_robin_facescared
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, uh, thanks...
+      key: TT2CONVO_VICKIVALE_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Um, perhaps you can assist me, citizen. Is Bruce Wayne in Gotham today? Y'know, the billionaire...
+      key: TT2CONVO_VICKIVALE_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahh, Brucie. There's a lot I could tell you about him...
+      key: TT2CONVO_VICKIVALE_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let's just say I know his BIG little secret. Wanna hear it?
+      key: TT2CONVO_VICKIVALE_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's positively... batty.
+      key: TT2CONVO_VICKIVALE_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: This conversation is over!!
+      key: TT2CONVO_VICKIVALE_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, mama!
+      key: TT2CONVO_VICKIVALE_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 29
+      faceSpriteName: TT2_gui_silver_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ohhh, look at you! Aren't you adorable?
+      key: TT2CONVO_VICKIVALE_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I know, right? Anyhoo, you wouldn't happen to know if that Bruce Wayne guy is in Gotham today?
+      key: TT2CONVO_VICKIVALE_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahh, Brucie. There's a lot I could tell you about him...
+      key: TT2CONVO_VICKIVALE_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let's just say I know his BIG little secret. Wanna hear it?
+      key: TT2CONVO_VICKIVALE_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's positively... batty.
+      key: TT2CONVO_VICKIVALE_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 63
+      faceSpriteName: TTG_gui_beastboy_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh man, what could it be?!
+      key: TT2CONVO_VICKIVALE_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items:
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 31
+      faceSpriteName: TT2_gui_silver_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, girl. Love that cloak.
+      key: TT2CONVO_VICKIVALE_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Uh, thanks.
+      key: TT2CONVO_VICKIVALE_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, maybe you can help me out. Do you know if Bruce Wayne is in Gotham today? Y'know, the billionaire...
+      key: TT2CONVO_VICKIVALE_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahh, Brucie. There's a lot I could tell you about him...
+      key: TT2CONVO_VICKIVALE_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let's just say I know his BIG little secret. Wanna hear it?
+      key: TT2CONVO_VICKIVALE_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's positively... batty.
+      key: TT2CONVO_VICKIVALE_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, we probably shouldn't be talking about this.
+      key: TT2CONVO_VICKIVALE_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items:
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hello, the silver haired lady!
+      key: TT2CONVO_VICKIVALE_32
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: How do you do.
+      key: TT2CONVO_VICKIVALE_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I could use your help, friendly civilian.
+      key: TT2CONVO_VICKIVALE_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Do you know if the Bruce Wayne is in Gotham today?
+      key: TT2CONVO_VICKIVALE_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahh, Brucie. There's a lot I could tell you about him...
+      key: TT2CONVO_VICKIVALE_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let's just say I know his BIG little secret. Wanna hear it?
+      key: TT2CONVO_VICKIVALE_37
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's positively... batty.
+      key: TT2CONVO_VICKIVALE_38
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Perhaps we should not be having this conversation...
+      key: TT2CONVO_VICKIVALE_39
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items:
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 31
+      faceSpriteName: TT2_gui_silver_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, metal man.
+      key: TT2CONVO_VICKIVALE_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well, how do ya do!
+      key: TT2CONVO_VICKIVALE_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 31
+      otherFaceSpriteName: TT2_gui_silver_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey girl, maybe you can help me out. Is Bruce Wayne in Gotham today?
+      key: TT2CONVO_VICKIVALE_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_cyborg_faceidle_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Maybe you've heard of him... billionaire guy... great hair, well dressed.
+      key: TT2CONVO_VICKIVALE_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahh, Brucie. There's a lot I could tell you about him...
+      key: TT2CONVO_VICKIVALE_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 22
+      faceSpriteName: TT2_gui_silver_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let's just say I know his BIG little secret. Wanna hear it?
+      key: TT2CONVO_VICKIVALE_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 66
+      position: 1
+      bodySpriteId: 25
+      bodySpriteName: TT2_gui_silver
+      faceSpriteId: 21
+      faceSpriteName: TT2_gui_silver_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's positively... batty.
+      key: TT2CONVO_VICKIVALE_30
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: On second thought, maybe we shouldn't be talking about this...
+      key: TT2CONVO_VICKIVALE_31
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 21
+      otherFaceSpriteName: TT2_gui_silver_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

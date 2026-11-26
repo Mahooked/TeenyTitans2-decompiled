@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 38
+  _characterName: Kid Flash
+  _characterNameKey: KIDFLASH
+  _characterClass: 2
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 21
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 15
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 5
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 25
+  _libraryDescription: You probably guessed it from the name, but Kid Flash is fast. REALLY fast. If you're ever lucky enough to develop a super power, cross your fingers you get super speed. Super useful.
+  _libraryDescriptionKey: WIKI_KIDFLASH
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 10
+  _abilitySlots:
+  - position: 20
+    abilityId: 72
+  - position: 92
+    abilityId: 73
+  - position: 50
+    abilityId: 71
+  _portraitSprite: icon_kidflash
+  _portraitSpriteId: 327
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.88, y: 0.33, z: 0.35}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.86, y: -0.73, z: -0.39}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.7, y: 0.82, z: -0.21}
+  _battleCharacterPath: Prefabs/Characters/Battle/KidFlash
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/KidFlash
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.5, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: f4010000fe01000008020000120200001c02000026020000300200003a020000440200004e02000058020000620200006c0200007602000080020000
+  _shopFigureTicketCosts: 070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+  _shopStripeColor: {r: 1, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 0.94482756, g: 1, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0.8602941, g: 0.37378296, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_KidFlash
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 201
+    cost: 2
+    rare: 0
+    texturePath: Textures/KidFlash_Texture_blackandgrey-1x
+    _colorSprite: menu_shop_repaint_color_whiteandpurple
+    _colorSpriteId: 5
+  - position: 0
+    id: 202
+    cost: 3
+    rare: 0
+    texturePath: Textures/KidFlash_Texture_red-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 203
+    cost: 5
+    rare: 1
+    texturePath: Textures/KidFlash_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18

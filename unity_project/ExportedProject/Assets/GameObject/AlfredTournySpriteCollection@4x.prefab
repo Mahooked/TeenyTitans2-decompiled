@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: AlfredTournySpriteCollection@4x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: menus_tourneybgs_gym-tourny
+    boundsData:
+    - {x: 0, y: -178, z: 0}
+    - {x: 230.5, y: 356, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -178, z: 0}
+    - {x: 230.5, y: 356, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -115.25, y: -356, z: 0}
+    - {x: 115.25, y: -356, z: 0}
+    - {x: -115.25, y: 0, z: 0}
+    - {x: 115.25, y: 0, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0009770507}
+    - {x: 0.4511714, y: 0.0009770507}
+    - {x: 0.0009770507, y: 0.6962886}
+    - {x: 0.4511714, y: 0.6962886}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ded252a6d85f40d46945925ee41cdc7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9976df388224543faa0394aa9ab766cd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_gym-trophy
+    boundsData:
+    - {x: 2.000002, y: -44.375, z: 0}
+    - {x: 102.5, y: 206.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.125, z: 0}
+    - {x: 185, y: 301.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -49.25, y: -147.5, z: 0}
+    - {x: 53.250004, y: -147.5, z: 0}
+    - {x: -49.25, y: 58.750004, z: 0}
+    - {x: 53.250004, y: 58.750004, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.69824266}
+    - {x: 0.0009770507, y: 0.898437}
+    - {x: 0.40380812, y: 0.69824266}
+    - {x: 0.40380812, y: 0.898437}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ded252a6d85f40d46945925ee41cdc7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3a7f5f038f76d47cbace17aa934336d1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_gym-banner
+    boundsData:
+    - {x: -0.125, y: -8.875, z: 0}
+    - {x: 266.75, y: 66.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 267.5, y: 87, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -133.5, y: -42, z: 0}
+    - {x: 133.25, y: -42, z: 0}
+    - {x: -133.5, y: 24.25, z: 0}
+    - {x: 133.25, y: 24.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4057622, y: 0.69824266}
+    - {x: 0.92675734, y: 0.69824266}
+    - {x: 0.4057622, y: 0.82763624}
+    - {x: 0.92675734, y: 0.82763624}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ded252a6d85f40d46945925ee41cdc7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7b65e4ca480614fdaa08d4c33d662085
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menus_tourneybgs_gym-dumbell
+    boundsData:
+    - {x: 0, y: 24.375, z: 0}
+    - {x: 46, y: 24.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 267.5, y: 87, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23, y: 12.249999, z: 0}
+    - {x: 23, y: 12.249999, z: 0}
+    - {x: -23, y: 36.5, z: 0}
+    - {x: 23, y: 36.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.9003911}
+    - {x: 0.0009770507, y: 0.9902339}
+    - {x: 0.048339356, y: 0.9003911}
+    - {x: 0.048339356, y: 0.9902339}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ded252a6d85f40d46945925ee41cdc7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4e9ccd5b57d414a22a3d029156aa6214
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: ded252a6d85f40d46945925ee41cdc7f, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 3bb3ba7cdc43c4944bec7aa541aaf475, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: a7bdaee677bba491b9709df6e6f588c9
+  spriteCollectionName: AlfredTournySpriteCollection@4x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 11249760
+  dataGuid: eafdfdbef60f5482698a7a70aa397186
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

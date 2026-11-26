@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 179
+  preBattleSprite: menu_vsscreen_portrait_cheeta
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Cheetah
+  conversationBodySprite: TT2_gui_cheetah
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 24
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  - Lady
+  - Animal
+  - Beast
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: idle
+    spriteName: TT2_gui_cheetah_face4
+    rightSpriteName:
+    leftSpriteId: 21
+    rightSpriteId: -1
+  - displayName: happy talk
+    spriteName: TT2_gui_cheetah_face2
+    rightSpriteName:
+    leftSpriteId: 25
+    rightSpriteId: -1
+  - displayName: eyyyy
+    spriteName: TT2_gui_cheetah_face3
+    rightSpriteName:
+    leftSpriteId: 20
+    rightSpriteId: -1
+  - displayName: looking away
+    spriteName: TT2_gui_cheetah_face4
+    rightSpriteName:
+    leftSpriteId: 21
+    rightSpriteId: -1
+  - displayName: mad
+    spriteName: TT2_gui_cheetah_face5
+    rightSpriteName:
+    leftSpriteId: 22
+    rightSpriteId: -1
+  - displayName: annoyed talk
+    spriteName: TT2_gui_cheetah_face7
+    rightSpriteName:
+    leftSpriteId: 23
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.5804335, g: 0.43890572, b: 0.72794116, a: 1}
+  dialogueOutlineColor: {r: 0.16899087, g: 0.0023248293, b: 0.31617647, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 187
+  _guid: 443aaffa-d635-4405-8ce8-43939cc61d3f
+  _name: Cheetah
+  _nameKey: CHEETAH
+  _preBattleSpriteId: 81
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 04b2de6a845de79489854ecfaacfa2b2, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 8
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

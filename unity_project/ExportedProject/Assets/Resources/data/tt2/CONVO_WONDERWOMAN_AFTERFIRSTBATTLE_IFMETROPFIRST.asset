@@ -1,0 +1,2041 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_WONDERWOMAN_AFTERFIRSTBATTLE_IFMETROPFIRST
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 94
+  completesMissionUID: 122
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Impressive.
+      key: TT2CONVO_WONDERWOMAN_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yep, that's what they tell me.
+      key: TT2CONVO_WONDERWOMAN_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 12
+      faceSpriteName: TT2_gui_wonderwoman_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sorry for the scare. These days I like to pre-screen all my interactions with spontaneous figure battles.
+      key: TT2CONVO_WONDERWOMAN_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 13
+      faceSpriteName: TT2_gui_wonderwoman_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So, what can I do for you?
+      key: TT2CONVO_WONDERWOMAN_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_robin_facescared
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm on a VERY IMPORTANT mission looking for the Man of Steel. Is he here??
+      key: TT2CONVO_WONDERWOMAN_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nope.
+      key: TT2CONVO_WONDERWOMAN_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm not sure where he is, actually. You know how he comes and goes.
+      key: TT2CONVO_WONDERWOMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_wonderwoman_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'd check with Batman. He's always keeping tabs on everyone. It's kinda creepy, actually.
+      key: TT2CONVO_WONDERWOMAN_72
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_robin_facescared
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 13
+      faceSpriteName: TTG_gui_robin_facehappy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Works for me. To Gotham!
+      key: TT2CONVO_WONDERWOMAN_73
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 132
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 5
+    initialRightBodySpriteName: TT2_gui_wonderwoman
+    initialRightFaceSpriteName: TT2_gui_wonderwoman_face1
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Impressive.
+      key: TT2CONVO_WONDERWOMAN_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: They don't call me a beast for nothing, mama.
+      key: TT2CONVO_WONDERWOMAN_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 12
+      faceSpriteName: TT2_gui_wonderwoman_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sorry for the scare. These days I like to pre-screen all my interactions with spontaneous figure battles.
+      key: TT2CONVO_WONDERWOMAN_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 70
+      otherFaceSpriteName: TTG_gui_beastboy_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 13
+      faceSpriteName: TT2_gui_wonderwoman_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So, what can I do for you?
+      key: TT2CONVO_WONDERWOMAN_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm looking for the super guy. Is he here?
+      key: TT2CONVO_WONDERWOMAN_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nope.
+      key: TT2CONVO_WONDERWOMAN_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm not sure where he is, actually. You know how he comes and goes.
+      key: TT2CONVO_WONDERWOMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_wonderwoman_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'd check with Batman. He's always keeping tabs on everyone. It's kinda creepy, actually.
+      key: TT2CONVO_WONDERWOMAN_72
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Works for me. To Gotham!
+      key: TT2CONVO_WONDERWOMAN_73
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 132
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 5
+    initialRightBodySpriteName: TT2_gui_wonderwoman
+    initialRightFaceSpriteName: TT2_gui_wonderwoman_face1
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Impressive.
+      key: TT2CONVO_WONDERWOMAN_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 37
+      faceSpriteName: TTG_gui_raven_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Thanks, you're not too shabby yourself.
+      key: TT2CONVO_WONDERWOMAN_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 12
+      faceSpriteName: TT2_gui_wonderwoman_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sorry for the scare. These days I like to pre-screen all my interactions with spontaneous figure battles.
+      key: TT2CONVO_WONDERWOMAN_37
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 37
+      otherFaceSpriteName: TTG_gui_raven_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 13
+      faceSpriteName: TT2_gui_wonderwoman_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So, what can I do for you?
+      key: TT2CONVO_WONDERWOMAN_38
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm looking for the Man of Steel. Is he here?
+      key: TT2CONVO_WONDERWOMAN_39
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nope.
+      key: TT2CONVO_WONDERWOMAN_40
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm not sure where he is, actually. You know how he comes and goes.
+      key: TT2CONVO_WONDERWOMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_wonderwoman_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'd check with Batman. He's always keeping tabs on everyone. It's kinda creepy, actually.
+      key: TT2CONVO_WONDERWOMAN_72
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 37
+      faceSpriteName: TTG_gui_raven_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Works for me. To Gotham!
+      key: TT2CONVO_WONDERWOMAN_73
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TT2_gui_wonderwoman_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 132
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 5
+    initialRightBodySpriteName: TT2_gui_wonderwoman
+    initialRightFaceSpriteName: TT2_gui_wonderwoman_face1
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Impressive.
+      key: TT2CONVO_WONDERWOMAN_59
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Thank you, friend Wonder Woman! You also possess the moves.
+      key: TT2CONVO_WONDERWOMAN_60
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 12
+      faceSpriteName: TT2_gui_wonderwoman_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sorry for the scare. These days I like to pre-screen all my interactions with spontaneous figure battles.
+      key: TT2CONVO_WONDERWOMAN_61
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 13
+      faceSpriteName: TT2_gui_wonderwoman_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So, what can I do for you?
+      key: TT2CONVO_WONDERWOMAN_62
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I am seeking the Superman. Is he here?
+      key: TT2CONVO_WONDERWOMAN_63
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nope.
+      key: TT2CONVO_WONDERWOMAN_64
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_starfire_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm not sure where he is, actually. You know how he comes and goes.
+      key: TT2CONVO_WONDERWOMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_wonderwoman_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'd check with Batman. He's always keeping tabs on everyone. It's kinda creepy, actually.
+      key: TT2CONVO_WONDERWOMAN_72
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Works for me. To Gotham!
+      key: TT2CONVO_WONDERWOMAN_74
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 132
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 5
+    initialRightBodySpriteName: TT2_gui_wonderwoman
+    initialRightFaceSpriteName: TT2_gui_wonderwoman_face1
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Impressive.
+      key: TT2CONVO_WONDERWOMAN_47
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hee hee!
+      key: TT2CONVO_WONDERWOMAN_48
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 12
+      faceSpriteName: TT2_gui_wonderwoman_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sorry for the scare. These days I like to pre-screen all my interactions with spontaneous figure battles.
+      key: TT2CONVO_WONDERWOMAN_49
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 8
+      otherFaceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 13
+      faceSpriteName: TT2_gui_wonderwoman_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So, what can I do for you?
+      key: TT2CONVO_WONDERWOMAN_50
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_cyborg_excitedyelling_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, well, hate to bother someone so busy and famous, but... I need to find Supes.
+      key: TT2CONVO_WONDERWOMAN_51
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah. Well, he isn't here.
+      key: TT2CONVO_WONDERWOMAN_52
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 6
+      faceSpriteName: TT2_gui_wonderwoman_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'm not sure where he is, actually. You know how he comes and goes.
+      key: TT2CONVO_WONDERWOMAN_71
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 132
+      position: 1
+      bodySpriteId: 14
+      bodySpriteName: TT2_gui_wonderwoman
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_wonderwoman_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'd check with Batman. He's always keeping tabs on everyone. It's kinda creepy, actually.
+      key: TT2CONVO_WONDERWOMAN_72
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_cyborg_excitedyelling_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Works for me. To Gotham!
+      key: TT2CONVO_WONDERWOMAN_73
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TT2_gui_wonderwoman_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 132
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 14
+    initialRightFaceSpriteId: 5
+    initialRightBodySpriteName: TT2_gui_wonderwoman
+    initialRightFaceSpriteName: TT2_gui_wonderwoman_face1

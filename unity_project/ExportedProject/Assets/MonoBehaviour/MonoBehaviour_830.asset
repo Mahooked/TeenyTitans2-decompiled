@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 12
+  _characterName: Raven
+  _characterNameKey: RAVEN
+  _characterClass: 1
+  _characterRarity: 0
+  _characterFaction: 1
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 4
+  _baseDodge: 5
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 9
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 3
+  _libraryDescription: Raven may be a powerful half-demon, but she is perhaps the most sensible and mature member of the Teen Titans. Of course, that doesn't stop her from sometimes getting wrapped up in zany Titan antics!
+  _libraryDescriptionKey: WIKI_RAVEN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Hero
+  - Teen Titans
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 6
+  _abilitySlots:
+  - position: 20
+    abilityId: 179
+  - position: 55
+    abilityId: 31
+  - position: 90
+    abilityId: 32
+  _portraitSprite: icon_raven
+  _portraitSpriteId: 74
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.78, y: 0.82, z: 0.33}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: -0.39}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.91, y: -0.52, z: -0.16}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: -0.24, y: -1.11, z: -0.34}
+  _bottomLeftPortraitOffset: {x: -0.2, y: 1.15, z: 0.29}
+  _tofuBubbleOffsetPosition: {x: 0.75, y: 1, z: -0.2}
+  _battleCharacterPath: Prefabs/Characters/Battle/Raven
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Raven
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.56, y: 0.56, z: 0.56}
+  _shopFigureOffset: {x: 0, y: -0.55, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 960000009b000000a0000000a5000000aa000000af000000b4000000b9000000be000000c3000000c8000000cd000000d2000000d7000000dc000000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.3529412, g: 0.2901961, b: 0.75294125, a: 1}
+  _shopTextFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_raven
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.718
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_switch1_kpr1
+      - Audio/VO/sfx_vo_raven_battle_switch1_kpr2
+      - Audio/VO/sfx_vo_raven_battle_switch2_kpr
+      - Audio/VO/sfx_vo_raven_battle_switch3_kpr
+      - Audio/VO/sfx_vo_raven_battle_switch4_kpr
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.708
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_hurt1_kpr
+      - Audio/VO/sfx_vo_raven_battle_hurt2_kpr2
+      - Audio/VO/sfx_vo_raven_battle_hurt3_kpr5
+      - Audio/VO/sfx_vo_raven_battle_hurt3_kpr6
+      - Audio/VO/sfx_vo_raven_battle_hurt3_kpr7
+      - Audio/VO/sfx_vo_raven_battle_hurt4_kpr1
+      - Audio/VO/sfx_vo_raven_battle_hurt4_kpr4
+      - Audio/VO/sfx_vo_raven_battle_hurt4_kpr6
+    _healSounds:
+      _probability: 0.727
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_healed1_kpr
+      - Audio/VO/sfx_vo_raven_battle_healed2_kpr
+      - Audio/VO/sfx_vo_raven_battle_healed3_kpr
+      - Audio/VO/sfx_vo_raven_chat_wellthatsannoying_kpr
+    _deathSounds:
+      _probability: 0.609
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_defeated1_kpr
+      - Audio/VO/sfx_vo_raven_battle_defeated2_kpr
+      - Audio/VO/sfx_vo_raven_battle_defeated4_kpr
+      - Audio/VO/sfx_vo_raven_battle_defeated5_kpr
+    _useTofuSounds:
+      _probability: 0.726
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_healed2_kpr
+      - Audio/VO/sfx_vo_raven_battle_ability2_kpr2
+      - Audio/VO/sfx_vo_raven_battle_defeated3_kpr
+    _victorySounds:
+      _probability: 0.745
+      _soundPaths:
+      - Audio/VO/sfx_vo_raven_battle_victory1_kpr
+      - Audio/VO/sfx_vo_raven_battle_victory2_kpr3
+      - Audio/VO/sfx_vo_raven_battle_victory3_kpr
+      - Audio/VO/sfx_vo_raven_battle_victory4_kpr
+      - Audio/VO/sfx_vo_raven_battle_victory2_kpr1
+      - Audio/VO/sfx_vo_raven_battle_canigonow_kpr
+  _repaintSlots:
+  - position: 0
+    id: 29
+    cost: 2
+    rare: 0
+    texturePath: Textures/Raven_Texture_orange-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17
+  - position: 0
+    id: 41
+    cost: 2
+    rare: 0
+    texturePath: Textures/Raven_Texture_pink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 42
+    cost: 2
+    rare: 0
+    texturePath: Textures/Raven_Texture_violet-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 43
+    cost: 3
+    rare: 0
+    texturePath: Textures/Raven_Texture_gray-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 44
+    cost: 3
+    rare: 0
+    texturePath: Textures/Raven_Texture_red-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13

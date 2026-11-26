@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 125
+  _characterName: Swamp Thing
+  _characterNameKey: SWAMP_THING
+  _characterClass: 1
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 22
+  _baseAttack: 0
+  _baseLuck: 8
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 43
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_SWAMPTHING
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 20
+    abilityId: 331
+  - position: 40
+    abilityId: 333
+  - position: 100
+    abilityId: 332
+  _portraitSprite: icon_swampthing
+  _portraitSpriteId: 25
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.8, y: 0.84, z: 0.43}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.47, y: 1.13, z: 0.62}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.55, y: 0.59, z: -0.37}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 8.72}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.86, y: 0.48, z: -0.99}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 8.34}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.77, y: 1.2, z: 0.13}
+  _battleCharacterPath: Prefabs/Characters/Battle/SwampThing
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/SwampThing
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.47, y: 0.47, z: 0.47}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0.12}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 260200002602000026020000260200002602000026020000260200002602000026020000260200002602000026020000260200002602000026020000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.43793252, g: 0.5514706, b: 0.46220616, a: 1}
+  _shopTextFaceColor: {r: 0.9513185, g: 1, b: 0.64705884, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_swampthing
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 258
+    cost: 2
+    rare: 0
+    texturePath: Textures/swampThing_Texture_brownandtan-1x
+    _colorSprite: menu_shop_repaint_color_brownandtan
+    _colorSpriteId: 8
+  - position: 0
+    id: 259
+    cost: 3
+    rare: 0
+    texturePath: Textures/swampThing_Texture_blue-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 260
+    cost: 5
+    rare: 1
+    texturePath: Textures/swampThing_Texture_maroonpurple-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18677da1105c78931c1c751b7174f7a, type: 3}
+  m_Name: Tutorial_AccessoryPreBattleEquip
+  m_EditorClassIdentifier:
+  tutorialName: AccessoryPreBattle
+  tutorialPrerequisites:
+  - AccessoryTowerEquip_Complete
+  - PreBattlePart2_Complete
+  targetScene: PreBattle
+  targetScenes:
+  - PreBattle
+  debugTutorial: 0
+  debugStartAtStep: 0
+  debugMeetPrerequisites: 0

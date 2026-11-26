@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 35
+  _characterName: Mother Mae-Eye
+  _characterNameKey: MOTHERMAEEYE
+  _characterClass: 1
+  _characterRarity: 1
+  _characterFaction: 0
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 2
+  _baseDodge: 2
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 46
+  _libraryDescription: 'She may look like a kind old lady with a really big hat, but be warned: she''s actually a dastardly villain with a really big hat.'
+  _libraryDescriptionKey: WIKI_MOTHERMAEEYE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Villain
+  - Lady
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 4
+  _abilitySlots:
+  - position: 30
+    abilityId: 41
+  - position: 53
+    abilityId: 45
+  - position: 95
+    abilityId: 43
+  _portraitSprite: icon_mothermaeeye
+  _portraitSpriteId: 70
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.37, y: 0.53, z: 0.13}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.73, y: -0.65, z: -0.25}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.6, y: 1.01, z: -0.28}
+  _battleCharacterPath: Prefabs/Characters/Battle/MotherMaeEye
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/MotherMaeEye
+  _shopFigureBoxPath: Prefabs/Characters/Shop/MotherMaeEye
+  _shopFigureScale: {x: 0.55, y: 0.55, z: 0.55}
+  _shopFigureOffset: {x: 0, y: -0.5, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 0302000012020000210200002602000026020000300200003a020000440200004e020000580200005802000058020000580200005802000058020000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 1, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 0.9949291, g: 0.63235295, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_MotherMaeEye
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 249
+    cost: 3
+    rare: 0
+    texturePath: Textures/MotherMaeEye_Texture_blackandwhite-1x
+    _colorSprite: menu_shop_repaint_color_whiteandblack
+    _colorSpriteId: 14
+  - position: 0
+    id: 250
+    cost: 3
+    rare: 0
+    texturePath: Textures/MotherMaeEye_Texture_purpleblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19
+  - position: 0
+    id: 251
+    cost: 3
+    rare: 0
+    texturePath: Textures/MotherMaeEye_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4

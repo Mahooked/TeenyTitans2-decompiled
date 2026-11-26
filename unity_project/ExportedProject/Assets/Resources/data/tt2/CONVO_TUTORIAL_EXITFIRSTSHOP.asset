@@ -1,0 +1,1525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_TUTORIAL_EXITFIRSTSHOP
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 1
+  triggersBattle: 1
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 17
+    position: 1
+    bodySpriteId: 65
+    bodySpriteName: TTG_gui_beastboy
+    faceSpriteId: 70
+    faceSpriteName: TTG_gui_beastboy_face7
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Yo, Robin! I gots me my new lil toy guys... how about you?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Yes! Feast your eyes on the most RADICAL new Teeny Titan of them all!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 70
+    otherFaceSpriteName: TTG_gui_beastboy_face7
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 17
+    position: 1
+    bodySpriteId: 65
+    bodySpriteName: TTG_gui_beastboy
+    faceSpriteId: 59
+    faceSpriteName: TTG_gui_beastboy_face6
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Pffft. You call that lame-o little toy radical? Lay your eyes on true radicalness, bro!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 16
+    otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 7
+    faceSpriteName: TTG_gui_robin_faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: What!! I'll show you who has the most radical-est fig!! Let's battle!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 59
+    otherFaceSpriteName: TTG_gui_beastboy_face6
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 1
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yo, Robin! I gots me my new lil toy guys... how about you?
+      key: TT2CONVO_EXITFIRSTSHOP_1
+      formatArgs: []
+      clip: {fileID: 8300000, guid: e66599fe7bfd8a54a86f5ce995fd4cbe, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yes! Feast your eyes on the most RADICAL new Teeny Titan of them all!
+      key: TT2CONVO_EXITFIRSTSHOP_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 70
+      otherFaceSpriteName: TTG_gui_beastboy_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 1
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 59
+      faceSpriteName: TTG_gui_beastboy_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Pffft. You call that lame-o little toy radical? Lay your eyes on true radicalness, bro!
+      key: TT2CONVO_EXITFIRSTSHOP_3
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 68102055058bc33428c9ca4c6d3cc443, type: 3}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What!! I'll show you who has the most radical-est fig!! Let's battle!
+      key: TT2CONVO_EXITFIRSTSHOP_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 54277c2211ca9fb4ba070cafb8238c73, type: 3}
+      otherFaceSpriteId: 59
+      otherFaceSpriteName: TTG_gui_beastboy_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 2
+    items:
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Why, hello there, Robin.
+      key: TT2CONVO_EXITFIRSTSHOP_5
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, Beast Boy, I hope there's no hard feelings over what happened in there.
+      key: TT2CONVO_EXITFIRSTSHOP_6
+      formatArgs: []
+      clip: {fileID: 8300000, guid: bb20c07d5a2dac747a86715a55bb505f, type: 3}
+      otherFaceSpriteId: 70
+      otherFaceSpriteName: TTG_gui_beastboy_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Huh? Whatchoo talkin' bout, Robin?
+      key: TT2CONVO_EXITFIRSTSHOP_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_robin_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, just how I'm the proud new owner of the very last RADICAL ROBIN figure! Limited edition, one of a kind! No big deal.
+      key: TT2CONVO_EXITFIRSTSHOP_8
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Pffft. You call that lame-o little toy radical? Lay your eyes on true radicalness, bro!
+      key: TT2CONVO_EXITFIRSTSHOP_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 8
+      otherFaceSpriteName: TTG_gui_robin_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What!! I'll show you who has the most radical-est fig!! Let's battle!
+      key: TT2CONVO_EXITFIRSTSHOP_10
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 54277c2211ca9fb4ba070cafb8238c73, type: 3}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 4
+    items:
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, hi Robin.
+      key: TT2CONVO_EXITFIRSTSHOP_11
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b638f6208a8e4a44494ba49b23672aa1, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, Raven, I hope there's no hard feelings over what happened in there.
+      key: TT2CONVO_EXITFIRSTSHOP_12
+      formatArgs: []
+      clip: {fileID: 8300000, guid: bb20c07d5a2dac747a86715a55bb505f, type: 3}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I have no idea what you're talking about.
+      key: TT2CONVO_EXITFIRSTSHOP_13
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 25b65c5f8314d2f49ac0f66f784c51d3, type: 3}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_robin_oooo
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, just how I'm the proud new owner of the very last RADICAL ROBIN figure! Limited edition, one of a kind! No big deal.
+      key: TT2CONVO_EXITFIRSTSHOP_14
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Uh huh. Hate to break it to you, but I've got the best new Radical Titan right here.
+      key: TT2CONVO_EXITFIRSTSHOP_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_robin_oooo
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: No way! I'll show you who has the most radical-est fig!! Let's battle!
+      key: TT2CONVO_EXITFIRSTSHOP_16
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 54277c2211ca9fb4ba070cafb8238c73, type: 3}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 8
+    items:
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, it is Friend Robin!
+      key: TT2CONVO_EXITFIRSTSHOP_23
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 0d8b602114b99694ca7abb5c16a457d7, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, my dear Star, I hope there's no hard feelings over what happened in there.
+      key: TT2CONVO_EXITFIRSTSHOP_24
+      formatArgs: []
+      clip: {fileID: 8300000, guid: bb20c07d5a2dac747a86715a55bb505f, type: 3}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_12
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh? I'm afraid I do not know the density of the feelings.
+      key: TT2CONVO_EXITFIRSTSHOP_25
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 688bd3ed70fd32c46b69ecd24f7f7fdc, type: 3}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_13
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_robin_oooo
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, it's just that I'm the proud new owner of the very last RADICAL ROBIN figure! Limited edition, one of a kind! No big deal.
+      key: TT2CONVO_EXITFIRSTSHOP_26
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_14
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Then perhaps we must commence with the battle of the radical Teenies?
+      key: TT2CONVO_EXITFIRSTSHOP_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_robin_oooo
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_15
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_robin_facescared2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, uh, I mean, we don't have to... I didn't mean to come on too strong there and--
+      key: TT2CONVO_EXITFIRSTSHOP_28
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 93324e1fa04df7d479e87f604de45455, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_16
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_starfire_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: BATTLE!!!!!!
+      key: TT2CONVO_EXITFIRSTSHOP_29
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 1ebe4ce8fff89204f9d9e1d55dde969c, type: 3}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_robin_facescared2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 16
+    items:
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, whaddup Robin.
+      key: TT2CONVO_EXITFIRSTSHOP_17
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4e64c970897c40f43972293131633e0b, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, Cyborg, I hope there's no hard feelings over what happened in there.
+      key: TT2CONVO_EXITFIRSTSHOP_18
+      formatArgs: []
+      clip: {fileID: 8300000, guid: bb20c07d5a2dac747a86715a55bb505f, type: 3}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Whatchoo talkin' bout, Robin?
+      key: TT2CONVO_EXITFIRSTSHOP_19
+      formatArgs: []
+      clip: {fileID: 8300000, guid: e6d916c47926d1742b450d8b9404854b, type: 3}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_robin_allthefigs
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, just how I'm the proud new owner of the very last RADICAL ROBIN figure! Limited edition, one of a kind! No big deal.
+      key: TT2CONVO_EXITFIRSTSHOP_20
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Uh huh. Hate to break it to you, but I've got the best new Radical Titan right here, baby!
+      key: TT2CONVO_EXITFIRSTSHOP_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_robin_allthefigs
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 1
+      bodySpriteId: 60
+      bodySpriteName: TTG_gui_robin_player
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: No way! I'll show you who has the most radical-est fig!! Let's battle!
+      key: TT2CONVO_EXITFIRSTSHOP_22
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 54277c2211ca9fb4ba070cafb8238c73, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle

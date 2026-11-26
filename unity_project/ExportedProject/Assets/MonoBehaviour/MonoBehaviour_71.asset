@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e63b46beee20070b24e2e56340609c5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 47
+  _itemName: Krypto the Superdog
+  _itemNameKey: ACC_KRYPTO
+  _itemDescription: Intermittently gives you Hearts, Str buffs, Tofu and Batteries
+  _itemDescriptionKey: ACC_KRYPTO_DESC
+  _itemShortDescription: Items!
+  _itemShortDescriptionKey:
+  _stackSize: 1
+  _iconSprite: menu_accessory_krypto
+  _iconSpriteId: 357
+  _effects:
+  - triggerType: 0
+    effectType: 15
+    probability: 1
+    useProbabilityInDescription: 0
+    statType: 0
+    actionMeterEffect: 0
+    statusEffect: 0
+    targetType: 0
+    intValue: 100
+    intValue2: 100
+    intValue3: 100
+    intValue4: 0
+    floatValue: 0
+    boolValue: 1
+    boolValue2: 1
+    boolValue3: 1
+    boolValue4: 1
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 0
+      _floatValue2: 0
+      _stringValue1:
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    effectOrderIntVal: -1
+    effectOrderFloatVal: -1
+    factionOverrides: []
+    accessoryTriggerType: 4
+    animEventString:
+    timerDuration:
+      minValue: 4
+      maxValue: 7
+    tickImmediately: 0
+    playAnimation: 1
+    playSoundEffect: 1
+    animationName: shoot
+    animationNameEnemy: shoot
+    animationPlayOffset: 0.4166
+    soundEffectPath: Audio/SFX/sfx_battle_accessory_krypto_bark
+    soundEffectDelay: 0
+    autoReapplyEffect: 0
+  _animationCues: []
+  cameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  cameraOffsetPositionZoomedOutEnemy: {x: 0, y: 0, z: 0}
+  offsetPosition: {x: -1.79, y: 0, z: -4}
+  enemyOffsetPosition: {x: -1.79, y: 0, z: 4}
+  maxHealthLowest: 40
+  maxHealthHighest: 80
+  prefabPath: Prefabs/Accessories/KryptoTheSuperdog
+  modelPath: Prefabs/Accessories/Models/KryptoTheSuperdog
+  modelViewerAnimation: idle
+  modelViewerAnimationTime: 0
+  modelViewerOffset: {x: 0, y: -0.6, z: 0}
+  modelViewerOffsetIpad: {x: 0, y: -0.21, z: 0}
+  modelViewerCameraOffset: {x: 0, y: 1.2, z: 0.3}
+  modelViewerCameraRotationOffset: {x: 0, y: 0, z: 0}
+  cityRewardAnimation: idle
+  particlePath:
+  showInTower: 1
+  _batteryChargeUpRate: 1.5
+  _batteryChargeUpPercent: 1
+  _batteryDrainRate: 0.2
+  _batteryDrainPercent: 1
+  _introSoundPath: Audio/SFX/sfx_battle_accessory_krypto_arrive
+  _introVOPaths: []
+  _introAnimation: swap in
+  _introAnimationEnemy:
+  _cost: 650
+  _shopAnimation: idle
+  _shopOffsetPosition: {x: 0.0089, y: 0.0071, z: -0.0054}
+  _shopRotation: {x: 0, y: -90, z: 0}
+  _shopScale: {x: 0.045, y: 0.045, z: 0.045}
+  _revealAnimation: idle
+  _revealOffsetPosition: {x: 0.165, y: -0.45, z: 0.011}
+  _revealRotation: {x: 0, y: 294, z: 0}
+  _revealScale: {x: 1, y: 1, z: 1}

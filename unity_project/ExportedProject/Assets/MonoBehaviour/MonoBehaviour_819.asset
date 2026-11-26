@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 11
+  _characterName: Red X
+  _characterNameKey: REDX
+  _characterClass: 4
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 6
+  _baseDodge: 12
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 7
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 31
+  _libraryDescription: 'This super mysterious masked villain has a super mysterious secret identity. No point in even guessing, because you''ll never get it. This unsolvable mystery is going to keep you up at night, isn’t it? (By the way: It''s definitely NOT Robin, if that''s what you''re thinking.)'
+  _libraryDescriptionKey: WIKI_REDX
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Martial Arts
+  - Villain
+  - Teen Titans
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 8
+  _abilitySlots:
+  - position: 14
+    abilityId: 25
+  - position: 39
+    abilityId: 22
+  - position: 80
+    abilityId: 288
+  _portraitSprite: icon_redx
+  _portraitSpriteId: 142
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: -0.3, y: 0.38, z: 0.09}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0, y: -0.81, z: -0.23}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: -0.24, y: -1.11, z: -0.34}
+  _bottomLeftPortraitOffset: {x: -0.2, y: 1.15, z: 0.29}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1, z: -0.2}
+  _battleCharacterPath: Prefabs/Characters/Battle/RedX
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/RedX
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.63, y: 0.63, z: 0.63}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 540100005e0100006801000072010000770100007c010000810100008601000090010000900100009001000090010000900100009001000090010000
+  _shopFigureTicketCosts: 040000000400000004000000040000000400000004000000040000000400000004000000040000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.11764707, g: 0.227451, b: 0.37254903, a: 1}
+  _shopTextFaceColor: {r: 0.98823535, g: 0.13725491, b: 0.45098042, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_redx
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 111
+    cost: 2
+    rare: 0
+    texturePath: Textures/RedX_Texture_Blue-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 112
+    cost: 3
+    rare: 0
+    texturePath: Textures/RedX_Texture_RedBlack-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 195
+    cost: 3
+    rare: 0
+    texturePath: Textures/RedX_Texture_blackwhite-1x
+    _colorSprite: menu_shop_repaint_color_whiteandblack
+    _colorSpriteId: 14
+  - position: 0
+    id: 196
+    cost: 5
+    rare: 0
+    texturePath: Textures/RedX_Texture_greenpurple-1x
+    _colorSprite: menu_shop_repaint_color_greenandpink
+    _colorSpriteId: 0
+  - position: 0
+    id: 197
+    cost: 5
+    rare: 0
+    texturePath: Textures/RedX_Texture_red-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13

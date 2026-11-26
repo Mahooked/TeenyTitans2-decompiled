@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd5acecbbd476961e925fb6c5087a8a, type: 3}
+  m_Name: CobblepotTournament
+  m_EditorClassIdentifier:
+  cityName: 1
+  district: 3
+  _tournamentName: The Cobblepot Winter Classic
+  _tournamentNameKey: ICEBERG_TOURNY
+  _tournamentSpriteCollection: {fileID: 114724804207875695, guid: 5cf135a980ca7994bb15d9b7e1fbebae, type: 2}
+  _backgroundSprite: menus_tourneybgs_iceberglounge-tourny
+  _backgroundSpriteId: 0
+  _bannerSprite: menus_tourneybgs_iceberglounge-banner
+  _bannerSpriteId: 3
+  _bannerTopperSprite: menus_tourneybgs_iceberglounge-hat
+  _bannerTopperSpriteId: 1
+  _bannerTextMaterial: Materials/Fonts/baveuse SDF BackAlley TournementHeader
+  _trophySprite: menus_tourneybgs_iceberglounge-trophy
+  _trophySpriteId: 2
+  _trophyModel: Prefabs/Trophies/TrashCan
+  _preConversation: {fileID: 0}
+  _postConversation: {fileID: 11400000, guid: 80cfc9a35e218584c8d5d50f23508a4f, type: 2}
+  _coinReward: 500
+  _containsChallenge: 0
+  _figureRewards:
+  - characterUID: 100
+    characterLvl: 4
+    blindBox: 0
+    goldBox: 0
+    blindBoxShopFigures: []
+  _rounds:
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 143
+    figures:
+    - characterUID: 88
+      level: 6
+      abilityUIDs: ec000000ea000000eb000000
+      selectedRewards: 070000001a000000010000001d00000013000000
+      hitPoints: 35
+      attack: 1
+      speed: 0
+      luck: 0
+      dodge: 0
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 100
+      level: 7
+      abilityUIDs: 0b0100000d0100000c010000
+      selectedRewards: 010000001a000000220000001d0000000700000002000000
+      hitPoints: 45
+      attack: 4
+      speed: 0
+      luck: 5
+      dodge: 5
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 125
+    coinReward: 500
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 11400000, guid: 612a0b8be62c7af4796a2e846c951f68, type: 2}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 20
+      minValue: 15
+      maxValue: 20
+    - weight: 60
+      minValue: 8
+      maxValue: 12
+    - weight: 20
+      minValue: 10
+      maxValue: 14
+    - weight: 0
+      minValue: 0
+      maxValue: 5
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 153
+    figures:
+    - characterUID: 89
+      level: 5
+      abilityUIDs: ed000000ee000000ef000000
+      selectedRewards: 130000001a000000220000001d000000
+      hitPoints: 25
+      attack: 2
+      speed: 0
+      luck: 10
+      dodge: 0
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 7
+      level: 5
+      abilityUIDs: 180000001100000013000000
+      selectedRewards: 130000001a000000220000001d000000
+      hitPoints: 22
+      attack: 2
+      speed: 0
+      luck: 19
+      dodge: 5
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 101
+      level: 5
+      abilityUIDs: 150100001401000013010000
+      selectedRewards: 220000001a000000070000001d000000
+      hitPoints: 28
+      attack: 2
+      speed: 0
+      luck: 0
+      dodge: 3
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 60
+    coinReward: 45
+    challengesOn: 1
+    challengeHidden: 0
+    challengesIncluded: 00000000010000000200000003000000040000000500000006000000
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: 35
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 50
+      minValue: 11
+      maxValue: 15
+    - weight: 50
+      minValue: 8
+      maxValue: 12
+    - weight: 0
+      minValue: 5
+      maxValue: 10
+    - weight: 50
+      minValue: 6
+      maxValue: 9
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 152
+    figures:
+    - characterUID: 105
+      level: 5
+      abilityUIDs: 1a0100001b0100001c010000
+      selectedRewards: 070000001a000000010000001d000000
+      hitPoints: 30
+      attack: 2
+      speed: 0
+      luck: 6
+      dodge: 6
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 22
+      level: 5
+      abilityUIDs: 570000005600000058000000
+      selectedRewards: 130000001a000000010000001d000000
+      hitPoints: 25
+      attack: 2
+      speed: 0
+      luck: 9
+      dodge: 4
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 50
+    coinReward: 35
+    challengesOn: 1
+    challengeHidden: 0
+    challengesIncluded: 01000000060000000500000004000000030000000200000000000000
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 105
+    figures:
+    - characterUID: 96
+      level: 4
+      abilityUIDs: fe000000fc000000fd000000
+      selectedRewards: 010000001a00000022000000
+      hitPoints: 22
+      attack: 1
+      speed: 0
+      luck: 3
+      dodge: 3
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 40
+    coinReward: 30
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData: []
+  _tournamentOrder: 1
+  _timeOfDay: 0
+  _achievementReward:

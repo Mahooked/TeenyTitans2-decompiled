@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 80
+  _characterName: The Hooded Hood
+  _characterNameKey: THEHOODEDHOOD
+  _characterClass: 1
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 14
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 1
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 101
+  _libraryDescription: This mysterious hooded figure is both mysterious and hooded. Robin thinks he resembles a certain arch nemesis of his… but nope, he's wrong.
+  _libraryDescriptionKey: WIKI_THEHOODEDHOOD
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 2
+  _abilitySlots:
+  - position: 23
+    abilityId: 169
+  - position: 50
+    abilityId: 168
+  - position: 100
+    abilityId: 167
+  _portraitSprite: icon_hoodedhood
+  _portraitSpriteId: 308
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.01, y: 0.69, z: 0.15}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.94, y: -0.53, z: -0.25}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.48, y: 0.9, z: -0.15}
+  _battleCharacterPath: Prefabs/Characters/Battle/HoodedHood
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/HoodedHood
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.55, y: 0.57, z: 0.57}
+  _shopFigureOffset: {x: 0.05, y: -0.65, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.08823532, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 0.83823526, g: 0, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_HoodedHood
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.75
+      _soundPaths:
+      - Audio/VO/sfx_vo_hoodnew_muahaha
+      - Audio/VO/sfx_vo_hoodnew_letsfinishthis
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.686
+      _soundPaths:
+      - Audio/VO/sfx_vo_hoodnew_hurt1
+      - Audio/VO/sfx_vo_hoodnew_hurt2
+      - Audio/VO/sfx_vo_hoodnew_hurt3
+      - Audio/VO/sfx_vo_hoodnew_hurt4
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 0.76
+      _soundPaths:
+      - Audio/VO/sfx_vo_hoodnew_hurt1
+      - Audio/VO/sfx_vo_hoodnew_hurt3
+    _useTofuSounds:
+      _probability: 0.744
+      _soundPaths:
+      - Audio/VO/sfx_vo_hood_battle_chat_ha_kpr1
+      - Audio/VO/sfx_vo_hood_battle_chat_ha_kpr5
+    _victorySounds:
+      _probability: 0.756
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 304
+    cost: 5
+    rare: 0
+    texturePath: Textures/hoodedhood_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 305
+    cost: 5
+    rare: 0
+    texturePath: Textures/hoodedhood_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4
+  - position: 0
+    id: 306
+    cost: 5
+    rare: 0
+    texturePath: Textures/hoodedhood_Texture_whiteandgold-1x
+    _colorSprite: menu_shop_repaint_color_whiteandgold
+    _colorSpriteId: 3

@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: SpashScreenSpriteCollection@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: WB_logo
+    boundsData:
+    - {x: 0, y: -0.5, z: 0}
+    - {x: 150, y: 211, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.5, z: 0}
+    - {x: 150, y: 211, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -75, y: -106, z: 0}
+    - {x: 75, y: -106, z: 0}
+    - {x: -75, y: 105, z: 0}
+    - {x: 75, y: 105, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.45703322}
+    - {x: 0.007816406, y: 0.74999803}
+    - {x: 0.8320273, y: 0.45703322}
+    - {x: 0.8320273, y: 0.74999803}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 839b023610091404789482bef7efbcd3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 102571cbe6b514b70ac17a3d404495c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DC_logo
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 228, y: 228, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 228, y: 228, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -114, y: -114, z: 0}
+    - {x: 114, y: -114, z: 0}
+    - {x: -114, y: 114, z: 0}
+    - {x: 114, y: 114, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.89843357, y: 0.003908203}
+    - {x: 0.007816406, y: 0.44921678}
+    - {x: 0.89843357, y: 0.44921678}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 839b023610091404789482bef7efbcd3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 03bb936f04bae4fb1b1f66e7d9f776de
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: WB_logo_legal
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 238, y: 34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 238, y: 34, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -119, y: -17, z: 0}
+    - {x: 119, y: -17, z: 0}
+    - {x: -119, y: 17, z: 0}
+    - {x: 119, y: 17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8476602, y: 0.45703322}
+    - {x: 0.8476602, y: 0.92187303}
+    - {x: 0.9804648, y: 0.45703322}
+    - {x: 0.9804648, y: 0.92187303}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 839b023610091404789482bef7efbcd3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9b354fa27faaa44bf9620bf46fcfee50
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 839b023610091404789482bef7efbcd3, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: 1e7df37ef333ddf47b7727468d2b213e, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 2fd217b577d8f49188add596c9c573da
+  spriteCollectionName: SpashScreenSpriteCollection@1x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1297520415
+  dataGuid: 4634247e5c2f74915abb78dfb0e4da11
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

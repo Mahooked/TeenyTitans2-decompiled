@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: CityChoiceSpriteCollection@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: menu_choose-superman
+    boundsData:
+    - {x: 10, y: -34.5, z: 0}
+    - {x: 100, y: 113, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 148, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -40, y: -91, z: 0}
+    - {x: 60, y: -91, z: 0}
+    - {x: -40, y: 21.999998, z: 0}
+    - {x: 60, y: 21.999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.57031643, y: 0.003908203}
+    - {x: 0.96093357, y: 0.003908203}
+    - {x: 0.57031643, y: 0.22460742}
+    - {x: 0.96093357, y: 0.22460742}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2f7940fa35e4e4286bdaec927f028a15
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menu_choose-gotham
+    boundsData:
+    - {x: 3, y: 29.000004, z: 0}
+    - {x: 140, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 148, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -35, z: 0}
+    - {x: 73, y: -35, z: 0}
+    - {x: -67, y: 93.00001, z: 0}
+    - {x: 73, y: 93.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.55468357, y: 0.003908203}
+    - {x: 0.007816406, y: 0.25390428}
+    - {x: 0.55468357, y: 0.25390428}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+    materialId: 0
+    sourceTextureGUID: 51667da6cd9094a8398d3eb10464d55c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menu_choose-metropolis
+    boundsData:
+    - {x: -1.4999981, y: 26.000002, z: 0}
+    - {x: 129, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 148, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -66, y: -37.999996, z: 0}
+    - {x: 63.000004, y: -37.999996, z: 0}
+    - {x: -66, y: 90, z: 0}
+    - {x: 63.000004, y: 90, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.26172072}
+    - {x: 0.5117148, y: 0.26172072}
+    - {x: 0.007816406, y: 0.5117168}
+    - {x: 0.5117148, y: 0.5117168}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+    materialId: 0
+    sourceTextureGUID: fbbf709108ebd4edd9bf7163c1103d11
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menu_choose-batman
+    boundsData:
+    - {x: 1.0000019, y: -35.5, z: 0}
+    - {x: 92, y: 109, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 148, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -45, y: -90, z: 0}
+    - {x: 47.000004, y: -90, z: 0}
+    - {x: -45, y: 19.000002, z: 0}
+    - {x: 47.000004, y: 19.000002, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.57031643, y: 0.23242383}
+    - {x: 0.92968357, y: 0.23242383}
+    - {x: 0.57031643, y: 0.44531053}
+    - {x: 0.92968357, y: 0.44531053}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+    materialId: 0
+    sourceTextureGUID: dc226778a82034297980695c2b74ad13
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menu_choose-backing
+    boundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 151, y: 51, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 163, y: 63, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -75, y: -26, z: 0}
+    - {x: 76, y: -26, z: 0}
+    - {x: -75, y: 25, z: 0}
+    - {x: 76, y: 25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5273477, y: 0.45312697}
+    - {x: 0.5273477, y: 0.7480449}
+    - {x: 0.72655857, y: 0.45312697}
+    - {x: 0.72655857, y: 0.7480449}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1f2a849c909304c31b4523be30ac9331
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 01835688ccac0b24cb178097d2585d46, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: 56345f8363518bc40820c0fefe80b311, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: c572f5834c4534ab982e2d0fd4794d25
+  spriteCollectionName: CityChoiceSpriteCollection@1x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1245943281
+  dataGuid: 316d9d397108f459a96f728dc486fa9e
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

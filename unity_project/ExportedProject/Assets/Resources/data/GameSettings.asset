@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31276b65418f0e9b7e94b20d51c007e4, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier:
+  _playerTestData: {fileID: 11400000, guid: f734ef67a5049db45b4972b4a97c0d33, type: 2}
+  _useTestDataInBuild: 0
+  _citySceneName: City_JumpCityNew
+  _buttonLongPressTime: 0.5
+  _minNewsFlashQueueDelay: 0
+  _spaceCabbieTravelCost: 50
+  _surpriseRepaintCost: 5
+  _maxPawnAmount: 1500
+  _easyBattles: 0
+  _goTapBonus: 0.25
+  _currencyPerBattle: 25
+  _healthCapEnabled: 1
+  _tofuSettings:
+    healMin: 5
+    healPercent: 0.1
+    spicyTiers:
+    - minLevel: 1
+      bonus: 2
+    - minLevel: 6
+      bonus: 4
+    - minLevel: 11
+      bonus: 6
+    - minLevel: 16
+      bonus: 8
+    numBatteriesToDrop: 2
+    danceSpeedBonus: 4
+    danceDuration: 8
+    bubbleDuration: 6
+    bubblePrefabPath: Prefabs/FX/AqualadBurpBubble
+    healOnBubbleEndAmtMin: 5
+    healOnBubbleEndPercent: 0.1
+    actionMeterFreezeBarReduction: 1
+    waffleDuration: 8
+    numOfWaffles: 1
+    tofuDropWeights:
+    - tofuType: 0
+      weight: 100
+    - tofuType: 1
+      weight: 50
+    - tofuType: 2
+      weight: 100
+    - tofuType: 3
+      weight: 50
+    - tofuType: 4
+      weight: 60
+    - tofuType: 5
+      weight: 40
+    - tofuType: 6
+      weight: 40
+    - tofuType: 7
+      weight: 40
+    - tofuType: 8
+      weight: 40
+    - tofuType: 9
+      weight: 40
+  _bonusDropSettings:
+    heartHealMin: 3
+    heartHealPercent: 0.1
+    blueFireTiers:
+    - minLevel: 1
+      bonus: 1
+    - minLevel: 6
+      bonus: 2
+    - minLevel: 11
+      bonus: 3
+    - minLevel: 16
+      bonus: 4
+  _stunDurationReduction: -0.35
+  _minStunDurationFactor: 0.15
+  _showBattleMessages: 1
+  _showEnemyAccessoryUI: 1
+  _diminishingReturnsSettings:
+  - uses: 97
+    effectPowerReduction: 0.5
+  - uses: 98
+    effectPowerReduction: 0.75
+  - uses: 99
+    effectPowerReduction: 0.875
+  _debugLevelUpStatWeights:
+    healthWeight: 100
+    attackWeight: 70
+    speedWeight: 0
+    luckWeight: 30
+    dodgeWeight: 20
+  _classBonusDamage: 0.25
+  _luckyBonusDamage: 0.5
+  _actionMeterSizeEnabled: 1
+  _resetActionMeterOnSwitch: 0
+  _actionMeterMultiplierTiers: 3
+  _actionMeterMultiplierRange:
+    minValue: 0
+    maxValue: 5
+  _actionMeterFillTimeRange:
+    minValue: 15
+    maxValue: 5
+  _defaultCoinDropChance: 0.7
+  _defaultTofuDropChance: 0.4
+  _defaultBatteryDropChance: 0.1
+  _batteryPickupChargeUpPercent: 20
+  _accessoryChargeOnAbilityUsedModifier: 0.2
+  _batteryPickupChargeUpPercentActiveAccessory: 10
+  _accessoryChargeOnAbilityUsedModifierActiveAccessory: 0.1
+  _minAbilitiesUsedToShowTic: 3
+  _defaultBatteryChargeTicChance: 0.5
+  _defaultBatteryChargeUpRate: 2
+  _defaultBatteryChargeUpPercent: 1
+  _defaultBatteryDrainRate: 0.2
+  _defaultBatteryDrainPercent: 1
+  _maxBatteryDrop: 1
+  _batteryDropOnPlayerDeath: 1
+  _cutePhrases:
+  - phrase: Aww!
+    key: AW
+  - phrase: Totes Adorbs!
+    key: TOTES
+  - phrase: So Cute!
+    key: SOCUTE
+  _cuteSounds:
+  - Audio/SFX/sfx_battle_classbonus_cute
+  _darkArtsPhrases:
+  - phrase: Spooky!
+    key: SPOOKY
+  - phrase: OoOoOo!
+    key: CLASSBONUS_OOO
+  _darkArtsSounds:
+  - Audio/SFX/sfx_battle_classbonus_darkarts
+  _superPhrases:
+  - phrase: Super!
+    key: SUPER
+  - phrase: Powers!
+    key: POWERS
+  _superSounds:
+  - Audio/SFX/sfx_battle_classbonus_super
+  _techPhrases:
+  - phrase: Beep Boop!
+    key: BEEPBOOP
+  - phrase: Technology!
+    key: CLASSBONUS_TECH
+  - phrase: 00100101
+    key: CLASSBONUS_0101
+  _techSounds:
+  - Audio/SFX/sfx_battle_classbonus_tech
+  _martialArtsPhrases:
+  - phrase: Karate!
+    key: KARATE
+  - phrase: Hi-ya!
+    key: HIYA
+  - phrase: Hwah!
+    key: HWAH
+  _martialArtsSounds:
+  - Audio/SFX/sfx_battle_classbonus_martialarts
+  _beastPhrases:
+  - phrase: Beastly!
+    key: BEASTLY
+  - phrase: Savage!
+    key: SAVAGE
+  - phrase: Rawr!
+    key: RAWR
+  _beastSounds:
+  - Audio/SFX/sfx_battle_classbonus_beast
+  _startingCurrency: 150
+  _startingRainbowCurrency: 0
+  _startingCharacters:
+  _countdownSoundSets:
+  - characterUID: 0
+    threePath: Audio/VO/sfx_vo_robin_countdown_three
+    twoPath: Audio/VO/sfx_vo_robin_countdown_two
+    onePath: Audio/VO/sfx_vo_robin_countdown_one
+    goPaths:
+    - Audio/VO/sfx_vo_robin_countdown_go1
+    - Audio/VO/sfx_vo_robin_countdown_go2
+    - Audio/VO/sfx_vo_robin_countdown_go3
+  - characterUID: 13
+    threePath: Audio/VO/sfx_vo_beastboy_countdown_three_kpr1
+    twoPath: Audio/VO/sfx_vo_beastboy_countdown_two_kpr1
+    onePath: Audio/VO/sfx_vo_beastboy_countdown_one_kpr1
+    goPaths:
+    - Audio/VO/sfx_vo_beastboy_countdown_go1_kpr1
+    - Audio/VO/sfx_vo_beastboy_countdown_go2_kpr1
+    - Audio/VO/sfx_vo_beastboy_countdown_go3_kpr
+    - Audio/VO/sfx_vo_beastboy_countdown_go4_kpr
+  - characterUID: 1
+    threePath: Audio/VO/sfx_vo_cyborg_countdown_three_kpr1
+    twoPath: Audio/VO/sfx_vo_cyborg_countdown_two_kpr1
+    onePath: Audio/VO/sfx_vo_cyborg_countdown_one_kpr2
+    goPaths:
+    - Audio/VO/sfx_vo_cyborg_countdown_go1_kpr1
+    - Audio/VO/sfx_vo_cyborg_countdown_go2_kpr1
+    - Audio/VO/sfx_vo_cyborg_countdown_go2_kpr2
+    - Audio/VO/sfx_vo_cyborg_countdown_go3_kpr1
+  - characterUID: 12
+    threePath: Audio/VO/sfx_vo_raven_countdown_three
+    twoPath: Audio/VO/sfx_vo_raven_countdown_two
+    onePath: Audio/VO/sfx_vo_raven_countdown_one
+    goPaths:
+    - Audio/VO/sfx_vo_raven_countdown_go1
+    - Audio/VO/sfx_vo_raven_countdown_go2
+    - Audio/VO/sfx_vo_raven_countdown_go3
+    - Audio/VO/sfx_vo_raven_countdown_go4
+  - characterUID: 2
+    threePath: Audio/VO/sfx_vo_starfire_countdown_three_kpr2
+    twoPath: Audio/VO/sfx_vo_starfire_countdown_two_kpr1
+    onePath: Audio/VO/sfx_vo_starfire_countdown_one_kpr2
+    goPaths:
+    - Audio/VO/sfx_vo_starfire_countdown_go
+    - Audio/VO/sfx_vo_starfire_countdown_go2_kpr
+  _defaultPrebattleVOProbability: 0.4
+  _enterCityVOProbability: 0.75
+  _hotelCost: 200
+  _abilityCustomizationCost: 250
+  _healthStatDescription: Health description here
+  _healthStatDescriptionKey: HEALTH_DESC
+  _attackStatDescription: Strength description here
+  _attackStatDescriptionKey: STRENGTH_DESC
+  _dodgeStatDescription: Dodge description here
+  _dodgeStatDescriptionKey: DODGE_DESC
+  _luckStatDescription: Luck description here
+  _luckStatDescriptionKey: LUCK_DESC
+  _tapToMoveSFX: []
+  _swipeSFX:
+  - sfx_controls_swipe_1
+  - sfx_controls_swipe_2
+  - sfx_controls_swipe_3
+  - sfx_controls_swipe_4
+  _useSwipeFXOnlyOnSwipe: 0
+  _networkMaxPlayersPerRoom: 2
+  _networkUpdateRoomHeartbeatSeconds: 1.25

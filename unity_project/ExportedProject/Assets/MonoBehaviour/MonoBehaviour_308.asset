@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 22
+  preBattleSprite: menu_vsscreen_portrait_jayna
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Jayna
+  conversationBodySprite: TTG_gui_jayna
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 1
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 175
+  conversationFaces:
+  - displayName: Happy
+    spriteName: TTG_gui_jayna_happy
+    rightSpriteName:
+    leftSpriteId: 18
+    rightSpriteId: -1
+  - displayName: Thinking
+    spriteName: TTG_gui_jayna_thinking
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  - displayName: Concerned
+    spriteName: TTG_gui_jayna_concered
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Jayna 2
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: e54bfd36-3094-4992-a1b5-6c0055436fbd
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 24
+        level: 3
+        abilityUIDs: 1d0000001b0000001c000000
+        selectedRewards: 010000001a000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 8
+        dodge: 2
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 53
+        level: 3
+        abilityUIDs: 7a000000790000007b000000
+        selectedRewards: 010000001a000000
+        hitPoints: 26
+        attack: 0
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 35
+        level: 3
+        abilityUIDs: 290000002d0000002b000000
+        selectedRewards: 130000001a000000
+        hitPoints: 18
+        attack: 0
+        speed: 0
+        luck: 5
+        dodge: 2
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 23
+        level: 3
+        abilityUIDs: 820000008400000083000000
+        selectedRewards: 070000001a000000
+        hitPoints: 35
+        attack: 1
+        speed: 0
+        luck: 5
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 26
+        level: 3
+        abilityUIDs: 250000002600000024000000
+        selectedRewards: 010000001a000000
+        hitPoints: 19
+        attack: 0
+        speed: 5
+        luck: 3
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 0
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 785d6a877e3b5594db563992861ebbfd, type: 2}
+      battleComplete:
+      - {fileID: 0}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Jayna WIP
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 53
+        level: 5
+        abilityUIDs: 7a000000790000007b000000
+        selectedRewards: 010000001a000000130000001d000000
+        hitPoints: 29
+        attack: 0
+        speed: 0
+        luck: 8
+        dodge: 10
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Jayna_GameStart
+    disablesGameObject: 1
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: ae2177a1-c593-450b-9a80-179ab9519493
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.79215693, g: 0.64705884, b: 0.9176471, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 23
+  _guid: 191408a4-4956-4ed2-8dfd-1ff8dba1182f
+  _name: Jayna
+  _nameKey: JAYNA
+  _preBattleSpriteId: 34
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 2
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 497d0e00ac95a6f438902aa569ffb66a, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

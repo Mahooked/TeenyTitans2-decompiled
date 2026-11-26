@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: BattleBG_SoHeroic_SpriteCollection@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: background_soheroic_heroic
+    boundsData:
+    - {x: -2.5, y: 3.000002, z: 0}
+    - {x: 349, y: 120, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.5, z: 0}
+    - {x: 384, y: 139, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -177, y: -57, z: 0}
+    - {x: 172, y: -57, z: 0}
+    - {x: -177, y: 63.000004, z: 0}
+    - {x: 172, y: 63.000004, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.6855449}
+    - {x: 0.4765586, y: 0.003908203}
+    - {x: 0.4765586, y: 0.6855449}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d3421cb4618972745a235be247ee36ea, type: 2}
+    materialId: 0
+    sourceTextureGUID: 35881b118376247ff900a7ad14b3a631
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_soheroic_tiletext
+    boundsData:
+    - {x: 0, y: 0.5, z: 0}
+    - {x: 266, y: 57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 278, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -133, y: -28, z: 0}
+    - {x: 133, y: -28, z: 0}
+    - {x: -133, y: 29, z: 0}
+    - {x: 133, y: 29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4921914, y: 0.003908203}
+    - {x: 0.4921914, y: 0.52343553}
+    - {x: 0.7148398, y: 0.003908203}
+    - {x: 0.7148398, y: 0.52343553}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d3421cb4618972745a235be247ee36ea, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9e6a7ca36f17742f98c2e37c4e2c0c63
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_soheroic_so
+    boundsData:
+    - {x: -3.500002, y: -3, z: 0}
+    - {x: 127, y: 88, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 161, y: 110, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -47, z: 0}
+    - {x: 59.999996, y: -47, z: 0}
+    - {x: -67, y: 41, z: 0}
+    - {x: 59.999996, y: 41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.69336134}
+    - {x: 0.007816406, y: 0.9414043}
+    - {x: 0.3515586, y: 0.69336134}
+    - {x: 0.3515586, y: 0.9414043}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d3421cb4618972745a235be247ee36ea, type: 2}
+    materialId: 0
+    sourceTextureGUID: b09914375742b486cad63f265cc3241c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_soheroic_bg
+    boundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2, y: -138, z: 0}
+    - {x: 3, y: -138, z: 0}
+    - {x: -2, y: 138, z: 0}
+    - {x: 3, y: 138, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7304727, y: 0.003908203}
+    - {x: 0.74999607, y: 0.003908203}
+    - {x: 0.7304727, y: 0.5429668}
+    - {x: 0.74999607, y: 0.5429668}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d3421cb4618972745a235be247ee36ea, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0f738bee0f55246fba8c404fe49c4ee1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: d3421cb4618972745a235be247ee36ea, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: 62226a671e094214185f77b9f0eb8fab, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 1ce0e6eb41ac24521b0396d3c44ed33d
+  spriteCollectionName: BattleBG_SoHeroic_SpriteCollection@1x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 2127717219
+  dataGuid: 3c6dacfd6d66d435eab30742eb839ba1
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

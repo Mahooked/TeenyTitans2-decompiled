@@ -1,0 +1,2043 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15565894c503666922fd8b2fc2fba6f2, type: 3}
+  m_Name: npc_hooded_hood_poof_out
+  m_EditorClassIdentifier:
+  duration: 0.3
+  totalFrames: 18
+  imageScale: 4
+  _composition:
+    id: 5683
+    width: 150
+    height: 150
+    duration: 0.3
+    totalFrames: 18
+    frameDuration: 0.016666668
+    _layers:
+    - id: 0
+      index: -1
+      parent: 0
+      width: 1
+      height: 1
+      name:
+      type: 0
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 0
+      inTime: 0
+      outTime: 0
+      source:
+      hasStaticMaterial: 0
+      _frames: []
+    - id: 0
+      index: 1
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_left_hand.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 15
+      outFrame: 18
+      inTime: 0.25
+      outTime: 0.3
+      source: city_hooded_hood_left_hand.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.75, y: 75.25, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11, y: -11, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.99815494, y: 1.0027667, z: 1}
+        pivot: {x: 36.682194, y: 75.4582, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11.114395, y: -10.665916, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.99097306, y: 1.013536, z: 1}
+        pivot: {x: 36.41826, y: 76.268585, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11.5596695, y: -9.365532, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.985366, y: 1.0219481, z: 1}
+        pivot: {x: 36.2122, y: 76.901596, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 11.9073105, y: -8.34977, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.98247063, y: 1.0262926, z: 1}
+        pivot: {x: 36.105797, y: 77.228516, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 12.0868225, y: -7.8251724, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.98094106, y: 1.0285878, z: 1}
+        pivot: {x: 36.049583, y: 77.40123, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 12.181656, y: -7.5480194, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.9802075, y: 1.0296886, z: 1}
+        pivot: {x: 36.022625, y: 77.48407, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 12.227135, y: -7.4151, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.97999996, y: 1.03, z: 1}
+        pivot: {x: 36.015, y: 77.5075, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 12.240002, y: -7.3775024, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.99819344, y: 1.0194572, z: 1}
+        pivot: {x: 36.68361, y: 76.71416, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 50.2911, y: -88.685394, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0380698, y: 0.966362, z: 1}
+        pivot: {x: 38.149067, y: 72.71874, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 49.383915, y: -92.3222, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0886441, y: 0.8893155, z: 1}
+        pivot: {x: 40.00767, y: 66.92099, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.233345, y: -96.69441, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+    - id: 0
+      index: 2
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_hood.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 18
+      inTime: 0
+      outTime: 0.3
+      source: city_hooded_hood_hood.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 48.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -59.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.99815494, y: 1.0027667, z: 1}
+        pivot: {x: 63.881916, y: 48.884876, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.99631, y: -59.550797, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.99097306, y: 1.013536, z: 1}
+        pivot: {x: 63.422276, y: 49.409878, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.98195, y: -58.775406, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.985366, y: 1.0219481, z: 1}
+        pivot: {x: 63.063423, y: 49.81997, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.97073, y: -58.16974, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.98247063, y: 1.0262926, z: 1}
+        pivot: {x: 62.87812, y: 50.03176, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96494, y: -57.856934, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.98094106, y: 1.0285878, z: 1}
+        pivot: {x: 62.780228, y: 50.143658, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96188, y: -57.69168, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.9802075, y: 1.0296886, z: 1}
+        pivot: {x: 62.73328, y: 50.19732, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96042, y: -57.61242, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.97999996, y: 1.03, z: 1}
+        pivot: {x: 62.719997, y: 50.212498, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96, y: -57.589996, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.99819344, y: 0.9970243, z: 1}
+        pivot: {x: 63.88438, y: 48.604935, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.99638, y: -59.96425, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0380698, y: 0.92474836, z: 1}
+        pivot: {x: 66.43647, y: 45.081482, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75.07614, y: -65.16811, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0886441, y: 0.83308244, z: 1}
+        pivot: {x: 69.673225, y: 40.61277, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75.17729, y: -71.76807, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+    - id: 0
+      index: 3
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_body.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 18
+      inTime: 0
+      outTime: 0.3
+      source: city_hooded_hood_body.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 62, y: 120.75, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.99815494, y: 1.0027667, z: 1}
+        pivot: {x: 61.885605, y: 121.08408, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.99097306, y: 1.013536, z: 1}
+        pivot: {x: 61.44033, y: 122.38447, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.985366, y: 1.0219481, z: 1}
+        pivot: {x: 61.09269, y: 123.40023, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.98247063, y: 1.0262926, z: 1}
+        pivot: {x: 60.913177, y: 123.92483, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.98094106, y: 1.0285878, z: 1}
+        pivot: {x: 60.818344, y: 124.20198, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.9802075, y: 1.0296886, z: 1}
+        pivot: {x: 60.772865, y: 124.3349, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.97999996, y: 1.03, z: 1}
+        pivot: {x: 60.76, y: 124.3725, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.99819344, y: 0.9970243, z: 1}
+        pivot: {x: 61.887993, y: 120.390686, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0380698, y: 0.92474836, z: 1}
+        pivot: {x: 64.36033, y: 111.66337, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0886441, y: 0.83308244, z: 1}
+        pivot: {x: 67.49593, y: 100.5947, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73, y: -131.75, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+    - id: 0
+      index: 4
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_left_arm_2.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 15
+      outFrame: 18
+      inTime: 0.25
+      outTime: 0.3
+      source: city_hooded_hood_left_arm_2.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 36.25, y: 50.5, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.18496, y: -54.528557, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.99815494, y: 1.0027667, z: 1}
+        pivot: {x: 36.183117, y: 50.63972, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.299355, y: -54.194473, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.99097306, y: 1.013536, z: 1}
+        pivot: {x: 35.92277, y: 51.183567, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 53.74463, y: -52.89409, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.985366, y: 1.0219481, z: 1}
+        pivot: {x: 35.719517, y: 51.60838, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 54.09227, y: -51.878326, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.98247063, y: 1.0262926, z: 1}
+        pivot: {x: 35.61456, y: 51.827774, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 54.271782, y: -51.35373, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.98094106, y: 1.0285878, z: 1}
+        pivot: {x: 35.559113, y: 51.943684, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 54.366615, y: -51.076576, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.9802075, y: 1.0296886, z: 1}
+        pivot: {x: 35.53252, y: 51.999275, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 54.412094, y: -50.943657, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.97999996, y: 1.03, z: 1}
+        pivot: {x: 35.524998, y: 52.015, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 54.42496, y: -50.90606, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.99819344, y: 1.0194572, z: 1}
+        pivot: {x: 36.184513, y: 51.482594, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 49.792004, y: -63.453835, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0380698, y: 0.966362, z: 1}
+        pivot: {x: 37.63003, y: 48.80128, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.86488, y: -68.40473, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0886441, y: 0.8893155, z: 1}
+        pivot: {x: 39.463352, y: 44.91043, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 47.689026, y: -74.68385, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+    - id: 0
+      index: 5
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_left_arm.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 15
+      inTime: 0
+      outTime: 0.25
+      source: city_hooded_hood_left_arm.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 37.25, y: 49.25, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.25, y: -60.25, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.9903866, y: 1.0106004, z: 1}
+        pivot: {x: 36.8919, y: 49.77207, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.295666, y: -60.052177, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.9736055, y: 1.0313329, z: 1}
+        pivot: {x: 36.266808, y: 50.79314, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.473415, y: -59.28218, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.9624517, y: 1.0457348, z: 1}
+        pivot: {x: 35.851326, y: 51.502438, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.612194, y: -58.68071, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.9562611, y: 1.0536826, z: 1}
+        pivot: {x: 35.620724, y: 51.893867, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.683853, y: -58.370087, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.9528112, y: 1.0580888, z: 1}
+        pivot: {x: 35.492218, y: 52.11087, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.72171, y: -58.20597, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.95109665, y: 1.0602702, z: 1}
+        pivot: {x: 35.428352, y: 52.218304, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.739864, y: -58.12726, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.9505999, y: 1.0609, z: 1}
+        pivot: {x: 35.409847, y: 52.24932, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 48.745, y: -58.104996, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.9682476, y: 1.026935, z: 1}
+        pivot: {x: 36.067223, y: 50.576546, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 47.617004, y: -62.086807, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0069277, y: 0.9524908, z: 1}
+        pivot: {x: 37.508057, y: 46.91017, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 45.14467, y: -70.814125, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0559847, y: 0.8580749, z: 1}
+        pivot: {x: 39.335434, y: 42.260185, z: 0}
+        rotation: -358.85693
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 42.009064, y: -81.88279, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+    - id: 0
+      index: 6
+      parent: 0
+      width: 512
+      height: 512
+      name: city_hooded_hood_cape.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 18
+      inTime: 0
+      outTime: 0.3
+      source: city_hooded_hood_cape.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1, y: 1, z: 1}
+        pivot: {x: 64, y: 49, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75, y: -60, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 0.99815494, y: 1.0027667, z: 1}
+        pivot: {x: 63.881916, y: 49.13557, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.99631, y: -59.801483, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 0.99097306, y: 1.013536, z: 1}
+        pivot: {x: 63.422276, y: 49.66326, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.98195, y: -59.028793, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 0.985366, y: 1.0219481, z: 1}
+        pivot: {x: 63.063423, y: 50.07546, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.97073, y: -58.425232, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 0.98247063, y: 1.0262926, z: 1}
+        pivot: {x: 62.87812, y: 50.288334, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96494, y: -58.11351, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 0.98094106, y: 1.0285878, z: 1}
+        pivot: {x: 62.780228, y: 50.400803, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96188, y: -57.948822, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 0.9802075, y: 1.0296886, z: 1}
+        pivot: {x: 62.73328, y: 50.454742, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96042, y: -57.869843, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 0.97999996, y: 1.03, z: 1}
+        pivot: {x: 62.719997, y: 50.469997, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.96, y: -57.847504, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 0.99819344, y: 0.9970243, z: 1}
+        pivot: {x: 63.88438, y: 48.85419, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 74.99638, y: -60.2135, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.0380698, y: 0.92474836, z: 1}
+        pivot: {x: 66.43647, y: 45.312668, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75.07614, y: -65.3993, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.0886441, y: 0.83308244, z: 1}
+        pivot: {x: 69.673225, y: 40.82104, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 75.17729, y: -71.97633, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 1
+        isVisibilityChanged: 0
+    - id: 0
+      index: 7
+      parent: 0
+      width: 197
+      height: 28
+      name: city_dogman_Shadow.png
+      type: 1
+      blending: 0
+      forcedBlending: 0
+      inFrame: 0
+      outFrame: 18
+      inTime: 0
+      outTime: 0.3
+      source: city_dogman_Shadow.png
+      hasStaticMaterial: 0
+      _frames:
+      - index: 0
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 1
+        isOpacityChanged: 1
+        isPositionChanged: 1
+        isVisibilityChanged: 1
+      - index: 1
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 2
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 3
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 4
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 5
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 6
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 7
+        scale: {x: 1.1044163, y: 1.461559, z: 1}
+        pivot: {x: 27.19625, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 8
+        scale: {x: 1.1016614, y: 1.461559, z: 1}
+        pivot: {x: 27.128412, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 9
+        scale: {x: 1.090963, y: 1.461559, z: 1}
+        pivot: {x: 26.864964, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 10
+        scale: {x: 1.0825232, y: 1.461559, z: 1}
+        pivot: {x: 26.657135, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 11
+        scale: {x: 1.0781499, y: 1.461559, z: 1}
+        pivot: {x: 26.549442, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 12
+        scale: {x: 1.0758384, y: 1.461559, z: 1}
+        pivot: {x: 26.492521, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 13
+        scale: {x: 1.0747298, y: 1.461559, z: 1}
+        pivot: {x: 26.465221, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 0
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 14
+        scale: {x: 1.0744163, y: 1.461559, z: 1}
+        pivot: {x: 26.4575, y: 5.1154566, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 1
+        isScaleChanged: 0
+        isPivotChanged: 0
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 15
+        scale: {x: 1.0903355, y: 1.4081159, z: 1}
+        pivot: {x: 26.849512, y: 4.928406, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 16
+        scale: {x: 1.1252273, y: 1.2909788, z: 1}
+        pivot: {x: 27.708723, y: 4.518426, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+      - index: 17
+        scale: {x: 1.1694798, y: 1.1424168, z: 1}
+        pivot: {x: 28.79844, y: 3.9984589, z: 0}
+        rotation: -0
+        opacity: 1
+        position: {x: 0, y: 0, z: 0}
+        positionUnity: {x: 73.5, y: -135.5, z: 0}
+        isVisible: 1
+        isNothingChanged: 0
+        isScaleChanged: 1
+        isPivotChanged: 1
+        isRotationChanged: 0
+        isOpacityChanged: 0
+        isPositionChanged: 0
+        isVisibilityChanged: 0
+    _numLayers: 7

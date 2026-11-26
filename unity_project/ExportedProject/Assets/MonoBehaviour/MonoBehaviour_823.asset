@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 40
+  _characterName: 80s Starfire
+  _characterNameKey: 80SSTARFIRE
+  _characterClass: 2
+  _characterRarity: 1
+  _characterFaction: 0
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 15
+  _baseDodge: 0
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 40
+  _libraryDescription: There was a time where Starfire knew nothing of the Earth's ways and could only speak in her native tongue of Tamaranean. Also, everyone TOTALLY used to wear their hair like this.
+  _libraryDescriptionKey: WIKI_80SSTARFIRE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Teen Titans
+  - 80s
+  - Lady
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 8
+  _abilitySlots:
+  - position: 95
+    abilityId: 111
+  - position: 55
+    abilityId: 109
+  - position: 30
+    abilityId: 110
+  _portraitSprite: icon_80sstarfire
+  _portraitSpriteId: 302
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.62, y: 0.72, z: 0.09}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.75, y: -0.67, z: -0.13}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.72, y: 0.66, z: -0.16}
+  _battleCharacterPath: Prefabs/Characters/Battle/Starfire_80s
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Starfire_80s
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.62, y: 0.62, z: 0.62}
+  _shopFigureOffset: {x: 0, y: -0.64, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 6c02000076020000800200008a0200008a0200008a0200008a0200008a0200008a0200008a0200008a0200008a0200008a0200008a0200008a020000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 1, g: 0.08627451, b: 0.56078434, a: 1}
+  _shopTextFaceColor: {r: 0.49803925, g: 0.23137257, b: 0.7137255, a: 1}
+  _shopTextOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_80sStarfire
+  _transformations: []
+  _is80sFigure: 1
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.7
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_switch1_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_switch2_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_switch3_kpr
+      - Audio/VO/sfx_vo_starfire_battle_switch4_kpr
+      - Audio/VO/sfx_vo_starfire_battle_switch1_kpr3
+      - Audio/VO/sfx_vo_starfire_battle_switch2_kpr3
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.72
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_hurt1_kpr4
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr9
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_hurt3_kpr5
+      - Audio/VO/sfx_vo_starfire_battle_hurt6_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_hurt7_kpr
+    _healSounds:
+      _probability: 0.715
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_healed1_kpr
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr1
+    _deathSounds:
+      _probability: 0.718
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_cribblenibbits_alt
+      - Audio/VO/sfx_vo_starfire_battle_defeated2_kpr
+      - Audio/VO/sfx_vo_starfire_battle_defeated3_kpr
+      - Audio/VO/sfx_vo_starfire_battle_defeated4_alt
+    _useTofuSounds:
+      _probability: 0.742
+      _soundPaths:
+      - Audio/SFX/sfx_gui_missioncompletebanner
+      - Audio/VO/sfx_vo_starfire_battle_hehehe_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr2
+    _victorySounds:
+      _probability: 0.751
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_win1_kpr
+      - Audio/VO/sfx_vo_starfire_battle_win2_kpr
+      - Audio/VO/sfx_vo_starfire_battle_win3_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_win3_kpr2
+      - Audio/VO/sfx_vo_starfire_chat_hooray_kpr2
+      - Audio/VO/sfx_vo_starfire_chat_hooray_kpr4
+      - Audio/VO/sfx_vo_starfire_chat_theomg_kpr
+  _repaintSlots:
+  - position: 0
+    id: 287
+    cost: 3
+    rare: 0
+    texturePath: Textures/Starfire_80s_Texture-blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4
+  - position: 0
+    id: 288
+    cost: 3
+    rare: 0
+    texturePath: Textures/Starfire_80s_Texture-purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 289
+    cost: 5
+    rare: 1
+    texturePath: Textures/Starfire_80s_Texture-purpleandyellow-1x
+    _colorSprite: menu_shop_repaint_color_purpleandyellow
+    _colorSpriteId: 24

@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 79
+  _characterName: Darkseid
+  _characterNameKey: DARKSEID
+  _characterClass: 1
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 24
+  _baseAttack: 0
+  _baseLuck: 6
+  _baseDodge: 6
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 14
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 67
+  _libraryDescription: A truly evil and immensely powerful interdimensional tyrant… he makes for a pretty nifty figure!
+  _libraryDescriptionKey: WIKI_DARKSEID
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 1
+  _abilitySlots:
+  - position: 23
+    abilityId: 209
+  - position: 47
+    abilityId: 210
+  - position: 85
+    abilityId: 208
+  _portraitSprite: icon_darkseid
+  _portraitSpriteId: 44
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.99, y: 0.82, z: 0.21}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 5.82, y: 1.36, z: 0.4}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.04, y: 0.04, z: -0.06}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 3.28}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.27, z: -0.25}
+  _battleCharacterPath: Prefabs/Characters/Battle/Darkseid
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Darkseid
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.55, y: 0.55, z: 0.55}
+  _shopFigureOffset: {x: 0.05, y: -0.68, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 3408000098080000fc08000060090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000c4090000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0, g: 0.0030425717, b: 0.44117647, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_Darseid
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 198
+    cost: 2
+    rare: 0
+    texturePath: Textures/Darkseid_Texture_purpleblue-1x
+    _colorSprite: menu_shop_repaint_color_greenandpurple
+    _colorSpriteId: 7
+  - position: 0
+    id: 356
+    cost: 3
+    rare: 0
+    texturePath: Textures/Darkseid_Texture_yellowblue-1x
+    _colorSprite: menu_shop_repaint_color_blueandyellow
+    _colorSpriteId: 29
+  - position: 0
+    id: 357
+    cost: 5
+    rare: 0
+    texturePath: Textures/Darkseid_Texture_redandblack_1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 413
+    cost: 9
+    rare: 0
+    texturePath: Textures/Darkseid_Texture_redblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18

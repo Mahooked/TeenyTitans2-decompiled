@@ -1,0 +1,1095 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_MARTIANMANHUNTER_CHATAGAIN
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_martianmanhunter_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prove your worth, and I shall let you pass.
+      key: TT2CONVO_MARTIANMANHUNTER_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, yeah.
+      key: TT2CONVO_MARTIANMANHUNTER_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_martianmanhunter_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That's not a very worthy attitude.
+      key: TT2CONVO_MARTIANMANHUNTER_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, you're one to talk! You're always acting all serious and moody.
+      key: TT2CONVO_MARTIANMANHUNTER_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_martianmanhunter_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You have hurt my martian feelings.
+      key: TT2CONVO_MARTIANMANHUNTER_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 145
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 7
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TT2_gui_martianmanhunter
+    initialRightFaceSpriteName: TT2_gui_martianmanhunter_face1
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_martianmanhunter_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prove your worth, and I shall let you pass.
+      key: TT2CONVO_MARTIANMANHUNTER_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 70
+      faceSpriteName: TTG_gui_beastboy_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Sounds good, bro! But one question:'
+      key: TT2CONVO_MARTIANMANHUNTER_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Martian Manhunter, why you's gotsta be always hunting mens all the time?
+      key: TT2CONVO_MARTIANMANHUNTER_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_martianmanhunter_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I do not believe this dignifies a response.
+      key: TT2CONVO_MARTIANMANHUNTER_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 145
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 7
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TT2_gui_martianmanhunter
+    initialRightFaceSpriteName: TT2_gui_martianmanhunter_face1
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_martianmanhunter_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prove your worth, and I shall let you pass.
+      key: TT2CONVO_MARTIANMANHUNTER_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, yeah.
+      key: TT2CONVO_MARTIANMANHUNTER_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_martianmanhunter_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That's not a very worthy attitude.
+      key: TT2CONVO_MARTIANMANHUNTER_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, you're one to talk! You're always acting all serious and moody.
+      key: TT2CONVO_MARTIANMANHUNTER_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 0
+      faceSpriteName: TT2_gui_martianmanhunter_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: You have hurt my martian feelings.
+      key: TT2CONVO_MARTIANMANHUNTER_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 145
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 7
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TT2_gui_martianmanhunter
+    initialRightFaceSpriteName: TT2_gui_martianmanhunter_face1
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_martianmanhunter_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prove your worth, and I shall let you pass.
+      key: TT2CONVO_MARTIANMANHUNTER_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_starfire_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I shall do it!
+      key: TT2CONVO_MARTIANMANHUNTER_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 2
+      faceSpriteName: TT2_gui_martianmanhunter_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That's the spirit.
+      key: TT2CONVO_MARTIANMANHUNTER_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 10
+      otherFaceSpriteName: TTG_gui_starfire_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh? So I can now pass?
+      key: TT2CONVO_MARTIANMANHUNTER_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_martianmanhunter_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: No.
+      key: TT2CONVO_MARTIANMANHUNTER_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_starfire_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 145
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 7
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TT2_gui_martianmanhunter
+    initialRightFaceSpriteName: TT2_gui_martianmanhunter_face1
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_martianmanhunter_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prove your worth, and I shall let you pass.
+      key: TT2CONVO_MARTIANMANHUNTER_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sounds good, bro! But one question. This has always been bugging me...
+      key: TT2CONVO_MARTIANMANHUNTER_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Martian Manhunter, why you gotta be always hunting men all the time?
+      key: TT2CONVO_MARTIANMANHUNTER_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_martianmanhunter_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 145
+      position: 1
+      bodySpriteId: 7
+      bodySpriteName: TT2_gui_martianmanhunter
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_martianmanhunter_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I do not believe this dignifies a response.
+      key: TT2CONVO_MARTIANMANHUNTER_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: -1
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 145
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 7
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TT2_gui_martianmanhunter
+    initialRightFaceSpriteName: TT2_gui_martianmanhunter_face1

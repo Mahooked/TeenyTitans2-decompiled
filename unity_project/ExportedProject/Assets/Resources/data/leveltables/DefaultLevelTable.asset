@@ -1,0 +1,877 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2c1347da3eba260b1e3648e83a8826, type: 3}
+  m_Name: DefaultLevelTable
+  m_EditorClassIdentifier:
+  nextRewardId: 98
+  levelData:
+  - level: 1
+    xpStart: 27
+    xpToNextLevel: 85
+    rewards: []
+    fillWithStats: 0
+  - level: 2
+    xpStart: 85
+    xpToNextLevel: 167
+    rewards: []
+    fillWithStats: 1
+  - level: 3
+    xpStart: 167
+    xpToNextLevel: 271
+    rewards:
+    - uid: 26
+      type: 1
+      isForced: 1
+      isUnique: 0
+      isPermanent: 0
+      statType: 0
+      statValueInt: 0
+      abilityID: -1
+    fillWithStats: 0
+  - level: 4
+    xpStart: 271
+    xpToNextLevel: 394
+    rewards: []
+    fillWithStats: 1
+  - level: 5
+    xpStart: 394
+    xpToNextLevel: 534
+    rewards:
+    - uid: 29
+      type: 2
+      isForced: 1
+      isUnique: 0
+      isPermanent: 0
+      statType: 0
+      statValueInt: 0
+      abilityID: -1
+    fillWithStats: 0
+  - level: 6
+    xpStart: 534
+    xpToNextLevel: 692
+    rewards: []
+    fillWithStats: 1
+  - level: 7
+    xpStart: 692
+    xpToNextLevel: 866
+    rewards: []
+    fillWithStats: 1
+  - level: 8
+    xpStart: 866
+    xpToNextLevel: 1056
+    rewards: []
+    fillWithStats: 1
+  - level: 9
+    xpStart: 1056
+    xpToNextLevel: 1260
+    rewards: []
+    fillWithStats: 1
+  - level: 10
+    xpStart: 1260
+    xpToNextLevel: 1490
+    rewards:
+    - uid: 97
+      type: 3
+      isForced: 1
+      isUnique: 0
+      isPermanent: 0
+      statType: 0
+      statValueInt: 0
+      abilityID: -1
+    fillWithStats: 0
+  - level: 11
+    xpStart: 1490
+    xpToNextLevel: 1730
+    rewards: []
+    fillWithStats: 1
+  - level: 12
+    xpStart: 1730
+    xpToNextLevel: 2030
+    rewards: []
+    fillWithStats: 1
+  - level: 13
+    xpStart: 2030
+    xpToNextLevel: 2370
+    rewards: []
+    fillWithStats: 1
+  - level: 14
+    xpStart: 2370
+    xpToNextLevel: 2760
+    rewards: []
+    fillWithStats: 1
+  - level: 15
+    xpStart: 2760
+    xpToNextLevel: 3210
+    rewards: []
+    fillWithStats: 1
+  - level: 16
+    xpStart: 3210
+    xpToNextLevel: 3710
+    rewards: []
+    fillWithStats: 1
+  - level: 17
+    xpStart: 3710
+    xpToNextLevel: 4270
+    rewards: []
+    fillWithStats: 1
+  - level: 18
+    xpStart: 4270
+    xpToNextLevel: 4920
+    rewards: []
+    fillWithStats: 1
+  - level: 19
+    xpStart: 4920
+    xpToNextLevel: 5720
+    rewards: []
+    fillWithStats: 1
+  - level: 20
+    xpStart: 5720
+    xpToNextLevel: 4381
+    rewards: []
+    fillWithStats: 1
+  levelOffset: 0
+  isManual: 1
+  baseXP: 1
+  exponent: 1.68
+  divider: 0.038
+  hitPointsGrowth: 0
+  attackGrowth: 0
+  speedGrowth: 0
+  luckGrowth: 0
+  dodgeGrowth: 0
+  hitPointsUpgradeRewards:
+  - uid: 1
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 2
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 3
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 4
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 5
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 6
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 30
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 31
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 32
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 33
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 57
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 58
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 59
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 60
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 61
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 62
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 63
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 64
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 65
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  - uid: 66
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 0
+    statValueInt: 10
+    abilityID: -1
+  attackUpgradeRewards:
+  - uid: 7
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 8
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 9
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 10
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 11
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 12
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 52
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 53
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 54
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 55
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 67
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 68
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 69
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 70
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 71
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 72
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 73
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 74
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 75
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  - uid: 76
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 1
+    statValueInt: 1
+    abilityID: -1
+  speedUpgradeRewards:
+  - uid: 13
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 14
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 15
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 16
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 17
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 18
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 48
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 49
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 50
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  - uid: 51
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 2
+    statValueInt: 1
+    abilityID: -1
+  luckUpgradeRewards:
+  - uid: 19
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 20
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 21
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 22
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 23
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 24
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 44
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 45
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 46
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 47
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 77
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 78
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 79
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 80
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 81
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 82
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 83
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 84
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 85
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  - uid: 86
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 3
+    statValueInt: 3
+    abilityID: -1
+  dodgeUpgradeRewards:
+  - uid: 34
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 35
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 36
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 37
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 38
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 39
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 40
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 41
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 42
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 43
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 87
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 88
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 89
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 90
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 91
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 92
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 93
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 94
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 95
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  - uid: 96
+    type: 0
+    isForced: 0
+    isUnique: 0
+    isPermanent: 1
+    statType: 4
+    statValueInt: 3
+    abilityID: -1
+  miscRewards: []
+  miscRewardsKeys:
+  - miscReward_56

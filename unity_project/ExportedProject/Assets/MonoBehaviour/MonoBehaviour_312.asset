@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 44
+  preBattleSprite: menu_vsscreen_portrait_thewarden
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/TheWarden
+  conversationBodySprite: TTG_gui_thewarden
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 10
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TTG_gui_thewarden_neutral
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Neutral2
+    spriteName: TTG_gui_thewarden_neutral2
+    rightSpriteName:
+    leftSpriteId: 12
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_thewarden_annoyed
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: The Warden After Jail Tournament
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 19
+        level: 12
+        abilityUIDs: c2000000c3000000c1000000
+        selectedRewards: 130000001a000000220000001d00000001000000230000001400000002000000070000001500000008000000
+        hitPoints: 36
+        attack: 2
+        speed: 0
+        luck: 18
+        dodge: 6
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 33
+        level: 13
+        abilityUIDs: 8e0000008f00000090000000
+        selectedRewards: 010000001a000000220000001d0000000700000002000000080000000300000023000000090000002400000013000000
+        hitPoints: 34
+        attack: 3
+        speed: 0
+        luck: 3
+        dodge: 9
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 26
+        level: 13
+        abilityUIDs: 250000002600000024000000
+        selectedRewards: 010000001a000000070000001d0000000200000022000000080000002300000003000000090000002400000013000000
+        hitPoints: 25
+        attack: 3
+        speed: 5
+        luck: 6
+        dodge: 15
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 76e70c8df6a2e4049a587091f1b0973f, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 8a03ac88b749d92449ecbbc919788f75, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: b084a0cf940a24e48801aacd2cfcf690, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: The Warden 1
+    disablesGameObject: 1
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 790682db-e244-4719-a733-eb3a6f5e7949
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 48
+        level: 12
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 070000001a000000130000001d00000008000000140000000900000001000000220000001500000002000000
+        hitPoints: 29
+        attack: 3
+        speed: 0
+        luck: 14
+        dodge: 12
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 45
+        level: 10
+        abilityUIDs: 870000008600000085000000
+        selectedRewards: 220000001a000000070000001d0000002300000013000000240000001400000025000000
+        hitPoints: 30
+        attack: 2
+        speed: 0
+        luck: 26
+        dodge: 12
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 38
+        level: 12
+        abilityUIDs: 480000004900000047000000
+        selectedRewards: 070000001a000000010000001d00000008000000220000000900000002000000130000000a00000003000000
+        hitPoints: 20
+        attack: 3
+        speed: 0
+        luck: 9
+        dodge: 9
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: ffe534c978204fd4187984b7436f5aa6, type: 2}
+      activeConversation: {fileID: 11400000, guid: 76e70c8df6a2e4049a587091f1b0973f, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 4c3beaaed7c21ca4d98896702bb449ec, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 8a03ac88b749d92449ecbbc919788f75, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: b084a0cf940a24e48801aacd2cfcf690, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.85898536, g: 0.8602941, b: 0.7654087, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 48
+  _guid: cee1d968-124f-456e-ba3e-18010642a497
+  _name: The Warden
+  _nameKey: THEWARDEN
+  _preBattleSpriteId: 45
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 527152165378efe4fb162427f7ef4196, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

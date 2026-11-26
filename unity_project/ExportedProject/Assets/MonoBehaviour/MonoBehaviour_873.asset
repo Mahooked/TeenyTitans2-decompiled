@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 112
+  _characterName: Slade
+  _characterNameKey: SLADE
+  _characterClass: 4
+  _characterRarity: 5
+  _characterFaction: 4
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 0
+  _baseDodge: 10
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 14
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 99
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_SLADE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Martial Arts
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 20
+    abilityId: 300
+  - position: 50
+    abilityId: 299
+  - position: 100
+    abilityId: 301
+  _portraitSprite: icon_slade
+  _portraitSpriteId: 32
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.2, y: 1.06, z: 0.22}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.7, y: 1.24, z: 0.41}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.62, y: -0.28, z: -0.44}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 2.96}
+  _enemyCameraOffsetPositionZoomedOut: {x: 4.04, y: -0.29, z: -1}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: -0.3, z: 2.37}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: -0.38, y: 1.16, z: -0.34}
+  _battleCharacterPath: Prefabs/Characters/Battle/Slade
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Slade
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.55, y: 0.55, z: 0.55}
+  _shopFigureOffset: {x: 0, y: -0.7, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 881300008813000088130000881300008813000088130000881300008813000088130000881300008813000088130000881300008813000088130000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.058823533, g: 0.12941177, b: 0.31764707, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0.8795132, b: 0.20588237, a: 1}
+  _shopTextOutlineColor: {r: 1, g: 0.30588236, b: 0.12941177, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_slade
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.75
+      _soundPaths:
+      - Audio/VO/sfx_vo_slade_swapin
+      - Audio/VO/sfx_vo_slade_swapin2
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.6
+      _soundPaths:
+      - Audio/VO/sfx_vo_hoodnew_hurt1
+      - Audio/VO/sfx_vo_hoodnew_hurt3
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 0.6
+      _soundPaths:
+      - Audio/VO/sfx_vo_hoodnew_hurt1
+      - Audio/VO/sfx_vo_hoodnew_hurt3
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 191
+    cost: 5
+    rare: 0
+    texturePath: Textures/Slade_Texture_blackandsilver-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 192
+    cost: 5
+    rare: 0
+    texturePath: Textures/Slade_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 193
+    cost: 5
+    rare: 0
+    texturePath: Textures/Slade_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 194
+    cost: 5
+    rare: 1
+    texturePath: Textures/Slade_Texture_gold-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17
+  - position: 0
+    id: 408
+    cost: 9
+    rare: 1
+    texturePath: Textures/Slade_Texture_redgreen-1x
+    _colorSprite: menu_shop_repaint_color_redandyellow
+    _colorSpriteId: 34

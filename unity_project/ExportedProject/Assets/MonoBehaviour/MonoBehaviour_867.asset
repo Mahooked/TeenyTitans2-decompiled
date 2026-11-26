@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 109
+  _characterName: Wonder Woman
+  _characterNameKey: WONDER_WOMAN
+  _characterClass: 2
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 22
+  _baseAttack: 0
+  _baseLuck: 5
+  _baseDodge: 2
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 95
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_WONDERWOMAN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Justice League
+  - Lady
+  _actionMeterSize: 1
+  _actionMeterSpeedRating: 8
+  _abilitySlots:
+  - position: 12
+    abilityId: 294
+  - position: 50
+    abilityId: 293
+  - position: 82
+    abilityId: 295
+  _portraitSprite: icon_wonderwoman
+  _portraitSpriteId: 31
+  _iapShopIconSprite: iap_icon_figure_wonderwoman
+  _iapShopIconSpriteId: 40
+  _playerCameraOffsetPosition: {x: 1.6, y: 0.42, z: 0.5}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 3.11, y: 0.84, z: 0.56}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.43, y: -0.52, z: -0.45}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 4.16, y: 0.4, z: -0.93}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.43}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.04, z: 0}
+  _battleCharacterPath: Prefabs/Characters/Battle/WonderWoman
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Wonderwoman
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.58, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: -0.1, y: -0.6, z: -0.036}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000983a0000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.9191176, g: 0, b: 0, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0.9724138, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_wonderwomen
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 92
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderWoman_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 93
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderWoman_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandblue
+    _colorSpriteId: 12
+  - position: 0
+    id: 94
+    cost: 3
+    rare: 0
+    texturePath: Textures/WonderWoman_Texture_redandsilver-1x
+    _colorSprite: menu_shop_repaint_color_redandsilver
+    _colorSpriteId: 26
+  - position: 0
+    id: 95
+    cost: 5
+    rare: 1
+    texturePath: Textures/WonderWoman_Texture_whiteandgold-1x
+    _colorSprite: menu_shop_repaint_color_whiteandgold
+    _colorSpriteId: 3
+  - position: 0
+    id: 415
+    cost: 6
+    rare: 0
+    texturePath: Textures/WonderWoman_Texture_goldmaroon-1x
+    _colorSprite: menu_shop_repaint_color_redandyellow
+    _colorSpriteId: 34

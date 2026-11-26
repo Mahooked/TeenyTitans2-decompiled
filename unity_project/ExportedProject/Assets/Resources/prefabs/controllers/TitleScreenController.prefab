@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: TitleScreenController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970eb3eafc10f345baf23eaad654fdde, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  activeMenuScreen: {fileID: 0}
+  titleScreenMenu: {fileID: 0}
+  settingsMenu: {fileID: 0}
+  creditsScreen: {fileID: 0}
+  gameSettingsMenu: {fileID: 0}
+  unableToConnectAlert: {fileID: 0}
+  languageTextMesh: {fileID: 0}
+  backButton: {fileID: 0}
+  upperRightGameUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  termsOfServiceBtn: {fileID: 0}
+  privacyPolicyBtn: {fileID: 0}
+  languages: 2c00000052000000690000009a000000b80000003900000093000000
+  moveSpeed: 0.33
+  turnSpeedDegrees: 30
+  innerOffset: 1.5
+  videoManager: {fileID: 0}
+  captionsManager: {fileID: 0}
+  videoGUICamera: {fileID: 0}
+  skipButton: {fileID: 0}
+  skipText: {fileID: 0}
+  cinematicPart1Clip: Videos/TT2_Intro1.mp4
+  cinematicPart2Clip: Videos/TT2_Intro2.mp4
+  cinematicPart1CaptionAsset: {fileID: 11400000, guid: ef5be2e3a6295a143954160363149592, type: 2}
+  cinematicPart2CaptionAsset: {fileID: 11400000, guid: 69f96c92ec7a0364f856c1214e550545, type: 2}
+  mainMenuTouchBlocker: {fileID: 0}
+  titleMusic: {fileID: 8300000, guid: cd6626e9bc3a0b849a4413b0a51aa147, type: 3}
+  titleIntroSfx: {fileID: 8300000, guid: 998bfc0d6a3587240afe04764f1f7e2f, type: 3}
+  titleGOSfx: {fileID: 8300000, guid: 02a902fed4ef56041b622b3f4b2b1139, type: 3}
+  titleVOClips:
+  - {fileID: 8300000, guid: d9d98468be13feb4ca40d2d7e448500e, type: 3}
+  - {fileID: 8300000, guid: affd1e977c2683d41947f957e6113e85, type: 3}
+  - {fileID: 8300000, guid: 1fd06df710b21b84db0cb6dae52e6fe0, type: 3}
+  - {fileID: 8300000, guid: 8cf4be134da9033498b445faf921a327, type: 3}
+  - {fileID: 8300000, guid: 91fdd8513347e1047a7eae28ac310d14, type: 3}
+  - {fileID: 8300000, guid: 43f1b587e38b91146a1f758a8b6e72dd, type: 3}
+  - {fileID: 8300000, guid: 85175184764a938499836857078f3a73, type: 3}
+  - {fileID: 8300000, guid: a1da87322c3d1104591ba026d485e9e4, type: 3}
+  - {fileID: 8300000, guid: 1261d517d2878534f939b96dfe7e9721, type: 3}
+  - {fileID: 8300000, guid: 9065dddb1dd4d454bb002b0e10bb600b, type: 3}
+  - {fileID: 8300000, guid: ae9a76deba7d7d941b21bea9a94bea93, type: 3}
+  - {fileID: 8300000, guid: 12b34ad000fafc246afde3a8ffc7c4a9, type: 3}
+  - {fileID: 8300000, guid: 2466d50f1aeb0594bba7478bda882662, type: 3}
+  - {fileID: 8300000, guid: 761195e92d3721c4496fc490201ab55a, type: 3}
+  - {fileID: 8300000, guid: b7464f8323ea5c949805ba4c8634191e, type: 3}
+  - {fileID: 8300000, guid: 28fb960e43bb95f459bf4d852f279619, type: 3}
+  - {fileID: 8300000, guid: a7d9d2e76c15c5e4a903e533bedbd326, type: 3}
+  - {fileID: 8300000, guid: e743c198904c8114cb1315ec9fd25836, type: 3}
+  - {fileID: 8300000, guid: b8ef07e64aa1a304bb64f940266ecf4e, type: 3}
+  - {fileID: 8300000, guid: 469bd6da50857d1449a084b67c99e1be, type: 3}
+  - {fileID: 8300000, guid: 61514ebbff0b7f7449e8bf829d9d0323, type: 3}
+  - {fileID: 8300000, guid: 895677c81b52d9e40b16fd45c943e1e1, type: 3}
+  exitGamePopup: {fileID: 0}
+  achievementScreen: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

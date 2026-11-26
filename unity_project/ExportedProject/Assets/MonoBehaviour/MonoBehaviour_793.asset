@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 0
+  _characterName: Robin
+  _characterNameKey: ROBIN
+  _characterClass: 4
+  _characterRarity: 0
+  _characterFaction: 1
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 9
+  _baseDodge: 9
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 1
+  _libraryDescription: Leader of the Teen Titans. Boy Wonder. Former sidekick to you-know-who. You could say he has a bit of a superiority complex... good thing he's the first one on this list!
+  _libraryDescriptionKey: WIKI_ROBIN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Martial Arts
+  - Hero
+  - Teen Titans
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 21
+    abilityId: 12
+  - position: 50
+    abilityId: 3
+  - position: 95
+    abilityId: 0
+  _portraitSprite: icon_robin
+  _portraitSpriteId: 80
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.69, y: 0.39, z: 0.32}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: -0.39}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.19, y: -0.71, z: -0.25}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: 0.29, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: -0.24, y: -1.11, z: -0.34}
+  _bottomLeftPortraitOffset: {x: -0.2, y: 1.15, z: 0.29}
+  _tofuBubbleOffsetPosition: {x: 0.75, y: 1.03, z: -0.17}
+  _battleCharacterPath: Prefabs/Characters/Battle/Robin
+  _battleCharacterPathP2: Prefabs/Characters/Battle/Robin_p2
+  _shopFigurePath: Prefabs/Characters/Shop/Robin
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.62, y: 0.62, z: 0.62}
+  _shopFigureOffset: {x: 0.01, y: -0.55, z: -0.02}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 960000009b000000a0000000a5000000aa000000af000000b4000000b9000000be000000c3000000c8000000cd000000d2000000d7000000dc000000
+  _shopFigureTicketCosts: 030000000300000003000000030000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+  _shopStripeColor: {r: 0.9686275, g: 0.0627451, b: 0.3254902, a: 1}
+  _shopTextFaceColor: {r: 0.19607845, g: 0.77647066, b: 0.24705884, a: 1}
+  _shopTextOutlineColor: {r: 0.07450981, g: 0.37647063, b: 0.07450981, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_robin
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.692
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_switch1_kpr1
+      - Audio/VO/sfx_vo_robin_battle_switch2_kpr
+      - Audio/VO/sfx_vo_robin_battle_switch3_kpr
+      - Audio/VO/sfx_vo_robin_battle_switch4_kpr
+      - Audio/VO/sfx_vo_robin_battle_switch5_kpr
+      - Audio/VO/sfx_vo_robin_chat_agree_affirmative_kpr
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.713
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_hurt1_kpr6
+      - Audio/VO/sfx_vo_robin_battle_hurt3_kpr1
+      - Audio/VO/sfx_vo_robin_battle_hurt4_kpr1
+      - Audio/VO/sfx_vo_robin_battle_hurt1_kpr3
+      - Audio/VO/sfx_vo_robin_battle_hurt4_kpr2
+    _healSounds:
+      _probability: 0.733
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_healed1_kpr
+      - Audio/VO/sfx_vo_robin_battle_healed2_kpr
+    _deathSounds:
+      _probability: 0.744
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_defeated1_kpr3
+      - Audio/VO/sfx_vo_robin_battle_defeated1_kpr4
+      - Audio/VO/sfx_vo_robin_battle_defeated2_kpr
+      - Audio/VO/sfx_vo_robin_battle_defeated4_kpr
+    _useTofuSounds:
+      _probability: 0.758
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_healed1_kpr
+      - Audio/VO/sfx_vo_robin_battle_healed2_kpr
+      - Audio/VO/sfx_vo_robin_battle_tofu1_kpr3
+      - Audio/VO/sfx_vo_robin_battle_tofu2_kpr
+      - Audio/VO/sfx_vo_robin_battle_tofu3_kpr
+      - Audio/VO/sfx_vo_robin_battle_tofu4_kpr1
+      - Audio/VO/sfx_vo_robin_battle_tofu4_kpr2
+      - Audio/VO/sfx_vo_robin_battle_tofu4_kpr3
+      - Audio/VO/sfx_vo_robin_battle_tofu5_kpr
+    _victorySounds:
+      _probability: 0.74
+      _soundPaths:
+      - Audio/VO/sfx_vo_robin_battle_win1_kpr
+      - Audio/VO/sfx_vo_robin_battle_win2_kpr
+      - Audio/VO/sfx_vo_robin_battle_win3_kpr
+      - Audio/VO/sfx_vo_robin_battle_win4_kpr
+      - Audio/VO/sfx_vo_robin_battle_win5_kpr
+      - Audio/VO/sfx_vo_robin_battle_win6_kpr
+  _repaintSlots:
+  - position: 0
+    id: 1
+    cost: 2
+    rare: 0
+    texturePath: Textures/Robin_Texture_blueandgrey-1x
+    _colorSprite: menu_shop_repaint_color_blueandgrey
+    _colorSpriteId: 9
+  - position: 0
+    id: 3
+    cost: 3
+    rare: 0
+    texturePath: Textures/Robin_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 4
+    cost: 5
+    rare: 0
+    texturePath: Textures/Robin_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 344
+    cost: 5
+    rare: 1
+    texturePath: Textures/Robin_Texture_whiteandgold-1x
+    _colorSprite: menu_shop_repaint_color_whiteandgold
+    _colorSpriteId: 3
+  - position: 0
+    id: 370
+    cost: 5
+    rare: 1
+    texturePath: Textures/Robin_Texture-violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10

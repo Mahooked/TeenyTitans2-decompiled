@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 2
+  _characterName: Starfire
+  _characterNameKey: STARFIRE
+  _characterClass: 2
+  _characterRarity: 0
+  _characterFaction: 0
+  _baseHitPoints: 15
+  _baseAttack: 0
+  _baseLuck: 6
+  _baseDodge: 6
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 4
+  _libraryDescription: Starfire is an alien princess from Tamaran. Despite having now spent a good deal of time on Earth, she's still learning the ways of this planet and discovering everything it has to offer... like adorable kitties!
+  _libraryDescriptionKey: WIKI_STARFIRE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Teen Titans
+  - Lady
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 7
+  _abilitySlots:
+  - position: 20
+    abilityId: 7
+  - position: 50
+    abilityId: 5
+  - position: 90
+    abilityId: 4
+  _portraitSprite: icon_starfire
+  _portraitSpriteId: 81
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.13, y: 0.72, z: 0.08}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.8, y: -0.79, z: 0}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: -0.24, y: -1.11, z: -0.34}
+  _bottomLeftPortraitOffset: {x: -0.2, y: 1.15, z: 0.29}
+  _tofuBubbleOffsetPosition: {x: 0.5, y: 0.8, z: -0.32}
+  _battleCharacterPath: Prefabs/Characters/Battle/Starfire
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Starfire
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.65, y: 0.65, z: 0.65}
+  _shopFigureOffset: {x: 0, y: -0.62, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 960000009b000000a0000000a5000000aa000000af000000b4000000b9000000be000000c3000000c8000000cd000000d2000000d7000000dc000000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.8980393, g: 0.10588236, b: 0.58431375, a: 1}
+  _shopTextFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0.47450984, g: 0.18431373, b: 0.654902, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_starfire
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.7
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_switch1_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_switch2_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_switch3_kpr
+      - Audio/VO/sfx_vo_starfire_battle_switch4_kpr
+      - Audio/VO/sfx_vo_starfire_battle_switch1_kpr3
+      - Audio/VO/sfx_vo_starfire_battle_switch2_kpr3
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.72
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_hurt1_kpr4
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr9
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_hurt2_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_hurt3_kpr5
+      - Audio/VO/sfx_vo_starfire_battle_hurt6_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_hurt7_kpr
+    _healSounds:
+      _probability: 0.715
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_healed1_kpr
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr1
+    _deathSounds:
+      _probability: 0.718
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_cribblenibbits_alt
+      - Audio/VO/sfx_vo_starfire_battle_defeated2_kpr
+      - Audio/VO/sfx_vo_starfire_battle_defeated3_kpr
+      - Audio/VO/sfx_vo_starfire_battle_defeated4_alt
+    _useTofuSounds:
+      _probability: 0.742
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_hehehe_kpr2
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_healed3_kpr2
+    _victorySounds:
+      _probability: 0.751
+      _soundPaths:
+      - Audio/VO/sfx_vo_starfire_battle_win1_kpr
+      - Audio/VO/sfx_vo_starfire_battle_win2_kpr
+      - Audio/VO/sfx_vo_starfire_battle_win3_kpr1
+      - Audio/VO/sfx_vo_starfire_battle_win3_kpr2
+      - Audio/VO/sfx_vo_starfire_chat_hooray_kpr2
+      - Audio/VO/sfx_vo_starfire_chat_hooray_kpr4
+      - Audio/VO/sfx_vo_starfire_chat_theomg_kpr
+  _repaintSlots:
+  - position: 0
+    id: 28
+    cost: 2
+    rare: 0
+    texturePath: Textures/Starfire_Texture-purplewhite-1x
+    _colorSprite: menu_shop_repaint_color_greyandpurple
+    _colorSpriteId: 22
+  - position: 0
+    id: 136
+    cost: 2
+    rare: 0
+    texturePath: Textures/Starfire_Texture-bluepurple-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 137
+    cost: 2
+    rare: 0
+    texturePath: Textures/Starfire_Texture-pink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 345
+    cost: 3
+    rare: 0
+    texturePath: Textures/Starfire_Texture-brownandtan-1x
+    _colorSprite: menu_shop_repaint_color_brownandtan
+    _colorSpriteId: 8
+  - position: 0
+    id: 346
+    cost: 3
+    rare: 0
+    texturePath: Textures/Starfire_Texture-redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandsilver
+    _colorSpriteId: 26

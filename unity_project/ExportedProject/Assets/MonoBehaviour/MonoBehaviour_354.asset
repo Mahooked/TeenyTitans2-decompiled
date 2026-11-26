@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 85
+  preBattleSprite: menu_vsscreen_portrait_ladybrainsoldier
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/LadyBrainSoldier
+  conversationBodySprite: TT2_gui_brainsoldier
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 14
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Villain
+  conversationBodySpriteId: 14
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TT2_gui_ladybrainsoldier_face1
+    rightSpriteName:
+    leftSpriteId: 19
+    rightSpriteId: -1
+  - displayName: Shock
+    spriteName: TT2_gui_ladybrainsoldier_face2
+    rightSpriteName:
+    leftSpriteId: 21
+    rightSpriteId: -1
+  - displayName: Sad
+    spriteName: TT2_gui_ladybrainsoldier_face3
+    rightSpriteName:
+    leftSpriteId: 22
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TT2_gui_ladybrainsoldier_face4
+    rightSpriteName:
+    leftSpriteId: 20
+    rightSpriteId: -1
+  - displayName: Delighted
+    spriteName: TT2_gui_ladybrainsoldier_face5
+    rightSpriteName:
+    leftSpriteId: 23
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 4
+  dialogueFaceColor: {r: 0.57254905, g: 1, b: 0.4627451, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 88
+  _guid: ea771674-4def-4e4d-9b9c-46ba67d59a28
+  _name: Lady Brain Soldier
+  _nameKey: LADY_BRAIN_SOLDIER
+  _preBattleSpriteId: 3
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: db1df02447e12bf44ad4adeb04c4c72c, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

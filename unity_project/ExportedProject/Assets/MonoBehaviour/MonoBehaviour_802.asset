@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 9
+  _characterName: Gizmo
+  _characterNameKey: GIZMO
+  _characterClass: 3
+  _characterRarity: 1
+  _characterFaction: 3
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 8
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 13
+  _libraryDescription: This mischievious leader of the H.I.V.E. Five may look like a tiny floating baby, but we can assure you that he is, in fact, not a tiny floating baby.
+  _libraryDescriptionKey: WIKI_GIZMO
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Villain
+  - HIVE
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 4
+  _abilitySlots:
+  - position: 25
+    abilityId: 18
+  - position: 50
+    abilityId: 19
+  - position: 90
+    abilityId: 21
+  _portraitSprite: icon_gizmo
+  _portraitSpriteId: 138
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2.16, y: 0.54, z: 0.28}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 2.44, y: -0.95, z: -0.31}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.5, y: 1, z: -0.2}
+  _battleCharacterPath: Prefabs/Characters/Battle/Gizmo
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Gizmo
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.5, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 900100009f010000ae010000c2010000c2010000cc010000d6010000e0010000ea010000f4010000f4010000f4010000f4010000f4010000f4010000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.023529414, g: 0.31764707, b: 0.22352943, a: 1}
+  _shopTextFaceColor: {r: 0.6392157, g: 0.9725491, b: 0.3254902, a: 1}
+  _shopTextOutlineColor: {r: 0.25882354, g: 0.45098042, b: 0.5647059, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_gizmo
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.737
+      _soundPaths:
+      - Audio/VO/sfx_vo_genericguy_small_haha
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.783
+      _soundPaths:
+      - Audio/VO/sfx_vo_genericguy_small_hurt_1
+      - Audio/VO/sfx_vo_genericguy_small_hurt2
+      - Audio/VO/sfx_vo_genericguy_small_hurt3
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 138
+    cost: 2
+    rare: 0
+    texturePath: Textures/Gizmo_Texture_maroonpurple-1x
+    _colorSprite: menu_shop_repaint_color_greyandpurple
+    _colorSpriteId: 22
+  - position: 0
+    id: 139
+    cost: 2
+    rare: 0
+    texturePath: Textures/Gizmo_Texture_bluepink-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 140
+    cost: 2
+    rare: 0
+    texturePath: Textures/Gizmo_Texture_blackpurple-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19

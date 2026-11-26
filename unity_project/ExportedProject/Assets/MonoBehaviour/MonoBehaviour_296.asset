@@ -1,0 +1,655 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 64
+  preBattleSprite: menu_vsscreen_portrait_Gordon
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Gordon
+  conversationBodySprite: TTG_gui_gordon
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 12
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Idle
+    spriteName: TTG_gui_gordon_idle
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TTG_gui_gordon_angry
+    rightSpriteName:
+    leftSpriteId: 5
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_gordon_happy
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Thinking
+    spriteName: TTG_gui_gordon_thinking
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 6
+    name: Gordon Gotham First Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: 93
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 7
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 220000001a000000010000001d0000000700000023000000020000001300000024000000080000002500000003000000
+        hitPoints: 34
+        attack: 2
+        speed: 0
+        luck: 8
+        dodge: 22
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 6
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 070000001a000000130000001d0000000800000022000000140000000900000001000000
+        hitPoints: 41
+        attack: 3
+        speed: 0
+        luck: 6
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 3
+    name: Gordon When You Have Harley
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 18
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 010000001a000000220000001d00000007000000130000000200000014000000080000002300000003000000240000000400000025000000090000002600000005000000
+        hitPoints: 46
+        attack: 4
+        speed: 0
+        luck: 11
+        dodge: 25
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 17
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 010000001a000000220000001d000000070000001300000002000000230000000300000024000000140000000400000015000000250000000800000016000000
+        hitPoints: 55
+        attack: 4
+        speed: 0
+        luck: 12
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 84
+        level: 20
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 130000001a000000220000001d000000070000001400000023000000150000002400000001000000080000000200000025000000160000002600000009000000030000000a00000027000000
+        hitPoints: 60
+        attack: 5
+        speed: 0
+        luck: 17
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Gordon After Hot Dog Guy
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 18
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 010000001a000000130000001d0000000700000014000000220000001500000008000000160000000900000017000000230000000a0000001800000024000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 23
+        dodge: 10
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 17
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 070000001a000000130000001d00000008000000220000001400000009000000230000000100000024000000020000000a000000150000002500000003000000
+        hitPoints: 53
+        attack: 4
+        speed: 0
+        luck: 9
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 84
+        level: 20
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 220000001a000000010000001d00000007000000230000001300000024000000140000002500000008000000150000000900000016000000260000000a000000020000000b00000027000000
+        hitPoints: 60
+        attack: 5
+        speed: 0
+        luck: 17
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 8
+    name: Gordon Gotham With Bulb
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: 93
+      activeOnActiveMissionUID: 93
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 7
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 010000001a000000130000001d0000000700000002000000
+        hitPoints: 28
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 10
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 6
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 070000001a000000010000001d00000008000000
+        hitPoints: 41
+        attack: 2
+        speed: 0
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 4
+    name: Gordon Final
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 18
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 010000001a000000130000001d0000000700000022000000080000000200000014000000230000001500000009000000030000000a00000024000000040000000b000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 14
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 17
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 070000001a000000130000001d0000000100000014000000020000002200000003000000080000001500000009000000040000000a000000050000000b000000
+        hitPoints: 55
+        attack: 5
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 84
+        level: 20
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 220000001a000000010000001d000000130000002300000002000000140000000700000024000000150000000800000003000000250000000400000016000000050000002600000017000000
+        hitPoints: 60
+        attack: 5
+        speed: 0
+        luck: 20
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Gordon After Carl Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 1
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 18
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 220000001a000000130000001d0000000700000014000000010000002300000008000000150000002400000002000000160000000300000009000000250000000a000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 17
+        dodge: 22
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 17
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 010000001a000000130000001d000000020000002200000014000000230000000300000007000000150000000400000008000000050000000900000006000000
+        hitPoints: 55
+        attack: 4
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 84
+        level: 20
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 220000001a000000070000001d00000013000000010000002300000008000000240000001400000009000000250000000200000015000000260000000a000000160000000300000027000000
+        hitPoints: 60
+        attack: 5
+        speed: 0
+        luck: 17
+        dodge: 27
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Gordon First
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 250
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 77
+        level: 18
+        abilityUIDs: 5c0000005d0000005e000000
+        selectedRewards: 220000001a000000070000001d00000001000000130000000800000014000000230000000900000024000000020000001500000003000000160000002500000017000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 20
+        dodge: 22
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 88
+        level: 17
+        abilityUIDs: ec000000ea000000eb000000
+        selectedRewards: 070000001a000000220000001d000000130000002300000014000000010000002400000015000000020000000800000003000000090000002500000016000000
+        hitPoints: 55
+        attack: 4
+        speed: 0
+        luck: 12
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 84
+        level: 20
+        abilityUIDs: df000000de000000e0000000
+        selectedRewards: 130000001a000000220000001d000000140000000700000023000000150000000800000016000000010000000900000024000000020000001700000003000000250000000a00000026000000
+        hitPoints: 60
+        attack: 5
+        speed: 0
+        luck: 20
+        dodge: 24
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.9125641, g: 0.9264706, b: 0.67441607, a: 1}
+  dialogueOutlineColor: {r: 0.24826989, g: 0.41176468, b: 0.27645865, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 66
+  _guid: 3258423d-5c02-47c5-8a0a-87f644ee6d11
+  _name: Gordon
+  _nameKey: GORDON
+  _preBattleSpriteId: 76
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 8
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 3d565341dd79df746b4426a607764d41, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 97
+  _characterName: Radical Cyborg
+  _characterNameKey: RADICAL_CYBORG
+  _characterClass: 3
+  _characterRarity: 3
+  _characterFaction: 1
+  _baseHitPoints: 26
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 12
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 8
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_RADICALCYBORG
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Hero
+  - Teen Titans
+  - 80s
+  - Radical
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 3
+  _abilitySlots:
+  - position: 50
+    abilityId: 257
+  - position: 85
+    abilityId: 259
+  - position: 20
+    abilityId: 258
+  _portraitSprite: icon_radicalcyborg
+  _portraitSpriteId: 278
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2.13, y: 0.83, z: 0.49}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.29, y: 1.12, z: 0.63}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 2.31, y: -0.33, z: -0.5}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 5.21, y: 0.4, z: -1.16}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 5.6}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.41, z: -0.3}
+  _battleCharacterPath: Prefabs/Characters/Battle/Cyborg_Radical
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Cyborg_Radical
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.45, y: 0.45, z: 0.45}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: fa000000fa00000084030000840300008403000084030000840300008403000084030000840300008403000084030000840300008403000084030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.13382357, g: 0, b: 0.21323532, a: 1}
+  _shopTextFaceColor: {r: 0.33823532, g: 1, b: 0.64401627, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0.42647058, b: 0.39117655, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_radicalcyborg
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 86
+    cost: 2
+    rare: 0
+    texturePath: Textures/RadicalCyborg_Texture_greenandyellow-1x
+    _colorSprite: menu_shop_repaint_color_greenandyellow
+    _colorSpriteId: 21
+  - position: 0
+    id: 87
+    cost: 2
+    rare: 0
+    texturePath: Textures/RadicalCyborg_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 88
+    cost: 3
+    rare: 0
+    texturePath: Textures/RadicalCyborg_Texture_blackandblue-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 367
+    cost: 5
+    rare: 1
+    texturePath: Textures/RadicalCyborg_Texture_purpleandteal-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19

@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 41
+  preBattleSprite: menu_vsscreen_portrait_snootymom
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/SnootyMom
+  conversationBodySprite: TTG_gui_snootymom
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 8
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  - A Martha
+  conversationBodySpriteId: 8
+  conversationFaces:
+  - displayName: snooty
+    spriteName: TTG_gui_snootymom_snooty
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  - displayName: chuckle
+    spriteName: TTG_gui_snootymom_chuckle
+    rightSpriteName:
+    leftSpriteId: 11
+    rightSpriteId: -1
+  - displayName: Cocky
+    spriteName: TTG_gui_snootymom_cocky
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Snooty Mom 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: e56631a6-4e22-4506-87fe-00c551eb2e97
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 125
+      xpReward: 125
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 59
+        level: 10
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 130000001a000000220000001d0000001400000007000000230000000800000001000000
+        hitPoints: 33
+        attack: 4
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 53
+        level: 10
+        abilityUIDs: 0c0000000300000000000000
+        selectedRewards: 130000001a000000070000001d0000000100000022000000080000001400000002000000
+        hitPoints: 36
+        attack: 4
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 49
+        level: 10
+        abilityUIDs: 0c0000000300000000000000
+        selectedRewards: 010000001a000000220000001d0000000700000013000000080000002300000014000000
+        hitPoints: 33
+        attack: 4
+        speed: 0
+        luck: 15
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 40
+        level: 10
+        abilityUIDs: 0c0000000300000000000000
+        selectedRewards: 130000001a000000010000001d0000000700000014000000080000000200000022000000
+        hitPoints: 36
+        attack: 4
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: e6f6342879b4b5441a311804811b8123, type: 2}
+      activeConversation: {fileID: 11400000, guid: 6dc45d463720b934fb05c16af3d01cff, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 506c49df34dbc0349b3bdb57335f4a68, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 833747599a1887341a072ff1f6d8d84a, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea422fafe580baf44bf761430e78a5a5, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 46
+  _guid: c8265949-76bf-42dd-876c-04e80c17a9bb
+  _name: A Martha 1
+  _nameKey: A_MARTHA
+  _preBattleSpriteId: 47
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: a4f28334315db9f4fa02dba25424cc8b, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

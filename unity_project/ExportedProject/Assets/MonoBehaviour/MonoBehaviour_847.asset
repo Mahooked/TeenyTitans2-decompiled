@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 23
+  _characterName: Cyborg's Head
+  _characterNameKey: CYBORGSHEAD
+  _characterClass: 3
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 4
+  _baseDodge: 10
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 7
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 32
+  _libraryDescription: Not even being disembodied can stop Cyborg from being the life of the party! Booyah!
+  _libraryDescriptionKey: WIKI_CYBORGSHEAD
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Hero
+  - Teen Titans
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 8
+  _abilitySlots:
+  - position: 30
+    abilityId: 130
+  - position: 60
+    abilityId: 132
+  - position: 86
+    abilityId: 131
+  _portraitSprite: icon_cyborg_head
+  _portraitSpriteId: 215
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.57, y: 0.25, z: 0.3}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.84, y: -0.34, z: -0.36}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 7.01}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.69, y: 0.71, z: 0}
+  _battleCharacterPath: Prefabs/Characters/Battle/CyborgsHead
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/CyborgsHead
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.61, y: 0.61, z: 0.62}
+  _shopFigureOffset: {x: 0.05, y: -0.4, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 030200000d02000017020000210200002b020000350200003f02000049020000530200005d02000067020000710200007b020000850200008f020000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.16003461, g: 0.48054528, b: 0.5441177, a: 1}
+  _shopTextFaceColor: {r: 0.99381346, g: 1, b: 0.5514706, a: 1}
+  _shopTextOutlineColor: {r: 0.19853242, g: 0.20588237, b: 0.17257787, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_cyborgshead
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.726
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_battle_switch1_kpr2
+      - Audio/VO/sfx_vo_cyborg_battle_switch2_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_switch2_kpr4
+      - Audio/VO/sfx_vo_cyborg_battle_switch3_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_switch3_kpr3
+      - Audio/VO/sfx_vo_cyborg_battle_switch3_kpr2
+      - Audio/VO/sfx_vo_cyborg_battle_switch1_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_waffles_kpr4
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.718
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_hurt2_kpr1
+      - Audio/VO/sfx_vo_cyborg_hurt3_kpr1
+      - Audio/VO/sfx_vo_cyborg_hurt4_kpr1
+      - Audio/VO/sfx_vo_cyborg_hurt1_kpr1
+      - Audio/VO/sfx_vo_cyborg_hurt2_kpr4
+    _healSounds:
+      _probability: 0.565
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_battle_healed2_kpr
+      - Audio/VO/sfx_vo_cyborg_battle_healed3_kpr
+      - Audio/VO/sfx_vo_cyborg_battle_danggurl_kpr1
+    _deathSounds:
+      _probability: 0.731
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_defeated1_kpr1
+      - Audio/VO/sfx_vo_cyborg_defeated2_kpr1
+      - Audio/VO/sfx_vo_cyborg_defeated2_kpr2
+      - Audio/VO/sfx_vo_cyborg_defeated3_kpr1
+      - Audio/VO/sfx_vo_cyborg_defeated4_kpr2
+    _useTofuSounds:
+      _probability: 0.749
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_chat_nowthatsabooyah_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_healed1_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_healed2_kpr
+      - Audio/VO/sfx_vo_cyborg_battle_healed3_kpr
+      - Audio/VO/sfx_vo_cyborg_battle_danggurl_kpr1
+    _victorySounds:
+      _probability: 0.74
+      _soundPaths:
+      - Audio/VO/sfx_vo_cyborg_win1_kpr
+      - Audio/VO/sfx_vo_cyborg_win2_kpr2
+      - Audio/VO/sfx_vo_cyborg_win3_kpr1
+      - Audio/VO/sfx_vo_cyborg_win2_kpr2
+      - Audio/VO/sfx_vo_cyborg_win4_kpr
+      - Audio/VO/sfx_vo_cyborg_win2_kpr1
+      - Audio/VO/sfx_vo_cyborg_battle_dance2_kpr
+  _repaintSlots:
+  - position: 0
+    id: 302
+    cost: 2
+    rare: 0
+    texturePath: Textures/CyborgHead_Texture_blue-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 303
+    cost: 3
+    rare: 0
+    texturePath: Textures/CyborgHead_Texture_redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 307
+    cost: 5
+    rare: 0
+    texturePath: Textures/CyborgHead_Texture_blackandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4

@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd5acecbbd476961e925fb6c5087a8a, type: 3}
+  m_Name: SladeTournament
+  m_EditorClassIdentifier:
+  cityName: 0
+  district: 1
+  _tournamentName: Slade's Unexpected and Climactic Final Tournament of Doom
+  _tournamentNameKey: SLADE_TOURNY
+  _tournamentSpriteCollection: {fileID: 114724804207875695, guid: a79a25dec2b44564e8c018a1feed9930, type: 2}
+  _backgroundSprite: menus_tourneybgs_slade
+  _backgroundSpriteId: 2
+  _bannerSprite: menus_tourneybgs_slade-banner
+  _bannerSpriteId: 0
+  _bannerTopperSprite: menus_tourneybgs_slade-gavel
+  _bannerTopperSpriteId: 1
+  _bannerTextMaterial: Materials/Fonts/baveuse SDF Final TournementHeader
+  _trophySprite: menus_tourneybgs_slade-trophy
+  _trophySpriteId: 3
+  _trophyModel: Prefabs/Trophies/Trophy_UpTown
+  _preConversation: {fileID: 0}
+  _postConversation: {fileID: 0}
+  _coinReward: 1000
+  _containsChallenge: 0
+  _figureRewards:
+  - characterUID: 112
+    characterLvl: 9
+    blindBox: 0
+    goldBox: 0
+    blindBoxShopFigures: []
+  _rounds:
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 146
+    figures:
+    - characterUID: 112
+      level: 20
+      abilityUIDs: 2c0100002b0100002d010000
+      selectedRewards: 010000001a000000070000001d0000000200000022000000130000000800000061000000230000001400000024000000090000000300000025000000150000000a0000002600000004000000
+      hitPoints: 175
+      attack: 15
+      speed: 0
+      luck: 15
+      dodge: 15
+      shinyRank: 3
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 350
+    coinReward: 2000
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 11400000, guid: 351517a6464278949b63c779a726cd0c, type: 2}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: 58
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 20
+      minValue: 11
+      maxValue: 16
+    - weight: 60
+      minValue: 9
+      maxValue: 14
+    - weight: 20
+      minValue: 6
+      maxValue: 11
+    - weight: 0
+      minValue: 5
+      maxValue: 10
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 169
+    figures:
+    - characterUID: 63
+      level: 20
+      abilityUIDs: 540000005500000053000000
+      selectedRewards: 010000001a000000130000001d000000220000000200000023000000030000006100000024000000070000001400000004000000080000002500000005000000150000000900000026000000
+      hitPoints: 90
+      attack: 9
+      speed: 0
+      luck: 12
+      dodge: 18
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 107
+      level: 20
+      abilityUIDs: 240100002201000021010000
+      selectedRewards: 070000001a000000010000001d00000013000000080000000200000022000000610000000900000014000000230000000a000000030000001500000024000000040000001600000005000000
+      hitPoints: 110
+      attack: 12
+      speed: 0
+      luck: 12
+      dodge: 9
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 200
+    coinReward: 300
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: 52
+    tofuData: []
+  - type: 1
+    opponentDifficulty: 5
+    opponentNPCIndex: 0
+    figures: []
+    xpReward: 0
+    coinReward: 0
+    challengesOn: 0
+    challengeHidden: 0
+    challengesIncluded:
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: -1
+    tofuData:
+    - weight: 100
+      minValue: 5
+      maxValue: 12
+    - weight: 0
+      minValue: 3
+      maxValue: 6
+    - weight: 0
+      minValue: 5
+      maxValue: 10
+    - weight: 0
+      minValue: 5
+      maxValue: 10
+  - type: 0
+    opponentDifficulty: 5
+    opponentNPCIndex: 168
+    figures:
+    - characterUID: 78
+      level: 20
+      abilityUIDs: d4000000d3000000d5000000
+      selectedRewards: 220000001a000000130000001d000000010000000700000014000000230000006100000008000000240000000900000025000000150000000a0000000200000026000000160000000b000000
+      hitPoints: 80
+      attack: 10
+      speed: 0
+      luck: 20
+      dodge: 15
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    - characterUID: 121
+      level: 20
+      abilityUIDs: 420100004301000041010000
+      selectedRewards: 010000001a000000070000001d00000002000000220000001300000008000000610000002300000003000000240000000400000014000000050000001500000009000000250000000a000000
+      hitPoints: 85
+      attack: 11
+      speed: 0
+      luck: 9
+      dodge: 12
+      shinyRank: 0
+      modChipUID: -1
+      repaintUID: -1
+    xpReward: 150
+    coinReward: 200
+    challengesOn: 1
+    challengeHidden: 0
+    challengesIncluded: 000000000100000003000000040000000600000002000000
+    preBattleConversation: {fileID: 0}
+    battleThemePath:
+    playerAIType: 0
+    accessoryUID: 49
+    tofuData: []
+  _tournamentOrder: 1
+  _timeOfDay: 0
+  _achievementReward:

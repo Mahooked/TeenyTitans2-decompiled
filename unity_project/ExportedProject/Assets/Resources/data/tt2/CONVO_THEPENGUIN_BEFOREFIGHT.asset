@@ -1,0 +1,1009 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_THEPENGUIN_BEFOREFIGHT
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: COBBLEPOT!!
+      key: TT2CONVO_THEPENGUIN_1
+      formatArgs: []
+      clip: {fileID: 8300000, guid: d51682745d195f9489070e7c2d7168c7, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_penguin_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ugh, not you. Yer the wrong kinda bird, yeknow.
+      key: TT2CONVO_THEPENGUIN_2
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 13c38059768c5864595816639c63f69a, type: 3}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Shut your beak, Oswald! I'm here to...
+      key: TT2CONVO_THEPENGUIN_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_penguin_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Fig battle?? Don't mind if I do! Mwak wak wak!
+      key: TT2CONVO_THEPENGUIN_4
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4931667cba5a96b4790ee75dc2277b0c, type: 3}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 139
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 2
+    initialRightBodySpriteName: TT2_gui_penguin
+    initialRightFaceSpriteName: TT2_gui_penguin_face1
+  - characterType: 2
+    items:
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 3
+      faceSpriteName: TT2_gui_penguin_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mwak wak wak!!! How'd YOU get in here?!
+      key: TT2CONVO_THEPENGUIN_5
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 13c38059768c5864595816639c63f69a, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I just sorta walked in, yo. Nice place yous got here!
+      key: TT2CONVO_THEPENGUIN_6
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 68102055058bc33428c9ca4c6d3cc443, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_penguin_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well then, if yeh wanna chill with the big birds, yeh best be prepared for a little... arctic initiation!
+      key: TT2CONVO_THEPENGUIN_7
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4931667cba5a96b4790ee75dc2277b0c, type: 3}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, whatevs. Let's do this!
+      key: TT2CONVO_THEPENGUIN_8
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b4a9abf3c3fdbf746ab943982b3ff4f5, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 139
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 2
+    initialRightBodySpriteName: TT2_gui_penguin
+    initialRightFaceSpriteName: TT2_gui_penguin_face1
+  - characterType: 4
+    items:
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_penguin_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mwak wak wak!!! How'd YOU get in here?!
+      key: TT2CONVO_THEPENGUIN_9
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 13c38059768c5864595816639c63f69a, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 13
+      faceSpriteName: TTG_gui_raven_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I just sorta walked in. Nice place you got here.
+      key: TT2CONVO_THEPENGUIN_10
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c2bbf426f63431a4e93fd6994c14b441, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_penguin_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well then, if yeh wanna chill with the big birds, yeh best be prepared for a little... arctic initiation!
+      key: TT2CONVO_THEPENGUIN_11
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4931667cba5a96b4790ee75dc2277b0c, type: 3}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, whatever. Let's do it.
+      key: TT2CONVO_THEPENGUIN_12
+      formatArgs: []
+      clip: {fileID: 8300000, guid: fa9be4b02a246d04baeb2b6990729371, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 139
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 2
+    initialRightBodySpriteName: TT2_gui_penguin
+    initialRightFaceSpriteName: TT2_gui_penguin_face1
+  - characterType: 8
+    items:
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 1
+      faceSpriteName: TT2_gui_penguin_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mwak wak wak!!! How'd YOU get in here?!
+      key: TT2CONVO_THEPENGUIN_17
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 13c38059768c5864595816639c63f69a, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I was invited in by the adorable penguin friend!
+      key: TT2CONVO_THEPENGUIN_18
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 5bbf08cd3a390a941a4a5b93d83a7eb4, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_penguin_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well then, if yeh wanna chill with the big birds, yeh best be prepared for a little... arctic initiation!
+      key: TT2CONVO_THEPENGUIN_19
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4931667cba5a96b4790ee75dc2277b0c, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I propose a battle of the figures!
+      key: TT2CONVO_THEPENGUIN_20
+      formatArgs: []
+      clip: {fileID: 8300000, guid: ec42bc2ff99c2e245bb65b54a23fec6e, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_penguin_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Urm, well, yeh. That's what I was just insinuating.
+      key: TT2CONVO_THEPENGUIN_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_starfire_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 139
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 2
+    initialRightBodySpriteName: TT2_gui_penguin
+    initialRightFaceSpriteName: TT2_gui_penguin_face1
+  - characterType: 16
+    items:
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 4
+      faceSpriteName: TT2_gui_penguin_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Mwak wak wak!!! How'd YOU get in here?!
+      key: TT2CONVO_THEPENGUIN_13
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 13c38059768c5864595816639c63f69a, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I just walked in, bro. Nice place you got here.
+      key: TT2CONVO_THEPENGUIN_14
+      formatArgs: []
+      clip: {fileID: 8300000, guid: cd5a76c77e7122a49bb28c0a92e01381, type: 3}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TT2_gui_penguin_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 139
+      position: 1
+      bodySpriteId: 0
+      bodySpriteName: TT2_gui_penguin
+      faceSpriteId: 5
+      faceSpriteName: TT2_gui_penguin_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well then, if yeh wanna chill with the big birds, yeh best be prepared for a little... arctic initiation!
+      key: TT2CONVO_THEPENGUIN_15
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4931667cba5a96b4790ee75dc2277b0c, type: 3}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, whatever. Let's do this!
+      key: TT2CONVO_THEPENGUIN_16
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 67c9c10d5be8df84b840936c17d9be5e, type: 3}
+      otherFaceSpriteId: 2
+      otherFaceSpriteName: TT2_gui_penguin_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 139
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 0
+    initialRightFaceSpriteId: 2
+    initialRightBodySpriteName: TT2_gui_penguin
+    initialRightFaceSpriteName: TT2_gui_penguin_face1

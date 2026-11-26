@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 98
+  _characterName: Radical Raven
+  _characterNameKey: RADICAL_RAVEN
+  _characterClass: 1
+  _characterRarity: 3
+  _characterFaction: 1
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 3
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 9
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_RADICALRAVEN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Dark Arts
+  - Hero
+  - Teen Titans
+  - 80s
+  - Radical
+  - Lady
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 8
+  _abilitySlots:
+  - position: 35
+    abilityId: 270
+  - position: 65
+    abilityId: 263
+  - position: 95
+    abilityId: 266
+  _portraitSprite: icon_radicalraven
+  _portraitSpriteId: 277
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.75, y: 0.46, z: 0.21}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: -2.41}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.61, y: 1.32, z: 0.13}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.57, y: -0.62, z: -0.45}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: 0.24, z: -0.75}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 7.9}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 0.86, z: -0.22}
+  _battleCharacterPath: Prefabs/Characters/Battle/Raven_Radical
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/RavenRadical
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.7, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: fa000000fa00000084030000840300008403000084030000840300008403000084030000840300008403000084030000840300008403000084030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.12626776, g: 0, b: 0.2205882, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_radicalraven
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 68
+    cost: 2
+    rare: 0
+    texturePath: Textures/RadicalRaven_Texture_blackandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1
+  - position: 0
+    id: 69
+    cost: 2
+    rare: 0
+    texturePath: Textures/RadicalRaven_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 70
+    cost: 3
+    rare: 0
+    texturePath: Textures/RadicalRaven_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 366
+    cost: 5
+    rare: 1
+    texturePath: Textures/RadicalRaven_Texture_pinkandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandsilver
+    _colorSpriteId: 26

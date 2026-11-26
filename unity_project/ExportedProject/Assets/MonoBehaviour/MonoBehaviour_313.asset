@@ -1,0 +1,640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 17
+  preBattleSprite: menu_vsscreen_portrait_beastboy
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/BeastBoy
+  conversationBodySprite: TTG_gui_beastboy
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 65
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 65
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TTG_gui_beastboy_face1
+    rightSpriteName:
+    leftSpriteId: 75
+    rightSpriteId: -1
+  - displayName: RelaxedSly
+    spriteName: TTG_gui_beastboy_face2
+    rightSpriteName:
+    leftSpriteId: 60
+    rightSpriteId: -1
+  - displayName: Pout
+    spriteName: TTG_gui_beastboy_face3
+    rightSpriteName:
+    leftSpriteId: 61
+    rightSpriteId: -1
+  - displayName: Devious
+    spriteName: TTG_gui_beastboy_face4
+    rightSpriteName:
+    leftSpriteId: 62
+    rightSpriteId: -1
+  - displayName: LipBite
+    spriteName: TTG_gui_beastboy_face5
+    rightSpriteName:
+    leftSpriteId: 63
+    rightSpriteId: -1
+  - displayName: BigGrin
+    spriteName: TTG_gui_beastboy_face6
+    rightSpriteName:
+    leftSpriteId: 59
+    rightSpriteId: -1
+  - displayName: SuperSly
+    spriteName: TTG_gui_beastboy_face7
+    rightSpriteName:
+    leftSpriteId: 70
+    rightSpriteId: -1
+  - displayName: FreakedOut
+    spriteName: TTG_gui_beastboy_freakedout
+    rightSpriteName:
+    leftSpriteId: 73
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 4
+    name: Beast Boy End Game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 29
+        level: 12
+        abilityUIDs: 31000000300000003b000000
+        selectedRewards: 220000001a000000010000001d00000007000000230000001300000024000000020000000800000014000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 21
+        dodge: 21
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 48
+        level: 12
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 070000001a000000010000001d00000022000000020000001300000023000000030000000800000004000000
+        hitPoints: 35
+        attack: 2
+        speed: 0
+        luck: 8
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 12
+        abilityUIDs: 31000000a6000000a5000000
+        selectedRewards: 070000001a000000010000001d00000022000000020000001300000003000000080000002300000014000000
+        hitPoints: 25
+        attack: 2
+        speed: 5
+        luck: 16
+        dodge: 22
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 42
+        level: 12
+        abilityUIDs: 350000003400000030000000
+        selectedRewards: 130000001a000000070000001d0000000100000022000000080000002300000009000000020000000a000000
+        hitPoints: 21
+        attack: 4
+        speed: 0
+        luck: 12
+        dodge: 17
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 44
+      teamSizeWeight3: 56
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: f0953a0b02dc8eb44b65f35d4cdd86c6, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: ef5ffb0659232ac4db9b299bd8381920, type: 2}
+      - {fileID: 11400000, guid: 2275cf8fef522f04e8cc3478ca07c818, type: 2}
+      - {fileID: 11400000, guid: fe7adadbbf58b684cb769690d5c8e716, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: be4a706c42bc5de4283fdfcc1305a957, type: 2}
+      - {fileID: 11400000, guid: 008769f958c1d1143b1337bf5874c38c, type: 2}
+      - {fileID: 11400000, guid: 4b5e15c622160a34cbbde156a5a77dd0, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 5
+    name: First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 1
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 94
+        level: 1
+        abilityUIDs: ff00000000010000
+        selectedRewards:
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 112fd7364144dd14fb1a7fb8214b87a4, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 3
+    name: Near Beach Pawn Mission Done
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: Uptown Final Beast Boy
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 48
+        level: 7
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 070000001a000000130000001d0000002200000014000000
+        hitPoints: 23
+        attack: 1
+        speed: 0
+        luck: 11
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: be9c10e7b8b545c429f7aaf911dbf61c, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: ef5ffb0659232ac4db9b299bd8381920, type: 2}
+      - {fileID: 11400000, guid: 2275cf8fef522f04e8cc3478ca07c818, type: 2}
+      - {fileID: 11400000, guid: fe7adadbbf58b684cb769690d5c8e716, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: be4a706c42bc5de4283fdfcc1305a957, type: 2}
+      - {fileID: 11400000, guid: 008769f958c1d1143b1337bf5874c38c, type: 2}
+      - {fileID: 11400000, guid: 4b5e15c622160a34cbbde156a5a77dd0, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Uptown Final Beast Boy
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 1
+      battleConditionsExtendIntoBattle: 1
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 29
+        level: 9
+        abilityUIDs: 31000000300000003b000000
+        selectedRewards: 070000001a000000010000001d00000022000000020000000800000003000000
+        hitPoints: 29
+        attack: 2
+        speed: 0
+        luck: 15
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 48
+        level: 11
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 220000001a000000010000001d000000230000000700000013000000020000000800000014000000
+        hitPoints: 29
+        attack: 2
+        speed: 0
+        luck: 11
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 12
+        abilityUIDs: 31000000a6000000a5000000
+        selectedRewards: 220000001a000000010000001d00000023000000130000000200000014000000240000000700000015000000
+        hitPoints: 22
+        attack: 5
+        speed: 5
+        luck: 19
+        dodge: 25
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: 54c5d5140fe7198499af10252c322595, type: 2}
+      initialConversation: {fileID: 11400000, guid: 15af710bebd22d941a2fd33e30ef7f9a, type: 2}
+      activeConversation: {fileID: 11400000, guid: 15af710bebd22d941a2fd33e30ef7f9a, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 585361e25828c6e4389c38f015a476c0, type: 2}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 585361e25828c6e4389c38f015a476c0, type: 2}
+      preBattleConversations: []
+      battleConditions:
+      - type: 2
+        amount: 0
+        uid: 13
+        tag:
+      - type: 2
+        amount: 0
+        uid: 13
+        tag:
+      - type: 2
+        amount: 0
+        uid: 13
+        tag:
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: After First Battle
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 94
+        level: 1
+        abilityUIDs: ff00000000010000
+        selectedRewards:
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Outside Pet Shop
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 13eb0ae8-1e0e-448b-97b9-b30135c68d5f
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 1
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 65
+      xpReward: 65
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 13
+        level: 3
+        abilityUIDs: 2f0000003000000031000000
+        selectedRewards: 070000001a000000
+        hitPoints: 20
+        attack: 2
+        speed: 0
+        luck: 8
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 11400000, guid: 2d0b1c959b8172f4bb29b120e321578b, type: 2}
+      alternateConversation: {fileID: 11400000, guid: be9c10e7b8b545c429f7aaf911dbf61c, type: 2}
+      initialConversation: {fileID: 11400000, guid: 653abd1741c6ee1488a391086f8d9614, type: 2}
+      activeConversation: {fileID: 11400000, guid: 10237630a070ca74b950273590d9b478, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: be9c10e7b8b545c429f7aaf911dbf61c, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: ef5ffb0659232ac4db9b299bd8381920, type: 2}
+      - {fileID: 11400000, guid: 2275cf8fef522f04e8cc3478ca07c818, type: 2}
+      - {fileID: 11400000, guid: fe7adadbbf58b684cb769690d5c8e716, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: be4a706c42bc5de4283fdfcc1305a957, type: 2}
+      - {fileID: 11400000, guid: 008769f958c1d1143b1337bf5874c38c, type: 2}
+      - {fileID: 11400000, guid: 4b5e15c622160a34cbbde156a5a77dd0, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Near Beach Pawn Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 48
+        level: 7
+        abilityUIDs: 31000000390000003a000000
+        selectedRewards: 010000001a000000220000001d0000000700000013000000
+        hitPoints: 26
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 0cc3a8ee333cc4140bef03d7318049a1, type: 2}
+      activeConversation: {fileID: 11400000, guid: 1af17546d6f8d934693c8d02f72a3ddb, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: c380c3148089c3b448d00cd7f78ef0de, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: ef5ffb0659232ac4db9b299bd8381920, type: 2}
+      - {fileID: 11400000, guid: 2275cf8fef522f04e8cc3478ca07c818, type: 2}
+      - {fileID: 11400000, guid: fe7adadbbf58b684cb769690d5c8e716, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: be4a706c42bc5de4283fdfcc1305a957, type: 2}
+      - {fileID: 11400000, guid: 008769f958c1d1143b1337bf5874c38c, type: 2}
+      - {fileID: 11400000, guid: 4b5e15c622160a34cbbde156a5a77dd0, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.60656595, g: 0.8308824, b: 0.3299092, a: 1}
+  dialogueOutlineColor: {r: 0.052227523, g: 0.33823532, b: 0.08400618, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle1
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle6
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle3
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle4
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle5
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle7
+    - Audio/VO/sfx_vo_beastboy_battle_prebattle8
+  countdownCharacterUID: 13
+  _uid: 18
+  _guid: 8323d16d-b1d5-4875-9184-6623b69d4645
+  _name: Beast Boy
+  _nameKey: BEASTBOY
+  _preBattleSpriteId: 49
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 6
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: f49c16a8997373746aced440ade97d67, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX:
+  - Audio/VO/sfx_vo_beastboy_city_idle1_kpr
+  - Audio/VO/sfx_vo_beastboy_city_idle2_kpr
+  - Audio/VO/sfx_vo_beastboy_city_idle3_kpr
+  - Audio/VO/sfx_vo_beastboy_city_idle4_kpr
+  - Audio/VO/sfx_vo_beastboy_city_idle5_kpr
+  - Audio/VO/sfx_vo_beastboy_city_idle6_kpr2
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

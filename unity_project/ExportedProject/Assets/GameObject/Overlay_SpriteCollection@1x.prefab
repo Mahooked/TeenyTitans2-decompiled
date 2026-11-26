@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Overlay_SpriteCollection@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: menu_newfigure_softoverlay
+    boundsData:
+    - {x: 0.49999952, y: -1.0000005, z: 0}
+    - {x: 25, y: 26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 31, y: 31, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -12, y: -14, z: 0}
+    - {x: 12.999999, y: -14, z: 0}
+    - {x: -12, y: 11.999999, z: 0}
+    - {x: 12.999999, y: 11.999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.031265624, y: 0.5312578}
+    - {x: 0.42185938, y: 0.5312578}
+    - {x: 0.031265624, y: 0.7343672}
+    - {x: 0.42185938, y: 0.7343672}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ca286c0276e79d14f8edd9a2a837139f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 010c63d67216940c58bac5707a6c12d2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: menu_victory_rayoverlay
+    boundsData:
+    - {x: 1, y: 32, z: 0}
+    - {x: 36, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 32, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -17, y: 1, z: 0}
+    - {x: 19, y: 1, z: 0}
+    - {x: -17, y: 63, z: 0}
+    - {x: 19, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.031265624, y: 0.015632812}
+    - {x: 0.5937344, y: 0.015632812}
+    - {x: 0.031265624, y: 0.4999922}
+    - {x: 0.5937344, y: 0.4999922}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ca286c0276e79d14f8edd9a2a837139f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 88993afd7b18745259eb06659b9b37f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: ca286c0276e79d14f8edd9a2a837139f, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: d889758caee89f5478dae71ad6a6e494, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: dfa60b8640a6e4fed9b9b734afd5687a
+  spriteCollectionName: Overlay_SpriteCollection@1x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 644785873
+  dataGuid: 957305f71e7f94dada96350901bea09e
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

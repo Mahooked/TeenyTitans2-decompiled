@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 34
+  _characterName: See-More
+  _characterNameKey: SEEMORE
+  _characterClass: 3
+  _characterRarity: 0
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 7
+  _baseDodge: 2
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 12
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 16
+  _libraryDescription: 'See-More is a member of the villainous H.I.V.E. Five. His real name is actually "Seymour", but as you probably guessed: he can''t resist a good pun. Also, fun fact: he has terrible depth perception.'
+  _libraryDescriptionKey: WIKI_SEEMORE
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 3
+  _abilitySlots:
+  - position: 15
+    abilityId: 101
+  - position: 42
+    abilityId: 100
+  - position: 95
+    abilityId: 102
+  _portraitSprite: icon_seemore
+  _portraitSpriteId: 251
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.99, y: 0.63, z: 0.33}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.33, y: -0.76, z: -0.38}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.79, y: 1.01, z: -0.03}
+  _battleCharacterPath: Prefabs/Characters/Battle/Seemore
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Seemore
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.5, y: 0.55, z: 0.5}
+  _shopFigureOffset: {x: 0, y: -0.55, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: c8000000c8000000c8000000c8000000c80000005e01000068010000720100007c01000086010000900100009a010000a4010000ae010000b8010000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.13921927, g: 0.75735295, b: 0.6550411, a: 1}
+  _shopTextFaceColor: {r: 0.7647059, g: 1, b: 0.79553753, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_Seemore
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.852
+      _soundPaths:
+      - Audio/VO/sfx_vo_genericguy_small_haha
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.83
+      _soundPaths:
+      - Audio/VO/sfx_vo_genericguy_small_hurt_1
+      - Audio/VO/sfx_vo_genericguy_small_hurt2
+      - Audio/VO/sfx_vo_genericguy_small_hurt3
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 214
+    cost: 2
+    rare: 0
+    texturePath: Textures/seemore_Texture_blueandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blueandgreen
+    _colorSpriteId: 27
+  - position: 0
+    id: 215
+    cost: 2
+    rare: 0
+    texturePath: Textures/seemore_Texture_greenandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1
+  - position: 0
+    id: 216
+    cost: 3
+    rare: 0
+    texturePath: Textures/seemore_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11

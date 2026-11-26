@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba0522728178f02ef0a8e78062908cf, type: 3}
+  m_Name: EmoteDatabase
+  m_EditorClassIdentifier:
+  _maxSpamUses: 4
+  _spamDelay: 5
+  emoteDefinitions:
+  - emote: 1
+    spriteName: gui_chat_robin-happy
+    sfxPath: Audio/SFX/sfx_chat_happy
+    bubbleAnimation:
+  - emote: 2
+    spriteName: gui_chat_robin-welp
+    sfxPath: Audio/SFX/sfx_chat_meh
+    bubbleAnimation:
+  - emote: 3
+    spriteName: gui_chat_robin-angry
+    sfxPath: Audio/SFX/sfx_chat_angry
+    bubbleAnimation:
+  - emote: 4
+    spriteName: gui_chat_robin-crying
+    sfxPath: Audio/SFX/sfx_chat_crying
+    bubbleAnimation:
+  - emote: 5
+    spriteName: gui_chat_robin-lennyface
+    sfxPath: Audio/SFX/sfx_chat_creep
+    bubbleAnimation:
+  - emote: 6
+    spriteName: gui_chat_robin-thumbsup
+    sfxPath: Audio/SFX/sfx_chat_thumbsup
+    bubbleAnimation:
+  - emote: 7
+    spriteName: gui_chat_heart
+    sfxPath: Audio/SFX/sfx_chat_heart
+    bubbleAnimation:
+  - emote: 8
+    spriteName: gui_chat_cat
+    sfxPath: Audio/SFX/sfx_chat_meow
+    bubbleAnimation:
+  - emote: 9
+    spriteName: gui_chat_easterbunny
+    sfxPath: Audio/SFX/sfx_vo_easterbunny_laugh
+    bubbleAnimation:
+  - emote: 10
+    spriteName: gui_chat_astickyjoe
+    sfxPath: Audio/SFX/sfx_vo_stickyjoe_howdy
+    bubbleAnimation:

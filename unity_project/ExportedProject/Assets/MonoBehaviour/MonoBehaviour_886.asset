@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 100
+  _characterName: The Penguin
+  _characterNameKey: PENGUIN
+  _characterClass: 5
+  _characterRarity: 2
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 6
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 10
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 71
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_THEPENGUIN
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Beast
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 20
+    abilityId: 267
+  - position: 55
+    abilityId: 269
+  - position: 100
+    abilityId: 268
+  _portraitSprite: icon_thepenguin
+  _portraitSpriteId: 312
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.81, y: 0.73, z: 0.1}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 3.53, y: 0.68, z: 0.62}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.63, y: -0.57, z: -0.53}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.86, y: -0.28, z: -1.24}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0.89, z: 6}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: -0.41, y: 1.25, z: -0.24}
+  _battleCharacterPath: Prefabs/Characters/Battle/Penguin
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Penguin
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.53, y: 0.53, z: 0.53}
+  _shopFigureOffset: {x: 0.05, y: -0.5, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.43921572, g: 0.42352945, b: 0.69411767, a: 1}
+  _shopTextFaceColor: {r: 0.86274517, g: 0.7686275, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_penguin
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.75
+      _soundPaths:
+      - Audio/VO/sfx_vo_thepenguin_swapin1
+      - Audio/VO/sfx_vo_thepenguin_swapin2
+    _swapOutSounds:
+      _probability: 0.75
+      _soundPaths:
+      - Audio/VO/sfx_vo_thepenguin_swapout1
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 56
+    cost: 3
+    rare: 0
+    texturePath: Textures/ThePenguin_Texture_greyandpurple-1x
+    _colorSprite: menu_shop_repaint_color_whiteandpurple
+    _colorSpriteId: 5
+  - position: 0
+    id: 57
+    cost: 3
+    rare: 0
+    texturePath: Textures/ThePenguin_Texture_purpleandyellow-1x
+    _colorSprite: menu_shop_repaint_color_greenandpurple
+    _colorSpriteId: 7
+  - position: 0
+    id: 58
+    cost: 3
+    rare: 0
+    texturePath: Textures/ThePenguin_Texture_blackandred-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 59
+    cost: 5
+    rare: 0
+    texturePath: Textures/ThePenguin_Texture_blackandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1

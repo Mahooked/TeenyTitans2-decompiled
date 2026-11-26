@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 90
+  _characterName: Supergirl
+  _characterNameKey: SUPERGIRL
+  _characterClass: 2
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 5
+  _baseDodge: 5
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 9
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 51
+  _libraryDescription: Supergirl doesn't have a library description yet, since she's brand new!
+  _libraryDescriptionKey: WIKI_SUPERGIRL
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Super
+  - Hero
+  - Justice League
+  - Lady
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 6
+  _abilitySlots:
+  - position: 20
+    abilityId: 260
+  - position: 45
+    abilityId: 241
+  - position: 90
+    abilityId: 242
+  _portraitSprite: icon_supergirl
+  _portraitSpriteId: 343
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.7, y: 0.43, z: 1.25}
+  _playerCameraOffsetRotation: {x: 0, y: -10.6, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 3.19, y: 0.91, z: 0.28}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0.15, y: 0.31, z: 0.48}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: -5}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 1.22, y: 1.1, z: 0.54}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 10}
+  _enemyCameraOffsetPosition: {x: 0.71, y: -0.52, z: -0.27}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.47, z: -0.94}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 3.57}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: -0.84, z: -0.55}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 1.04, y: -0.21, z: -0.47}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 10.91}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 1, y: 0.6, z: 0}
+  _battleCharacterPath: Prefabs/Characters/Battle/SuperGirl
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/SuperGirl
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.62, y: 0.62, z: 0.57}
+  _shopFigureOffset: {x: 0, y: -0.6, z: -0.01}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000f4010000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.41960785, g: 0.6156863, b: 0.8901961, a: 1}
+  _shopTextFaceColor: {r: 0.97794116, g: 0.40987238, b: 0.40987238, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_supergirl
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 5
+    cost: 3
+    rare: 0
+    texturePath: Textures/Supergirl_Texture_whiteandblue-1x
+    _colorSprite: menu_shop_repaint_color_whiteandblue
+    _colorSpriteId: 6
+  - position: 0
+    id: 6
+    cost: 3
+    rare: 0
+    texturePath: Textures/Supergirl_Texture_whiteandblack-1x
+    _colorSprite: menu_shop_repaint_color_whiteandblack
+    _colorSpriteId: 14
+  - position: 0
+    id: 7
+    cost: 5
+    rare: 0
+    texturePath: Textures/Supergirl_Texture_blackandsilver-1x
+    _colorSprite: menu_shop_repaint_color_blackandgrey
+    _colorSpriteId: 18
+  - position: 0
+    id: 37
+    cost: 5
+    rare: 0
+    texturePath: Textures/Supergirl_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandblue
+    _colorSpriteId: 12

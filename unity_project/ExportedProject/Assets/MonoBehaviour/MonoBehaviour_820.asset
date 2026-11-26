@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 81
+  _characterName: Mr. Chibi
+  _characterNameKey: MRCHIBI
+  _characterClass: 0
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 26
+  _baseAttack: 0
+  _baseLuck: 12
+  _baseDodge: 12
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 1
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 102
+  _libraryDescription: 'Mr. Chibi is the the joyful CEO and creator of the Teeny Titans company. And yes, he decided to produce his own figure. Who wouldn''t want an adorable toy of themselves? '
+  _libraryDescriptionKey: WIKI_MRCHIBI
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Cute
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 7
+  _abilitySlots:
+  - position: 20
+    abilityId: 215
+  - position: 50
+    abilityId: 216
+  - position: 100
+    abilityId: 217
+  _portraitSprite: icon_mrchibi
+  _portraitSpriteId: 45
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 1.94, y: 0.58, z: 0.21}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 4.59, y: 0.98, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 2.79, y: -0.59, z: -0.3}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 4.17}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: -0.33, y: 0.94, z: -0.27}
+  _battleCharacterPath: Prefabs/Characters/Battle/MrChibi
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/MrChibi
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000b80b0000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 1, g: 0.46323532, b: 0.8963487, a: 1}
+  _shopTextFaceColor: {r: 0.88235295, g: 0.7849899, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0.5661765, g: 0.31627786, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_MrChibi
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 0.633
+      _soundPaths:
+      - Audio/VO/sfx_vo_mrchibi_nono
+      - Audio/VO/sfx_vo_mrchibi_hoho
+      - Audio/VO/sfx_vo_mrchibi_haha
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 0.624
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 0.682
+      _soundPaths: []
+    _victorySounds:
+      _probability: 0.665
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 261
+    cost: 3
+    rare: 0
+    texturePath: Textures/mrchibi_Texture_blueandgrey-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 262
+    cost: 3
+    rare: 0
+    texturePath: Textures/mrchibi_Texture_greenandred-1x
+    _colorSprite: menu_shop_repaint_color_redandblue
+    _colorSpriteId: 12
+  - position: 0
+    id: 263
+    cost: 5
+    rare: 1
+    texturePath: Textures/mrchibi_Texture_whiteandgold-1x
+    _colorSprite: menu_shop_repaint_color_whiteandgold
+    _colorSpriteId: 3

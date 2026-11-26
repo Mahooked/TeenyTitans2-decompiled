@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 129
+  _characterName: The Riddler
+  _characterNameKey: THE_RIDDLER
+  _characterClass: 3
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 25
+  _baseAttack: 0
+  _baseLuck: 12
+  _baseDodge: 9
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 9
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 81
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_THERIDDLER
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Villain
+  - Tech
+  _actionMeterSize: 1
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 16
+    abilityId: 348
+  - position: 45
+    abilityId: 351
+  - position: 84
+    abilityId: 352
+  _portraitSprite: icon_riddler
+  _portraitSpriteId: 55
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2, y: 0.4, z: 0.5}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 3.2, y: 0.7, z: 0.67}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 1.93, y: -0.6, z: -0.73}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 5.85, y: 0.35, z: -1.5}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 8}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0, y: 1.26, z: -0.22}
+  _battleCharacterPath: Prefabs/Characters/Battle/Riddler
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Riddler
+  _shopFigureBoxPath: Prefabs/Characters/Shop/Riddler
+  _shopFigureScale: {x: 0.59, y: 0.59, z: 0.59}
+  _shopFigureOffset: {x: 0, y: -0.8, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: -20, z: 0}
+  _shopFigureCosts: 881300008813000088130000881300008813000088130000881300008813000088130000881300008813000088130000881300008813000088130000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.32644522, g: 0.75735295, b: 0.18933824, a: 1}
+  _shopTextFaceColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0.2793036, g: 0.9264706, b: 0.4980015, a: 1}
+  _shopRevealNameSoundPath:
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 385
+    cost: 5
+    rare: 0
+    texturePath: Textures/Riddler_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 386
+    cost: 5
+    rare: 0
+    texturePath: Textures/Riddler_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11
+  - position: 0
+    id: 387
+    cost: 5
+    rare: 0
+    texturePath: Textures/Riddler_Texture-redandblack-1x
+    _colorSprite: menu_shop_repaint_color_redandblack
+    _colorSpriteId: 13
+  - position: 0
+    id: 388
+    cost: 5
+    rare: 0
+    texturePath: Textures/Riddler_Texture_blackandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1
+  - position: 0
+    id: 389
+    cost: 5
+    rare: 1
+    texturePath: Textures/Riddler_Texture_gold-1x
+    _colorSprite: menu_shop_repaint_color_orange
+    _colorSpriteId: 17

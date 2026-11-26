@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 64
+  _characterName: Nightwing
+  _characterNameKey: NIGHTWING
+  _characterClass: 4
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 0
+  _baseLuck: 0
+  _baseDodge: 12
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 8
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 73
+  _libraryDescription: 'Whoa! Is that Robin? Who would have thought he''d grow up to be that cool? '
+  _libraryDescriptionKey: WIKI_NIGHTWING
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Martial Arts
+  - Hero
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 7
+  _abilitySlots:
+  - position: 85
+    abilityId: 181
+  - position: 55
+    abilityId: 180
+  - position: 30
+    abilityId: 182
+  _portraitSprite: icon_nightwing
+  _portraitSpriteId: 311
+  _iapShopIconSprite: iap_icon_figure_nightwing
+  _iapShopIconSpriteId: 50
+  _playerCameraOffsetPosition: {x: 0.66, y: 0.69, z: 0.33}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.7, y: -0.85, z: -0.18}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.7, y: 1.02, z: -0.06}
+  _battleCharacterPath: Prefabs/Characters/Battle/Nightwing
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/Nightwing
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.58, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: b0040000b0040000b0040000b0040000b0040000b0040000b0040000b0040000b00400001405000078050000dc050000dc050000dc050000dc050000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.21118082, g: 0.24420862, b: 0.46323532, a: 1}
+  _shopTextFaceColor: {r: 0.39705884, g: 0.82535493, b: 1, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_NightWing
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths: []
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 63
+    cost: 3
+    rare: 0
+    texturePath: Textures/Nightwing_Texture_blue-1x
+    _colorSprite: menu_shop_repaint_color_blue
+    _colorSpriteId: 16
+  - position: 0
+    id: 64
+    cost: 3
+    rare: 0
+    texturePath: Textures/Nightwing_Texture_blueandyellow-1x
+    _colorSprite: menu_shop_repaint_color_blueandgrey
+    _colorSpriteId: 9
+  - position: 0
+    id: 65
+    cost: 3
+    rare: 0
+    texturePath: Textures/Nightwing_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandblue
+    _colorSpriteId: 12
+  - position: 0
+    id: 66
+    cost: 5
+    rare: 0
+    texturePath: Textures/Nightwing_Texture_whiteandgold-1x
+    _colorSprite: menu_shop_repaint_color_whiteandgold
+    _colorSpriteId: 3
+  - position: 0
+    id: 67
+    cost: 5
+    rare: 1
+    texturePath: Textures/nightWing_Texture_purpleandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10

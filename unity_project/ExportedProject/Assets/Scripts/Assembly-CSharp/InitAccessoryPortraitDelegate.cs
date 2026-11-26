@@ -1,0 +1,1 @@
+public delegate void InitAccessoryPortraitDelegate(AccessorySelectPortrait portrait, AccessoryItemDefinition accessoryItemDefinition);

@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_WARDEN_EXTRACHAT
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 44
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: 12
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+  initialRightBodySpriteId: 10
+  initialRightFaceSpriteId: 13
+  initialRightBodySpriteName: TTG_gui_thewarden
+  initialRightFaceSpriteName: TTG_gui_thewarden_neutral
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_0
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 44
+    position: 1
+    bodySpriteId: 10
+    bodySpriteName: TTG_gui_thewarden
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_thewarden_neutral
+    poseSpriteId: -1
+    poseSpriteName:
+    message: What do you want now, kid?
+    key: CONVO_WARDEN_EXTRACHAT1
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Warden! You're a servant of the law! Bear witness... to this!
+    key: CONVO_WARDEN_EXTRACHAT2
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_thewarden_neutral
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 44
+    position: 1
+    bodySpriteId: 10
+    bodySpriteName: TTG_gui_thewarden
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_thewarden_annoyed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You're not about to commit a stupid crime, are you?
+    key: CONVO_WARDEN_EXTRACHAT3
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 2
+    faceSpriteName: TTG_gui_robin_face9
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I... um... what if I was?
+    key: CONVO_WARDEN_EXTRACHAT4
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 12
+    otherFaceSpriteName: TTG_gui_thewarden_neutral2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 44
+    position: 1
+    bodySpriteId: 10
+    bodySpriteName: TTG_gui_thewarden
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_thewarden_neutral
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Let me just stop you right there, cupcake. I don't really do the arresting, if that's what you're looking for.
+    key: CONVO_WARDEN_EXTRACHAT5
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_robin_facehappy
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 44
+    position: 1
+    bodySpriteId: 10
+    bodySpriteName: TTG_gui_thewarden
+    faceSpriteId: 12
+    faceSpriteName: TTG_gui_thewarden_neutral2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: They pretty much just pay me to stand here. If you want to get arrested, you'll need to find a real policeman.
+    key: CONVO_WARDEN_EXTRACHAT6
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 2
+    otherFaceSpriteName: TTG_gui_robin_face9
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 44
+    position: 1
+    bodySpriteId: 10
+    bodySpriteName: TTG_gui_thewarden
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_thewarden_neutral
+    poseSpriteId: -1
+    poseSpriteName:
+    message: ...weirdo.
+    key: CONVO_WARDEN_EXTRACHAT7
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 2
+    otherFaceSpriteName: TTG_gui_robin_face9
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:

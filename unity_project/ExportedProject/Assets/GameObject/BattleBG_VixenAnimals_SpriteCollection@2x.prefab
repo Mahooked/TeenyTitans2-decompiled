@@ -1,0 +1,503 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: BattleBG_VixenAnimals_SpriteCollection@2x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: vixen_elephant_toot
+    boundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 137, y: 45.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 137, y: 45.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -68.5, y: -23, z: 0}
+    - {x: 68.5, y: -23, z: 0}
+    - {x: -68.5, y: 22.5, z: 0}
+    - {x: 68.5, y: 22.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.86718845, y: 0.0009770507}
+    - {x: 0.86718845, y: 0.13476513}
+    - {x: 0.95605373, y: 0.0009770507}
+    - {x: 0.95605373, y: 0.13476513}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: d4c812de2515b4446b0ed641f240be6a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: vixen_chicken
+    boundsData:
+    - {x: 0, y: -0.5, z: 0}
+    - {x: 277, y: 441, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 277, y: 441.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -138.5, y: -221, z: 0}
+    - {x: 138.5, y: -221, z: 0}
+    - {x: -138.5, y: 220, z: 0}
+    - {x: 138.5, y: 220, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.2714839}
+    - {x: 0.8632803, y: 0.0009770507}
+    - {x: 0.8632803, y: 0.2714839}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: d6215887daefa4572ac4c604fed2cc1a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: vixen_elephant
+    boundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 302.5, y: 276.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 303, y: 276.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -151, y: -138.5, z: 0}
+    - {x: 151.5, y: -138.5, z: 0}
+    - {x: -151, y: 138, z: 0}
+    - {x: 151.5, y: 138, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.27343798}
+    - {x: 0.5927725, y: 0.27343798}
+    - {x: 0.0019541015, y: 0.54345655}
+    - {x: 0.5927725, y: 0.54345655}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 38ff3c7fc711b47a48cf286485c9c1a9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: vixen_turtle
+    boundsData:
+    - {x: 0.25, y: -0.5, z: 0}
+    - {x: 336.5, y: 199, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 336.5, y: 199.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -168, y: -100, z: 0}
+    - {x: 168.5, y: -100, z: 0}
+    - {x: -168, y: 99, z: 0}
+    - {x: 168.5, y: 99, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.59668064, y: 0.27343798}
+    - {x: 0.59668064, y: 0.6020503}
+    - {x: 0.9853506, y: 0.27343798}
+    - {x: 0.9853506, y: 0.6020503}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6ced1ba5d847f4043b4a116a2d378fd2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_vixen_chicken
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2.5, y: -138, z: 0}
+    - {x: 2.5, y: -138, z: 0}
+    - {x: -2.5, y: 138, z: 0}
+    - {x: 2.5, y: 138, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9599619, y: 0.0009770507}
+    - {x: 0.9697256, y: 0.0009770507}
+    - {x: 0.9599619, y: 0.27050734}
+    - {x: 0.9697256, y: 0.27050734}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 61b0a50449c074c6a95bf6d2e52f8fca
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_vixen_turtle
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2.5, y: -138, z: 0}
+    - {x: 2.5, y: -138, z: 0}
+    - {x: -2.5, y: 138, z: 0}
+    - {x: 2.5, y: 138, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.97363377, y: 0.0009770507}
+    - {x: 0.9833975, y: 0.0009770507}
+    - {x: 0.97363377, y: 0.27050734}
+    - {x: 0.9833975, y: 0.27050734}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 37fd9eebec38b4beda12acbc0a010d69
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: background_vixen_elephant
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5, y: 276, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2.5, y: -138, z: 0}
+    - {x: 2.5, y: -138, z: 0}
+    - {x: -2.5, y: 138, z: 0}
+    - {x: 2.5, y: 138, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.98730564, y: 0.0009770507}
+    - {x: 0.99706936, y: 0.0009770507}
+    - {x: 0.98730564, y: 0.27050734}
+    - {x: 0.99706936, y: 0.27050734}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8d8796c64985d49ca9a955aab7c276b2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: vixen_turtle_shell
+    boundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 160, y: 179.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 160, y: 179.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -80, y: -90, z: 0}
+    - {x: 80, y: -90, z: 0}
+    - {x: -80, y: 89.5, z: 0}
+    - {x: 80, y: 89.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.54541063}
+    - {x: 0.0019541015, y: 0.7016597}
+    - {x: 0.35253808, y: 0.54541063}
+    - {x: 0.35253808, y: 0.7016597}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 459d5406d7ad74421b2a57e20a4f6ec5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: vixen_chicken_egg
+    boundsData:
+    - {x: 0.25, y: 0, z: 0}
+    - {x: 34.5, y: 49, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.25, y: 0, z: 0}
+    - {x: 34.5, y: 49, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -17, y: -24.5, z: 0}
+    - {x: 17.5, y: -24.5, z: 0}
+    - {x: -17, y: 24.5, z: 0}
+    - {x: 17.5, y: 24.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.86718845, y: 0.13671924}
+    - {x: 0.93456936, y: 0.13671924}
+    - {x: 0.86718845, y: 0.18456982}
+    - {x: 0.93456936, y: 0.18456982}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 07837d8ac6ff045958a0c3a4ea7f5167
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 1f02e11d54e012245a81d7489776cef9, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 456e37e872632fd4bbd8c2cd2e2e0d77, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b3d99faf05e92410e8a23e43b3a8e202
+  spriteCollectionName: BattleBG_VixenAnimals_SpriteCollection@2x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 65717080
+  dataGuid: 07a382ade2bd6401abdf747d75dcce1d
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 7
+  preBattleSprite: menu_vsscreen_portrait_dogman
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/DogMan
+  conversationBodySprite: TTG_gui_dogman
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 19
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Animal
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Angry
+    spriteName: TTG_gui_dogman_faceangry
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  - displayName: Happy 1
+    spriteName: TTG_gui_dogman_facehappy_1
+    rightSpriteName:
+    leftSpriteId: 18
+    rightSpriteId: -1
+  - displayName: Happy 2
+    spriteName: TTG_gui_dogman_facehappy_2
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: Happy 3
+    spriteName: TTG_gui_dogman_facehappy_3
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Normal
+    spriteName: TTG_gui_dogman_facenormal
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Weird Dog Guy 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 698494d7-80ff-49a7-9d7f-168e032acbca
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 1
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 29
+        level: 4
+        abilityUIDs: 31000000300000003b000000
+        selectedRewards: 070000001a000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 10
+        level: 4
+        abilityUIDs: 8b0000008d0000008c000000
+        selectedRewards: 010000001a000000
+        hitPoints: 34
+        attack: 3
+        speed: 0
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 22a778e97e10c374d892d4d6204eb471, type: 2}
+      activeConversation: {fileID: 11400000, guid: cd5fcc95c209e9a48af5b0ab190f2cfc, type: 2}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Weird Dog Guy 2
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 29
+        level: 4
+        abilityUIDs: 31000000300000003b000000
+        selectedRewards: 010000001a000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 10
+        level: 4
+        abilityUIDs: 8b0000008d0000008c000000
+        selectedRewards: 010000001a000000
+        hitPoints: 34
+        attack: 3
+        speed: 0
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 398a223d2092d2846bfc59fa030dbc4d, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 13846880c7415724d80d613facd08c20, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Weird Dog Guy Late Game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 29
+        level: 9
+        abilityUIDs: 31000000300000003b000000
+        selectedRewards: 220000001a000000130000001d000000010000000700000002000000
+        hitPoints: 46
+        attack: 4
+        speed: 0
+        luck: 18
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 10
+        level: 8
+        abilityUIDs: 8b0000008d0000008c000000
+        selectedRewards: 130000001a000000220000001d000000070000001400000008000000
+        hitPoints: 40
+        attack: 5
+        speed: 0
+        luck: 6
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 30
+        level: 8
+        abilityUIDs: 590000005b0000005a000000
+        selectedRewards: 070000001a000000220000001d000000010000001300000008000000
+        hitPoints: 43
+        attack: 4
+        speed: 5
+        luck: 3
+        dodge: 21
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 45
+        level: 8
+        abilityUIDs: 870000008600000085000000
+        selectedRewards: 010000001a000000130000001d000000070000000200000008000000
+        hitPoints: 57
+        attack: 5
+        speed: 0
+        luck: 23
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: bc22f5297663adb4993812917b22ff88, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 721ffb061d2e11f4b9812414976b9519, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 13846880c7415724d80d613facd08c20, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_dogguy_barkbark
+    - Audio/VO/sfx_vo_robin_chat_dog_woof_kpr2
+  countdownCharacterUID: -1
+  _uid: 8
+  _guid: e4288ca9-9d6f-4acc-a3af-41a603655d5a
+  _name: Weird Dog Guy
+  _nameKey: WEIRDDOGGUY
+  _preBattleSpriteId: 27
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 2
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 00dfe195930739242a14af6e31116d39, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

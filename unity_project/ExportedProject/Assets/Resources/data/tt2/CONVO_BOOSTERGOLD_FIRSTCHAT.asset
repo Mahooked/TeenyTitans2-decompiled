@@ -1,0 +1,2686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_BOOSTERGOLD_FIRSTCHAT
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 11400000, guid: aa7144b790876bf4ebde46134bceca23, type: 2}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items: []
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hi.
+      key: TT2CONVO_BOOSTERGOLD_1
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 718cd0533ae8f5c4eaec1f8cdeb5f597, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Greetings, fan! I''ve gotta say: definitely diggin'' that cosplay.'
+      key: TT2CONVO_BOOSTERGOLD_2
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 12
+      otherFaceSpriteName: TTG_gui_robin_faceidle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: It's not... nevermind. Hand over your crew b--
+      key: TT2CONVO_BOOSTERGOLD_3
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 19
+      otherFaceSpriteName: TT2_gui_boostergold_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let me stop you right there, buckaroo. Signatures start at a cool 5,000 coins. That's three zeroes. And don't forget the headshot -- that'll be another 500.
+      key: TT2CONVO_BOOSTERGOLD_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_robin_face10
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 17
+      faceSpriteName: TTG_gui_robin_face8
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, no thanks.
+      key: TT2CONVO_BOOSTERGOLD_5
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 62b45cbc9da5cb9409c338e4c7dea47f, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Y'know what, on second thought, I've got a feeling that competition is more your speed -- amirite?
+      key: TT2CONVO_BOOSTERGOLD_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 17
+      otherFaceSpriteName: TTG_gui_robin_face8
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure, whatever.
+      key: TT2CONVO_BOOSTERGOLD_7
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_boostergold_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, step right up to my official, extravagant, totally guild-rules-compliant... ASSISTANT TRY-OUTS!
+      key: TT2CONVO_BOOSTERGOLD_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Spoiler-alert: it''s a figure tournament. And it''s great brand exposure, by the way.'
+      key: TT2CONVO_BOOSTERGOLD_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So whaddya say, kiddo?
+      key: TT2CONVO_BOOSTERGOLD_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I think I can show you a thing or two.
+      key: TT2CONVO_BOOSTERGOLD_11
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 1700e0a12f51c6343a7f7a9e77ea7f8e, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Golden. Let's get you signed up, then. Skeets! Hand me those forms.
+      key: TT2CONVO_BOOSTERGOLD_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 60
+    initialRightFaceSpriteId: 12
+    initialRightBodySpriteName: TTG_gui_robin_player
+    initialRightFaceSpriteName: TTG_gui_robin_faceidle
+  - characterType: 2
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yo.
+      key: TT2CONVO_BOOSTERGOLD_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Greetings, fan! I''ve gotta say: definitely diggin'' that cosplay.'
+      key: TT2CONVO_BOOSTERGOLD_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: This ain't no cosplay! Now gimmie your crew b--
+      key: TT2CONVO_BOOSTERGOLD_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 19
+      otherFaceSpriteName: TT2_gui_boostergold_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let me stop you right there, buckaroo. Signatures start at a cool 5,000 coins. That's three zeroes. And don't forget the headshot -- that'll be another 500.
+      key: TT2CONVO_BOOSTERGOLD_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 61
+      faceSpriteName: TTG_gui_beastboy_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, no thanks.
+      key: TT2CONVO_BOOSTERGOLD_17
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c0ceb9809d61e444b8e2d5d415f9aa82, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Y'know what, on second thought, I've got a feeling that competition is more your speed -- amirite?
+      key: TT2CONVO_BOOSTERGOLD_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 61
+      otherFaceSpriteName: TTG_gui_beastboy_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure, whatever.
+      key: TT2CONVO_BOOSTERGOLD_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_boostergold_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, step right up to my official, extravagant, totally guild-rules-compliant... ASSISTANT TRY-OUTS!
+      key: TT2CONVO_BOOSTERGOLD_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 60
+      otherFaceSpriteName: TTG_gui_beastboy_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Spoiler-alert: it''s a figure tournament. And it''s great brand exposure, by the way.'
+      key: TT2CONVO_BOOSTERGOLD_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So whaddya say, kiddo?
+      key: TT2CONVO_BOOSTERGOLD_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 75
+      otherFaceSpriteName: TTG_gui_beastboy_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, it's on!
+      key: TT2CONVO_BOOSTERGOLD_23
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b4a9abf3c3fdbf746ab943982b3ff4f5, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Golden. Let's get you signed up, then. Skeets! Hand me those forms.
+      key: TT2CONVO_BOOSTERGOLD_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 62
+      otherFaceSpriteName: TTG_gui_beastboy_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 65
+    initialRightFaceSpriteId: 75
+    initialRightBodySpriteName: TTG_gui_beastboy
+    initialRightFaceSpriteName: TTG_gui_beastboy_face1
+  - characterType: 4
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hi.
+      key: TT2CONVO_BOOSTERGOLD_25
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b638f6208a8e4a44494ba49b23672aa1, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Greetings, fan! I''ve gotta say: definitely diggin'' that cosplay.'
+      key: TT2CONVO_BOOSTERGOLD_26
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Right. Hey, I need something from you. Your crew b--
+      key: TT2CONVO_BOOSTERGOLD_27
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 9cd61391c8d372549849462992c98fcf, type: 3}
+      otherFaceSpriteId: 19
+      otherFaceSpriteName: TT2_gui_boostergold_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let me stop you right there, buckaroo. Signatures start at a cool 1,000 coins. That's three zeroes. And don't forget the headshot -- that'll be another 500.
+      key: TT2CONVO_BOOSTERGOLD_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, no thanks.
+      key: TT2CONVO_BOOSTERGOLD_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Y'know what, on second thought, I've got a feeling that competition is more your speed -- amirite?
+      key: TT2CONVO_BOOSTERGOLD_30
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure, whatever.
+      key: TT2CONVO_BOOSTERGOLD_31
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_boostergold_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, step right up to my official, extravagant, totally guild-rules-compliant... ASSISTANT TRY-OUTS!
+      key: TT2CONVO_BOOSTERGOLD_32
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Spoiler-alert: it''s a figure tournament. And it''s great brand exposure, by the way.'
+      key: TT2CONVO_BOOSTERGOLD_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So whaddya say, missy?
+      key: TT2CONVO_BOOSTERGOLD_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 35
+      faceSpriteName: TTG_gui_raven_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I think I can show you a thing or two.
+      key: TT2CONVO_BOOSTERGOLD_35
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 97cab162717c6694782efad828b39b08, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Golden. Let's get you signed up, then. Skeets! Hand me those forms.
+      key: TT2CONVO_BOOSTERGOLD_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 35
+      otherFaceSpriteName: TTG_gui_raven_face4
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 2
+    initialRightFaceSpriteId: 39
+    initialRightBodySpriteName: TTG_gui_raven
+    initialRightFaceSpriteName: TTG_gui_raven_face1
+  - characterType: 8
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hello.
+      key: TT2CONVO_BOOSTERGOLD_37
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b1ac1e45aca04fe43bcb2b0796ebd6e3, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Greetings, fan! I''ve gotta say: definitely diggin'' that cosplay.'
+      key: TT2CONVO_BOOSTERGOLD_38
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_starfire_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I assure you that I am not playing the cos. I have come for the crew b--
+      key: TT2CONVO_BOOSTERGOLD_39
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 688bd3ed70fd32c46b69ecd24f7f7fdc, type: 3}
+      otherFaceSpriteId: 19
+      otherFaceSpriteName: TT2_gui_boostergold_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let me stop you right there, buckaroo. Signatures start at a cool 1,000 coins. That's three zeroes. And don't forget the headshot -- that'll be another 500.
+      key: TT2CONVO_BOOSTERGOLD_40
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 6
+      otherFaceSpriteName: TTG_gui_starfire_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_starfire_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: No thank you.
+      key: TT2CONVO_BOOSTERGOLD_41
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Y'know what, on second thought, I've got a feeling that competition is more your speed -- amirite?
+      key: TT2CONVO_BOOSTERGOLD_42
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Indeed.
+      key: TT2CONVO_BOOSTERGOLD_43
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_boostergold_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, step right up to my official, extravagant, totally guild-rules-compliant... ASSISTANT TRY-OUTS!
+      key: TT2CONVO_BOOSTERGOLD_44
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Spoiler-alert: it''s a figure tournament. And it''s great brand exposure, by the way.'
+      key: TT2CONVO_BOOSTERGOLD_45
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So whaddya say, missy?
+      key: TT2CONVO_BOOSTERGOLD_46
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Prepare for glorious combat!
+      key: TT2CONVO_BOOSTERGOLD_47
+      formatArgs: []
+      clip: {fileID: 8300000, guid: ec42bc2ff99c2e245bb65b54a23fec6e, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Golden. Let's get you signed up, then. Skeets! Hand me those forms.
+      key: TT2CONVO_BOOSTERGOLD_48
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 14
+      otherFaceSpriteName: TTG_gui_starfire_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 13
+    initialRightFaceSpriteId: 1
+    initialRightBodySpriteName: TTG_gui_starfire
+    initialRightFaceSpriteName: TTG_gui_starfire_face1
+  - characterType: 16
+    items:
+    - id: item_0
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_cyborg_faceidle_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yo.
+      key: TT2CONVO_BOOSTERGOLD_13
+      formatArgs: []
+      clip: {fileID: 8300000, guid: a47d7f9094a3a994ba4a54b239480433, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_1
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Greetings, fan! I''ve gotta say: definitely diggin'' that cosplay.'
+      key: TT2CONVO_BOOSTERGOLD_14
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_2
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 9
+      faceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: This ain't no cosplay! Now gimmie your crew b--
+      key: TT2CONVO_BOOSTERGOLD_15
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b700c2685a60f664d86029488f1df0b1, type: 3}
+      otherFaceSpriteId: 19
+      otherFaceSpriteName: TT2_gui_boostergold_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_3
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Let me stop you right there, buckaroo. Signatures start at a cool 1,000 coins. That's three zeroes. And don't forget the headshot -- that'll be another 500.
+      key: TT2CONVO_BOOSTERGOLD_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 9
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_4
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, no thanks.
+      key: TT2CONVO_BOOSTERGOLD_17
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 217de6f901036e04a8fa6ed494c2461b, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_5
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Y'know what, on second thought, I've got a feeling that competition is more your speed -- amirite?
+      key: TT2CONVO_BOOSTERGOLD_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 8
+      otherFaceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_6
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 4
+      faceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure, whatever.
+      key: TT2CONVO_BOOSTERGOLD_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 15
+      otherFaceSpriteName: TT2_gui_boostergold_face3
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_7
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 19
+      faceSpriteName: TT2_gui_boostergold_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: In that case, step right up to my official, extravagant, totally guild-rules-compliant... ASSISTANT TRY-OUTS!
+      key: TT2CONVO_BOOSTERGOLD_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 4
+      otherFaceSpriteName: TTG_gui_cyborg_eyebrowup_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_8
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Spoiler-alert: it''s a figure tournament. And it''s great brand exposure, by the way.'
+      key: TT2CONVO_BOOSTERGOLD_21
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_9
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 18
+      faceSpriteName: TT2_gui_boostergold_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: So whaddya say, kiddo?
+      key: TT2CONVO_BOOSTERGOLD_22
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_10
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'Oh, it''s on! '
+      key: TT2CONVO_BOOSTERGOLD_23
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 11333c2208eda544fa987d4da832068c, type: 3}
+      otherFaceSpriteId: 18
+      otherFaceSpriteName: TT2_gui_boostergold_face2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_11
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 93
+      position: 1
+      bodySpriteId: 17
+      bodySpriteName: TT2_gui_boostergold
+      faceSpriteId: 15
+      faceSpriteName: TT2_gui_boostergold_face3
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Golden. Let's get you signed up, then. Skeets! Hand me those forms.
+      key: TT2CONVO_BOOSTERGOLD_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_cyborg_faceangry_smile_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 64
+    initialRightFaceSpriteId: 58
+    initialRightBodySpriteName: TTG_gui_npc_cyborg
+    initialRightFaceSpriteName: TTG_gui_cyborg_faceidle

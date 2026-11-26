@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 57
+  _characterName: Robotic Brother Blood
+  _characterNameKey: ROBOTICBROTHERBLOOD
+  _characterClass: 3
+  _characterRarity: 3
+  _characterFaction: 0
+  _baseHitPoints: 18
+  _baseAttack: 0
+  _baseLuck: 3
+  _baseDodge: 9
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 11
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 59
+  _libraryDescription: What do you do when you're wanting to take your evil to the next level? Really turn it up to 11? You turn yourself into an evil robot, that's what.
+  _libraryDescriptionKey: WIKI_ROBOTICBROTHERBLOOD
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Tech
+  - Villain
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 4
+  _abilitySlots:
+  - position: 20
+    abilityId: 199
+  - position: 100
+    abilityId: 201
+  - position: 60
+    abilityId: 200
+  _portraitSprite: icon_robotbrotherblood
+  _portraitSpriteId: 325
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 0.78, y: 0.6, z: 0.09}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerCameraOffsetPositionZoomedOut: {x: 2.76, y: 0.91, z: 0.51}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 0.62, y: -0.42, z: -0.16}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: 3.09}
+  _enemyCameraOffsetPositionZoomedOut: {x: 3.61, y: -0.1, z: -0.7}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 9.87}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.45, y: 0.99, z: -0.21}
+  _battleCharacterPath: Prefabs/Characters/Battle/BrotherBloodRobotic
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/BrotherBloodRobotic
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.6, y: 0.6, z: 0.6}
+  _shopFigureOffset: {x: 0, y: -0.6, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 840300008403000084030000840300008403000084030000840300008403000084030000840300005203000052030000520300005203000052030000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0.41911763, g: 0.41911763, b: 0.41911763, a: 1}
+  _shopTextFaceColor: {r: 1, g: 0, b: 0, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath: Audio/SFX/sfx_menus_newfigreveal_names_RoboticBlood
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 1
+  _sounds:
+    _swapInSounds:
+      _probability: 0.434
+      _soundPaths:
+      - Audio/SFX/sfx_vo_brotherbloodlaugh
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths: []
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 243
+    cost: 3
+    rare: 0
+    texturePath: Textures/RoboticBrotherBlood_Texture_blackandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1
+  - position: 0
+    id: 244
+    cost: 3
+    rare: 0
+    texturePath: Textures/RoboticBrotherBlood_Texture_blackandblue-1x
+    _colorSprite: menu_shop_repaint_color_blackandblue
+    _colorSpriteId: 30
+  - position: 0
+    id: 245
+    cost: 3
+    rare: 0
+    texturePath: Textures/RoboticBotherBlood_Texture_purpleandpink-1x
+    _colorSprite: menu_shop_repaint_color_purpleandpink
+    _colorSpriteId: 11

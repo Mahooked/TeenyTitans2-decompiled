@@ -1,0 +1,733 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 18
+  preBattleSprite: menu_vsscreen_portrait_raven
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Raven
+  conversationBodySprite: TTG_gui_raven
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 2
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TTG_gui_raven_face1
+    rightSpriteName:
+    leftSpriteId: 39
+    rightSpriteId: -1
+  - displayName: Demon
+    spriteName: TTG_gui_raven_face2
+    rightSpriteName:
+    leftSpriteId: 18
+    rightSpriteId: -1
+  - displayName: VeryHappy
+    spriteName: TTG_gui_raven_face3
+    rightSpriteName:
+    leftSpriteId: 37
+    rightSpriteId: -1
+  - displayName: MildHappy
+    spriteName: TTG_gui_raven_face4
+    rightSpriteName:
+    leftSpriteId: 35
+    rightSpriteId: -1
+  - displayName: Emotional
+    spriteName: TTG_gui_raven_face5
+    rightSpriteName:
+    leftSpriteId: 45
+    rightSpriteId: -1
+  - displayName: CrescentEyesHappy
+    spriteName: TTG_gui_raven_face6
+    rightSpriteName:
+    leftSpriteId: 13
+    rightSpriteId: -1
+  - displayName: Annoyed
+    spriteName: TTG_gui_raven_face7
+    rightSpriteName:
+    leftSpriteId: 30
+    rightSpriteId: -1
+  - displayName: Thinking
+    spriteName: TTG_gui_raven_thinking
+    rightSpriteName:
+    leftSpriteId: 23
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 3
+    name: Near Zinthos After Pet Tourny
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 12
+        level: 8
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 010000001a000000130000001d000000220000000700000023000000
+        hitPoints: 30
+        attack: 3
+        speed: 0
+        luck: 7
+        dodge: 11
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 43
+        level: 8
+        abilityUIDs: 4d0000004e0000004f000000
+        selectedRewards: 220000001a000000130000001d000000070000000100000014000000
+        hitPoints: 40
+        attack: 4
+        speed: 0
+        luck: 12
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: e8a0dbf03a589de4bb963d428e63b87c, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 11400000, guid: 819baa12bdbacbf438e13cb44be2354b, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 87fbdaddb83b8cc4286d004fe9ac2ef7, type: 2}
+      - {fileID: 11400000, guid: 3619fe81da58b50488fe39f4f5a8c5cb, type: 2}
+      - {fileID: 11400000, guid: 4e2f736867588304bae50f84dcc3dd69, type: 2}
+      - {fileID: 11400000, guid: 6afa735e7ae39b64ba8210450945db8a, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 974128c4a79d5294c9f5f2b455fda95b, type: 2}
+      - {fileID: 11400000, guid: c5bfd31318782584cb02c0ea9167b356, type: 2}
+      - {fileID: 11400000, guid: 34f101bf91e00484190a5e420ef5262a, type: 2}
+      - {fileID: 11400000, guid: 70919fc5612aa4f49828c6b3ed170fe1, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: Near Zinthos Last Setup
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 49
+        level: 13
+        abilityUIDs: 500000005100000052000000
+        selectedRewards: 070000001a000000220000001d0000000800000013000000230000000900000014000000240000000a00000001000000
+        hitPoints: 45
+        attack: 4
+        speed: 0
+        luck: 11
+        dodge: 14
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 14
+        abilityUIDs: cd000000ce000000cf000000
+        selectedRewards: 130000001a000000070000001d00000014000000080000002200000009000000010000000a000000230000000200000024000000
+        hitPoints: 50
+        attack: 6
+        speed: 0
+        luck: 18
+        dodge: 15
+        shinyRank: 2
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 67ca7f2aed45ae345ab5eb480e34c0ce, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 11400000, guid: 2e228df4c9cdee74ab9fd6cbb7785d7c, type: 2}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 9
+    name: Raven Zinthos Inbetween
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 43
+        level: 8
+        abilityUIDs: 4d0000004e0000004f000000
+        selectedRewards: 010000001a000000070000001d000000220000000800000013000000
+        hitPoints: 33
+        attack: 5
+        speed: 0
+        luck: 15
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 12
+        level: 8
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 070000001a000000010000001d000000080000002200000002000000
+        hitPoints: 44
+        attack: 4
+        speed: 0
+        luck: 4
+        dodge: 8
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 819baa12bdbacbf438e13cb44be2354b, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 87fbdaddb83b8cc4286d004fe9ac2ef7, type: 2}
+      - {fileID: 11400000, guid: 3619fe81da58b50488fe39f4f5a8c5cb, type: 2}
+      - {fileID: 11400000, guid: 4e2f736867588304bae50f84dcc3dd69, type: 2}
+      - {fileID: 11400000, guid: 6afa735e7ae39b64ba8210450945db8a, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 974128c4a79d5294c9f5f2b455fda95b, type: 2}
+      - {fileID: 11400000, guid: c5bfd31318782584cb02c0ea9167b356, type: 2}
+      - {fileID: 11400000, guid: 34f101bf91e00484190a5e420ef5262a, type: 2}
+      - {fileID: 11400000, guid: 70919fc5612aa4f49828c6b3ed170fe1, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: After First Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: 4
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 12
+        level: 3
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 010000001a000000
+        hitPoints: 26
+        attack: 0
+        speed: 0
+        luck: 4
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 8
+    name: Final Final Setup
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 49
+        level: 14
+        abilityUIDs: 500000005100000052000000
+        selectedRewards: 070000001a000000010000001d0000001300000002000000220000000800000023000000
+        hitPoints: 37
+        attack: 5
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 14
+        abilityUIDs: cd000000ce000000cf000000
+        selectedRewards: 130000001a000000010000001d00000014000000020000001500000003000000160000000700000022000000
+        hitPoints: 52
+        attack: 6
+        speed: 0
+        luck: 24
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 14
+        abilityUIDs: cd000000ce000000cf000000
+        selectedRewards: 130000001a000000010000001d000000220000001400000002000000230000000300000015000000240000001600000025000000
+        hitPoints: 52
+        attack: 6
+        speed: 0
+        luck: 24
+        dodge: 18
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 12
+        level: 14
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 130000001a000000070000001d000000010000000800000002000000220000000900000014000000030000000a00000015000000
+        hitPoints: 40
+        attack: 6
+        speed: 0
+        luck: 13
+        dodge: 8
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 39
+        level: 14
+        abilityUIDs: cb000000ca000000cc000000
+        selectedRewards: 220000001a000000070000001d000000010000002300000013000000240000000200000025000000140000000300000008000000
+        hitPoints: 45
+        attack: 5
+        speed: 0
+        luck: 15
+        dodge: 21
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 40
+      teamSizeWeight3: 63
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 2e228df4c9cdee74ab9fd6cbb7785d7c, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 87fbdaddb83b8cc4286d004fe9ac2ef7, type: 2}
+      - {fileID: 11400000, guid: 3619fe81da58b50488fe39f4f5a8c5cb, type: 2}
+      - {fileID: 11400000, guid: 4e2f736867588304bae50f84dcc3dd69, type: 2}
+      - {fileID: 11400000, guid: 6afa735e7ae39b64ba8210450945db8a, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 974128c4a79d5294c9f5f2b455fda95b, type: 2}
+      - {fileID: 11400000, guid: c5bfd31318782584cb02c0ea9167b356, type: 2}
+      - {fileID: 11400000, guid: 34f101bf91e00484190a5e420ef5262a, type: 2}
+      - {fileID: 11400000, guid: 70919fc5612aa4f49828c6b3ed170fe1, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: After First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: dc9c67ec-43aa-4594-9410-1aea3647b60b
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 12
+        level: 3
+        abilityUIDs: 1e0000001f00000020000000
+        selectedRewards: 070000001a000000
+        hitPoints: 24
+        attack: 2
+        speed: 0
+        luck: 4
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: First Battle
+    disablesGameObject: 0
+    activatesManually: 1
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 7f106e1b-dccb-41b3-8619-2028f999365e
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 1
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 12
+        level: 1
+        abilityUIDs: b30000001f000000
+        selectedRewards:
+        hitPoints: 18
+        attack: 0
+        speed: 0
+        luck: 4
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 5
+    name: Near Zinthos Second Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 2
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 2
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 1
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 39
+        level: 10
+        abilityUIDs: cb000000ca000000cc000000
+        selectedRewards: 220000001a000000010000001d0000001300000002000000230000000700000003000000
+        hitPoints: 45
+        attack: 3
+        speed: 0
+        luck: 12
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 43
+        level: 12
+        abilityUIDs: 4d0000004e0000004f000000
+        selectedRewards: 070000001a000000130000001d00000008000000220000001400000009000000010000002300000015000000
+        hitPoints: 40
+        attack: 4
+        speed: 3
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 49
+        level: 12
+        abilityUIDs: 500000005100000052000000
+        selectedRewards: 130000001a000000070000001d00000001000000220000001400000008000000230000000200000024000000
+        hitPoints: 50
+        attack: 5
+        speed: 5
+        luck: 12
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: dcd9335f4dc4ba64b9bcac9d7758d82d, type: 2}
+      initialConversation: {fileID: 11400000, guid: 819baa12bdbacbf438e13cb44be2354b, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 11400000, guid: 3470b6cc06c6ed74fa321ea40515405b, type: 2}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.76770705, g: 0.7352941, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0.28757596, g: 0, b: 0.3897059, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_raven_battle_prebattle1
+    - Audio/VO/sfx_vo_raven_battle_prebattle2
+    - Audio/VO/sfx_vo_raven_battle_prebattle3
+    - Audio/VO/sfx_vo_raven_battle_prebattle4
+    - Audio/VO/sfx_vo_raven_battle_prebattle5
+  countdownCharacterUID: 12
+  _uid: 19
+  _guid: d1c39dfa-7ddd-40e6-aef9-17bf53390462
+  _name: Raven
+  _nameKey: RAVEN
+  _preBattleSpriteId: 50
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 9
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: f49c16a8997373746aced440ade97d67, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX:
+  - Audio/VO/sfx_vo_raven_city_idle1_kpr
+  - Audio/VO/sfx_vo_raven_city_idle2_kpr
+  - Audio/VO/sfx_vo_raven_city_idle3_kpr
+  - Audio/VO/sfx_vo_raven_city_idle3_kpr2
+  - Audio/VO/sfx_vo_raven_city_idle4_kpr
+  - Audio/VO/sfx_vo_raven_city_idle5_kpr
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

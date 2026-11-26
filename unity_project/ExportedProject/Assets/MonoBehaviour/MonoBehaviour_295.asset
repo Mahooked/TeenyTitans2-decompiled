@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 23
+  preBattleSprite: menu_vsscreen_portrait_guyinline
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/GuyInLine
+  conversationBodySprite: TTG_gui_guyinline
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 4
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TTG_gui_guyinline_neutral
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Whistling
+    spriteName: TTG_gui_guyinline_whistling
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_guyinline_happy
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Guy In Line Later Game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 4
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 1
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName: Game_IceCreamCones
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 75
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 59
+        level: 7
+        abilityUIDs: 440000004500000046000000
+        selectedRewards: 220000001a000000070000001d0000000100000023000000
+        hitPoints: 21
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 10
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 22
+        level: 7
+        abilityUIDs: 570000005600000058000000
+        selectedRewards: 130000001a000000070000001d0000002200000001000000
+        hitPoints: 23
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 7
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: 77aa3c0d94c1adc438f055bf95e7ae67, type: 2}
+      initialConversation: {fileID: 11400000, guid: 5d4b37a9a95fc3344bee9834ce1a6b5b, type: 2}
+      activeConversation: {fileID: 11400000, guid: 80658fd17653dfa4fbe81b2571b0fa33, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 80658fd17653dfa4fbe81b2571b0fa33, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 09e9a065128882642a552750f97395bd, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 690008751d1bffe4e8ec929fc3bef7bd, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: TT2 - Start of game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 96
+        level: 3
+        abilityUIDs: fe000000fc000000fd000000
+        selectedRewards: 070000001a000000
+        hitPoints: 20
+        attack: 1
+        speed: 5
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 43
+        level: 5
+        abilityUIDs: 4d0000004e0000004f000000
+        selectedRewards: 130000001a000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 0}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Guy In Line Uptown
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: Guy In Line Later Game
+    timeOfDay: 1
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 1
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName: Game_IceCreamCones
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 125
+      xpReward: 125
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 44
+        level: 8
+        abilityUIDs: 710000007200000070000000
+        selectedRewards: 070000001a000000130000001d000000220000000800000023000000
+        hitPoints: 15
+        attack: 2
+        speed: 0
+        luck: 12
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 54
+        level: 8
+        abilityUIDs: 3f0000001300000040000000
+        selectedRewards: 220000001a000000070000001d000000130000002300000001000000
+        hitPoints: 19
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 11400000, guid: 1f27d04abc21663488c5cd91d3ce5f24, type: 2}
+      initialConversation: {fileID: 11400000, guid: 33d21e68e7347964ba3c8d40873885b1, type: 2}
+      activeConversation: {fileID: 11400000, guid: eced98b58d8de3e4eb741f32784ad0a7, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: eced98b58d8de3e4eb741f32784ad0a7, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 09e9a065128882642a552750f97395bd, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: eced98b58d8de3e4eb741f32784ad0a7, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.97794116, g: 0.9368345, b: 0.72626513, a: 1}
+  dialogueOutlineColor: {r: 0.46323532, g: 0.33140588, b: 0.04768598, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 29
+  _guid: 99766001-9760-445c-83c5-91a7f8c8d648
+  _name: Mark
+  _nameKey: MARK
+  _preBattleSpriteId: 32
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 2
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: a3bd952f9ee4d464fbdb3d4641951822, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

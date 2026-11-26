@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 66
+  preBattleSprite: menu_vsscreen_portrait_silver
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/SilverStCloud
+  conversationBodySprite: TT2_gui_silver
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 25
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  conversationBodySpriteId: 25
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TT2_gui_silver_face1
+    rightSpriteName:
+    leftSpriteId: 29
+    rightSpriteId: -1
+  - displayName: Eyes Closed Talk
+    spriteName: TT2_gui_silver_face2
+    rightSpriteName:
+    leftSpriteId: 31
+    rightSpriteId: -1
+  - displayName: Ooo
+    spriteName: TT2_gui_silver_face3
+    rightSpriteName:
+    leftSpriteId: 21
+    rightSpriteId: -1
+  - displayName: Eyes Closed Happy
+    spriteName: TT2_gui_silver_face4
+    rightSpriteName:
+    leftSpriteId: 22
+    rightSpriteId: -1
+  - displayName: Mad
+    spriteName: TT2_gui_silver_face5
+    rightSpriteName:
+    leftSpriteId: 19
+    rightSpriteId: -1
+  - displayName: Mad Twitch
+    spriteName: TT2_gui_silver_face6
+    rightSpriteName:
+    leftSpriteId: 30
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Silver St. Cloud 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 300
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 31
+        level: 5
+        abilityUIDs: 960000009500000097000000
+        selectedRewards: 220000001a000000010000001d0000000700000023000000130000000200000024000000
+        hitPoints: 35
+        attack: 1
+        speed: 0
+        luck: 13
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 89
+        level: 6
+        abilityUIDs: ed000000ee000000ef000000
+        selectedRewards: 010000001a000000070000001d00000022000000020000002300000003000000240000000800000013000000
+        hitPoints: 32
+        attack: 2
+        speed: 0
+        luck: 18
+        dodge: 24
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 85
+        level: 7
+        abilityUIDs: e1000000e2000000e3000000
+        selectedRewards: 130000001a000000220000001d0000000700000014000000230000000800000001000000
+        hitPoints: 24
+        attack: 2
+        speed: 0
+        luck: 16
+        dodge: 16
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: 48a7b7df61a537842820c92101394158, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 1
+  dialogueFaceColor: {r: 0.86764705, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0.31141868, g: 0.435713, b: 0.44117647, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 69
+  _guid: e2a5fa99-797e-4a37-9c9d-b6d0efa1a9ac
+  _name: Silver St. Cloud
+  _nameKey: SILVER_ST_CLOUD
+  _preBattleSpriteId: 38
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 3d565341dd79df746b4426a607764d41, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

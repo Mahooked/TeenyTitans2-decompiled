@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 104
+  preBattleSprite: menu_vsscreen_portrait_deadman
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Deadman
+  conversationBodySprite: TT2_gui_deadman
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 4
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 4
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TT2_gui_deadman_face1
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: Sad Mouth Closed
+    spriteName: TT2_gui_deadman_face2
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  - displayName: Sad Mouth Open
+    spriteName: TT2_gui_deadman_face3
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  - displayName: Pouty
+    spriteName: TT2_gui_deadman_face4
+    rightSpriteName:
+    leftSpriteId: 0
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TT2_gui_deadman_face5
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 108
+  _guid: 53bda3a7-bb1d-4cc0-a3ff-b3ee32129799
+  _name: Deadman
+  _nameKey: DEADMAN
+  _preBattleSpriteId: 19
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 2c32ee12762beb848b65fe5b0226dde7, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

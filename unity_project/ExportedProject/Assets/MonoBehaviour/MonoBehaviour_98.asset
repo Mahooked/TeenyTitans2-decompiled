@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e63b46beee20070b24e2e56340609c5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 34
+  _itemName: Superman’s Underpants
+  _itemNameKey: ACC_UNDERPANTS
+  _itemDescription: Absorbs all incoming damage, but can be destroyed fairly quickly.
+  _itemDescriptionKey: ACC_UNDERPANTS_DESC
+  _itemShortDescription: Damage Absorb!
+  _itemShortDescriptionKey:
+  _stackSize: 1
+  _iconSprite: TT2_gui_accesory_supermanundies
+  _iconSpriteId: 145
+  _effects:
+  - triggerType: 2
+    effectType: 14
+    probability: 1
+    useProbabilityInDescription: 0
+    statType: 0
+    actionMeterEffect: 1
+    statusEffect: 0
+    targetType: 0
+    intValue: 0
+    intValue2: 0
+    intValue3: 0
+    intValue4: 0
+    floatValue: 1
+    boolValue: 0
+    boolValue2: 0
+    boolValue3: 0
+    boolValue4: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 0
+      _floatValue2: 0
+      _stringValue1:
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    effectOrderIntVal: -1
+    effectOrderFloatVal: -1
+    factionOverrides: []
+    accessoryTriggerType: 3
+    animEventString:
+    timerDuration:
+      minValue: 0
+      maxValue: 0
+    tickImmediately: 0
+    playAnimation: 0
+    playSoundEffect: 0
+    animationName:
+    animationNameEnemy:
+    animationPlayOffset: 0
+    soundEffectPath:
+    soundEffectDelay: 0
+    autoReapplyEffect: 0
+  _animationCues:
+  - animationTriggerType: 5
+    animation: hit
+    animationP2:
+    animEventString:
+    timerDuration: 0
+    triggerBattleWait: 0
+    ignoreInterruptFrame: 0
+    triggerCameraAnimation: 0
+    cameraAnimatorController: {fileID: 0}
+    cameraAnimation:
+    playSoundEffect: 0
+    soundEffectPath:
+    soundEffectPlayOffset: 0
+    fadeOutMusicGroup: 0
+  cameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  cameraOffsetPositionZoomedOutEnemy: {x: 0, y: 0, z: 0}
+  offsetPosition: {x: 0.16, y: -0.2, z: -3.06}
+  enemyOffsetPosition: {x: 0.16, y: -0.2, z: 3.06}
+  maxHealthLowest: 15
+  maxHealthHighest: 30
+  prefabPath: Prefabs/Accessories/SupermansUnderpants
+  modelPath: Prefabs/Accessories/Models/SupermansUnderpants
+  modelViewerAnimation: menu_idle
+  modelViewerAnimationTime: 0
+  modelViewerOffset: {x: 0, y: -0.54, z: 0}
+  modelViewerOffsetIpad: {x: 0, y: -0.15, z: 0}
+  modelViewerCameraOffset: {x: 0, y: 0.3, z: 0}
+  modelViewerCameraRotationOffset: {x: 0, y: 0, z: 0}
+  cityRewardAnimation: menu_idle
+  particlePath:
+  showInTower: 1
+  _batteryChargeUpRate: 1.8
+  _batteryChargeUpPercent: 1
+  _batteryDrainRate: 0.15
+  _batteryDrainPercent: 1
+  _introSoundPath: Audio/SFX/sfx_battle_accessory_supermanunderpants_arrive
+  _introVOPaths: []
+  _introAnimation: swap in
+  _introAnimationEnemy:
+  _cost: 513
+  _shopAnimation: menu_idle
+  _shopOffsetPosition: {x: 0, y: -0.0425, z: 0}
+  _shopRotation: {x: 0, y: -90, z: 0}
+  _shopScale: {x: 0.045, y: 0.045, z: 0.045}
+  _revealAnimation: menu_idle
+  _revealOffsetPosition: {x: 0, y: -1.294, z: 0}
+  _revealRotation: {x: 0, y: -158.84, z: 0}
+  _revealScale: {x: 1, y: 1, z: 1}

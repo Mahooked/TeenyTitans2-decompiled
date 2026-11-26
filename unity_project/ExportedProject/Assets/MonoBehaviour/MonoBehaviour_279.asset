@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 29
+  preBattleSprite: menu_vsscreen_portrait_bumblebee
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Bumblebee
+  conversationBodySprite: TTG_gui_bumblebee
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 4
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TTG_gui_bumblebee_neutral
+    rightSpriteName:
+    leftSpriteId: 5
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TTG_gui_bumblebee_happy
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  - displayName: Sassy
+    spriteName: TTG_gui_bumblebee_sassy
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 0
+    name: Bumblebee 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: 2f8703c4-a845-4922-9361-160d668cebcc
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 43
+        level: 3
+        abilityUIDs: 4f0000004e0000004d000000
+        selectedRewards: 070000001a000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 1cbe236bee1999440b69fe2133306af4, type: 2}
+      activeConversation: {fileID: 11400000, guid: 798d98f6fd6687a468ad6742c9badce0, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: dc4ebd3b1b50fab44b289888f3e3f4a5, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: d004371bae6470e4b933073bb73ae344, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 77e4a460c0dac014e8041cc390226c77, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 2
+  dialogueFaceColor: {r: 0.9176471, g: 0.8470589, b: 0.12941177, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 47
+  _guid: 048739d4-f5a2-4928-9ea9-9c45932e0c0c
+  _name: Bumblebee
+  _nameKey: BUMBLEBEE
+  _preBattleSpriteId: 18
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 0
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 34a3460fd62dd5a4e9cdc52adb487b87, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40d758b3340e3c4bfb959d44ddf8e54, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 347
+  _abilityName: Soap-Mine Detonate (Bathman)
+  _abilityNameKey: SOAP_MINE
+  _abilityDescription:
+  _abilityDescriptionKey: REMOTE_MINE_DESC_2
+  _effectDescription:
+  _effectDescriptionKey: REMOTE_MINE_DESC_1
+  _iconSprite: TT2_battlebar_batman_batmine_detonate
+  _iconSpriteId: 361
+  _type: 0
+  _castTime: 0
+  _numChargesRequired: 0
+  _channelingData:
+    speed: 0
+    channelingSteps: []
+  _cooldownTime: 0
+  _isDodgeable: 1
+  _animName: Soap Mine Detonate
+  _numUses: -1
+  _healthCost: 0
+  _healthCostPercent: 0
+  _targetCount: 1
+  _targetType: 1
+  _intValue1: 346
+  _intValue2: 0
+  _floatValue1: 25
+  _floatValue2: 0
+  _rangedIntValue1:
+    minValue: 1
+    maxValue: 1
+  _rangedIntValue2:
+    minValue: 5
+    maxValue: 30
+  _rangedFloatValue1:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue2:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue3:
+    minValue: 0
+    maxValue: 0
+  _rangedFloatValue4:
+    minValue: 0
+    maxValue: 0
+  _boolValue1: 0
+  _vector3Value1: {x: 0, y: 0, z: 0}
+  _stringValue1: Prefabs/FX/Batman_explosion
+  _stringValue2: Audio/SFX/sfx_abilities_beatboxexplode
+  _damageType: 5
+  _statType: 0
+  _actionMeterEffect: 0
+  _statusEffect: 0
+  _secondaryStatusEffect: 0
+  _secondaryStatusEffectData:
+    _probability: 1
+    _ignoresDodge: 1
+    _intValue1: 0
+    _intValue2: 0
+    _floatValue1: 0
+    _floatValue2: 0
+    _stringValue1:
+    _stringValue2:
+    _rangedIntValue1:
+      minValue: 0
+      maxValue: 0
+    _rangedIntValue2:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue1:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue2:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue3:
+      minValue: 0
+      maxValue: 0
+    _rangedFloatValue4:
+      minValue: 0
+      maxValue: 0
+    _boolValue1: 0
+  _beatBoxType: 0
+  _tossObjects: []
+  _shinyEffectDescription:
+  _shinyEffectDescriptionKey: SHINY_DMG_RATE
+  _shinyEffect:
+    triggerType: 0
+    effectType: 4
+    probability: 1
+    targetType: 0
+    statusEffect: 0
+    statusEffectData:
+      _probability: 1
+      _ignoresDodge: 1
+      _intValue1: 0
+      _intValue2: 0
+      _floatValue1: 0
+      _floatValue2: 0
+      _stringValue1:
+      _stringValue2:
+      _rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedIntValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue1:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue2:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue3:
+        minValue: 0
+        maxValue: 0
+      _rangedFloatValue4:
+        minValue: 0
+        maxValue: 0
+      _boolValue1: 0
+    isDodgeable: 1
+    intValue1: 0
+    intValue2: 0
+    floatValue1: 20
+    floatValue2: 0
+    stringValue1:
+    stringValue2:
+    rangedIntValue1:
+      minValue: 1
+      maxValue: 1
+    rangedIntValue2:
+      minValue: 5
+      maxValue: 30
+    rangedFloatValue1:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue2:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue3:
+      minValue: 0
+      maxValue: 0
+    rangedFloatValue4:
+      minValue: 0
+      maxValue: 0
+    boolValue1: 0
+  _batteryEffects: []
+  _scriptName: AbilityScript_RemoteBombDetonate
+  _castSoundPath:
+  _castSoundDelay: 0
+  _castVOSoundPaths: []
+  _castVOSoundDelays: []
+  _castVOSoundProbability: 1
+  _soundPath: Audio/SFX/sfx_abilities_bathamn_soap_detonate
+  _soundDelay: 0.1
+  _voSoundPaths: []
+  _voSoundDelays: []
+  _voSoundProbability: 1
+  _hitSoundPath:
+  _hitSoundDelay: 0
+  _buffDropType: 0
+  _rangeType: 2
+  _pauseGameplayOnUse: 1
+  _useDiminishingReturns: 1
+  _overrideAbilityUseLimit: 0
+  _abilityUseLimitOverride: 0

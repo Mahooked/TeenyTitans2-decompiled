@@ -1,0 +1,785 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Dialogue8SpriteCollection@4x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: TTG_gui_alittlegirl_neutral
+    boundsData:
+    - {x: 2.5, y: 66.375, z: 0}
+    - {x: 69, y: 45.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 54.25, z: 0}
+    - {x: 117.5, y: 108.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: 43.5, z: 0}
+    - {x: 37, y: 43.5, z: 0}
+    - {x: -32, y: 89.25, z: 0}
+    - {x: 37, y: 89.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9003911, y: 0.13818409}
+    - {x: 0.9003911, y: 0.27294874}
+    - {x: 0.9897456, y: 0.13818409}
+    - {x: 0.9897456, y: 0.27294874}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 749c2a87e4a23409d997af1c2e75edae
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_alittlegirl_annoyed
+    boundsData:
+    - {x: 2.125, y: 63.125, z: 0}
+    - {x: 85.75, y: 39.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 54.25, z: 0}
+    - {x: 117.5, y: 108.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -40.75, y: 43.5, z: 0}
+    - {x: 45, y: 43.5, z: 0}
+    - {x: -40.75, y: 82.75, z: 0}
+    - {x: 45, y: 82.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3823247, y: 0.40478563}
+    - {x: 0.5498042, y: 0.40478563}
+    - {x: 0.3823247, y: 0.48144484}
+    - {x: 0.5498042, y: 0.48144484}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: cf3f1178090354adc84c400beaa1c406
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_alittlegirl_happy
+    boundsData:
+    - {x: 3.125, y: 62.5, z: 0}
+    - {x: 72.75, y: 53.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 54.25, z: 0}
+    - {x: 117.5, y: 108.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -33.25, y: 35.75, z: 0}
+    - {x: 39.5, y: 35.75, z: 0}
+    - {x: -33.25, y: 89.25, z: 0}
+    - {x: 39.5, y: 89.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7939458, y: 0.15966846}
+    - {x: 0.7939458, y: 0.30175734}
+    - {x: 0.898437, y: 0.15966846}
+    - {x: 0.898437, y: 0.30175734}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5a420a4cb55694c6cb8144a7f55ed826
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_alittlegirl
+    boundsData:
+    - {x: -0.2500019, y: 53.125, z: 0}
+    - {x: 114, y: 106.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 54.25, z: 0}
+    - {x: 117.5, y: 108.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -57.25, y: 0, z: 0}
+    - {x: 56.749996, y: 0, z: 0}
+    - {x: -57.25, y: 106.25, z: 0}
+    - {x: 56.749996, y: 106.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5517583, y: 0.40478563}
+    - {x: 0.7744136, y: 0.40478563}
+    - {x: 0.5517583, y: 0.6123042}
+    - {x: 0.7744136, y: 0.6123042}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7ea9cc7d6eee4493897f539b27d268f1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_bumblebee
+    boundsData:
+    - {x: 0.375, y: 128.125, z: 0}
+    - {x: 194.25, y: 256.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 129.25, z: 0}
+    - {x: 197.75, y: 258.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96.75, y: 0, z: 0}
+    - {x: 97.5, y: 0, z: 0}
+    - {x: -96.75, y: 256.25, z: 0}
+    - {x: 97.5, y: 256.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0009770507}
+    - {x: 0.38037062, y: 0.0009770507}
+    - {x: 0.0009770507, y: 0.50146437}
+    - {x: 0.38037062, y: 0.50146437}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: c32caffdedce34015a778035ebd1815a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_bumblebee_neutral
+    boundsData:
+    - {x: 17.5, y: 162.875, z: 0}
+    - {x: 84.5, y: 70.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 129.25, z: 0}
+    - {x: 197.75, y: 258.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -24.750002, y: 127.75, z: 0}
+    - {x: 59.75, y: 127.75, z: 0}
+    - {x: -24.750002, y: 198, z: 0}
+    - {x: 59.75, y: 198, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.77636766, y: 0.32666063}
+    - {x: 0.9414058, y: 0.32666063}
+    - {x: 0.77636766, y: 0.4638667}
+    - {x: 0.9414058, y: 0.4638667}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 686f571295c8d40b89bafe6655b5d6c6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_bumblebee_happy
+    boundsData:
+    - {x: 17.5, y: 157.75, z: 0}
+    - {x: 84.5, y: 80.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 129.25, z: 0}
+    - {x: 197.75, y: 258.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -24.750002, y: 117.5, z: 0}
+    - {x: 59.75, y: 117.5, z: 0}
+    - {x: -24.750002, y: 198, z: 0}
+    - {x: 59.75, y: 198, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6347661, y: 0.15966846}
+    - {x: 0.6347661, y: 0.32470655}
+    - {x: 0.7919917, y: 0.15966846}
+    - {x: 0.7919917, y: 0.32470655}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4b9258de0db2c449cbb3cbba127ace26
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_bumblebee_sassy
+    boundsData:
+    - {x: 18.124998, y: 157.125, z: 0}
+    - {x: 88.25, y: 80.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 129.25, z: 0}
+    - {x: 197.75, y: 258.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: 117, z: 0}
+    - {x: 62.249996, y: 117, z: 0}
+    - {x: -26, y: 197.25, z: 0}
+    - {x: 62.249996, y: 197.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6347661, y: 0.0009770507}
+    - {x: 0.8071284, y: 0.0009770507}
+    - {x: 0.6347661, y: 0.15771435}
+    - {x: 0.8071284, y: 0.15771435}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0eacac83393af4546bf693eacf6e365e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name:
+    boundsData:
+    - {x: 7.75, y: -7.75, z: 0}
+    - {x: 16, y: 16, z: 0}
+    untrimmedBoundsData:
+    - {x: 7.75, y: -7.75, z: 0}
+    - {x: 16, y: 16, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -0.25, y: -15.75, z: 0}
+    - {x: 15.75, y: -15.75, z: 0}
+    - {x: -0.25, y: 0.25, z: 0}
+    - {x: 15.75, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.9365239}
+    - {x: 0.0019526368, y: 0.9365239}
+    - {x: 0.0009770507, y: 0.9374995}
+    - {x: 0.0019526368, y: 0.9374995}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID:
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_fangirlsilkie
+    boundsData:
+    - {x: -0.1250019, y: 102.875, z: 0}
+    - {x: 128.25, y: 205.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 104.125, z: 0}
+    - {x: 131.75, y: 208.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -64.25, y: 0, z: 0}
+    - {x: 63.999996, y: 0, z: 0}
+    - {x: -64.25, y: 205.75, z: 0}
+    - {x: 63.999996, y: 205.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3823247, y: 0.0009770507}
+    - {x: 0.632812, y: 0.0009770507}
+    - {x: 0.3823247, y: 0.40283155}
+    - {x: 0.632812, y: 0.40283155}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9907ae211ff6741e38206a223321265a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_fangirlsilkie_yay
+    boundsData:
+    - {x: 18.624998, y: 109.25, z: 0}
+    - {x: 69.25, y: 54.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 104.125, z: 0}
+    - {x: 131.75, y: 208.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -16, y: 82, z: 0}
+    - {x: 53.249996, y: 82, z: 0}
+    - {x: -16, y: 136.5, z: 0}
+    - {x: 53.249996, y: 136.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8090825, y: 0.0009770507}
+    - {x: 0.8090825, y: 0.13622998}
+    - {x: 0.91552687, y: 0.0009770507}
+    - {x: 0.91552687, y: 0.13622998}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3a3984b6469124b0eaa307f8a8ac01ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_fangirlsilkie_neutral
+    boundsData:
+    - {x: 18.375, y: 110.5, z: 0}
+    - {x: 67.25, y: 46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 104.125, z: 0}
+    - {x: 131.75, y: 208.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -15.25, y: 87.5, z: 0}
+    - {x: 52, y: 87.5, z: 0}
+    - {x: -15.25, y: 133.5, z: 0}
+    - {x: 52, y: 133.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.77636766, y: 0.4658208}
+    - {x: 0.90771437, y: 0.4658208}
+    - {x: 0.77636766, y: 0.5556636}
+    - {x: 0.90771437, y: 0.5556636}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 613df8678cea6401bbeee97c114e431f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_fangirlsilkie_thinking
+    boundsData:
+    - {x: 16.25, y: 109.875, z: 0}
+    - {x: 67.5, y: 43.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 104.125, z: 0}
+    - {x: 131.75, y: 208.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -17.500002, y: 88, z: 0}
+    - {x: 50, y: 88, z: 0}
+    - {x: -17.500002, y: 131.75, z: 0}
+    - {x: 50, y: 131.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.90966845, y: 0.4658208}
+    - {x: 0.90966845, y: 0.5976558}
+    - {x: 0.9951167, y: 0.4658208}
+    - {x: 0.9951167, y: 0.5976558}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9464fbe0999a14bfea12b3b4e4909e13
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TTG_gui_fangirlsilkie_dreamy
+    boundsData:
+    - {x: 17.75, y: 107.75, z: 0}
+    - {x: 72, y: 58.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.125, y: 104.125, z: 0}
+    - {x: 131.75, y: 208.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -18.250002, y: 78.5, z: 0}
+    - {x: 53.75, y: 78.5, z: 0}
+    - {x: -18.250002, y: 137, z: 0}
+    - {x: 53.75, y: 137, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4291997, y: 0.4833989}
+    - {x: 0.4291997, y: 0.62402296}
+    - {x: 0.54345655, y: 0.4833989}
+    - {x: 0.54345655, y: 0.62402296}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 59ca6cd8514ba47ec944e14e7eb59bd5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: TT2_gui_sickbatman
+    boundsData:
+    - {x: -2.875, y: 109.125, z: 0}
+    - {x: 220.75, y: 218.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 111.625, z: 0}
+    - {x: 234.5, y: 223.25, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -113.25, y: 0, z: 0}
+    - {x: 107.5, y: 0, z: 0}
+    - {x: -113.25, y: 218.25, z: 0}
+    - {x: 107.5, y: 218.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.50341845}
+    - {x: 0.0009770507, y: 0.93456984}
+    - {x: 0.42724562, y: 0.50341845}
+    - {x: 0.42724562, y: 0.93456984}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: f5a1471ad15ad45ad957329e986ad492
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: b507ae082339e164482aa4670390c4f6, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: 50c0307859ddc2c468d3284d75ce17f5, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 4066373e73ad548258aeabde6b11a64e
+  spriteCollectionName: Dialogue8SpriteCollection@4x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1590556973
+  dataGuid: 5490b36d91852429890d9643a565fef8
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

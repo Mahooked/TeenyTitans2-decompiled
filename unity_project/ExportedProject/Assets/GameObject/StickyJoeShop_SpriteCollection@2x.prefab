@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: StickyJoeShop_SpriteCollection@2x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: SJ_sign
+    boundsData:
+    - {x: 0.25, y: 0, z: 0}
+    - {x: 298.5, y: 122, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.25, y: 0, z: 0}
+    - {x: 298.5, y: 122, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -61, z: 0}
+    - {x: 149.5, y: -61, z: 0}
+    - {x: -149, y: 61, z: 0}
+    - {x: 149.5, y: 61, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6474619, y: 0.54785204}
+    - {x: 0.6474619, y: 0.839355}
+    - {x: 0.88574123, y: 0.54785204}
+    - {x: 0.88574123, y: 0.839355}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: cbfc7ce0ad47fbe4ea63f9b755284862, type: 2}
+    materialId: 0
+    sourceTextureGUID: a9b4d40b2a9af45b1ba440a45fa20e38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: SJ_head
+    boundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 390, y: 328.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.25, z: 0}
+    - {x: 390, y: 328.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -195, y: -164.5, z: 0}
+    - {x: 195, y: -164.5, z: 0}
+    - {x: -195, y: 164, z: 0}
+    - {x: 195, y: 164, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.54785204}
+    - {x: 0.0019541015, y: 0.92871046}
+    - {x: 0.64355373, y: 0.54785204}
+    - {x: 0.64355373, y: 0.92871046}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: cbfc7ce0ad47fbe4ea63f9b755284862, type: 2}
+    materialId: 0
+    sourceTextureGUID: c7d48ccf432c044f4aa29f32e1e2bf3a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: SJ_body
+    boundsData:
+    - {x: -228.75, y: 0, z: 0}
+    - {x: 457.5, y: 558, z: 0}
+    untrimmedBoundsData:
+    - {x: -228.75, y: 0, z: 0}
+    - {x: 457.5, y: 558, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -457.5, y: -279, z: 0}
+    - {x: 0, y: -279, z: 0}
+    - {x: -457.5, y: 279, z: 0}
+    - {x: 0, y: 279, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.89550686, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.54589796}
+    - {x: 0.89550686, y: 0.54589796}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: cbfc7ce0ad47fbe4ea63f9b755284862, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1542ee1902e894fa9acb4954b35fe7ea
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: SJ_rope
+    boundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 47.5, y: 124.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: 47.5, y: 124.5, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23.5, y: -62.5, z: 0}
+    - {x: 24, y: -62.5, z: 0}
+    - {x: -23.5, y: 62, z: 0}
+    - {x: 24, y: 62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.899415, y: 0.0009770507}
+    - {x: 0.99218655, y: 0.0009770507}
+    - {x: 0.899415, y: 0.1225581}
+    - {x: 0.99218655, y: 0.1225581}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: cbfc7ce0ad47fbe4ea63f9b755284862, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5f86cda60d24d48a78fe0f4524e955b6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: cbfc7ce0ad47fbe4ea63f9b755284862, type: 2}
+  textures: []
+  pngTextures:
+  - {fileID: 4900000, guid: d069659adf21bb74b80ae8a2ac059054, type: 3}
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: cfb903386d5d643f8b4fb4dea07f1914
+  spriteCollectionName: StickyJoeShop_SpriteCollection@2x
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1916533110
+  dataGuid: 40eba7c1c33944ceb90ad1581bab8819
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

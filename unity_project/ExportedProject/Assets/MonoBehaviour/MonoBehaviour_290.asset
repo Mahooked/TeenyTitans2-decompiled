@@ -1,0 +1,651 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 19
+  preBattleSprite: menu_vsscreen_portrait_starfire
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Starfire
+  conversationBodySprite: TTG_gui_starfire
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 13
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 1
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 2
+  conversationFaces:
+  - displayName: Normal
+    spriteName: TTG_gui_starfire_face1
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: Happy Eyes Closed
+    spriteName: TTG_gui_starfire_face2
+    rightSpriteName:
+    leftSpriteId: 14
+    rightSpriteId: -1
+  - displayName: Cute Sad
+    spriteName: TTG_gui_starfire_face3
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  - displayName: Cry
+    spriteName: TTG_gui_starfire_face4
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  - displayName: Very Happy
+    spriteName: TTG_gui_starfire_face5
+    rightSpriteName:
+    leftSpriteId: 5
+    rightSpriteId: -1
+  - displayName: Mad
+    spriteName: TTG_gui_starfire_face6
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: Starry Eyes
+    spriteName: TTG_gui_starfire_face7
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  - displayName: Thinking
+    spriteName: TTG_gui_starfire_thinking
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 4
+    name: Starfire_BeachReturnFromCyborg
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 71ff94778346ccc49b0783e093e5cfe1, type: 2}
+      activeConversation: {fileID: 11400000, guid: d1f57ea0f0d3dac4e89a71349ceed945, type: 2}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: Starfire_BeachMission2
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 50
+        level: 10
+        abilityUIDs: 770000007800000076000000
+        selectedRewards: 220000001a000000070000001d0000002300000008000000010000002400000009000000
+        hitPoints: 18
+        attack: 3
+        speed: 12
+        luck: 5
+        dodge: 14
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 26cfc1db27399e5428b33b1bdd1c2df3, type: 2}
+      activeConversation: {fileID: 11400000, guid: d1f57ea0f0d3dac4e89a71349ceed945, type: 2}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 7
+    name: StarfireFinalFinal
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 150
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 2
+        level: 11
+        abilityUIDs: 070000000500000004000000
+        selectedRewards: 130000001a000000220000001d000000070000001400000001000000230000001500000002000000
+        hitPoints: 21
+        attack: 1
+        speed: 0
+        luck: 15
+        dodge: 12
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 44
+        level: 11
+        abilityUIDs: 710000007200000070000000
+        selectedRewards: 130000001a000000070000001d000000220000001400000008000000010000000900000023000000
+        hitPoints: 18
+        attack: 3
+        speed: 0
+        luck: 15
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: -1
+        level: 11
+        abilityUIDs: 730000007500000074000000
+        selectedRewards: 130000001a000000220000001d000000010000002300000007000000140000000800000015000000
+        hitPoints: 23
+        attack: 2
+        speed: 0
+        luck: 12
+        dodge: 13
+        shinyRank: 1
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 50
+        level: 11
+        abilityUIDs: 770000007800000076000000
+        selectedRewards: 130000001a000000220000001d000000140000000100000023000000150000002400000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 12
+        dodge: 24
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 30
+        level: 11
+        abilityUIDs: 590000005b0000005a000000
+        selectedRewards: 070000001a000000010000001d000000080000001300000002000000090000002200000003000000
+        hitPoints: 27
+        attack: 3
+        speed: 5
+        luck: 3
+        dodge: 21
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 0
+      teamSizeWeight2: 46
+      teamSizeWeight3: 64
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 199ed1a8957dc9146ba263190d3d04af, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 3
+    name: Starfire_BeachMission2_returntostar
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 200
+      xpReward: 200
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 50
+        level: 10
+        abilityUIDs: 770000007800000076000000
+        selectedRewards: 010000001a000000130000001d0000000200000022000000030000001400000023000000
+        hitPoints: 24
+        attack: 0
+        speed: 0
+        luck: 11
+        dodge: 11
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 7c4ad64448e7b864fa3e65d26d10a91e, type: 2}
+      activeConversation: {fileID: 11400000, guid: d1f57ea0f0d3dac4e89a71349ceed945, type: 2}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Starfire_BeforeFirstMission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 1
+    npcData:
+      guid: a64ec397-10e1-4d13-b8bc-0969306867fb
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 2
+        level: 3
+        abilityUIDs: 070000000500000004000000
+        selectedRewards: 070000001a000000
+        hitPoints: 18
+        attack: 1
+        speed: 5
+        luck: 5
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: f2aa0d3762bd64541a387b544e32e612, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: Starfire Tower Beginning Game
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 163cdffdd7f504e439ae1084fdfe6ed3, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 1
+    name: Starfire_SilkieMission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 100
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 40
+        level: 6
+        abilityUIDs: 6e0000006d0000006f000000
+        selectedRewards: 220000001a000000010000001d00000007000000
+        hitPoints: 21
+        attack: 1
+        speed: 0
+        luck: 15
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: d1ceb56a95fa28c4991b42240540e0b7, type: 2}
+      activeConversation: {fileID: 11400000, guid: d1f57ea0f0d3dac4e89a71349ceed945, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 9aef1e09a83d1874fb6ad2ff09f7681f, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: cf2d3dc74de274f4cbe83eed27df6363, type: 2}
+      - {fileID: 11400000, guid: f37849658cf4c18429b889a3d53309cb, type: 2}
+      - {fileID: 11400000, guid: 45539be05018bc448b70fab0b83e0116, type: 2}
+      - {fileID: 11400000, guid: 9ab5b20e6d82b6d4288c9a32f56322ea, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: ea5ed2f654b13d84ca54099a103eeafd, type: 2}
+      - {fileID: 11400000, guid: 9a86d8f1de89015448c08b7116f3da32, type: 2}
+      - {fileID: 11400000, guid: 9cedad139ca7ee049a22257b1fa89363, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 5
+    name: Starfire_BeachReturnFromBeastBoy
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 851914448ae1f214494002b459386594, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 11400000, guid: 199ed1a8957dc9146ba263190d3d04af, type: 2}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 2
+  dialogueFaceColor: {r: 0.9852941, g: 0.36224046, b: 0.6932377, a: 1}
+  dialogueOutlineColor: {r: 0.46323532, g: 0, b: 0.24609376, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/VO/sfx_vo_starfire_prebattle_new1
+  countdownCharacterUID: 2
+  _uid: 20
+  _guid: 87052e27-b8d0-46e6-b2a8-1d37a2444240
+  _name: Starfire
+  _nameKey: STARFIRE
+  _preBattleSpriteId: 51
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 7
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 37603db1ff8dda64299171c5407f38a8, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX:
+  - Audio/VO/sfx_vo_starfire_city_idle1_kpr
+  - Audio/VO/sfx_vo_starfire_city_idle2_kpr
+  - Audio/VO/sfx_vo_starfire_city_idle3_kpr
+  - Audio/VO/sfx_vo_starfire_city_idle4_kpr
+  - Audio/VO/sfx_vo_starfire_city_idle5_kpr
+  - Audio/VO/sfx_vo_starfire_city_idle6_kpr
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

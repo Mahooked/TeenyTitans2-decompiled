@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_HOOD_AFTERJAIL
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: 13
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName: TTG_gui_robin_facehappy
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: -1
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_0
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_hoodedhood_eye2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: POOF!
+    key: CONVO_HOOD_AFTERJAIL1
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 7
+    faceSpriteName: TTG_gui_robin_faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I was wondering when you'd show up again...
+    key: CONVO_HOOD_AFTERJAIL2
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 3de85449becf4c5448692b8dd51ca974, type: 3}
+    otherFaceSpriteId: 11
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_hoodedhood_eye3
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Looks like you've found yourself in quite the predicament.
+    key: CONVO_HOOD_AFTERJAIL3
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 7
+    otherFaceSpriteName: TTG_gui_robin_faceangry2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 7
+    faceSpriteName: TTG_gui_robin_faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Look, "Not-Slade", I don't have time for this.
+    key: CONVO_HOOD_AFTERJAIL4
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 15
+    faceSpriteName: TTG_gui_robin_face7
+    poseSpriteId: -1
+    poseSpriteName:
+    message: ... well, actually, I guess I do, since I'm locked up in here and everything... but that's besides the point!
+    key: CONVO_HOOD_AFTERJAIL5
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 13
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye3
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 8
+    position: 1
+    bodySpriteId: 9
+    bodySpriteName: TTG_gui_hoodedhood
+    faceSpriteId: 5
+    faceSpriteName: TTG_gui_hoodedhood_eye4
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I think it's finally time for you to face me in battle.
+    key: CONVO_HOOD_AFTERJAIL6
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 15
+    otherFaceSpriteName: TTG_gui_robin_face7
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 2
+    faceSpriteName: TTG_gui_robin_face9
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Wait, really?
+    key: CONVO_HOOD_AFTERJAIL7
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 5
+    otherFaceSpriteName: TTG_gui_hoodedhood_eye4
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:

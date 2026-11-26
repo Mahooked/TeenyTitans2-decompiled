@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc963298223a3f784e85a4446c52d92, type: 3}
+  m_Name: MatchmakingSettings
+  m_EditorClassIdentifier:
+  _searchStepDelay: 0.5
+  _timeout: 10
+  _minFigureLevel: 5
+  _maxLevelDisparity: 7
+  _searchGroups:
+  - playerRange:
+      minValue: 0
+      maxValue: 100
+    searchSteps:
+    - filterType: 0
+      intValue1: 0
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 0
+      intValue1: 1
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 0
+      intValue1: 2
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 0
+      intValue1: 3
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 1
+      intValue1: 0
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 1
+      intValue1: 250
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 1
+      intValue1: 500
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0
+    - filterType: 1
+      intValue1: 1000
+      rangedIntValue1:
+        minValue: 0
+        maxValue: 0

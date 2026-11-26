@@ -1,0 +1,642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 5
+  preBattleSprite: menu_vsscreen_portrait_dog
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/Dog
+  conversationBodySprite: TTG_gui_npc_dog
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 19
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Animal
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Idle
+    spriteName: TTG_gui_npc_dog_faceidle
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TTG_gui_npc_dog_faceangry
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 10
+    name: A Dog 5
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 065f21b0-4323-4799-89fe-e497df4a36dc
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 0
+        level: 4
+        abilityUIDs: 0c0000000300000000000000
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 24
+        attack: 1
+        speed: 0
+        luck: 2
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 11
+        level: 4
+        abilityUIDs: 190000001600000000000000
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 22
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 9
+        level: 5
+        abilityUIDs: 120000001300000015000000
+        selectedRewards: 220000001a000000130000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 11
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 7
+        level: 4
+        abilityUIDs: 180000001300000011000000
+        selectedRewards: 220000001a00000013000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 19
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 60
+        level: 4
+        abilityUIDs: 4c0000004b0000004a000000
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 21
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 25
+      teamSizeWeight2: 37
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 11
+    name: A Dog 6
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: bce332e3-fc47-4cef-88b0-e8511a89a2ae
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 54
+        level: 4
+        abilityUIDs: 3f0000001300000040000000
+        selectedRewards: 070000001a00000001000000
+        hitPoints: 26
+        attack: 2
+        speed: 0
+        luck: 0
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 57
+      teamSizeWeight2: 33
+      teamSizeWeight3: 16
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 6
+    name: A Dog Docks
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 0a8bd6e3-d518-435b-85d8-9c302e97869e
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 13
+        level: 3
+        abilityUIDs: 2f0000003000000031000000
+        selectedRewards: 130000001a000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 11
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 0
+        level: 3
+        abilityUIDs: 0c0000000300000000000000
+        selectedRewards: 070000001a000000
+        hitPoints: 22
+        attack: 2
+        speed: 0
+        luck: 9
+        dodge: 9
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 12
+        level: 3
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 130000001a000000
+        hitPoints: 22
+        attack: 1
+        speed: 0
+        luck: 7
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 25
+        level: 3
+        abilityUIDs: 220000002300000021000000
+        selectedRewards: 010000001a000000
+        hitPoints: 28
+        attack: 0
+        speed: 0
+        luck: 2
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 58
+        level: 3
+        abilityUIDs: 7d0000007e0000007c000000
+        selectedRewards: 130000001a000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 15
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 37
+      teamSizeWeight2: 38
+      teamSizeWeight3: 24
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 0}
+      activeConversation: {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: 0fd2f6d7c85926a44b225e33b8ccd5d4, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 8
+    name: A Dog 3
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 9e5495fd-31fa-4e94-9d27-f360c7ae9637
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 23
+        level: 4
+        abilityUIDs: 820000008400000083000000
+        selectedRewards: 070000001a00000022000000
+        hitPoints: 36
+        attack: 2
+        speed: 0
+        luck: 5
+        dodge: 8
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 9
+    name: A Dog 4
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 1fc54e94-f362-477a-a3a2-bd76fca598b8
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 70
+      xpReward: 70
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 40
+        level: 10
+        abilityUIDs: 6f0000006d0000006e000000
+        selectedRewards: 130000001a000000070000001d0000000100000008000000
+        hitPoints: 22
+        attack: 3
+        speed: 5
+        luck: 15
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 9
+        level: 10
+        abilityUIDs: 120000001300000015000000
+        selectedRewards: 010000001a000000130000001d0000002200000014000000
+        hitPoints: 23
+        attack: 2
+        speed: 5
+        luck: 14
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 30
+        level: 10
+        abilityUIDs: 590000005b0000005a000000
+        selectedRewards: 130000001a000000070000001d0000001400000001000000
+        hitPoints: 17
+        attack: 4
+        speed: 5
+        luck: 6
+        dodge: 18
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 60
+        level: 10
+        abilityUIDs: 4c0000004b0000004a000000
+        selectedRewards: 010000001a000000130000001d0000002200000014000000020000001500000007000000
+        hitPoints: 27
+        attack: 1
+        speed: 0
+        luck: 14
+        dodge: 18
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 12
+        level: 10
+        abilityUIDs: b30000001f00000020000000
+        selectedRewards: 010000001a000000070000001d0000002200000008000000130000000900000014000000
+        hitPoints: 23
+        attack: 3
+        speed: 0
+        luck: 10
+        dodge: 8
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 6
+      teamSizeWeight2: 27
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 7
+    name: A Dog 1
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 1b99657c-41e7-46e3-a92e-04ac73ee1ea6
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 45
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: 2
+        level: 4
+        abilityUIDs: 300000003500000034000000
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 19
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 42
+        level: 4
+        abilityUIDs: 300000003500000034000000
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 12
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 34
+        level: 5
+        abilityUIDs: 650000006400000066000000
+        selectedRewards: 010000001a000000070000001d000000
+        hitPoints: 23
+        attack: 1
+        speed: 5
+        luck: 7
+        dodge: 2
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 30
+        level: 4
+        abilityUIDs: 590000005b0000005a000000
+        selectedRewards: 220000001a00000001000000
+        hitPoints: 23
+        attack: 1
+        speed: 5
+        luck: 0
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      - characterUID: 23
+        level: 5
+        abilityUIDs: 820000008400000083000000
+        selectedRewards: 010000001a000000130000001d000000
+        hitPoints: 38
+        attack: 1
+        speed: 0
+        luck: 8
+        dodge: 5
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 30cbc40f72f26c549a6baa51d7b8dd81, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete:
+      - {fileID: 11400000, guid: 4b4521de32101c446947f3fdf6701e9d, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.97794116, g: 0.6386732, b: 0.44582614, a: 1}
+  dialogueOutlineColor: {r: 0.27205884, g: 0.1519777, b: 0, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/SFX/sfx_dog_bark_1
+    - Audio/SFX/sfx_dog_bark_2
+    - Audio/SFX/sfx_dog_bark_3
+  countdownCharacterUID: -1
+  _uid: 5
+  _guid: 66d1dd5e-dbb4-43cb-a41a-9f007d0a9d9c
+  _name: A Dog
+  _nameKey: ADOG
+  _preBattleSpriteId: 3
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 11
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 8d4283e650bcca141bf9cd565abfe2fd, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

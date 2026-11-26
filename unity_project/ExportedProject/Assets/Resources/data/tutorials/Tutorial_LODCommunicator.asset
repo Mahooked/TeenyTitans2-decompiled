@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5bce157ed000593d3afef04feb236e, type: 3}
+  m_Name: Tutorial_LODCommunicator
+  m_EditorClassIdentifier:
+  tutorialName: LODCommunicatorTutorial
+  tutorialPrerequisites:
+  - PLAYER_PLAYED_INTRO_SEQUENCE
+  - EnteredLegionOfDoom
+  targetScene:
+  targetScenes:
+  - City_Gotham
+  - City_WayneManor
+  - City_JumpCityNew
+  - City_Arkham
+  - City_Metropolis
+  - City_HallOfJustice
+  debugTutorial: 0
+  debugStartAtStep: 0
+  debugMeetPrerequisites: 0
+  communicatorRightSpriteBubbleOffset: {x: 11.72, y: 55.874, z: 0}
+  communicatorLODBubbleOffset: {x: 6.065, y: 50.2, z: 0}
+  communicatorLODScreenOffset: {x: 55, y: 24.9, z: 0}

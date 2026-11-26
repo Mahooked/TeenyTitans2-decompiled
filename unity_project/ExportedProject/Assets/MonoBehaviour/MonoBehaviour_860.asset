@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e01c30600cd2cd410555afdabd3206, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _uid: 131
+  _characterName: Lex Luthor
+  _characterNameKey: LEXLUTHOR
+  _characterClass: 3
+  _characterRarity: 5
+  _characterFaction: 0
+  _baseHitPoints: 20
+  _baseAttack: 1
+  _baseLuck: 9
+  _baseDodge: 2
+  _maxHitPoints: 120
+  _maxAttack: 25
+  _maxSpeed: 50
+  _maxLuck: 30
+  _maxDodge: 30
+  _baseHitPointsOffset: 0
+  _baseAttackOffset: 13
+  _baseSpeedOffset: 0
+  _baseLuckOffset: 0
+  _baseDodgeOffset: 0
+  _baseDefense: 0
+  _baseSpeed: 0
+  _isActive: 1
+  _canUseInBattle: 1
+  _isSecret: 0
+  _levelTable: {fileID: 11400000, guid: 28a7b4eab34eef64086776efc2ae043a, type: 2}
+  _libraryNumber: 100
+  _libraryDescription:
+  _libraryDescriptionKey: WIKI_LEXLUTHOR
+  _shopDescription:
+  _shopDescriptionKey:
+  _tags:
+  - Villain
+  - Tech
+  _actionMeterSize: 2
+  _actionMeterSpeedRating: 5
+  _abilitySlots:
+  - position: 18
+    abilityId: 356
+  - position: 39
+    abilityId: 357
+  - position: 79
+    abilityId: 358
+  _portraitSprite: icon_lexluthor
+  _portraitSpriteId: 62
+  _iapShopIconSprite:
+  _iapShopIconSpriteId: 0
+  _playerCameraOffsetPosition: {x: 2.82, y: 0.14, z: 0.33}
+  _playerCameraOffsetRotation: {x: 0, y: 0, z: -8.99}
+  _playerCameraOffsetPositionZoomedOut: {x: 3.75, y: 0.22, z: 0.44}
+  _playerCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: -6.29}
+  _playerFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _playerFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyCameraOffsetPosition: {x: 2.07, y: -0.54, z: -0.49}
+  _enemyCameraOffsetRotation: {x: 0, y: 0, z: -3.27}
+  _enemyCameraOffsetPositionZoomedOut: {x: 4.85, y: 0.58, z: -0.77}
+  _enemyCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 10.02}
+  _enemyFlightCameraOffsetPosition: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotation: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetPositionZoomedOut: {x: 0, y: 0, z: 0}
+  _enemyFlightCameraOffsetRotationZoomedOut: {x: 0, y: 0, z: 0}
+  _topRightPortraitOffset: {x: 0, y: 0, z: 0}
+  _bottomLeftPortraitOffset: {x: 0, y: 0, z: 0}
+  _tofuBubbleOffsetPosition: {x: 0.94, y: 1.07, z: -0.18}
+  _battleCharacterPath: Prefabs/Characters/Battle/LexLuthor
+  _battleCharacterPathP2:
+  _shopFigurePath: Prefabs/Characters/Shop/LexLuthor
+  _shopFigureBoxPath:
+  _shopFigureScale: {x: 0.49, y: 0.47, z: 0.49}
+  _shopFigureOffset: {x: 0.02, y: -0.725, z: 0}
+  _shopFigureRotationOffset: {x: 0, y: 0, z: 0}
+  _shopFigureCosts: 102700001027000010270000102700001027000010270000102700001027000010270000102700001027000010270000102700001027000010270000
+  _shopFigureTicketCosts: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  _shopStripeColor: {r: 0, g: 0.6397059, b: 0.13676482, a: 1}
+  _shopTextFaceColor: {r: 0.865899, g: 0.08044985, b: 0.9117647, a: 1}
+  _shopTextOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  _shopRevealNameSoundPath:
+  _transformations: []
+  _is80sFigure: 0
+  _isVillainFigure: 0
+  _sounds:
+    _swapInSounds:
+      _probability: 1
+      _soundPaths:
+      - Audio/SFX/sfx_abilities_lex_rocketboots
+    _swapOutSounds:
+      _probability: 1
+      _soundPaths:
+      - Audio/SFX/sfx_abilities_lex_rocketboots
+    _hurtSounds:
+      _probability: 1
+      _soundPaths: []
+    _healSounds:
+      _probability: 1
+      _soundPaths: []
+    _deathSounds:
+      _probability: 1
+      _soundPaths: []
+    _useTofuSounds:
+      _probability: 1
+      _soundPaths: []
+    _victorySounds:
+      _probability: 1
+      _soundPaths: []
+  _repaintSlots:
+  - position: 0
+    id: 381
+    cost: 5
+    rare: 0
+    texturePath: Textures/LexLuthor_Texture_blackandgreen-1x
+    _colorSprite: menu_shop_repaint_color_blackandgreen
+    _colorSpriteId: 1
+  - position: 0
+    id: 382
+    cost: 5
+    rare: 0
+    texturePath: Textures/LexLuthor_Texture_purpleblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandpurple
+    _colorSpriteId: 19
+  - position: 0
+    id: 383
+    cost: 6
+    rare: 0
+    texturePath: Textures/LexLuthor_Texture_redandblue-1x
+    _colorSprite: menu_shop_repaint_color_redandsilver
+    _colorSpriteId: 26
+  - position: 0
+    id: 384
+    cost: 6
+    rare: 0
+    texturePath: Textures/LexLuthor_Texture_violetandgreen-1x
+    _colorSprite: menu_shop_repaint_color_violetandgreen
+    _colorSpriteId: 10
+  - position: 0
+    id: 409
+    cost: 9
+    rare: 0
+    texturePath: Textures/LexLuthor_Texture_yellowblack-1x
+    _colorSprite: menu_shop_repaint_color_blackandyellow
+    _colorSpriteId: 4

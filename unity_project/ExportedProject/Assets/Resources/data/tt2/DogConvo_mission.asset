@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: DogConvo_mission
+  m_EditorClassIdentifier:
+  useCharacterItems: 0
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 0
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 3
+  completesMissionUID: -1
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_0
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 5
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_npc_dog
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_npc_dog_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Bark!
+    key: CONVO_DOGMISSION1
+    formatArgs: []
+    clip: {fileID: 8300000, guid: d3d25b38653cb7b47a002e43bfdec34d, type: 3}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_robin_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: What's that, boy?
+    key: CONVO_DOGMISSION2
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 9
+    otherFaceSpriteName: TTG_gui_npc_dog_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 5
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_npc_dog
+    faceSpriteId: 9
+    faceSpriteName: TTG_gui_npc_dog_faceidle
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ruff!  Ruff!
+    key: CONVO_DOGMISSION3
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 2b85663ea25564743a6335c26b0e38e7, type: 3}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_3
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 10
+    faceSpriteName: TTG_gui_robin_oooo
+    poseSpriteId: -1
+    poseSpriteName:
+    message: You... you want a figure??
+    key: CONVO_DOGMISSION4
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 9
+    otherFaceSpriteName: TTG_gui_npc_dog_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_4
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 5
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_npc_dog
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_npc_dog_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Bark! Barkbark!
+    key: CONVO_DOGMISSION5
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 2955c714ab8d77c49ad246c77e3626b5, type: 3}
+    otherFaceSpriteId: 10
+    otherFaceSpriteName: TTG_gui_robin_oooo
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_5
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: A Robin figure, you say??
+    key: CONVO_DOGMISSION6
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 9
+    otherFaceSpriteName: TTG_gui_npc_dog_faceidle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_6
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 5
+    position: 1
+    bodySpriteId: 19
+    bodySpriteName: TTG_gui_npc_dog
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_npc_dog_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Rrrrrrr.. Bark bark!
+    key: CONVO_DOGMISSION7
+    formatArgs: []
+    clip: {fileID: 8300000, guid: 1faf40216f0bf0449b9ef5277a09f6ba, type: 3}
+    otherFaceSpriteId: 16
+    otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_7
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Wow, you want FOUR Robin figures, boy??
+    key: CONVO_DOGMISSION8
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 4
+    otherFaceSpriteName: TTG_gui_npc_dog_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_8
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 13
+    faceSpriteName: TTG_gui_robin_facehappy
+    poseSpriteId: -1
+    poseSpriteName:
+    message: For a dog, you sure do have impeccable taste!
+    key: CONVO_DOGMISSION9
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 4
+    otherFaceSpriteName: TTG_gui_npc_dog_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_9
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_robin_allthefigs
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Never fear, furry citizen!  The best fig of 'em all is about to be yours!!
+    key: CONVO_DOGMISSION10
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 4
+    otherFaceSpriteName: TTG_gui_npc_dog_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items: []
+    initialLeftCharacter: 0
+    initialRightCharacter: 0
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 2
+    items: []
+    initialLeftCharacter: 17
+    initialRightCharacter: 17
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 4
+    items: []
+    initialLeftCharacter: 18
+    initialRightCharacter: 18
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 8
+    items: []
+    initialLeftCharacter: 19
+    initialRightCharacter: 19
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:
+  - characterType: 16
+    items: []
+    initialLeftCharacter: 1
+    initialRightCharacter: 1
+    initialLeftBodySpriteId: -1
+    initialLeftFaceSpriteId: -1
+    initialLeftBodySpriteName:
+    initialLeftFaceSpriteName:
+    initialRightBodySpriteId: -1
+    initialRightFaceSpriteId: -1
+    initialRightBodySpriteName:
+    initialRightFaceSpriteName:

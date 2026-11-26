@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 138
+  preBattleSprite: menu_vsscreen_portrait_intercom
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/IntercomOfJustice
+  conversationBodySprite: TT2_gui_intercom
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 11
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Hero
+  conversationBodySpriteId: 11
+  conversationFaces:
+  - displayName: Neutral
+    spriteName: TT2_gui_intercom_face1
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  - displayName: Happy
+    spriteName: TT2_gui_intercom_face2
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: Angry
+    spriteName: TT2_gui_intercom_face3
+    rightSpriteName:
+    leftSpriteId: 12
+    rightSpriteId: -1
+  - displayName: Explaining
+    spriteName: TT2_gui_intercom_face4
+    rightSpriteName:
+    leftSpriteId: 0
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.85294116, g: 0.9878296, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0, g: 0.028346775, b: 0.31617647, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths:
+    - Audio/SFX/sfx_vo_intercomofjustice
+  countdownCharacterUID: -1
+  _uid: 142
+  _guid: 82c67b05-e8fd-46cd-9482-6e44fe020250
+  _name: Intercom of Justice
+  _nameKey: INTERCOM_OF_JUSTICE
+  _preBattleSpriteId: 17
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 492d6b6073010504a943d8b56bb63727, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: c4c83db6dd019f1409191fc421c19f14, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

@@ -1,0 +1,568 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04e2548fedc0a3807e3e7b127501119, type: 3}
+  m_Name: CityCharacterVODatabase
+  m_EditorClassIdentifier:
+  characterVOSets:
+  - cityCharacterType: 1
+    idleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_city_idle_new1
+      - Audio/VO/sfx_vo_robin_city_idle_new2
+      - Audio/VO/sfx_vo_robin_city_idle_new3
+      - Audio/VO/sfx_vo_robin_city_idle_new4
+      - Audio/VO/sfx_vo_robin_city_idle_new5
+      _foldout: 1
+    enterBeachClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_city_beach1_kpr
+      - Audio/VO/sfx_vo_robin_city_beach2_kpr
+      - Audio/VO/sfx_vo_robin_city_beach3_kpr
+      _foldout: 1
+    enterJumpCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_jumpcity1
+      - Audio/VO/sfx_vo_robin_jumpcity2
+      _foldout: 1
+    enterGothamCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_gotham1
+      - Audio/VO/sfx_vo_robin_gotham2
+      - Audio/VO/sfx_vo_robin_gotham3
+      _foldout: 1
+    enterMetropolisClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_metropolis1
+      - Audio/VO/sfx_vo_robin_metropolis2
+      _foldout: 1
+    newDayClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_city_newday_new1
+      - Audio/VO/sfx_vo_robin_city_newday_new2
+      - Audio/VO/sfx_vo_robin_city_newday_new3
+      - Audio/VO/sfx_vo_robin_city_newday_new4
+      _foldout: 1
+    newNightClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_city_newnight_new1
+      - Audio/VO/sfx_vo_robin_city_newnight_new2
+      - Audio/VO/sfx_vo_robin_city_newnight_new3
+      - Audio/VO/sfx_vo_robin_city_newnight_new4
+      _foldout: 1
+    enhanceFeedClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_enhance_button1_kpr
+      - Audio/VO/sfx_vo_robin_enhance_feed1_kpr
+      - Audio/VO/sfx_vo_robin_enhance_feed2_kpr
+      - Audio/VO/sfx_vo_robin_enhance_feed3_kpr
+      _foldout: 0
+    enhanceShinyClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_enhance_shiny1_kpr2
+      - Audio/VO/sfx_vo_robin_enhance_shiny2_kpr
+      _foldout: 0
+    storeAddCartClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_store_addtocart_new1
+      - Audio/VO/sfx_vo_robin_store_addtocart_new2
+      - Audio/VO/sfx_vo_robin_store_addtocart_new3
+      - Audio/VO/sfx_vo_robin_store_addtocart_new4
+      - Audio/VO/sfx_vo_robin_store_addtocart_new5
+      - Audio/VO/sfx_vo_robin_store_addtocart_new6
+      - Audio/VO/sfx_vo_robin_store_addtocart_new7
+      - Audio/VO/sfx_vo_robin_store_addtocart_new8
+      - Audio/VO/sfx_vo_robin_store_addtocart_new9
+      - Audio/VO/sfx_vo_robin_store_addtocart_new10
+      - Audio/VO/sfx_vo_robin_store_addtocart_new11
+      _foldout: 0
+    storeEnterClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_store_enter_new1
+      - Audio/VO/sfx_vo_robin_store_enter_new2
+      - Audio/VO/sfx_vo_robin_store_enter_new4
+      - Audio/VO/sfx_vo_robin_store_enter_new4
+      - Audio/VO/sfx_vo_robin_store_enter_new5
+      - Audio/VO/sfx_vo_robin_store_enter_new6
+      _foldout: 0
+    storeFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_store_figtoss_new1
+      - Audio/VO/sfx_vo_robin_store_figtoss_new2
+      - Audio/VO/sfx_vo_robin_store_figtoss_new3
+      - Audio/VO/sfx_vo_robin_store_figtoss_new4
+      - Audio/VO/sfx_vo_robin_store_figtoss_new5
+      - Audio/VO/sfx_vo_robin_store_figtoss_new6
+      - Audio/VO/sfx_vo_robin_store_figtoss_new7
+      - Audio/VO/sfx_vo_robin_store_figtoss_new8
+      - Audio/VO/sfx_vo_robin_store_figtoss_new9
+      - Audio/VO/sfx_vo_robin_store_figtoss_new10
+      - Audio/VO/sfx_vo_robin_store_figtoss_new11
+      _foldout: 1
+    storeTutorialFirstSwipeClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_store_tutorial1_kpr
+      _foldout: 1
+    storeTutorialFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_store_tutorial2_kpr
+      - Audio/VO/sfx_vo_robin_store_tutorial3_kpr2
+      - Audio/VO/sfx_vo_robin_store_tutorial4_kpr
+      _foldout: 0
+    towerFigsClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_towerfigs1_kpr
+      - Audio/VO/sfx_vo_robin_towerfigs1_kpr1
+      - Audio/VO/sfx_vo_robin_towerfigs3_kpr
+      - Audio/VO/sfx_vo_robin_towerfigs4_kpr
+      _foldout: 0
+    towerFigsRareClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_towerfigs4_kpr
+      _foldout: 0
+    enterPrebattleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_robin_battle_prebattle_new1
+      - Audio/VO/sfx_vo_robin_battle_prebattle_new2
+      - Audio/VO/sfx_vo_robin_battle_prebattle_new3
+      - Audio/VO/sfx_vo_robin_battle_prebattle_new4
+      - Audio/VO/sfx_vo_robin_battle_prebattle_new5
+      _foldout: 1
+    _foldout: 0
+  - cityCharacterType: 2
+    idleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_city_idle1
+      - Audio/VO/sfx_vo_beastboy_city_idle2
+      - Audio/VO/sfx_vo_beastboy_city_idle3
+      - Audio/VO/sfx_vo_beastboy_city_idle4
+      _foldout: 0
+    enterBeachClipSet:
+      clipNames: []
+      _foldout: 0
+    enterJumpCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_jumpcity1
+      - Audio/VO/sfx_vo_beastboy_jumpcity2
+      _foldout: 1
+    enterGothamCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_gotham1
+      - Audio/VO/sfx_vo_beastboy_gotham2
+      _foldout: 1
+    enterMetropolisClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_metropolis1
+      - Audio/VO/sfx_vo_beastboy_metropolis2
+      _foldout: 1
+    newDayClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_city_newday1
+      - Audio/VO/sfx_vo_beastboy_city_newday2
+      - Audio/VO/sfx_vo_beastboy_city_newday3
+      _foldout: 0
+    newNightClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_city_newnight1
+      - Audio/VO/sfx_vo_beastboy_city_newnight2
+      - Audio/VO/sfx_vo_beastboy_city_newnight3
+      _foldout: 0
+    enhanceFeedClipSet:
+      clipNames: []
+      _foldout: 0
+    enhanceShinyClipSet:
+      clipNames: []
+      _foldout: 0
+    storeAddCartClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_store_addtocart1
+      - Audio/VO/sfx_vo_beastboy_store_addtocart2
+      - Audio/VO/sfx_vo_beastboy_store_addtocart3
+      - Audio/VO/sfx_vo_beastboy_store_addtocart4
+      - Audio/VO/sfx_vo_beastboy_store_addtocart5
+      - Audio/VO/sfx_vo_beastboy_store_addtocart6
+      - Audio/VO/sfx_vo_beastboy_store_addtocart7
+      - Audio/VO/sfx_vo_beastboy_store_addtocart8
+      - Audio/VO/sfx_vo_beastboy_store_addtocart9
+      - Audio/VO/sfx_vo_beastboy_store_addtocart10
+      - Audio/VO/sfx_vo_beastboy_store_addtocart11
+      _foldout: 0
+    storeEnterClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_store_enter1
+      - Audio/VO/sfx_vo_beastboy_store_enter2
+      - Audio/VO/sfx_vo_beastboy_store_enter3
+      - Audio/VO/sfx_vo_beastboy_store_enter4
+      - Audio/VO/sfx_vo_beastboy_store_enter5
+      - Audio/VO/sfx_vo_beastboy_store_enter6
+      _foldout: 0
+    storeFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_store_figtoss1
+      - Audio/VO/sfx_vo_beastboy_store_figtoss2
+      - Audio/VO/sfx_vo_beastboy_store_figtoss3
+      - Audio/VO/sfx_vo_beastboy_store_figtoss4
+      - Audio/VO/sfx_vo_beastboy_store_figtoss5
+      - Audio/VO/sfx_vo_beastboy_store_figtoss6
+      - Audio/VO/sfx_vo_beastboy_store_figtoss7
+      - Audio/VO/sfx_vo_beastboy_store_figtoss8
+      - Audio/VO/sfx_vo_beastboy_store_figtoss9
+      - Audio/VO/sfx_vo_beastboy_store_figtoss10
+      _foldout: 0
+    storeTutorialFirstSwipeClipSet:
+      clipNames: []
+      _foldout: 0
+    storeTutorialFigTossClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsRareClipSet:
+      clipNames: []
+      _foldout: 0
+    enterPrebattleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle3
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle4
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle5
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle6
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle7
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle8
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle9
+      - Audio/VO/sfx_vo_beastboy_battle_prebattle10
+      _foldout: 1
+    _foldout: 0
+  - cityCharacterType: 4
+    idleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_city_idle1
+      - Audio/VO/sfx_vo_raven_city_idle2
+      - Audio/VO/sfx_vo_raven_city_idle3
+      - Audio/VO/sfx_vo_raven_city_idle4
+      _foldout: 0
+    enterBeachClipSet:
+      clipNames: []
+      _foldout: 0
+    enterJumpCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_jumpcity1
+      - Audio/VO/sfx_vo_raven_jumpcity2
+      - Audio/VO/sfx_vo_raven_jumpcity3
+      _foldout: 1
+    enterGothamCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_gotham1
+      - Audio/VO/sfx_vo_raven_gotham2
+      _foldout: 1
+    enterMetropolisClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_metropolis1
+      - Audio/VO/sfx_vo_raven_metropolis2
+      _foldout: 1
+    newDayClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_city_newday1
+      - Audio/VO/sfx_vo_raven_city_newday2
+      - Audio/VO/sfx_vo_raven_city_newday3
+      _foldout: 0
+    newNightClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_city_newnight1
+      - Audio/VO/sfx_vo_raven_city_newnight2
+      - Audio/VO/sfx_vo_raven_city_newnight3
+      _foldout: 0
+    enhanceFeedClipSet:
+      clipNames: []
+      _foldout: 0
+    enhanceShinyClipSet:
+      clipNames: []
+      _foldout: 0
+    storeAddCartClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_store_addtocart1
+      - Audio/VO/sfx_vo_raven_store_addtocart2
+      - Audio/VO/sfx_vo_raven_store_addtocart3
+      - Audio/VO/sfx_vo_raven_store_addtocart4
+      - Audio/VO/sfx_vo_raven_store_addtocart5
+      - Audio/VO/sfx_vo_raven_store_addtocart6
+      - Audio/VO/sfx_vo_raven_store_addtocart7
+      - Audio/VO/sfx_vo_raven_store_addtocart8
+      - Audio/VO/sfx_vo_raven_store_addtocart9
+      - Audio/VO/sfx_vo_raven_store_addtocart10
+      _foldout: 0
+    storeEnterClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_store_enter1
+      - Audio/VO/sfx_vo_raven_store_enter2
+      - Audio/VO/sfx_vo_raven_store_enter3
+      - Audio/VO/sfx_vo_raven_store_enter4
+      - Audio/VO/sfx_vo_raven_store_enter5
+      - Audio/VO/sfx_vo_raven_store_enter6
+      _foldout: 0
+    storeFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_store_figtoss1
+      - Audio/VO/sfx_vo_raven_store_figtoss2
+      - Audio/VO/sfx_vo_raven_store_figtoss3
+      - Audio/VO/sfx_vo_raven_store_figtoss4
+      - Audio/VO/sfx_vo_raven_store_figtoss5
+      - Audio/VO/sfx_vo_raven_store_figtoss6
+      - Audio/VO/sfx_vo_raven_store_figtoss7
+      - Audio/VO/sfx_vo_raven_store_figtoss8
+      - Audio/VO/sfx_vo_raven_store_figtoss9
+      - Audio/VO/sfx_vo_raven_store_figtoss10
+      _foldout: 0
+    storeTutorialFirstSwipeClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_store_enter3
+      _foldout: 0
+    storeTutorialFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_store_figtoss1
+      - Audio/VO/sfx_vo_raven_store_figtoss2
+      - Audio/VO/sfx_vo_raven_store_figtoss3
+      - Audio/VO/sfx_vo_raven_store_figtoss4
+      - Audio/VO/sfx_vo_raven_store_figtoss5
+      - Audio/VO/sfx_vo_raven_store_figtoss6
+      - Audio/VO/sfx_vo_raven_store_figtoss7
+      - Audio/VO/sfx_vo_raven_store_figtoss8
+      - Audio/VO/sfx_vo_raven_store_figtoss9
+      - Audio/VO/sfx_vo_raven_store_figtoss10
+      _foldout: 0
+    towerFigsClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsRareClipSet:
+      clipNames: []
+      _foldout: 0
+    enterPrebattleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_raven_battle_prebattle_new1
+      - Audio/VO/sfx_vo_raven_battle_prebattle_new2
+      - Audio/VO/sfx_vo_raven_battle_prebattle_new3
+      - Audio/VO/sfx_vo_raven_battle_prebattle_new4
+      - Audio/VO/sfx_vo_raven_battle_prebattle2
+      _foldout: 1
+    _foldout: 0
+  - cityCharacterType: 8
+    idleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_city_idle1
+      - Audio/VO/sfx_vo_starfire_city_idle2
+      - Audio/VO/sfx_vo_starfire_city_idle3
+      - Audio/VO/sfx_vo_starfire_city_idle4
+      _foldout: 0
+    enterBeachClipSet:
+      clipNames: []
+      _foldout: 0
+    enterJumpCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_jumpcity1
+      - Audio/VO/sfx_vo_starfire_jumpcity2
+      _foldout: 1
+    enterGothamCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_gotham1
+      - Audio/VO/sfx_vo_starfire_gotham2
+      _foldout: 1
+    enterMetropolisClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_metropolis1
+      - Audio/VO/sfx_vo_starfire_metropolis2
+      _foldout: 1
+    newDayClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_city_newday1
+      - Audio/VO/sfx_vo_starfire_city_newday2
+      - Audio/VO/sfx_vo_starfire_city_newday3
+      _foldout: 0
+    newNightClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_city_newnight1
+      - Audio/VO/sfx_vo_starfire_city_newnight2
+      - Audio/VO/sfx_vo_starfire_city_newnight3
+      _foldout: 0
+    enhanceFeedClipSet:
+      clipNames: []
+      _foldout: 0
+    enhanceShinyClipSet:
+      clipNames: []
+      _foldout: 0
+    storeAddCartClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_store_addtocart1
+      - Audio/VO/sfx_vo_starfire_store_addtocart2
+      - Audio/VO/sfx_vo_starfire_store_addtocart3
+      - Audio/VO/sfx_vo_starfire_store_addtocart4
+      - Audio/VO/sfx_vo_starfire_store_addtocart5
+      - Audio/VO/sfx_vo_starfire_store_addtocart6
+      - Audio/VO/sfx_vo_starfire_store_addtocart7
+      - Audio/VO/sfx_vo_starfire_store_addtocart8
+      - Audio/VO/sfx_vo_starfire_store_addtocart9
+      - Audio/VO/sfx_vo_starfire_store_addtocart10
+      - Audio/VO/sfx_vo_starfire_store_addtocart11
+      - Audio/VO/sfx_vo_starfire_store_addtocart12
+      - Audio/VO/sfx_vo_starfire_store_addtocart13
+      _foldout: 0
+    storeEnterClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_store_enter1
+      - Audio/VO/sfx_vo_starfire_store_enter2
+      - Audio/VO/sfx_vo_starfire_store_enter3
+      - Audio/VO/sfx_vo_starfire_store_enter4
+      - Audio/VO/sfx_vo_starfire_store_enter5
+      - Audio/VO/sfx_vo_starfire_store_enter6
+      - Audio/VO/sfx_vo_starfire_store_enter7
+      - Audio/VO/sfx_vo_starfire_store_enter8
+      _foldout: 0
+    storeFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_store_figtoss1
+      - Audio/VO/sfx_vo_starfire_store_figtoss2
+      - Audio/VO/sfx_vo_starfire_store_figtoss3
+      - Audio/VO/sfx_vo_starfire_store_figtoss4
+      - Audio/VO/sfx_vo_starfire_store_figtoss5
+      - Audio/VO/sfx_vo_starfire_store_figtoss6
+      - Audio/VO/sfx_vo_starfire_store_figtoss7
+      - Audio/VO/sfx_vo_starfire_store_figtoss8
+      - Audio/VO/sfx_vo_starfire_store_figtoss9
+      - Audio/VO/sfx_vo_starfire_store_figtoss10
+      _foldout: 0
+    storeTutorialFirstSwipeClipSet:
+      clipNames: []
+      _foldout: 0
+    storeTutorialFigTossClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsRareClipSet:
+      clipNames: []
+      _foldout: 0
+    enterPrebattleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_starfire_prebattle_new1
+      - Audio/VO/sfx_vo_starfire_prebattle_new2
+      - Audio/VO/sfx_vo_starfire_prebattle_new3
+      - Audio/VO/sfx_vo_starfire_prebattle_new4
+      - Audio/VO/sfx_vo_starfire_dialogue_laugh_hehe
+      _foldout: 0
+    _foldout: 0
+  - cityCharacterType: 16
+    idleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_city_idle1
+      - Audio/VO/sfx_vo_cyborg_city_idle2
+      - Audio/VO/sfx_vo_cyborg_city_idle3
+      _foldout: 1
+    enterBeachClipSet:
+      clipNames: []
+      _foldout: 0
+    enterJumpCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_jumpcity1
+      - Audio/VO/sfx_vo_cyborg_jumpcity2
+      _foldout: 1
+    enterGothamCityClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_gotham1
+      - Audio/VO/sfx_vo_cyborg_gotham2
+      _foldout: 1
+    enterMetropolisClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_metropolis1
+      - Audio/VO/sfx_vo_cyborg_metropolis2
+      _foldout: 1
+    newDayClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_city_newday1
+      - Audio/VO/sfx_vo_cyborg_city_newday2
+      - Audio/VO/sfx_vo_cyborg_city_newday3
+      - Audio/VO/sfx_vo_cyborg_city_newday4
+      _foldout: 1
+    newNightClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_city_newnight1
+      - Audio/VO/sfx_vo_cyborg_city_newnight2
+      - Audio/VO/sfx_vo_cyborg_city_newnight3
+      - Audio/VO/sfx_vo_cyborg_city_newnight4
+      - Audio/VO/sfx_vo_cyborg_city_newnight5
+      _foldout: 1
+    enhanceFeedClipSet:
+      clipNames: []
+      _foldout: 0
+    enhanceShinyClipSet:
+      clipNames: []
+      _foldout: 0
+    storeAddCartClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_store_addtocart1
+      - Audio/VO/sfx_vo_cyborg_store_addtocart2
+      - Audio/VO/sfx_vo_cyborg_store_addtocart3
+      - Audio/VO/sfx_vo_cyborg_store_addtocart4
+      - Audio/VO/sfx_vo_cyborg_store_addtocart5
+      - Audio/VO/sfx_vo_cyborg_store_addtocart6
+      - Audio/VO/sfx_vo_cyborg_store_addtocart7
+      - Audio/VO/sfx_vo_cyborg_store_addtocart8
+      - Audio/VO/sfx_vo_cyborg_store_addtocart9
+      - Audio/VO/sfx_vo_cyborg_store_addtocart10
+      - Audio/VO/sfx_vo_cyborg_store_addtocart11
+      - Audio/VO/sfx_vo_cyborg_store_addtocart12
+      - Audio/VO/sfx_vo_cyborg_store_addtocart13
+      - Audio/VO/sfx_vo_cyborg_store_addtocart14
+      - Audio/VO/sfx_vo_cyborg_store_addtocart15
+      _foldout: 1
+    storeEnterClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_store_enter1
+      - Audio/VO/sfx_vo_cyborg_store_enter2
+      - Audio/VO/sfx_vo_cyborg_store_enter3
+      - Audio/VO/sfx_vo_cyborg_store_enter4
+      - Audio/VO/sfx_vo_cyborg_store_enter5
+      - Audio/VO/sfx_vo_cyborg_store_enter6
+      _foldout: 0
+    storeFigTossClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_store_figtoss1
+      - Audio/VO/sfx_vo_cyborg_store_figtoss2
+      - Audio/VO/sfx_vo_cyborg_store_figtoss3
+      - Audio/VO/sfx_vo_cyborg_store_figtoss4
+      - Audio/VO/sfx_vo_cyborg_store_figtoss5
+      - Audio/VO/sfx_vo_cyborg_store_figtoss6
+      - Audio/VO/sfx_vo_cyborg_store_figtoss7
+      - Audio/VO/sfx_vo_cyborg_store_figtoss8
+      - Audio/VO/sfx_vo_cyborg_store_figtoss9
+      - Audio/VO/sfx_vo_cyborg_store_figtoss10
+      - Audio/VO/sfx_vo_cyborg_store_figtoss11
+      - Audio/VO/sfx_vo_cyborg_store_figtoss12
+      _foldout: 0
+    storeTutorialFirstSwipeClipSet:
+      clipNames: []
+      _foldout: 0
+    storeTutorialFigTossClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsClipSet:
+      clipNames: []
+      _foldout: 0
+    towerFigsRareClipSet:
+      clipNames: []
+      _foldout: 0
+    enterPrebattleClipSet:
+      clipNames:
+      - Audio/VO/sfx_vo_cyborg_battle_prebattle3_kpr2
+      - Audio/VO/sfx_vo_cyborg_battle_prebattle4_kpr2
+      - Audio/VO/sfx_vo_battle_cyborg_prebattle_new2
+      - Audio/VO/sfx_vo_battle_cyborg_prebattle_new5
+      - Audio/VO/sfx_vo_cyborg_chat_booyah_kpr1
+      _foldout: 1
+    _foldout: 1

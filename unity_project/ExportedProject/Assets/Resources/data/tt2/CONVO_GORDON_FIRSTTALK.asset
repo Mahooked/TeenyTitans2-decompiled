@@ -1,0 +1,3202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b287bf8793a55256ff3b99a60b40103, type: 3}
+  m_Name: CONVO_GORDON_FIRSTTALK
+  m_EditorClassIdentifier:
+  useCharacterItems: 1
+  tintScreen: 1
+  triggersImmediately: 0
+  triggersBattle: 0
+  triggersTournament: 0
+  tournament: {fileID: 0}
+  triggersLoadScene: 0
+  sceneName:
+  pathNodeName:
+  assignInitialFaces: 1
+  initialLeftCharacter: 0
+  initialRightCharacter: 0
+  initialLeftBodySpriteId: -1
+  initialLeftFaceSpriteId: -1
+  initialLeftBodySpriteName:
+  initialLeftFaceSpriteName:
+  initialRightBodySpriteId: -1
+  initialRightFaceSpriteId: -1
+  initialRightBodySpriteName:
+  initialRightFaceSpriteName:
+  missionUID: 90
+  completesMissionUID: 98
+  achievementId:
+  hideLeftCharacter: 0
+  hideRightCharacter: 0
+  useRewards: 0
+  coinReward: 0
+  rainbowCoinReward: 0
+  modChipRewardUID: -1
+  accessoryRewardUID: -1
+  characterRewards: []
+  items:
+  - id: item_1
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_robin_allthefigs
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Commissioner Gordon!! We meet again!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: -1
+    otherFaceSpriteName: TTG_gui_gordon_idle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_2
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 3
+    faceSpriteName: TTG_gui_gordon_idle
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Uh, sure. You're one of those Robin kids, right?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 4
+    otherFaceSpriteName: TTG_gui_robin_facescared
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_12
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 16
+    faceSpriteName: TTG_gui_robin_faceeyesclosed
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Well, yes, I...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 3
+    otherFaceSpriteName: TTG_gui_gordon_idle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_13
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_gordon_thinking
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Which one were you again? The girl one?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 16
+    otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_14
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 4
+    faceSpriteName: TTG_gui_robin_facescared
+    poseSpriteId: -1
+    poseSpriteName:
+    message: What? No, no! I'm the original Robin!!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 11
+    otherFaceSpriteName: TTG_gui_gordon_thinking
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_15
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 3
+    faceSpriteName: TTG_gui_gordon_idle
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Sure, kid.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 4
+    otherFaceSpriteName: TTG_gui_robin_facescared
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_16
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 17
+    faceSpriteName: TTG_gui_robin_face8
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Anyway, I'm actually in the middle of a VERY IMPORTANT, TOP SECRET investigation and I need YOUR help!
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 3
+    otherFaceSpriteName: TTG_gui_gordon_idle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_17
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 6
+    faceSpriteName: TTG_gui_robin_facescared2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I need you to tell me where I can find... ...our "mutual friend".
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 3
+    otherFaceSpriteName: TTG_gui_gordon_idle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_18
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_gordon_happy
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Louie D.?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 6
+    otherFaceSpriteName: TTG_gui_robin_facescared2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_19
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_robin_face10
+    poseSpriteId: -1
+    poseSpriteName:
+    message: What? No, I mean, our other... ... "mutual friend".
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 1
+    otherFaceSpriteName: TTG_gui_gordon_happy
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_20
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 11
+    faceSpriteName: TTG_gui_gordon_thinking
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Tony Tickles?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 1
+    otherFaceSpriteName: TTG_gui_robin_face10
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_21
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 7
+    faceSpriteName: TTG_gui_robin_faceangry2
+    poseSpriteId: -1
+    poseSpriteName:
+    message: I... have no idea who that is. I'm talking about, our VERY SPECIAL, VERY MUTUAL friend...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 11
+    otherFaceSpriteName: TTG_gui_gordon_thinking
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_22
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 3
+    faceSpriteName: TTG_gui_gordon_idle
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Batman?
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 7
+    otherFaceSpriteName: TTG_gui_robin_faceangry2
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_23
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 0
+    faceSpriteName: TTG_gui_robin_faceangry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: ...yes, Batman. It's Batman.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 3
+    otherFaceSpriteName: TTG_gui_gordon_idle
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_24
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_gordon_happy
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ahhh, Batman. He and I go way back. That ol' cowl-head owes me a sandwich.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 0
+    otherFaceSpriteName: TTG_gui_robin_faceangry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_25
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 2
+    faceSpriteName: TTG_gui_robin_face9
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Right, but... do you know where he is right now??
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 1
+    otherFaceSpriteName: TTG_gui_gordon_happy
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_26
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 1
+    faceSpriteName: TTG_gui_gordon_happy
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Nah. Whenever I want that big lug to come by and knock back a few, I use this here bat signal. It's really handy.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 2
+    otherFaceSpriteName: TTG_gui_robin_face9
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_27
+    isEnd: 0
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 64
+    position: 1
+    bodySpriteId: 12
+    bodySpriteName: TTG_gui_gordon
+    faceSpriteId: 5
+    faceSpriteName: TTG_gui_gordon_angry
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 2
+    otherFaceSpriteName: TTG_gui_robin_face9
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  - id: item_28
+    isEnd: 1
+    isPrismCreature: 0
+    useAlienLanguage: 0
+    isWildcard: 0
+    character: 0
+    position: 0
+    bodySpriteId: 3
+    bodySpriteName: TTG_gui_robin
+    faceSpriteId: 17
+    faceSpriteName: TTG_gui_robin_face8
+    poseSpriteId: -1
+    poseSpriteName:
+    message: Lightbulb, got it. Seems easy enough...
+    key:
+    formatArgs: []
+    clip: {fileID: 0}
+    otherFaceSpriteId: 5
+    otherFaceSpriteName: TTG_gui_gordon_angry
+    choices: []
+    rewards: []
+    bribeHeader:
+      _text:
+      _key:
+    bribeMessageBody:
+      _text:
+      _key:
+    bribeCurrencyType: 0
+    bribeAmount: 0
+    bribeCompletesMissionUid: 0
+    eventConfig:
+      type: 0
+      shopUID: 0
+      sceneName:
+      pathNodeName:
+      missionUID: 0
+      targetMessage:
+      triggerName:
+      soundPath:
+      soundGroup:
+      volume: 1
+      loop: 0
+    _type: 0
+  charItems:
+  - characterType: 1
+    items:
+    - id: item_19
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_robin_allthefigs
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Commissioner Gordon!! We meet again!
+      key: TT2CONVO_GORDON_3
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 385feef98f2cda84499a6737a8f220f9, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_20
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_gordon_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Uh, sure. You're one of those Robin kids, right?
+      key: TT2CONVO_GORDON_4
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_robin_allthefigs
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_21
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 16
+      faceSpriteName: TTG_gui_robin_faceeyesclosed
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well, yes, I...
+      key: TT2CONVO_GORDON_5
+      formatArgs: []
+      clip: {fileID: 8300000, guid: f6e6884133a082f479c39ac560d2c33e, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_22
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_gordon_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Which one were you again? The girl one?
+      key: TT2CONVO_GORDON_6
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 16
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_23
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What? No, no! I'm the original Robin!!
+      key: TT2CONVO_GORDON_7
+      formatArgs: []
+      clip: {fileID: 8300000, guid: cabb49e82220a4048a0e8bfdbdd29b5e, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_24
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Sure, kid.
+      key: TT2CONVO_GORDON_8
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_robin_face10
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_25
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 12
+      faceSpriteName: TTG_gui_robin_faceidle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Anyway, I'm actually in the middle of a VERY IMPORTANT, TOP SECRET investigation and I need YOUR help!
+      key: TT2CONVO_GORDON_9
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_26
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I need you to tell me where I can find... ...our "mutual friend".
+      key: TT2CONVO_GORDON_10
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_27
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_gordon_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Louie D.?
+      key: TT2CONVO_GORDON_11
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_28
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_robin_face10
+      poseSpriteId: -1
+      poseSpriteName:
+      message: What? No, I mean, our other... ... "mutual friend".
+      key: TT2CONVO_GORDON_12
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_29
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Tony Tickles?
+      key: TT2CONVO_GORDON_13
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_robin_face10
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_30
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 7
+      faceSpriteName: TTG_gui_robin_faceangry2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I... have no idea who that is. I'm talking about, our VERY SPECIAL, VERY MUTUAL friend...
+      key: TT2CONVO_GORDON_14
+      formatArgs: []
+      clip: {fileID: 8300000, guid: b1d12b5c3060b6f439d40b434e40c5b9, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_gordon_happy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_31
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Batman?
+      key: TT2CONVO_GORDON_15
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 7
+      otherFaceSpriteName: TTG_gui_robin_faceangry2
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_32
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: ...yes, Batman. It's Batman.
+      key: TT2CONVO_GORDON_16
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_33
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ahhh, Batman. He and I go way back. That ol' cowl-head owes me a sandwich!
+      key: TT2CONVO_GORDON_17
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_34
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 17
+      faceSpriteName: TTG_gui_robin_face8
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Right, but... do you know where he is right now??
+      key: TT2CONVO_GORDON_18
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_gordon_happy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_35
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nah. Whenever I want that big lug to come on by, I use this here bat signal. It's really handy.
+      key: TT2CONVO_GORDON_19
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 17
+      otherFaceSpriteName: TTG_gui_robin_face8
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_36
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+      key: TT2CONVO_GORDON_20
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 17
+      otherFaceSpriteName: TTG_gui_robin_face8
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_37
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 0
+      position: 0
+      bodySpriteId: 3
+      bodySpriteName: TTG_gui_robin
+      faceSpriteId: 0
+      faceSpriteName: TTG_gui_robin_faceangry
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Lightbulb, got it. Seems easy enough...
+      key: TT2CONVO_GORDON_21
+      formatArgs: []
+      clip: {fileID: 8300000, guid: afbd719bcd97329418813b1e82fb0f2c, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 0
+    initialRightCharacter: 64
+    initialLeftBodySpriteId: 3
+    initialLeftFaceSpriteId: 12
+    initialLeftBodySpriteName: TTG_gui_robin
+    initialLeftFaceSpriteName: TTG_gui_robin_faceidle
+    initialRightBodySpriteId: 12
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TTG_gui_gordon
+    initialRightFaceSpriteName: TTG_gui_gordon_idle
+  - characterType: 2
+    items:
+    - id: item_19
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 59
+      faceSpriteName: TTG_gui_beastboy_face6
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yo, Commisssioner!!
+      key: TT2CONVO_GORDON_22
+      formatArgs: []
+      clip: {fileID: 8300000, guid: e66599fe7bfd8a54a86f5ce995fd4cbe, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_20
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 11
+      faceSpriteName: TTG_gui_gordon_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Hey, it's a little green thing.
+      key: TT2CONVO_GORDON_23
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 59
+      otherFaceSpriteName: TTG_gui_beastboy_face6
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_21
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 75
+      faceSpriteName: TTG_gui_beastboy_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yeah, dude! Hey, how's 'bout helping out your friendly neighborhood Beast Boy?
+      key: TT2CONVO_GORDON_24
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_22
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I don't know what that is.
+      key: TT2CONVO_GORDON_25
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceeyesclosed
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_23
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 60
+      faceSpriteName: TTG_gui_beastboy_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Great! Can you tell me where I can find the big guy? You know, the bat one.
+      key: TT2CONVO_GORDON_26
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 68102055058bc33428c9ca4c6d3cc443, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_33
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, Batman? Ha! He and I go way back. That ol' cowl-head owes me a sandwich!
+      key: TT2CONVO_GORDON_27
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_robin_faceangry
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_34
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 63
+      faceSpriteName: TTG_gui_beastboy_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I love sandwiches! So do you know where to find him?
+      key: TT2CONVO_GORDON_28
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_gordon_happy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_35
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nah. Whenever I want that big lug to come on by, I use this here bat signal. It's really handy.
+      key: TT2CONVO_GORDON_29
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 63
+      otherFaceSpriteName: TTG_gui_beastboy_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_36
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+      key: TT2CONVO_GORDON_30
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 63
+      otherFaceSpriteName: TTG_gui_beastboy_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_37
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 17
+      position: 0
+      bodySpriteId: 65
+      bodySpriteName: TTG_gui_beastboy
+      faceSpriteId: 62
+      faceSpriteName: TTG_gui_beastboy_face4
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Lightbulb! Totally on it! Easy Peasy lemon squeezy!
+      key: TT2CONVO_GORDON_31
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 400a056c3b33aae4ba6848f462e22d32, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 17
+    initialRightCharacter: 64
+    initialLeftBodySpriteId: 65
+    initialLeftFaceSpriteId: 75
+    initialLeftBodySpriteName: TTG_gui_beastboy
+    initialLeftFaceSpriteName: TTG_gui_beastboy_face1
+    initialRightBodySpriteId: 12
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TTG_gui_gordon
+    initialRightFaceSpriteName: TTG_gui_gordon_idle
+  - characterType: 4
+    items:
+    - id: item_19
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Commissioner.
+      key: TT2CONVO_GORDON_32
+      formatArgs: []
+      clip: {fileID: 8300000, guid: d35c577400a980a43ad41c0d009e4559, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_20
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Raven. What brings you to these parts?
+      key: TT2CONVO_GORDON_33
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_21
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 30
+      faceSpriteName: TTG_gui_raven_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: I'll cut right to the chase. I need the whereabouts of Batman.
+      key: TT2CONVO_GORDON_34
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_33
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh-ho, you know he and I go way back, right? That ol' cowl-head owes me a sandwich!
+      key: TT2CONVO_GORDON_35
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 30
+      otherFaceSpriteName: TTG_gui_raven_face7
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_34
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 39
+      faceSpriteName: TTG_gui_raven_face1
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That's nice. So you know where to find him?
+      key: TT2CONVO_GORDON_36
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_gordon_happy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_35
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Nah. Whenever I want that big lug to come on by, I use this here bat signal. It's really handy.
+      key: TT2CONVO_GORDON_37
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_36
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+      key: TT2CONVO_GORDON_38
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 39
+      otherFaceSpriteName: TTG_gui_raven_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_37
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 18
+      position: 0
+      bodySpriteId: 2
+      bodySpriteName: TTG_gui_raven
+      faceSpriteId: 23
+      faceSpriteName: TTG_gui_raven_thinking
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Seems simple enough. I'm on it.
+      key: TT2CONVO_GORDON_39
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 6726a291f8170074a8f046d09200d1e0, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 18
+    initialRightCharacter: 64
+    initialLeftBodySpriteId: 2
+    initialLeftFaceSpriteId: 39
+    initialLeftBodySpriteName: TTG_gui_raven
+    initialLeftFaceSpriteName: TTG_gui_raven_face1
+    initialRightBodySpriteId: 12
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TTG_gui_gordon
+    initialRightFaceSpriteName: TTG_gui_gordon_idle
+  - characterType: 8
+    items:
+    - id: item_19
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Greetings, the Commissioner of Gordon!
+      key: TT2CONVO_GORDON_47
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 0a0a4e52554d87446b06b5ffcd56a6b6, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_20
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well, if it isn't Starfire!
+      key: TT2CONVO_GORDON_48
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_starfire_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_21
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Yes, it is the me!
+      key: TT2CONVO_GORDON_49
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 726d93e8421fbb7408e7f9216e79264b, type: 3}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_38
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 5
+      faceSpriteName: TTG_gui_starfire_face5
+      poseSpriteId: -1
+      poseSpriteName:
+      message: 'The Gordon: I must ask. Do you know the about wheres of one Batman?'
+      key: TT2CONVO_GORDON_50
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_33
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh-ho, you know he and I go way back, right? That ol' cowl-head owes me a sandwich!
+      key: TT2CONVO_GORDON_51
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_34
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 14
+      faceSpriteName: TTG_gui_starfire_face2
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ooo!
+      key: TT2CONVO_GORDON_52
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 994a90281ec637c4cb320a13627b3381, type: 3}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_gordon_happy
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_35
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Whenever I want that big lug to come by, I use this here bat signal. It's really handy.
+      key: TT2CONVO_GORDON_53
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_beastboy_face5
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_36
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+      key: TT2CONVO_GORDON_54
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 1
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_37
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 19
+      position: 0
+      bodySpriteId: 13
+      bodySpriteName: TTG_gui_starfire
+      faceSpriteId: 10
+      faceSpriteName: TTG_gui_starfire_face7
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Then I shall not rest until I have acquired the bulb of light!
+      key: TT2CONVO_GORDON_55
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 9c6b5c92d572b4c4899c8e93fea35ef7, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 19
+    initialRightCharacter: 64
+    initialLeftBodySpriteId: 13
+    initialLeftFaceSpriteId: 1
+    initialLeftBodySpriteName: TTG_gui_starfire
+    initialLeftFaceSpriteName: TTG_gui_starfire_face1
+    initialRightBodySpriteId: 12
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TTG_gui_gordon
+    initialRightFaceSpriteName: TTG_gui_gordon_idle
+  - characterType: 16
+    items:
+    - id: item_19
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_cyborg_excitedyelling_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Gordon, my man!
+      key: TT2CONVO_GORDON_40
+      formatArgs: []
+      clip: {fileID: 8300000, guid: 4e64c970897c40f43972293131633e0b, type: 3}
+      otherFaceSpriteId: -1
+      otherFaceSpriteName:
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_20
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Well, if it isn't Cyborg!
+      key: TT2CONVO_GORDON_41
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 0
+      otherFaceSpriteName: TTG_gui_starfire_face1
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_21
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 8
+      faceSpriteName: TTG_gui_cyborg_facehappy_1_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Commish, I need a solid. Could you tell me the whereabouts of a certain caped crusader...
+      key: TT2CONVO_GORDON_42
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 11
+      otherFaceSpriteName: TTG_gui_gordon_thinking
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_33
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 1
+      faceSpriteName: TTG_gui_gordon_happy
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Oh, Batman? Ha! He and I go way back. That ol' cowl-head owes me a sandwich!
+      key: TT2CONVO_GORDON_43
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_35
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Whenever I want that big lug to come by, I use this here bat signal. It's really handy.
+      key: TT2CONVO_GORDON_44
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_36
+      isEnd: 0
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 64
+      position: 1
+      bodySpriteId: 12
+      bodySpriteName: TTG_gui_gordon
+      faceSpriteId: 3
+      faceSpriteName: TTG_gui_gordon_idle
+      poseSpriteId: -1
+      poseSpriteName:
+      message: Ah, but, shoot, it's busted right now. Lightbulb's out again. If you want to see Batman, I'll need your help replacing it.
+      key: TT2CONVO_GORDON_45
+      formatArgs: []
+      clip: {fileID: 0}
+      otherFaceSpriteId: 5
+      otherFaceSpriteName: TTG_gui_cyborg_faceidle_player
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    - id: item_37
+      isEnd: 1
+      isPrismCreature: 0
+      useAlienLanguage: 0
+      isWildcard: 0
+      character: 1
+      position: 0
+      bodySpriteId: 0
+      bodySpriteName: TTG_gui_npc_cyborg_player
+      faceSpriteId: 6
+      faceSpriteName: TTG_gui_cyborg_facehappy_2_player
+      poseSpriteId: -1
+      poseSpriteName:
+      message: That sounds deceptively simple! I shall make it so.
+      key: TT2CONVO_GORDON_46
+      formatArgs: []
+      clip: {fileID: 8300000, guid: c683931d490aed44da651d8648aaed00, type: 3}
+      otherFaceSpriteId: 3
+      otherFaceSpriteName: TTG_gui_gordon_idle
+      choices: []
+      rewards: []
+      bribeHeader:
+        _text:
+        _key:
+      bribeMessageBody:
+        _text:
+        _key:
+      bribeCurrencyType: 0
+      bribeAmount: 0
+      bribeCompletesMissionUid: 0
+      eventConfig:
+        type: 0
+        shopUID: 0
+        sceneName:
+        pathNodeName:
+        missionUID: 0
+        targetMessage:
+        triggerName:
+        soundPath:
+        soundGroup:
+        volume: 1
+        loop: 0
+      _type: 0
+    initialLeftCharacter: 1
+    initialRightCharacter: 64
+    initialLeftBodySpriteId: 0
+    initialLeftFaceSpriteId: 5
+    initialLeftBodySpriteName: TTG_gui_npc_cyborg_player
+    initialLeftFaceSpriteName: TTG_gui_cyborg_faceidle_player
+    initialRightBodySpriteId: 12
+    initialRightFaceSpriteId: 3
+    initialRightBodySpriteName: TTG_gui_gordon
+    initialRightFaceSpriteName: TTG_gui_gordon_idle

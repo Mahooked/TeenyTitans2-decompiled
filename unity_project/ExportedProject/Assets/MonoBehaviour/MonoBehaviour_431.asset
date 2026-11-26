@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 178
+  preBattleSprite: menu_vsscreen_portrait_dog
+  preBattleSpriteRight:
+  prefabPath:
+  conversationBodySprite: TT2_gui_bizaro
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 0
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags: []
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: mouth closed
+    spriteName: TT2_gui_bizaro_face1
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: pleasant
+    spriteName: TT2_gui_bizaro_face2
+    rightSpriteName:
+    leftSpriteId: 9
+    rightSpriteId: -1
+  - displayName: super happy
+    spriteName: TT2_gui_bizaro_face9
+    rightSpriteName:
+    leftSpriteId: 10
+    rightSpriteId: -1
+  - displayName: oooo
+    spriteName: TT2_gui_bizaro_face4
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  - displayName: angry
+    spriteName: TT2_gui_bizaro_face5
+    rightSpriteName:
+    leftSpriteId: 3
+    rightSpriteId: -1
+  - displayName: annoyed look away
+    spriteName: TT2_gui_bizaro_face6
+    rightSpriteName:
+    leftSpriteId: 4
+    rightSpriteId: -1
+  - displayName: uhhh
+    spriteName: TT2_gui_bizaro_face7
+    rightSpriteName:
+    leftSpriteId: 7
+    rightSpriteId: -1
+  - displayName: murrr
+    spriteName: TT2_gui_bizaro_face8
+    rightSpriteName:
+    leftSpriteId: 1
+    rightSpriteId: -1
+  - displayName: lex
+    spriteName: TT2_gui_bizaro_face-lex
+    rightSpriteName:
+    leftSpriteId: 6
+    rightSpriteId: -1
+  spawnSetups: []
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.6764706, g: 0.81257594, b: 1, a: 1}
+  dialogueOutlineColor: {r: 0.13153553, g: 0.011245686, b: 0.38235295, a: 1}
+  useDefaultPreBattleSounds: 0
+  preBattleSoundData:
+    _probability: 1
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 185
+  _guid: a1568629-6f9e-49cb-a03b-8fe51e82350b
+  _name: Bizarro
+  _nameKey: BIZARRO
+  _preBattleSpriteId: 3
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: -1
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: 4c5b317e4197eb04fa9a64dacc38729e, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 0
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 0
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}

@@ -1,0 +1,1034 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 65703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: NPC_RainbowRaider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.342453, y: 3.8279922, z: -3.3727188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2779d06316fe05df1ec082529efde84, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _guid:
+  _states:
+  - _isActive: 1
+    _name: Interact without mission
+    _useTimeOfDay: 0
+    _timeOfDay: 0
+    _useTrigger: 0
+    _triggerName:
+    _useTutorialStep: 0
+    _tutorialStepConditions: []
+    _useMissionConditions: 0
+    _missionConditions: []
+    _useGUIDCollectedConditions: 0
+    _guidCollectedConditions: []
+    _useItemCondition: 0
+    _itemCondition:
+      itemUID: -1
+      comparison: 0
+      amount: 0
+    _useCurrencyCondition: 0
+    _currencyCondition:
+      type: 0
+      comparison: 0
+      amount: 0
+    _usePlayerCharacterType: 0
+    _playerCharacterType: 0
+    _useHasDefeatedNPC: 0
+    _npcDefeatedConditions: []
+    _useFigureConditions: 0
+    _figureConditions: []
+    _useConversationPlayed: 0
+    _conversationPlayed: {fileID: 0}
+    _useTournamentCondition: 0
+    _tournamentCondition:
+      tournamentName:
+      hasOrNot: 0
+    _useNewsFlash: 0
+    _newsFlash:
+      uid: -1
+      isOrNot: 0
+      state: 0
+    _prefabPathOverride:
+    _immediateConversation: {fileID: 0}
+    _mainConversation: {fileID: 0}
+    _greetingConversation: {fileID: 11400000, guid: 1cee6c885108ab84cbc0f67fdac5a802, type: 2}
+    _preBattleConversation: {fileID: 0}
+    _defeatedConversation: {fileID: 11400000, guid: 76bf91a9cc93df94f9b1d5c43931f861, type: 2}
+    _battleConfig:
+      figures:
+      - characterUID: 104
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 30
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 53
+      - characterUID: 8
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000070000001d000000
+        hitPoints: 35
+        attack: 1
+        speed: 0
+        luck: 0
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 19
+      - characterUID: 43
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 117
+      - characterUID: 94
+        level: 4
+        abilityUIDs:
+        selectedRewards: 220000001a00000013000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 85
+      - characterUID: 85
+        level: 5
+        abilityUIDs:
+        selectedRewards: 220000001a000000070000001d000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 14
+      - characterUID: 42
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 25
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 147
+      - characterUID: 11
+        level: 4
+        abilityUIDs:
+        selectedRewards: 220000001a00000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 196
+      - characterUID: 91
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000130000001d000000
+        hitPoints: 26
+        attack: 0
+        speed: 0
+        luck: 6
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 22
+      - characterUID: 125
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000013000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 258
+      - characterUID: 124
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000070000001d000000
+        hitPoints: 30
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 0
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 200
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: 51
+      xpReward: 75
+      coinReward: 75
+    _battleRequirements:
+      useRequirements: 0
+      extendIntoBattle: 0
+      conversation: {fileID: 0}
+      conditions: []
+    _npcSpawnGroupConfig:
+      overrideSpawnManager: 1
+      spawnGroupOverrideIndex: 0
+  - _isActive: 1
+    _name: Colorful Challenge 3 Active
+    _useTimeOfDay: 0
+    _timeOfDay: 0
+    _useTrigger: 0
+    _triggerName:
+    _useTutorialStep: 0
+    _tutorialStepConditions: []
+    _useMissionConditions: 1
+    _missionConditions:
+    - missionUID: 225
+      isOrNot: 0
+      state: 1
+      daysAfter: 0
+    _useGUIDCollectedConditions: 0
+    _guidCollectedConditions: []
+    _useItemCondition: 0
+    _itemCondition:
+      itemUID: -1
+      comparison: 0
+      amount: 0
+    _useCurrencyCondition: 0
+    _currencyCondition:
+      type: 0
+      comparison: 0
+      amount: 0
+    _usePlayerCharacterType: 0
+    _playerCharacterType: 0
+    _useHasDefeatedNPC: 0
+    _npcDefeatedConditions: []
+    _useFigureConditions: 0
+    _figureConditions: []
+    _useConversationPlayed: 0
+    _conversationPlayed: {fileID: 0}
+    _useTournamentCondition: 0
+    _tournamentCondition:
+      tournamentName:
+      hasOrNot: 0
+    _useNewsFlash: 0
+    _newsFlash:
+      uid: -1
+      isOrNot: 0
+      state: 0
+    _prefabPathOverride:
+    _immediateConversation: {fileID: 0}
+    _mainConversation: {fileID: 0}
+    _greetingConversation: {fileID: 11400000, guid: 1cee6c885108ab84cbc0f67fdac5a802, type: 2}
+    _preBattleConversation: {fileID: 0}
+    _defeatedConversation: {fileID: 11400000, guid: 76bf91a9cc93df94f9b1d5c43931f861, type: 2}
+    _battleConfig:
+      figures:
+      - characterUID: 104
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 53
+      - characterUID: 8
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000010000001d000000
+        hitPoints: 35
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 19
+      - characterUID: 43
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000022000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 117
+      - characterUID: 94
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 28
+        attack: 2
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 85
+      - characterUID: 85
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000220000001d000000
+        hitPoints: 28
+        attack: 0
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 14
+      - characterUID: 42
+        level: 4
+        abilityUIDs:
+        selectedRewards: 070000001a00000022000000
+        hitPoints: 15
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 147
+      - characterUID: 11
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 196
+      - characterUID: 91
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000220000001d000000
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 22
+      - characterUID: 125
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 258
+      - characterUID: 124
+        level: 5
+        abilityUIDs:
+        selectedRewards: 220000001a000000070000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 200
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: 51
+      xpReward: 75
+      coinReward: 75
+    _battleRequirements:
+      useRequirements: 0
+      extendIntoBattle: 0
+      conversation: {fileID: 0}
+      conditions: []
+    _npcSpawnGroupConfig:
+      overrideSpawnManager: 1
+      spawnGroupOverrideIndex: 0
+  - _isActive: 1
+    _name: Colorful Challenge 2 Active
+    _useTimeOfDay: 0
+    _timeOfDay: 0
+    _useTrigger: 0
+    _triggerName:
+    _useTutorialStep: 0
+    _tutorialStepConditions: []
+    _useMissionConditions: 1
+    _missionConditions:
+    - missionUID: 224
+      isOrNot: 0
+      state: 1
+      daysAfter: 0
+    _useGUIDCollectedConditions: 0
+    _guidCollectedConditions: []
+    _useItemCondition: 0
+    _itemCondition:
+      itemUID: -1
+      comparison: 0
+      amount: 0
+    _useCurrencyCondition: 0
+    _currencyCondition:
+      type: 0
+      comparison: 0
+      amount: 0
+    _usePlayerCharacterType: 0
+    _playerCharacterType: 0
+    _useHasDefeatedNPC: 0
+    _npcDefeatedConditions: []
+    _useFigureConditions: 0
+    _figureConditions: []
+    _useConversationPlayed: 0
+    _conversationPlayed: {fileID: 0}
+    _useTournamentCondition: 0
+    _tournamentCondition:
+      tournamentName:
+      hasOrNot: 0
+    _useNewsFlash: 0
+    _newsFlash:
+      uid: -1
+      isOrNot: 0
+      state: 0
+    _prefabPathOverride:
+    _immediateConversation: {fileID: 0}
+    _mainConversation: {fileID: 0}
+    _greetingConversation: {fileID: 11400000, guid: 1cee6c885108ab84cbc0f67fdac5a802, type: 2}
+    _preBattleConversation: {fileID: 0}
+    _defeatedConversation: {fileID: 11400000, guid: 76bf91a9cc93df94f9b1d5c43931f861, type: 2}
+    _battleConfig:
+      figures:
+      - characterUID: 104
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 53
+      - characterUID: 8
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000010000001d000000
+        hitPoints: 35
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 19
+      - characterUID: 43
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000022000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 117
+      - characterUID: 94
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 28
+        attack: 2
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 85
+      - characterUID: 85
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000220000001d000000
+        hitPoints: 28
+        attack: 0
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 14
+      - characterUID: 42
+        level: 4
+        abilityUIDs:
+        selectedRewards: 070000001a00000022000000
+        hitPoints: 15
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 147
+      - characterUID: 11
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 196
+      - characterUID: 91
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000220000001d000000
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 22
+      - characterUID: 125
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 258
+      - characterUID: 124
+        level: 5
+        abilityUIDs:
+        selectedRewards: 220000001a000000070000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 200
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: 51
+      xpReward: 75
+      coinReward: 75
+    _battleRequirements:
+      useRequirements: 0
+      extendIntoBattle: 0
+      conversation: {fileID: 0}
+      conditions: []
+    _npcSpawnGroupConfig:
+      overrideSpawnManager: 1
+      spawnGroupOverrideIndex: 0
+  - _isActive: 1
+    _name: Colorful Challenge 1 Active
+    _useTimeOfDay: 0
+    _timeOfDay: 0
+    _useTrigger: 0
+    _triggerName:
+    _useTutorialStep: 0
+    _tutorialStepConditions: []
+    _useMissionConditions: 1
+    _missionConditions:
+    - missionUID: 223
+      isOrNot: 0
+      state: 1
+      daysAfter: 0
+    _useGUIDCollectedConditions: 0
+    _guidCollectedConditions: []
+    _useItemCondition: 0
+    _itemCondition:
+      itemUID: -1
+      comparison: 0
+      amount: 0
+    _useCurrencyCondition: 0
+    _currencyCondition:
+      type: 0
+      comparison: 0
+      amount: 0
+    _usePlayerCharacterType: 0
+    _playerCharacterType: 0
+    _useHasDefeatedNPC: 0
+    _npcDefeatedConditions: []
+    _useFigureConditions: 0
+    _figureConditions: []
+    _useConversationPlayed: 0
+    _conversationPlayed: {fileID: 0}
+    _useTournamentCondition: 0
+    _tournamentCondition:
+      tournamentName:
+      hasOrNot: 0
+    _useNewsFlash: 0
+    _newsFlash:
+      uid: -1
+      isOrNot: 0
+      state: 0
+    _prefabPathOverride:
+    _immediateConversation: {fileID: 0}
+    _mainConversation: {fileID: 0}
+    _greetingConversation: {fileID: 11400000, guid: 1cee6c885108ab84cbc0f67fdac5a802, type: 2}
+    _preBattleConversation: {fileID: 0}
+    _defeatedConversation: {fileID: 11400000, guid: 76bf91a9cc93df94f9b1d5c43931f861, type: 2}
+    _battleConfig:
+      figures:
+      - characterUID: 104
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 53
+      - characterUID: 8
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000010000001d000000
+        hitPoints: 35
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 19
+      - characterUID: 43
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000022000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 117
+      - characterUID: 94
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 28
+        attack: 2
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 85
+      - characterUID: 85
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000220000001d000000
+        hitPoints: 28
+        attack: 0
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 14
+      - characterUID: 42
+        level: 4
+        abilityUIDs:
+        selectedRewards: 070000001a00000022000000
+        hitPoints: 15
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 147
+      - characterUID: 11
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 196
+      - characterUID: 91
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000220000001d000000
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 22
+      - characterUID: 125
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 258
+      - characterUID: 124
+        level: 5
+        abilityUIDs:
+        selectedRewards: 220000001a000000070000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 200
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: 51
+      xpReward: 75
+      coinReward: 75
+    _battleRequirements:
+      useRequirements: 0
+      extendIntoBattle: 0
+      conversation: {fileID: 0}
+      conditions: []
+    _npcSpawnGroupConfig:
+      overrideSpawnManager: 1
+      spawnGroupOverrideIndex: 0
+  - _isActive: 1
+    _name: 'a nue hue active '
+    _useTimeOfDay: 0
+    _timeOfDay: 0
+    _useTrigger: 0
+    _triggerName:
+    _useTutorialStep: 0
+    _tutorialStepConditions: []
+    _useMissionConditions: 1
+    _missionConditions:
+    - missionUID: 108
+      isOrNot: 0
+      state: 1
+      daysAfter: 0
+    _useGUIDCollectedConditions: 0
+    _guidCollectedConditions: []
+    _useItemCondition: 0
+    _itemCondition:
+      itemUID: -1
+      comparison: 0
+      amount: 0
+    _useCurrencyCondition: 0
+    _currencyCondition:
+      type: 0
+      comparison: 0
+      amount: 0
+    _usePlayerCharacterType: 0
+    _playerCharacterType: 0
+    _useHasDefeatedNPC: 0
+    _npcDefeatedConditions: []
+    _useFigureConditions: 0
+    _figureConditions: []
+    _useConversationPlayed: 0
+    _conversationPlayed: {fileID: 0}
+    _useTournamentCondition: 0
+    _tournamentCondition:
+      tournamentName:
+      hasOrNot: 0
+    _useNewsFlash: 0
+    _newsFlash:
+      uid: -1
+      isOrNot: 0
+      state: 0
+    _prefabPathOverride:
+    _immediateConversation: {fileID: 0}
+    _mainConversation: {fileID: 11400000, guid: 0d9473e22caae9948a72330d539dd9a4, type: 2}
+    _greetingConversation: {fileID: 11400000, guid: 1cee6c885108ab84cbc0f67fdac5a802, type: 2}
+    _preBattleConversation: {fileID: 0}
+    _defeatedConversation: {fileID: 11400000, guid: 76bf91a9cc93df94f9b1d5c43931f861, type: 2}
+    _battleConfig:
+      figures:
+      - characterUID: 104
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000001000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 53
+      - characterUID: 8
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000010000001d000000
+        hitPoints: 35
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 4
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 19
+      - characterUID: 43
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000022000000
+        hitPoints: 30
+        attack: 0
+        speed: 0
+        luck: 12
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 117
+      - characterUID: 94
+        level: 4
+        abilityUIDs:
+        selectedRewards: 010000001a00000007000000
+        hitPoints: 28
+        attack: 2
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 85
+      - characterUID: 85
+        level: 5
+        abilityUIDs:
+        selectedRewards: 010000001a000000220000001d000000
+        hitPoints: 28
+        attack: 0
+        speed: 0
+        luck: 10
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 14
+      - characterUID: 42
+        level: 4
+        abilityUIDs:
+        selectedRewards: 070000001a00000022000000
+        hitPoints: 15
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 147
+      - characterUID: 11
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000007000000
+        hitPoints: 18
+        attack: 1
+        speed: 0
+        luck: 9
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 196
+      - characterUID: 91
+        level: 5
+        abilityUIDs:
+        selectedRewards: 130000001a000000220000001d000000
+        hitPoints: 16
+        attack: 0
+        speed: 0
+        luck: 6
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 22
+      - characterUID: 125
+        level: 4
+        abilityUIDs:
+        selectedRewards: 130000001a00000022000000
+        hitPoints: 20
+        attack: 0
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 258
+      - characterUID: 124
+        level: 5
+        abilityUIDs:
+        selectedRewards: 220000001a000000070000001d000000
+        hitPoints: 20
+        attack: 1
+        speed: 0
+        luck: 3
+        dodge: 3
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: 200
+      teamSizeWeight1: 0
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: 51
+      xpReward: 75
+      coinReward: 75
+    _battleRequirements:
+      useRequirements: 0
+      extendIntoBattle: 0
+      conversation: {fileID: 0}
+      conditions: []
+    _npcSpawnGroupConfig:
+      overrideSpawnManager: 1
+      spawnGroupOverrideIndex: 0
+  _uiItem: {fileID: 0}
+  _npcUID: beb2fbed-7569-48d1-8168-7de4b9b774ab
+  _nearestNode: {fileID: 0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381bf5fa5e2ad2af3273a96023c08f6b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sendMessageTarget: {fileID: 0}
+  SendMessageOnDownMethodName:
+  SendMessageOnUpMethodName:
+  SendMessageOnClickMethodName:
+  SendMessageOnReleaseMethodName:
+  isChildOfAnotherUIItem: 0
+  registerPressFromChildren: 0
+  isHoverEnabled: 0
+  editorExtraBounds: []
+  editorIgnoreBounds: []
+--- !u!65 &65703437598541787
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 0.43, y: 0.5, z: 0.25}
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d980e1781b4dc92f76021d2b1e633b5a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  linkTo: {fileID: 0}
+  linkPosition: 0
+  linkRotation: 1
+  linkRotationX: 1
+  linkRotationY: 1
+  linkRotationZ: 1
+  rotationSpace: 1
+  linkScale: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

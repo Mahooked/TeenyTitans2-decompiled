@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a728b55fd019dcf54b349e180eee67, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterType: 12
+  preBattleSprite: menu_vsscreen_portrait_stickyjoe
+  preBattleSpriteRight:
+  prefabPath: Prefabs/Characters/City/StickyJoe
+  conversationBodySprite: TTG_gui_npc_stickyjoe
+  rightConversationBodySprite:
+  leftConversationBodySpriteId: 6
+  rightConversationBodySpriteId: -1
+  conversationBubbleSprite: TTG_gui_dialoguebox_npc
+  prefabFacingLeft: 0
+  prefabPreventFlip: 0
+  colliderCenter: {x: 0, y: 0.12, z: -0.08}
+  colliderSize: {x: 0.25, y: 0.45, z: 0.2}
+  tags:
+  - Human
+  conversationBodySpriteId: 0
+  conversationFaces:
+  - displayName: Angry
+    spriteName: TTG_gui_npc_stickyjoe_faceangry
+    rightSpriteName:
+    leftSpriteId: 2
+    rightSpriteId: -1
+  - displayName: Normal
+    spriteName: TTG_gui_npc_stickyjoe_facenormal
+    rightSpriteName:
+    leftSpriteId: 8
+    rightSpriteId: -1
+  - displayName: Smile
+    spriteName: TTG_gui_npc_stickyjoe_facesmile
+    rightSpriteName:
+    leftSpriteId: 28
+    rightSpriteId: -1
+  - displayName: Surprised 1
+    spriteName: TTG_gui_npc_stickyjoe_facesuprised
+    rightSpriteName:
+    leftSpriteId: 17
+    rightSpriteId: -1
+  - displayName: Surprised 2
+    spriteName: TTG_gui_npc_stickyjoe_facesuprised_2
+    rightSpriteName:
+    leftSpriteId: 20
+    rightSpriteId: -1
+  - displayName: crying
+    spriteName: TTG_gui_npc_stickyjoe_facecrying
+    rightSpriteName:
+    leftSpriteId: 25
+    rightSpriteId: -1
+  spawnSetups:
+  - id: 1
+    name: Beach
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 1
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid: 98be7f10-78b4-4a01-bb77-aee148d084ee
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures:
+      - characterUID: -1
+        level: 8
+        abilityUIDs: 280000009b00000027000000
+        selectedRewards: 220000001a000000070000001d000000130000000800000023000000
+        hitPoints: 16
+        attack: 2
+        speed: 5
+        luck: 5
+        dodge: 6
+        shinyRank: 0
+        modChipUID: -1
+        repaintUID: -1
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 99b809e89926d8943b1b993b4811cfa3, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: a00fb2a27b82c0145bf96b4ba16949ac, type: 2}
+      battleComplete:
+      - {fileID: 11400000, guid: 0b140d7bbfb7ebe42ab25dbc13249b04, type: 2}
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 0
+    name: Hot Dog Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid: 483c6f74-a134-4de1-9d0c-46255cd209ed
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 11400000, guid: 83a6e888af55b314cb24eaf0a0c468b1, type: 2}
+      alternateConversation: {fileID: 11400000, guid: a00fb2a27b82c0145bf96b4ba16949ac, type: 2}
+      initialConversation: {fileID: 11400000, guid: 70efce3f5836dd141b61f0bf3e85e18b, type: 2}
+      activeConversation: {fileID: 11400000, guid: 0b140d7bbfb7ebe42ab25dbc13249b04, type: 2}
+      missionCompleteConversation: {fileID: 11400000, guid: e5312190fc888214b86c2469ae99ed82, type: 2}
+      firstMessage:
+      - {fileID: 11400000, guid: a00fb2a27b82c0145bf96b4ba16949ac, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 3
+    name: Sticky Joe After Tourny
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 2
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 0
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 150
+      xpReward: 100
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: 0b140d7bbfb7ebe42ab25dbc13249b04, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage:
+      - {fileID: 11400000, guid: a00fb2a27b82c0145bf96b4ba16949ac, type: 2}
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  - id: 2
+    name: After Hot Dog Mission
+    disablesGameObject: 0
+    activatesManually: 0
+    movesAfterConversation: 0
+    invalidAfterSpawnSetup: None
+    timeOfDay: 0
+    npcData:
+      guid:
+      activeOnCompletedMissionUID: -1
+      activeOnActiveMissionUID: -1
+      hidesOnCompletedMissionUID: -1
+      daysAfterMission: 0
+      daysAfterTournament: 0
+      daysAfterMissionPlayAlternateConvo: 0
+      triggersEnteringCityScene: 0
+      requiresPreviousConvoPlayed: 0
+      requiresMissionItem: 0
+      requiresBattleCondition: 0
+      battleConditionsExtendIntoBattle: 0
+      alternateConvoAfterDays: 0
+      requiredMissionItemName:
+      forceDuringMission: 1
+      poofsIn: 0
+      poofsOut: 0
+      movesAfterConversation: 0
+      coinReward: 50
+      xpReward: 50
+      disablesGameObject: {fileID: 0}
+      moveToPosition: {fileID: 0}
+      figures: []
+      teamSizeWeight1: 50
+      teamSizeWeight2: 50
+      teamSizeWeight3: 50
+      equippedAccessoryUID: -1
+      requiredConversation: {fileID: 0}
+      alternateConversation: {fileID: 0}
+      initialConversation: {fileID: 11400000, guid: a00fb2a27b82c0145bf96b4ba16949ac, type: 2}
+      activeConversation: {fileID: 0}
+      missionCompleteConversation: {fileID: 0}
+      firstMessage: []
+      battleComplete: []
+      preBattleConversations: []
+      battleConditions: []
+      tournamentDef: {fileID: 0}
+      hidesAfterTournamentDef: {fileID: 0}
+      challengesOn: 0
+      challengesIncluded:
+  conversationFacePreviewIndex: 0
+  dialogueFaceColor: {r: 0.7647059, g: 0.67908365, b: 0.4948097, a: 1}
+  dialogueOutlineColor: {r: 0.28676468, g: 0.17205882, b: 0, a: 1}
+  useDefaultPreBattleSounds: 1
+  preBattleSoundData:
+    _probability: 0.719
+    _soundPaths: []
+  countdownCharacterUID: -1
+  _uid: 12
+  _guid: 18ce9fed-0369-40d5-b500-6c0c0b097cd7
+  _name: Sticky Joe
+  _nameKey: STICKYJOE
+  _preBattleSpriteId: 1
+  _preBattleSpriteRightId: -1
+  _nextSpawnSetupId: 3
+  _dialogueSpriteCollection: {fileID: 114724804207875695, guid: c6590d6ac3903ca46a3ceb6eb03d97f5, type: 2}
+  _battleIconSpriteCollection: {fileID: 114724804207875695, guid: 2edf1b510b21cba4cbd306db7346928c, type: 2}
+  _cityIdleSFX: []
+  _convoButtonConfigs:
+  - type: 2
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 10
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
+  - type: 1
+    customBackingSprite:
+    customLabel:
+      _text:
+      _key:
+    customLabelOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    shopUID: 10
+    currencyType: 0
+    cost: 0
+    tournament: {fileID: 0}
