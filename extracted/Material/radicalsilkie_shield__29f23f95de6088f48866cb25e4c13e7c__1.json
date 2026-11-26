@@ -1,0 +1,391 @@
+{
+  "m_Name": "radicalsilkie_shield",
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 1
+  },
+  "m_ShaderKeywords": "",
+  "m_LightmapFlags": 4,
+  "m_EnableInstancingVariants": false,
+  "m_DoubleSidedGI": false,
+  "m_CustomRenderQueue": -1,
+  "stringTagMap": [],
+  "disabledShaderPasses": [],
+  "m_SavedProperties": {
+    "m_TexEnvs": [
+      [
+        "_cutoutmap",
+        {
+          "m_Texture": {
+            "m_FileID": 2,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 4.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_scanlinemap",
+        {
+          "m_Texture": {
+            "m_FileID": 3,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_scanlinetilemap",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 9.0,
+            "y": 9.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tileanimmap01type1",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 3.0,
+            "y": 3.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tileanimmap01type2",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 4.0,
+            "y": 4.0
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tileanimmap02type1",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 4.5,
+            "y": 4.5
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      [
+        "_tileanimmap02type2",
+        {
+          "m_Texture": {
+            "m_FileID": 4,
+            "m_PathID": 1
+          },
+          "m_Scale": {
+            "x": 5.5,
+            "y": 5.5
+          },
+          "m_Offset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    ],
+    "m_Floats": [
+      [
+        "_BumpScale",
+        1.0
+      ],
+      [
+        "_Cutoff",
+        0.5
+      ],
+      [
+        "_DetailNormalMapScale",
+        1.0
+      ],
+      [
+        "_DstBlend",
+        0.0
+      ],
+      [
+        "_EdgeGlowAMount",
+        0.9240000247955322
+      ],
+      [
+        "_Fresnel",
+        0.9020000100135803
+      ],
+      [
+        "_GlossMapScale",
+        1.0
+      ],
+      [
+        "_Glossiness",
+        0.5
+      ],
+      [
+        "_GlossyReflections",
+        1.0
+      ],
+      [
+        "_Metallic",
+        0.0
+      ],
+      [
+        "_Mode",
+        0.0
+      ],
+      [
+        "_OcclusionStrength",
+        1.0
+      ],
+      [
+        "_Parallax",
+        0.019999999552965164
+      ],
+      [
+        "_SmoothnessTextureChannel",
+        0.0
+      ],
+      [
+        "_SpecularHighlights",
+        1.0
+      ],
+      [
+        "_SrcBlend",
+        1.0
+      ],
+      [
+        "_UVSec",
+        0.0
+      ],
+      [
+        "_ZWrite",
+        1.0
+      ],
+      [
+        "_cutoutamount",
+        12.0
+      ],
+      [
+        "_cutoutmapblendamount",
+        4.0
+      ],
+      [
+        "_cutoutmapdissolveamount",
+        12.0
+      ],
+      [
+        "_edgecoloramount",
+        1.0
+      ],
+      [
+        "_fresnel",
+        1.0
+      ],
+      [
+        "_fresnelamount",
+        4.0
+      ],
+      [
+        "_fresnelpower",
+        5.0
+      ],
+      [
+        "_node_278",
+        -0.7599999904632568
+      ],
+      [
+        "_node_3031",
+        1.0
+      ],
+      [
+        "_node_4010",
+        1.0
+      ],
+      [
+        "_node_5232",
+        1.0
+      ],
+      [
+        "_node_6412",
+        4.0
+      ],
+      [
+        "_node_8245",
+        0.10000000149011612
+      ],
+      [
+        "_node_9062",
+        0.07699999958276749
+      ],
+      [
+        "_scanlinecombindblendamount",
+        0.07999999821186066
+      ],
+      [
+        "_scanlinemaptileblend",
+        0.3709999918937683
+      ],
+      [
+        "_scanlinepoweramount",
+        3.0
+      ],
+      [
+        "_tileanimmap01type2amount",
+        0.6000000238418579
+      ],
+      [
+        "_tileanimmap02type2amount",
+        0.6000000238418579
+      ],
+      [
+        "_vertexRedgecoloramount",
+        1.0
+      ],
+      [
+        "_verticalhexamount",
+        0.6200000047683716
+      ],
+      [
+        "_verticalhexamountnegative",
+        0.699999988079071
+      ]
+    ],
+    "m_Colors": [
+      [
+        "_Color",
+        {
+          "r": 0.43382352590560913,
+          "g": 1.0,
+          "b": 0.6954361200332642,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EdgeColor",
+        {
+          "r": 0.3897058963775635,
+          "g": 1.0,
+          "b": 0.6969574093818665,
+          "a": 1.0
+        }
+      ],
+      [
+        "_EmissionColor",
+        {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      ],
+      [
+        "_edgecolor",
+        {
+          "r": 0.41911762952804565,
+          "g": 1.0,
+          "b": 0.7115618586540222,
+          "a": 1.0
+        }
+      ],
+      [
+        "_hexcolor",
+        {
+          "r": 0.3970588147640228,
+          "g": 1.0,
+          "b": 0.700608491897583,
+          "a": 1.0
+        }
+      ],
+      [
+        "_lilhexcolor",
+        {
+          "r": 0.3970588147640228,
+          "g": 1.0,
+          "b": 0.700608491897583,
+          "a": 1.0
+        }
+      ],
+      [
+        "_lilhexcolor_copy",
+        {
+          "r": 0.33039575815200806,
+          "g": 0.7132352590560913,
+          "b": 0.5231356620788574,
+          "a": 1.0
+        }
+      ],
+      [
+        "_node_9209",
+        {
+          "r": 0.3970588445663452,
+          "g": 1.0,
+          "b": 0.700608491897583,
+          "a": 1.0
+        }
+      ],
+      [
+        "_tileanimtype1color",
+        {
+          "r": 0.3970588147640228,
+          "g": 1.0,
+          "b": 0.700608491897583,
+          "a": 1.0
+        }
+      ],
+      [
+        "_vertexRedgecolor",
+        {
+          "r": 0.3970588445663452,
+          "g": 1.0,
+          "b": 0.700608491897583,
+          "a": 1.0
+        }
+      ]
+    ]
+  }
+}
