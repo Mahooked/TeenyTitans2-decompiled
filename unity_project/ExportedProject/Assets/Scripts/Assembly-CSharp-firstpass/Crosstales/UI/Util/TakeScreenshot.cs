@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Crosstales.UI.Util;
+namespace Crosstales.UI.Util {
 
 public class TakeScreenshot : MonoBehaviour
 {
@@ -27,4 +27,5 @@ public class TakeScreenshot : MonoBehaviour
 			Debug.Log("Screenshot saved: " + text);
 		}
 	}
+}
 }

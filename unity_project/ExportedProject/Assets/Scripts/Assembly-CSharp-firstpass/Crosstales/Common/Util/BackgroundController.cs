@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Crosstales.Common.Util;
+namespace Crosstales.Common.Util {
 
 public class BackgroundController : MonoBehaviour
 {
@@ -35,4 +35,5 @@ public class BackgroundController : MonoBehaviour
 		}
 		Debug.Log("Application.isFocused: " + isFocused);
 	}
+}
 }

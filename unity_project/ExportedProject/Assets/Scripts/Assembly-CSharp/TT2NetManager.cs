@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -859,7 +859,7 @@ public class TT2NetManager : MonoBehaviourPunCallbacks
 		StartCoroutine(waitForOtherPlayerCoroutine);
 	}
 
-	private unsafe IEnumerator WaitForOtherPlayer()
+	private IEnumerator WaitForOtherPlayer()
 	{
 		for (float timeoutTimer = GameManager.instance.matchmakingSettings.timeout; timeoutTimer > 0f; timeoutTimer -= Time.deltaTime)
 		{
@@ -1329,3 +1329,4 @@ public class TT2NetManager : MonoBehaviourPunCallbacks
 		}
 	}
 }
+

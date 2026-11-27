@@ -120,4 +120,7 @@ public class AppStoreTest : MonoBehaviour, IStoreListener
 	public void OnPurchaseFailed(Product i, PurchaseFailureReason p)
 	{
 	}
+
+	public void OnInitializeFailed(UnityEngine.Purchasing.InitializationFailureReason error, string message) {
+	}
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using Photon.Pun;
 using TMPro;
 using UnityEngine;
@@ -116,7 +116,6 @@ public class MatchmakingScreen : MonoBehaviour
 		acceptingBattleRequestObj.SetActive(true);
 		if (battleRequest.isLocal)
 		{
-			FriendData friendData = LegionOfDoomController.instance.networkDiscoveryClient.GetFriendData(battleRequest.playerId);
 			if (friendData == null)
 			{
 				friendData = TT2NetBluetooth.Instance.GetFriendData(battleRequest.playerId);
@@ -387,3 +386,4 @@ public class MatchmakingScreen : MonoBehaviour
 		Debug.Log("We are connected and ready.");
 	}
 }
+

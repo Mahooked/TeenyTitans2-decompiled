@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Shatalmic;
+namespace Shatalmic {
 
 public class Networking : MonoBehaviour
 {
@@ -422,4 +422,5 @@ public class Networking : MonoBehaviour
 	{
 		return uuid1.ToUpper().CompareTo(uuid2.ToUpper()) == 0;
 	}
+}
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI.Util;
+namespace Crosstales.UI.Util {
 
 public class AudioSourceController : MonoBehaviour
 {
@@ -126,4 +126,5 @@ public class AudioSourceController : MonoBehaviour
 			StereoPanText.text = value.ToString("0.00");
 		}
 	}
+}
 }

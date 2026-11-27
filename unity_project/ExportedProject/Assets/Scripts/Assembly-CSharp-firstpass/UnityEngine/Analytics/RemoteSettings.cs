@@ -1,4 +1,4 @@
-namespace UnityEngine.Analytics;
+namespace UnityEngine.Analytics {
 
 [AddComponentMenu("Analytics/RemoteSettings")]
 public class RemoteSettings : MonoBehaviour
@@ -50,4 +50,5 @@ public class RemoteSettings : MonoBehaviour
 			}
 		}
 	}
+}
 }

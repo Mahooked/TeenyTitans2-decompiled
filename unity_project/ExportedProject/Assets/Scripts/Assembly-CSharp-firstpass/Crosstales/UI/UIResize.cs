@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class UIResize : MonoBehaviour, IPointerDownHandler, IDragHandler, IEventSystemHandler
 {
@@ -57,4 +57,5 @@ public class UIResize : MonoBehaviour, IPointerDownHandler, IDragHandler, IEvent
 			panelRectTransform.sizeDelta = sizeDelta;
 		}
 	}
+}
 }

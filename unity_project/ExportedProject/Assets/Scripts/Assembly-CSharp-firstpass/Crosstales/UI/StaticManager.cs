@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class StaticManager : MonoBehaviour
 {
@@ -18,4 +18,5 @@ public class StaticManager : MonoBehaviour
 	{
 		Application.OpenURL("https://goo.gl/qwtXyb");
 	}
+}
 }

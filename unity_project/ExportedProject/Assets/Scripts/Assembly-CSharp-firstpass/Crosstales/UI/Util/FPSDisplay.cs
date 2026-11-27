@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI.Util;
+namespace Crosstales.UI.Util {
 
 public class FPSDisplay : MonoBehaviour
 {
@@ -52,4 +52,5 @@ public class FPSDisplay : MonoBehaviour
 			FPS.text = "<i>...calculating <b>FPS</b>...</i>";
 		}
 	}
+}
 }

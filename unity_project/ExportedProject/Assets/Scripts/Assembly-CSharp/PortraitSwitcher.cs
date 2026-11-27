@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -740,7 +740,7 @@ public class PortraitSwitcher : MonoBehaviour
 			.OnComplete(OnOffsetTweenComplete);
 	}
 
-	private unsafe IEnumerator WaitForSwitchConfirmation(Portrait portrait, Character character, int index)
+	private IEnumerator WaitForSwitchConfirmation(Portrait portrait, Character character, int index)
 	{
 		BattleController.instance.ForceStartWaiting();
 		TT2NetPlayerAction playerAction = TT2NetManager.SendCharacterSwap(character.characterDefinition.uid);
@@ -1156,3 +1156,4 @@ public class PortraitSwitcher : MonoBehaviour
 		}
 	}
 }
+

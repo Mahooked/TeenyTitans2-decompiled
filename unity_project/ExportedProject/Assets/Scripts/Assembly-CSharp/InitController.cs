@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
@@ -81,9 +81,9 @@ public class InitController : MonoBehaviour
 		{
 			Debug.Log("Platform Supports TextureFormat.DXT5");
 		}
-		if (SystemInfo.SupportsTextureFormat(TextureFormat.ATC_RGBA8))
+		if (SystemInfo.SupportsTextureFormat(TextureFormat.ETC2_RGBA8))
 		{
-			Debug.Log("Platform Supports TextureFormat.ATC_RGBA8");
+			Debug.Log("Platform Supports TextureFormat.ETC2_RGBA8");
 		}
 		DOTween.Init();
 		GameManager.instance.Init();
@@ -282,3 +282,4 @@ public class InitController : MonoBehaviour
 		return num;
 	}
 }
+

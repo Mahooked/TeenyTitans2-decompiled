@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class CheckURLExists
 {
-	[DllImport("__Internal")]
-	private static extern bool _CheckURL(string url);
-
 	public static bool CheckURL(string url)
 	{
-		return _CheckURL(url);
+		return false;
 	}
 
 	public static bool AndroidAppInstalled(string bundleID)

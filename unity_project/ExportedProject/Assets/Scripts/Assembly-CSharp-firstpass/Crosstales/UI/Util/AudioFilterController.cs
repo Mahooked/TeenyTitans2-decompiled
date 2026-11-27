@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI.Util;
+namespace Crosstales.UI.Util {
 
 public class AudioFilterController : MonoBehaviour
 {
@@ -202,4 +202,5 @@ public class AudioFilterController : MonoBehaviour
 			HighpassText.text = value.ToString("0");
 		}
 	}
+}
 }

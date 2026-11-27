@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -111,9 +111,7 @@ public class LegionOfDoomController : MonoBehaviour
 
 	public TextMeshPro localPlayersFoundTextMesh;
 
-	public TT2NetNetworkDiscovery networkDiscoveryServer;
 
-	public TT2NetNetworkDiscovery networkDiscoveryClient;
 
 	[Header("Portrait Selector")]
 	public LegionOfDoomPortraitSelector portraitSelector;
@@ -283,13 +281,9 @@ public class LegionOfDoomController : MonoBehaviour
 		{
 			TT2NetBluetooth.Instance.Initialized -= Instance_ServerInitialized;
 		}
-		if (networkDiscoveryServer.running)
 		{
-			networkDiscoveryServer.StopBroadcast();
 		}
-		if (networkDiscoveryClient.running)
 		{
-			networkDiscoveryClient.StopBroadcast();
 		}
 	}
 
@@ -407,29 +401,18 @@ public class LegionOfDoomController : MonoBehaviour
 	{
 		if (pauseStatus)
 		{
-			if (networkDiscoveryServer.running)
 			{
-				networkDiscoveryServer.StopBroadcast();
 			}
-			if (networkDiscoveryClient.running)
 			{
-				networkDiscoveryClient.StopBroadcast();
 			}
 			return;
 		}
-		if (!networkDiscoveryServer.running)
 		{
 			TT2NetLocalBroadcastData tT2NetLocalBroadcastData = new TT2NetLocalBroadcastData();
 			tT2NetLocalBroadcastData.friendData = Player.instance.pvpData.MyFriendData();
 			tT2NetLocalBroadcastData.appVersion = PhotonNetwork.PhotonServerSettings.AppSettings.AppVersion;
-			networkDiscoveryServer.broadcastData = JsonUtility.ToJson(tT2NetLocalBroadcastData);
-			networkDiscoveryServer.Initialize();
-			networkDiscoveryServer.StartAsServer();
 		}
-		if (!networkDiscoveryClient.running)
 		{
-			networkDiscoveryClient.Initialize();
-			networkDiscoveryClient.StartAsClient();
 		}
 	}
 
@@ -687,19 +670,12 @@ public class LegionOfDoomController : MonoBehaviour
 			SetLowerLeftTVShown(true);
 			SetLowerRightTVShown(true);
 			SetRankBarShown(true);
-			if (!networkDiscoveryServer.running)
 			{
 				TT2NetLocalBroadcastData tT2NetLocalBroadcastData = new TT2NetLocalBroadcastData();
 				tT2NetLocalBroadcastData.friendData = Player.instance.pvpData.MyFriendData();
 				tT2NetLocalBroadcastData.appVersion = PhotonNetwork.PhotonServerSettings.AppSettings.AppVersion;
-				networkDiscoveryServer.broadcastData = JsonUtility.ToJson(tT2NetLocalBroadcastData);
-				networkDiscoveryServer.Initialize();
-				networkDiscoveryServer.StartAsServer();
 			}
-			if (!networkDiscoveryClient.running)
 			{
-				networkDiscoveryClient.Initialize();
-				networkDiscoveryClient.StartAsClient();
 			}
 			break;
 		case PageName.Matchmaking:
@@ -1677,3 +1653,5 @@ public class LegionOfDoomController : MonoBehaviour
 		UnityEngine.Debug.Log(text);
 	}
 }
+
+

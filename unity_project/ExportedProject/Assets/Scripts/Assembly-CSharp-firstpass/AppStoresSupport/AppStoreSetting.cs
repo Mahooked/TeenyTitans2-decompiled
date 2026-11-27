@@ -1,6 +1,6 @@
 using System;
 
-namespace AppStoresSupport;
+namespace AppStoresSupport {
 
 [Serializable]
 public class AppStoreSetting
@@ -10,4 +10,5 @@ public class AppStoreSetting
 	public string AppKey = string.Empty;
 
 	public bool IsTestMode;
+}
 }

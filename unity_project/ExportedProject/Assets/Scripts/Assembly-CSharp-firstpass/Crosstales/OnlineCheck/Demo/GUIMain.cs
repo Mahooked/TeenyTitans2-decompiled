@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Crosstales.OnlineCheck.Demo;
+namespace Crosstales.OnlineCheck.Demo {
 
 [HelpURL("https://crosstales.com/media/data/assets/OnlineCheck/api/class_crosstales_1_1_online_check_1_1_demo_1_1_g_u_i_main.html")]
 public class GUIMain : MonoBehaviour
@@ -175,4 +175,5 @@ public class GUIMain : MonoBehaviour
 			}
 		}
 	}
+}
 }

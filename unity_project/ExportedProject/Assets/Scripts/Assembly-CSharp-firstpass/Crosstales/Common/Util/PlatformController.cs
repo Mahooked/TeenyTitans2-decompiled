@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Crosstales.Common.Model.Enum;
 using UnityEngine;
 
-namespace Crosstales.Common.Util;
+namespace Crosstales.Common.Util {
 
 public class PlatformController : MonoBehaviour
 {
@@ -42,4 +42,5 @@ public class PlatformController : MonoBehaviour
 			}
 		}
 	}
+}
 }

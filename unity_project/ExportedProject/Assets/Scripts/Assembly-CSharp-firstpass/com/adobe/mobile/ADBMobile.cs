@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace com.adobe.mobile;
+namespace com.adobe.mobile {
 
 public class ADBMobile
 {
@@ -419,4 +419,5 @@ public class ADBMobile
 		}
 		return androidJavaObject;
 	}
+}
 }

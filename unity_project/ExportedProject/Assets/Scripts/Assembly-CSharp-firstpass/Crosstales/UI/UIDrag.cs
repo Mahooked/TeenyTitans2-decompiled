@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class UIDrag : MonoBehaviour
 {
@@ -18,4 +18,5 @@ public class UIDrag : MonoBehaviour
 	{
 		transform.position = new Vector3(offsetX + Input.mousePosition.x, offsetY + Input.mousePosition.y);
 	}
+}
 }

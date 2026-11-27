@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -199,12 +199,6 @@ public static class Language
 					currentEntrySheets[text][value] = s;
 				}
 			}
-		}
-		LocalizedAsset[] array = (LocalizedAsset[])UnityEngine.Object.FindObjectsOfType(typeof(LocalizedAsset));
-		LocalizedAsset[] array2 = array;
-		foreach (LocalizedAsset localizedAsset in array2)
-		{
-			localizedAsset.LocalizeAsset();
 		}
 		SendMonoMessage("ChangedLanguage", currentLanguage);
 	}
@@ -427,3 +421,4 @@ public static class Language
 		}
 	}
 }
+

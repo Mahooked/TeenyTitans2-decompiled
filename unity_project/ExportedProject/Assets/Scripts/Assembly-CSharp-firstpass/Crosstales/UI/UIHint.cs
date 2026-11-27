@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class UIHint : MonoBehaviour
 {
@@ -36,4 +36,5 @@ public class UIHint : MonoBehaviour
 			Object.Destroy(gameObject, 0.5f);
 		}
 	}
+}
 }

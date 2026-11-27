@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace UnityEngine.Analytics;
+namespace UnityEngine.Analytics {
 
 [Serializable]
 public class DriveableProperty
@@ -153,4 +153,5 @@ public class DriveableProperty
 			m_Fields = value;
 		}
 	}
+}
 }

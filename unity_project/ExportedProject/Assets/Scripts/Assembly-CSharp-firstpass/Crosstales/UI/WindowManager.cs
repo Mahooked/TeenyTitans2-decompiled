@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class WindowManager : MonoBehaviour
 {
@@ -114,4 +114,5 @@ public class WindowManager : MonoBehaviour
 		close = true;
 		closeProgress = 0f;
 	}
+}
 }

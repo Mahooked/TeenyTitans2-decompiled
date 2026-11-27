@@ -261,4 +261,7 @@ public class IAPStore : MonoBehaviour, IStoreListener
 			PurchaseFailed__BackingField(i, p);
 		}
 	}
+
+	public void OnInitializeFailed(UnityEngine.Purchasing.InitializationFailureReason error, string message) {
+	}
 }

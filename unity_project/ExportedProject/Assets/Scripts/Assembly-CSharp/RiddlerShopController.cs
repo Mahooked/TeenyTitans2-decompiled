@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -69,7 +69,7 @@ public class RiddlerShopController : MonoBehaviour
 		OnlineCheck.OnOnlineCheckComplete -= OnlineCheck_OnlineCheckComplete;
 	}
 
-	private unsafe IEnumerator Start()
+	private IEnumerator Start()
 	{
 		currencyGUI.Init(Player.instance);
 		CommunicatorManager.instance.UpdateMissionWithTargetMessage("VisitRiddlerShop");
@@ -92,7 +92,6 @@ public class RiddlerShopController : MonoBehaviour
 		riddleEggsWindow.Init(iapConfig.riddleEggs);
 		repaintTokensWindow.Init(iapConfig.repaintTokens);
 		RemoteSettings.Updated += RemoteSettingsOnUpdated;
-		RemoteSettings.CallOnUpdate();
 		GameLinkPopupDialog.Show(Language.Get("IAP_POPUP_ENTERSHOP_HEADER", "MENUS,GUI"), Language.Get("IAP_POPUP_ENTERSHOP_MESSAGE", "MENUS,GUI"), Language.Get("IAP_POPUP_ENTERSHOP_BUTTON_OKAY", "MENUS,GUI"), "Prefabs/GUI/RiddlerShopPopupDialog");
 		yield return new WaitWhile(() => GameLinkPopupDialog.Instance != null);
 		EventMessenger.Instance.Raise(new RevealPurchasedRewardsEvent());
@@ -448,3 +447,4 @@ public class RiddlerShopController : MonoBehaviour
 		ShowFiguresWindow();
 	}
 }
+

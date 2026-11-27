@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class Social : MonoBehaviour
 {
@@ -28,4 +28,5 @@ public class Social : MonoBehaviour
 	{
 		Application.OpenURL("https://www.youtube.com/c/Crosstales");
 	}
+}
 }

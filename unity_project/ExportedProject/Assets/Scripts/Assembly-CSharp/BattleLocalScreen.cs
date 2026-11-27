@@ -67,7 +67,6 @@ public class BattleLocalScreen : MonoBehaviour
 
 	private void OnEnable()
 	{
-		LegionOfDoomController.instance.networkDiscoveryClient.DiscoveredPlayersUpdated += NetworkDiscoveryClient_DiscoveredPlayersUpdated;
 		TT2NetBluetooth.Instance.DiscoveredPlayersUpdated += TT2NetBluetooth_DiscoveredPlayersUpdated;
 		StartCoroutine(StartLocalSearch());
 	}
@@ -75,10 +74,6 @@ public class BattleLocalScreen : MonoBehaviour
 	private void OnDisable()
 	{
 		StopAllCoroutines();
-		if (LegionOfDoomController.instance != null && LegionOfDoomController.instance.networkDiscoveryClient != null)
-		{
-			LegionOfDoomController.instance.networkDiscoveryClient.DiscoveredPlayersUpdated -= NetworkDiscoveryClient_DiscoveredPlayersUpdated;
-		}
 		if (TT2NetBluetooth.Instance != null)
 		{
 			TT2NetBluetooth.Instance.DiscoveredPlayersUpdated -= TT2NetBluetooth_DiscoveredPlayersUpdated;
@@ -91,11 +86,6 @@ public class BattleLocalScreen : MonoBehaviour
 			ObjectPool.PoolObject(playerInfoDisplay.gameObject);
 		}
 		allPlayerInfo.Clear();
-	}
-
-	private void NetworkDiscoveryClient_DiscoveredPlayersUpdated()
-	{
-		RefreshPlayerList();
 	}
 
 	private void TT2NetBluetooth_DiscoveredPlayersUpdated()
@@ -134,7 +124,7 @@ public class BattleLocalScreen : MonoBehaviour
 			playerInfoDisplay.BattleClicked -= HandleBattleBtnClicked;
 			ObjectPool.PoolObject(playerInfoDisplay.gameObject);
 		}
-		List<FriendData> list = new List<FriendData>(LegionOfDoomController.instance.networkDiscoveryClient.PlayerList);
+		List<FriendData> list = new List<FriendData>();
 		for (int i = 0; i < TT2NetBluetooth.Instance.PlayerList.Count; i++)
 		{
 			if (!list.Contains(TT2NetBluetooth.Instance.PlayerList[i]))

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class UIFocus : MonoBehaviour
 {
@@ -28,4 +28,5 @@ public class UIFocus : MonoBehaviour
 		transform.SetSiblingIndex(-1);
 		transform.GetSiblingIndex();
 	}
+}
 }

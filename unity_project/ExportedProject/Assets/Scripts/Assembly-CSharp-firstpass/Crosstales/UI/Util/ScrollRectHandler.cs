@@ -2,7 +2,7 @@ using Crosstales.Common.Util;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI.Util;
+namespace Crosstales.UI.Util {
 
 public class ScrollRectHandler : MonoBehaviour
 {
@@ -23,4 +23,5 @@ public class ScrollRectHandler : MonoBehaviour
 			Scroll.scrollSensitivity = MacSensitivity;
 		}
 	}
+}
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Crosstales.UI;
+namespace Crosstales.UI {
 
 public class UIWindowManager : MonoBehaviour
 {
@@ -40,4 +40,5 @@ public class UIWindowManager : MonoBehaviour
 			DontTouch.SetActive(gameObject != x);
 		}
 	}
+}
 }

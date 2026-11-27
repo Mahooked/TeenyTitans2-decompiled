@@ -144,6 +144,7 @@ public class DailyMissionManager : MonoBehaviour
 		if (randomSetupByType == null)
 		{
 			Debug.LogError(string.Concat("[DailyMissionManager] - There are no daily mission setups for the mission type of ", dailyMissionData2.type, ". Please remedy this."));
+			return;
 		}
 		dailyMissionData2.difficulty = randomSetupByType.difficultyLevel;
 		NPCDefinition nPCDefinition = null;

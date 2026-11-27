@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Threading;
 using TMPro;
@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class InviteEntry : MonoBehaviour
 {
+	private FriendData friendData;
 	public enum InviteType
 	{
 		Battle = 0,
@@ -168,7 +169,6 @@ public class InviteEntry : MonoBehaviour
 		inviteTypeTextMesh.fontMaterial = battleFontMaterial;
 		if (newBattleRequest.isLocal)
 		{
-			FriendData friendData = LegionOfDoomController.instance.networkDiscoveryClient.GetFriendData(battleRequest.playerId);
 			if (friendData == null)
 			{
 				friendData = TT2NetBluetooth.Instance.GetFriendData(battleRequest.playerId);
@@ -223,3 +223,5 @@ public class InviteEntry : MonoBehaviour
 		}
 	}
 }
+
+

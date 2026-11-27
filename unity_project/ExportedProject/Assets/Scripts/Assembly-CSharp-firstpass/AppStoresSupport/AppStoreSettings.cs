@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Store;
 
-namespace AppStoresSupport;
+namespace AppStoresSupport {
 
 [Serializable]
 public class AppStoreSettings : ScriptableObject
@@ -25,4 +25,5 @@ public class AppStoreSettings : ScriptableObject
 		appInfo.debug = XiaomiAppStoreSetting.IsTestMode;
 		return appInfo;
 	}
+}
 }
