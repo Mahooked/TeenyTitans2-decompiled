@@ -12,6 +12,8 @@ public static class BuildScript
             : new string[] { "Assets/Scenes/Init/Init.unity" };
 
         PlayerSettings.allowUnsafeCode = true;
+        PlayerSettings.bundleVersion = "1.0";
+        PlayerSettings.Android.bundleVersionCode = 1;
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64 | AndroidArchitecture.ARMv7;
         // Use IL2CPP for 64-bit support in 2017.2+
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
@@ -21,6 +23,7 @@ public static class BuildScript
         BuildPipeline.BuildPlayer(scenes, outPath, BuildTarget.Android, BuildOptions.None);
     }
 }
+
 
 
 
